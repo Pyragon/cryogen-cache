@@ -1,0 +1,7 @@
+//script1632(1632)()(void)
+int ivar0;
+if_sethide(if_gethash(1109, 22), 1)
+if_sethide(if_gethash(1109, 20), 1)
+ivar0 = if_gety(if_gethash(1109, 18));
+if_setposition(148, ivar0, 0, 0, 72679442)
+return;

@@ -1,0 +1,65 @@
+//script6034(6034)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int stack_dump0;
+ivar0 = 0;
+ivar1 = 0;
+ivar2 = 1;
+ivar3 = 1;
+ivar4 = 0;
+ivar5 = 0;
+ivar6 = 0;
+while (ivar2 < 7) {
+	switch (ivar2) {
+		case 1:
+			ivar1 = load_varpbit(9713);
+			break;
+		case 2:
+			ivar1 = load_varpbit(9714);
+			break;
+		case 3:
+			ivar1 = load_varpbit(9718);
+			break;
+		case 4:
+			ivar1 = load_varpbit(9719);
+			break;
+		case 5:
+			ivar1 = load_varpbit(9720);
+			break;
+		case 6:
+			ivar1 = load_varpbit(9721);
+	}
+	while (ivar3 != 100 && ivar6 == 0) {
+		ivar5 = enum(ivar3, 5034, 105, 105);
+		if (ivar1 >= ivar5) 
+			ivar4 = ivar3;
+		else 
+			ivar6 = 1;
+		ivar3 = calc(ivar3 + 1);
+	}
+	ivar2 = calc(ivar2 + 1);
+	ivar0 = calc(ivar0 + ivar4);
+	stack_dump0 = 0;
+	ivar3 = 1;
+	ivar4 = stack_dump0;
+	ivar6 = 0;
+}
+stack_dump0 = ivar0;
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

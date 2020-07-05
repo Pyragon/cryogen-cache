@@ -1,0 +1,17 @@
+{
+  "id": 198,
+  "name": "A Towering Feast",
+  "members": false,
+  "varbitValues": [
+    [
+      632,
+      6,
+      29
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 0,
+  "difficulty": "NOVICE",
+  "graphicId": 9128
+}

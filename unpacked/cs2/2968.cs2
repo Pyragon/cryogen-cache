@@ -1,0 +1,77 @@
+//script2968(2968)(int arg0)(void)
+int ivar1;
+int ivar2;
+int ivar3;
+ivar1 = if_getwidth(arg0);
+ivar2 = if_getheight(arg0);
+ivar3 = if_getnextsubid(arg0);
+cc_create(arg0, 5, ivar3);
+cc_setposition(0, 1, 1, 0);
+cc_setsize(192, 21, 1, 0);
+cc_setgraphic(8623)
+cc_settiling(true);
+ivar3 = calc(ivar3 + 1);
+cc_create(arg0, 5, ivar3);
+cc_setposition(0, 1, 1, 2);
+cc_setsize(192, 21, 1, 0);
+cc_setgraphic(8613)
+cc_settiling(true);
+ivar3 = calc(ivar3 + 1);
+cc_create(arg0, 5, ivar3);
+cc_setposition(1, 44, 0, 0);
+cc_setsize(21, 56, 0, 0);
+cc_setgraphic(8616)
+ivar3 = calc(ivar3 + 1);
+cc_create(arg0, 5, ivar3);
+cc_setposition(1, 0, 0, 1);
+cc_setsize(21, 200, 0, 1);
+cc_setgraphic(8615)
+cc_settiling(true);
+ivar3 = calc(ivar3 + 1);
+cc_create(arg0, 5, ivar3);
+cc_setposition(0, 22, 0, 2);
+cc_setsize(22, 78, 0, 0);
+cc_setgraphic(8614)
+ivar3 = calc(ivar3 + 1);
+cc_create(arg0, 5, ivar3);
+cc_setposition(1, 44, 2, 0);
+cc_setsize(21, 56, 0, 0);
+cc_setgraphic(8616)
+cc_sethflip(1)
+ivar3 = calc(ivar3 + 1);
+cc_create(arg0, 5, ivar3);
+cc_setposition(1, 0, 2, 1);
+cc_setsize(21, 200, 0, 1);
+cc_setgraphic(8615)
+cc_settiling(true);
+cc_sethflip(1)
+ivar3 = calc(ivar3 + 1);
+cc_create(arg0, 5, ivar3);
+cc_setposition(0, 22, 2, 2);
+cc_setsize(22, 78, 0, 0);
+cc_setgraphic(8614)
+cc_sethflip(1)
+ivar3 = calc(ivar3 + 1);
+cc_create(arg0, 5, ivar3);
+cc_setposition(0, 0, 0, 0);
+cc_setsize(96, 44, 0, 0);
+cc_setgraphic(8621)
+ivar3 = calc(ivar3 + 1);
+cc_create(arg0, 5, ivar3);
+cc_setposition(0, 0, 2, 0);
+cc_setsize(96, 44, 0, 0);
+cc_setgraphic(8621)
+cc_sethflip(1)
+ivar3 = calc(ivar3 + 1);
+cc_create(arg0, 5, ivar3);
+cc_setposition(0, 0, 0, 2);
+cc_setsize(96, 22, 0, 0);
+cc_setgraphic(8611)
+ivar3 = calc(ivar3 + 1);
+cc_create(arg0, 5, ivar3);
+cc_setposition(0, 0, 2, 2);
+cc_setsize(96, 22, 0, 0);
+cc_setgraphic(8611)
+cc_sethflip(1)
+ivar3 = calc(ivar3 + 1);
+return;

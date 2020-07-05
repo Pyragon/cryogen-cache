@@ -1,0 +1,39 @@
+//script4554(4554)(int arg0)(void)
+int stack_dump0;
+int stack_dump1;
+int stack_dump2;
+int stack_dump3;
+int stack_dump4;
+int stack_dump5;
+int stack_dump6;
+int stack_dump7;
+string stack_dump8;
+if_setsize(calc(if_getx(if_gethash(589, 43)) - if_getx(if_gethash(589, 45))), 0, 0, 1, 38600759)
+if_setsize(calc(2 - calc(if_getwidth(if_gethash(589, 55)) - if_getwidth(if_gethash(589, 51)))), 0, 0, 1, 38600761)
+instr6185(0, 0, 38600755)
+if_setscrollpos(0, 0, if_gethash(589, 51));
+script31(38600756, 38600755, 792, 789, 790, 791, 773, 788);
+instr6185(0, 0, 38600727)
+if_setscrollpos(0, 0, if_gethash(589, 23));
+script31(38600728, 38600727, 792, 789, 790, 791, 773, 788);
+stack_dump0 = 4558;
+stack_dump1 = 38600759;
+stack_dump2 = 38600760;
+stack_dump3 = 38600761;
+stack_dump4 = 38600757;
+stack_dump5 = 38600755;
+stack_dump6 = 38600756;
+stack_dump7 = 38600755;
+stack_dump8 = "IIIIII";
+/* 
+	AT PrimitiveInstruction(opcode=625, value=false, type=boolean)
+	com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=625, value=false, type=boolean)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

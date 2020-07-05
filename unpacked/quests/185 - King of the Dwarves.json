@@ -1,0 +1,17 @@
+{
+  "id": 185,
+  "name": "King of the Dwarves",
+  "members": false,
+  "varbitValues": [
+    [
+      8704,
+      10,
+      90
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 3803
+}

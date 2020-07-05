@@ -1,0 +1,194 @@
+//script2260(2260)(int arg0)(void)
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int stack_dump0;
+ivar1 = if_getwidth(arg0);
+ivar2 = if_getheight(arg0);
+ivar3 = 0;
+ivar4 = 0;
+ivar5 = 0;
+ivar6 = 2987;
+ivar7 = 2988;
+if (world_members() == 1) {
+	if (load_varc(1320) == 2) {
+		ivar6 = 2989;
+		ivar7 = 2990;
+	}
+	else if (load_varc(1320) == 3) {
+		ivar6 = 2991;
+		ivar7 = 2992;
+	}
+	else if (load_varc(1320) == 4) {
+		ivar6 = 2993;
+		ivar7 = 2994;
+	}
+	else {
+		ivar6 = 2987;
+		ivar7 = 2988;
+	}
+}
+else if (load_varc(1320) == 2) {
+	ivar6 = 2997;
+	ivar7 = 2998;
+}
+else if (load_varc(1320) == 3) {
+	ivar6 = 2999;
+	ivar7 = 3000;
+}
+else if (load_varc(1320) == 4) {
+	ivar6 = 3001;
+	ivar7 = 3002;
+}
+else {
+	ivar6 = 2995;
+	ivar7 = 2996;
+}
+cc_deleteall(arg0)
+cc_deleteall(62652441)
+cc_create(arg0, 4, ivar3);
+ivar3 = calc(ivar3 + 1);
+cc_setsize(31, 12, 0, 0);
+cc_setposition(0, 0, 0, 0);
+cc_settextfont(494);
+cc_settextalign(0, 1, 0);
+cc_settext("Resources:");
+cc_setcolor(13015809);
+cc_settextshadow(1);
+cc_create(arg0, 5, ivar3);
+ivar3 = calc(ivar3 + 1);
+cc_setsize(160, 12, 0, 0);
+cc_setposition(0, 7, 0, 0);
+cc_setgraphic(1074)
+ivar5 = calc(ivar5 + 20);
+ivar8 = ivar3;
+if (calc(ivar8 - ivar3) < calc(5 * enum_getoutputcount(ivar6))) {
+	cc_create(arg0, 5, ivar3);
+	cc_setsize(48, 52, 0, 0);
+	cc_setposition(ivar4, ivar5, 0, 0);
+	cc_setgraphic(2205)
+	cc_setopbase("<col=ff981f>" + item_name(enum(calc(5 / calc(ivar8 - ivar3)), ivar6, 111, 105)) + "</col>");
+	cc_setop(1, "Info");
+	cc_setop(2, "Buy 1");
+	cc_setop(3, "Buy 5");
+	cc_setop(4, "Buy 10");
+	cc_setop(5, "Buy 50");
+	cc_setop(6, "Buy 250");
+	cc_setop(10, "Examine");
+	instr6091(2261, "Ii1", -2147483645, calc(ivar3 + 1), 0);
+	instr6092(2261, "Ii1", -2147483645, calc(ivar3 + 1), 1);
+	cc_create(arg0, 5, calc(ivar3 + 1));
+	cc_setsize(48, 52, 0, 0);
+	cc_setposition(ivar4, ivar5, 0, 0);
+	cc_setgraphic(2206)
+	cc_sethide(1);
+	cc_create(arg0, 5, calc(ivar3 + 2));
+	cc_setsize(36, 32, 0, 0);
+	cc_setposition(calc(ivar4 + 6), calc(ivar5 + 4), 0, 0);
+	cc_setgraphicshadow(colour_gethashedhsv(48, 32, 32));
+	cc_setoutline(1);
+	cc_create(arg0, 5, calc(ivar3 + 3));
+	cc_setsize(12, 12, 0, 0);
+	cc_setposition(calc(ivar4 + 2), calc(ivar5 + 38), 0, 0);
+	cc_setgraphic(2181)
+	cc_create(arg0, 4, calc(ivar3 + 4));
+	cc_setsize(31, 12, 0, 0);
+	cc_setposition(calc(ivar4 + 13), calc(ivar5 + 39), 0, 0);
+	cc_settextfont(494);
+	cc_settextalign(2, 1, 0);
+	stack_dump0 = cc_setitem_nonum(enum(calc(5 / calc(ivar8 - ivar3)), ivar6, 111, 105), 1);
+	script2262(enum(calc(5 / calc(ivar8 - ivar3)), ivar6, 111, 105));
+	script940(stack_dump0);
+	/* 
+		AT PrimitiveInstruction(opcode=972, value=false, type=boolean)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:160)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if (ivar4 != 0) {
+	ivar4 = 0;
+	ivar5 = calc(ivar5 + 52);
+}
+cc_create(arg0, 4, ivar3);
+ivar3 = calc(ivar3 + 1);
+cc_setsize(31, 12, 0, 0);
+cc_setposition(0, calc(ivar5 + 10), 0, 0);
+cc_settextfont(494);
+cc_settextalign(0, 1, 0);
+cc_settext("Tools:");
+cc_setcolor(13015809);
+cc_settextshadow(1);
+cc_create(arg0, 5, ivar3);
+ivar3 = calc(ivar3 + 1);
+cc_setsize(160, 12, 0, 0);
+cc_setposition(0, calc(ivar5 + 17), 0, 0);
+cc_setgraphic(1074)
+ivar5 = calc(ivar5 + 30);
+ivar8 = ivar3;
+if (calc(ivar8 - ivar3) < calc(5 * enum_getoutputcount(ivar7))) {
+	cc_create(arg0, 5, ivar3);
+	cc_setsize(48, 52, 0, 0);
+	cc_setposition(ivar4, ivar5, 0, 0);
+	cc_setgraphic(2205)
+	cc_setopbase("<col=ff981f>" + item_name(enum(calc(5 / calc(ivar8 - ivar3)), ivar7, 111, 105)) + "</col>");
+	cc_setop(1, "Info");
+	cc_setop(2, "Buy 1");
+	cc_setop(3, "Buy 5");
+	cc_setop(4, "Buy 10");
+	cc_setop(5, "Buy 50");
+	cc_setop(6, "Buy 250");
+	cc_setop(10, "Examine");
+	instr6091(2261, "Ii1", -2147483645, calc(ivar3 + 1), 0);
+	instr6092(2261, "Ii1", -2147483645, calc(ivar3 + 1), 1);
+	cc_create(arg0, 5, calc(ivar3 + 1));
+	cc_setsize(48, 52, 0, 0);
+	cc_setposition(ivar4, ivar5, 0, 0);
+	cc_setgraphic(2206)
+	cc_sethide(1);
+	cc_create(arg0, 5, calc(ivar3 + 2));
+	cc_setsize(36, 32, 0, 0);
+	cc_setposition(calc(ivar4 + 6), calc(ivar5 + 4), 0, 0);
+	cc_setgraphicshadow(colour_gethashedhsv(48, 32, 32));
+	cc_setoutline(1);
+	cc_create(arg0, 5, calc(ivar3 + 3));
+	cc_setsize(12, 12, 0, 0);
+	cc_setposition(calc(ivar4 + 2), calc(ivar5 + 38), 0, 0);
+	cc_setgraphic(2181)
+	cc_create(arg0, 4, calc(ivar3 + 4));
+	cc_setsize(31, 12, 0, 0);
+	cc_setposition(calc(ivar4 + 13), calc(ivar5 + 39), 0, 0);
+	cc_settextfont(494);
+	cc_settextalign(2, 1, 0);
+	stack_dump0 = cc_setitem_nonum(enum(calc(5 / calc(ivar8 - ivar3)), ivar7, 111, 105), 1);
+	script2262(enum(calc(5 / calc(ivar8 - ivar3)), ivar7, 111, 105));
+	script940(stack_dump0);
+	/* 
+		AT PrimitiveInstruction(opcode=972, value=false, type=boolean)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:160)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+instr6185(0, calc(ivar5 + 52), arg0)
+script31(62652441, arg0, 792, 789, 790, 791, 773, 788);
+return;

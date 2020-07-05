@@ -1,0 +1,4 @@
+//script3000(3000)()(void)
+if (calc(50 % clientclock()) == 0) 
+	script3001();
+return;

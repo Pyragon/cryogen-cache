@@ -1,0 +1,4 @@
+//script4096(4096)(int arg0)(void)
+if_settrans(arg0, if_gethash(1198, 0));
+if_settrans(calc(2 / arg0), if_gethash(1198, 1));
+return;

@@ -1,0 +1,210 @@
+//script427(427)(int arg0)(void)
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+ivar1 = 0;
+ivar2 = 0;
+ivar3 = -1;
+ivar4 = load_varpbit(7539);
+ivar5 = load_varpbit(7540);
+ivar6 = load_varpbit(7541);
+ivar7 = load_varpbit(7542);
+if (arg0 == 1) {
+	ivar4 = 1;
+	ivar5 = 3;
+	ivar6 = 5;
+	ivar7 = 6;
+}
+if (ivar4 == 0) {
+	if_sethide(if_gethash(1024, 8), 1)
+	ivar1 = calc(ivar1 + 1);
+}
+else {
+	script488(ivar4);
+	/* 
+		AT PrimitiveInstruction(opcode=168, value=3, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:468)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if (ivar5 == 0) {
+	if_sethide(if_gethash(1024, 9), 1)
+	ivar1 = calc(ivar1 + 1);
+}
+else {
+	script488(ivar5);
+	/* 
+		AT PrimitiveInstruction(opcode=168, value=3, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:468)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if (ivar6 == 0) {
+	if_sethide(if_gethash(1024, 10), 1)
+	ivar1 = calc(ivar1 + 1);
+}
+else {
+	script488(ivar6);
+	/* 
+		AT PrimitiveInstruction(opcode=168, value=3, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:468)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if (ivar7 == 0) {
+	if_sethide(if_gethash(1024, 11), 1)
+	ivar1 = calc(ivar1 + 1);
+}
+else {
+	script488(ivar7);
+	/* 
+		AT PrimitiveInstruction(opcode=168, value=3, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:468)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if (ivar1 == 4) {
+	if_sethide(if_gethash(1024, 1), 1)
+	if_sethide(if_gethash(1024, 2), 0)
+}
+else if (ivar1 == 3) {
+	if_sethide(if_gethash(1024, 1), 0)
+	if_sethide(if_gethash(1024, 2), 1)
+	if (ivar4 != 0) {
+		if_setposition(if_getx(if_gethash(1024, 8)), 102, 0, 0, 67108872)
+		if_setonmouseover(if_gethash(1024, 65), 432, "Ii", -2147483645, 6);
+	}
+	else if (ivar5 != 0) {
+		if_setposition(if_getx(if_gethash(1024, 9)), 102, 0, 0, 67108873)
+		if_setonmouseover(if_gethash(1024, 48), 432, "Ii", -2147483645, 6);
+	}
+	else if (ivar6 != 0) {
+		if_setposition(if_getx(if_gethash(1024, 10)), 102, 0, 0, 67108874)
+		if_setonmouseover(if_gethash(1024, 31), 432, "Ii", -2147483645, 6);
+	}
+	else {
+		if (ivar7 != 0) {
+			if_setposition(if_getx(if_gethash(1024, 11)), 102, 0, 0, 67108875)
+			if_setonmouseover(if_gethash(1024, 14), 432, "Ii", -2147483645, 6);
+		}
+	}
+}
+else if (ivar1 == 2) {
+	if_sethide(if_gethash(1024, 1), 0)
+	if_sethide(if_gethash(1024, 2), 1)
+	if (ivar4 != 0) {
+		if_setposition(if_getx(if_gethash(1024, 8)), 60, 0, 0, 67108872)
+		if_setonmouseover(if_gethash(1024, 65), 432, "Ii", -2147483645, 111);
+		ivar2 = calc(ivar2 + 1);
+	}
+	if (ivar5 != 0) {
+		if (ivar2 == 0) {
+			if_setposition(if_getx(if_gethash(1024, 9)), 60, 0, 0, 67108873)
+			if_setonmouseover(if_gethash(1024, 48), 432, "Ii", -2147483645, 111);
+		}
+		else {
+			if_setposition(if_getx(if_gethash(1024, 9)), 145, 0, 0, 67108873)
+			if_setonmouseover(if_gethash(1024, 48), 432, "Ii", -2147483645, 49);
+		}
+		ivar2 = calc(ivar2 + 1);
+	}
+	if (ivar6 != 0) {
+		if (ivar2 == 0) {
+			if_setposition(if_getx(if_gethash(1024, 10)), 60, 0, 0, 67108874)
+			if_setonmouseover(if_gethash(1024, 31), 432, "Ii", -2147483645, 111);
+		}
+		else {
+			if_setposition(if_getx(if_gethash(1024, 10)), 145, 0, 0, 67108874)
+			if_setonmouseover(if_gethash(1024, 31), 432, "Ii", -2147483645, 49);
+		}
+		ivar2 = calc(ivar2 + 1);
+	}
+	if (ivar7 != 0) {
+		if_setposition(if_getx(if_gethash(1024, 11)), 145, 0, 0, 67108875)
+		if_setonmouseover(if_gethash(1024, 14), 432, "Ii", -2147483645, 49);
+	}
+}
+else if (ivar1 == 1) {
+	if_sethide(if_gethash(1024, 1), 0)
+	if_sethide(if_gethash(1024, 2), 1)
+	if (ivar4 != 0) {
+		if_setposition(if_getx(if_gethash(1024, 8)), 41, 0, 0, 67108872)
+		if_setonmouseover(if_gethash(1024, 65), 432, "Ii", -2147483645, 92);
+		ivar2 = calc(ivar2 + 1);
+	}
+	if (ivar5 != 0) {
+		if (ivar2 == 0) {
+			if_setposition(if_getx(if_gethash(1024, 9)), 41, 0, 0, 67108873)
+			if_setonmouseover(if_gethash(1024, 48), 432, "Ii", -2147483645, 92);
+		}
+		else {
+			if_setposition(if_getx(if_gethash(1024, 9)), 102, 0, 0, 67108873)
+			if_setonmouseover(if_gethash(1024, 48), 432, "Ii", -2147483645, 6);
+		}
+		ivar2 = calc(ivar2 + 1);
+	}
+	if (ivar6 != 0) {
+		if (ivar2 == 1) {
+			if_setposition(if_getx(if_gethash(1024, 10)), 102, 0, 0, 67108874)
+			if_setonmouseover(if_gethash(1024, 31), 432, "Ii", -2147483645, 6);
+		}
+		else {
+			if_setposition(if_getx(if_gethash(1024, 10)), 163, 0, 0, 67108874)
+			if_setonmouseover(if_gethash(1024, 31), 432, "Ii", -2147483645, 67);
+		}
+		ivar2 = calc(ivar2 + 1);
+	}
+	if (ivar7 != 0) {
+		if_setposition(if_getx(if_gethash(1024, 11)), 163, 0, 0, 67108875)
+		if_setonmouseover(if_gethash(1024, 31), 432, "Ii", -2147483645, 67);
+	}
+}
+else {
+	if_sethide(if_gethash(1024, 1), 0)
+	if_sethide(if_gethash(1024, 2), 1)
+	if_setposition(if_getx(if_gethash(1024, 8)), 29, 0, 0, 67108872)
+	if_setonmouseover(if_gethash(1024, 65), 432, "Ii", -2147483645, 80);
+	if_setposition(if_getx(if_gethash(1024, 9)), 78, 0, 0, 67108873)
+	if_setonmouseover(if_gethash(1024, 48), 432, "Ii", -2147483645, 129);
+	if_setposition(if_getx(if_gethash(1024, 10)), 127, 0, 0, 67108874)
+	if_setonmouseover(if_gethash(1024, 31), 432, "Ii", -2147483645, 31);
+	if_setposition(if_getx(if_gethash(1024, 11)), 176, 0, 0, 67108875)
+	if_setonmouseover(if_gethash(1024, 14), 432, "Ii", -2147483645, 80);
+}
+return;

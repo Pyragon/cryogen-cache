@@ -1,0 +1,22 @@
+//script1788(1788)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, int arg13, int arg14)(void)
+int ivar15;
+if_setsize(arg0, if_getheight(arg1), 0, 0, arg1)
+if_setsize(arg0, if_getheight(arg2), 0, 0, arg2)
+if_setsize(arg0, if_getheight(arg3), 0, 0, arg3)
+if_setsize(arg0, if_getheight(arg4), 0, 0, arg4)
+if_setsize(arg0, if_getheight(arg5), 0, 0, arg5)
+if_setsize(arg0, if_getheight(arg6), 0, 0, arg6)
+if_setsize(arg7, if_getheight(arg8), 0, 0, arg8)
+if_setsize(arg7, if_getheight(arg9), 0, 0, arg9)
+if_setsize(arg7, if_getheight(arg10), 0, 0, arg10)
+if_setsize(arg7, if_getheight(arg11), 0, 0, arg11)
+if_setsize(arg7, if_getheight(arg12), 0, 0, arg12)
+if_setsize(arg7, if_getheight(arg13), 0, 0, arg13)
+ivar15 = calc(arg7 - calc(4 + arg14));
+if_setposition(ivar15, if_gety(arg8), 0, 0, arg8)
+if_setposition(ivar15, if_gety(arg9), 0, 0, arg9)
+if_setposition(ivar15, if_gety(arg10), 0, 0, arg10)
+if_setposition(ivar15, if_gety(arg11), 0, 0, arg11)
+if_setposition(ivar15, if_gety(arg12), 0, 0, arg12)
+if_setposition(ivar15, if_gety(arg13), 0, 0, arg13)
+return;

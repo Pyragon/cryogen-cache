@@ -1,0 +1,24 @@
+//script1795(1795)(int arg0, int arg1)(void)
+int ivar2;
+int ivar3;
+ivar2 = 697;
+ivar3 = 699;
+if (load_varpbit(5279) == 1) {
+	if (load_varpbit(5295) == 1) {
+		if_setgraphic(ivar3, arg1)
+		instr6239(arg0, 44, "Id", arg1, ivar2);
+	}
+	else {
+		if_setgraphic(ivar2, arg1)
+		instr6239(arg0, 44, "Id", arg1, ivar3);
+	}
+}
+else if (load_varpbit(5294) == 1) {
+	if_setgraphic(ivar3, arg1)
+	instr6239(arg0, 44, "Id", arg1, ivar2);
+}
+else {
+	if_setgraphic(ivar2, arg1)
+	instr6239(arg0, 44, "Id", arg1, ivar3);
+}
+return;

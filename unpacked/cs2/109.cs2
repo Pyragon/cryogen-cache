@@ -1,0 +1,30 @@
+//script109(109)(string arg0)(void)
+int stack_dump0;
+int stack_dump1;
+string stack_dump2;
+if (instr6644() >= 2) 
+	if_sethide(if_gethash(746, 22), 0)
+if_sethide(if_gethash(752, 3), 0)
+if_sethide(if_gethash(752, 7), 1)
+if_sethide(if_gethash(752, 8), 1)
+if_settext(if_gethash(752, 4), arg0);
+store_varc(5, 8)
+script1564("");
+hook_mouse_press(if_gethash(752, 3), None, "");
+script2026();
+instr6248(if_gethash(752, 5), 112, "iz", -2147483640, -2147483639);
+stack_dump0 = 138;
+stack_dump1 = 49283077;
+stack_dump2 = "";
+/* 
+	AT PrimitiveInstruction(opcode=179, value=false, type=boolean)
+	com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=179, value=false, type=boolean)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

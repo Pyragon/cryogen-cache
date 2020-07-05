@@ -1,0 +1,22 @@
+//script1676(1676)(int arg0, int arg1, int arg2)(void)
+if (arg0 != 1) 
+	return;
+if (arg1 == arg2) 
+	return;
+script1675(arg1);
+store_varc(6768, arg1)
+cc_deleteall(5505046)
+script1674(arg1);
+/* 
+	AT PrimitiveInstruction(opcode=492, value=125952, type=int)
+	java.lang.RuntimeException: Stack underflow
+		at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:492)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

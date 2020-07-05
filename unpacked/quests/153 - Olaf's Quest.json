@@ -1,0 +1,17 @@
+{
+  "id": 153,
+  "name": "Olaf's Quest",
+  "members": false,
+  "varbitValues": [
+    [
+      3534,
+      10,
+      80
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

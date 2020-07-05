@@ -1,0 +1,128 @@
+{
+  "id": 8325,
+  "anInt4856": 0,
+  "options": [
+    null,
+    "Attack",
+    null,
+    null,
+    null
+  ],
+  "membersOptions": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "modelIds": [
+    43638,
+    43621,
+    43647,
+    43645,
+    43609,
+    43663,
+    246,
+    43601,
+    5586
+  ],
+  "aByte4916": -1,
+  "name": "Elite Black Knight",
+  "size": 1,
+  "basId": 890,
+  "aByte4871": 0,
+  "anInt4873": -1,
+  "anInt4861": -1,
+  "anInt4875": -1,
+  "anInt4854": -1,
+  "attackOpCursor": 42,
+  "drawMapdot": true,
+  "combatLevel": 138,
+  "resizeX": 148,
+  "resizeY": 128,
+  "aBool4904": false,
+  "aBool4890": false,
+  "aBool4884": false,
+  "ambient": 10,
+  "contrast": 10,
+  "headIcons": 0,
+  "armyIcon": -1,
+  "rotation": 32,
+  "varpBit": -1,
+  "varp": -1,
+  "visible": true,
+  "isClickable": true,
+  "animateIdle": true,
+  "aShort4874": 0,
+  "aShort4897": 0,
+  "aByte4883": -96,
+  "aByte4899": -16,
+  "walkMask": 3,
+  "walkingAnimation": -1,
+  "rotate180Animation": -1,
+  "rotate90RightAnimation": -1,
+  "rotate90LeftAnimation": -1,
+  "specialByte": 0,
+  "anInt4908": 0,
+  "anInt4909": 255,
+  "height": -1,
+  "mapIcon": -1,
+  "anInt4917": -1,
+  "anInt4911": 256,
+  "anInt4919": 256,
+  "anInt4913": 0,
+  "aBool4920": true,
+  "originalColors": [
+    7845,
+    7756
+  ],
+  "modifiedColors": [
+    3087,
+    8877
+  ],
+  "headModels": [
+    35503
+  ],
+  "modelTranslation": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+      -5,
+      0,
+      5
+    ],
+    null,
+    null,
+    [
+      0,
+      5,
+      0
+    ]
+  ],
+  "bonuses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "strBonuses": [
+    0,
+    0,
+    0
+  ],
+  "aByte4868": 0,
+  "aByte4869": 0,
+  "aByte4905": 0,
+  "aBool4872": false,
+  "respawnDirection": "SOUTH",
+  "usesCrawlWalkBAS": false
+}

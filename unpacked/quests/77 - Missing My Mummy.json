@@ -1,0 +1,17 @@
+{
+  "id": 77,
+  "name": "Missing My Mummy",
+  "members": false,
+  "varbitValues": [
+    [
+      6112,
+      10,
+      60
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

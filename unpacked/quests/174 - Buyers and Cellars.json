@@ -1,0 +1,17 @@
+{
+  "id": 174,
+  "name": "Buyers and Cellars",
+  "members": false,
+  "varbitValues": [
+    [
+      7792,
+      5,
+      10
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 3074
+}

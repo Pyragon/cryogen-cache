@@ -1,0 +1,17 @@
+{
+  "id": 96,
+  "name": "Kennith's Concerns",
+  "members": false,
+  "varbitValues": [
+    [
+      4505,
+      5,
+      100
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

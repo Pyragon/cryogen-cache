@@ -1,0 +1,8 @@
+//script6496(6496)(int arg0)(void)
+int ivar1;
+ivar1 = if_gettrans(arg0);
+if (ivar1 < 255) {
+	ivar1 = min(255, calc(ivar1 + 10));
+	if_settrans(ivar1, arg0);
+}
+return;

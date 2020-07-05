@@ -1,0 +1,51 @@
+//script5654(5654)()(void)
+int ivar0;
+int ivar1;
+if (load_varp(1801) == 2147483647) 
+	if_settext(if_gethash(1215, 4), "Lots!");
+else 
+	if_settext(if_gethash(1215, 4), tostring_localized(calc(10 / load_varp(1801)), 1));
+if (load_varp(2475) == 2147483647) 
+	if_settext(if_gethash(1215, 6), "Lots!");
+else 
+	if_settext(if_gethash(1215, 6), tostring_localized(calc(10 / load_varp(2475)), 1));
+if (load_varp(2476) == 2147483647) 
+	if_settext(if_gethash(1215, 8), "Lots!");
+else 
+	if_settext(if_gethash(1215, 8), tostring_localized(calc(10 / load_varp(2476)), 1));
+if_setsize(stringwidth(if_gettext(if_gethash(1215, 4)), instr6289(if_gethash(1215, 4))), if_getheight(if_gethash(1215, 4)), 0, 0, 79626244)
+if_setsize(stringwidth(if_gettext(if_gethash(1215, 6)), instr6289(if_gethash(1215, 6))), if_getheight(if_gethash(1215, 6)), 0, 0, 79626246)
+if_setsize(stringwidth(if_gettext(if_gethash(1215, 8)), instr6289(if_gethash(1215, 8))), if_getheight(if_gethash(1215, 8)), 0, 0, 79626248)
+ivar0 = max(max(if_getwidth(if_gethash(1215, 4)), if_getwidth(if_gethash(1215, 6))), if_getwidth(if_gethash(1215, 8)));
+ivar0 = calc(ivar0 + 33);
+script5660();
+if_sethide(if_gethash(1215, 4), 1)
+if_sethide(if_gethash(1215, 6), 1)
+if_sethide(if_gethash(1215, 8), 1)
+if_sethide(if_gethash(1215, 5), 1)
+if_sethide(if_gethash(1215, 7), 1)
+if_sethide(if_gethash(1215, 9), 1)
+ivar1 = 0;
+if (load_varpbit(10444) == 1) {
+	if_sethide(if_gethash(1215, 4), 0)
+	if_sethide(if_gethash(1215, 5), 0)
+	if_setposition(ivar0, ivar1, 2, 0, 79626250)
+	ivar1 = calc(if_gety(if_gethash(1215, 5)) + if_getheight(if_gethash(1215, 5)));
+}
+if (load_varpbit(10445) == 1) {
+	if_sethide(if_gethash(1215, 6), 0)
+	if_sethide(if_gethash(1215, 7), 0)
+	if_setposition(28, ivar1, 2, 0, 79626246)
+	if_setposition(if_getx(if_gethash(1215, 7)), ivar1, 0, 0, 79626247)
+	if_setposition(ivar0, ivar1, 2, 0, 79626251)
+	ivar1 = calc(if_gety(if_gethash(1215, 7)) + if_getheight(if_gethash(1215, 7)));
+}
+if (load_varpbit(10446) == 1) {
+	if_sethide(if_gethash(1215, 8), 0)
+	if_sethide(if_gethash(1215, 9), 0)
+	if_setposition(28, ivar1, 2, 0, 79626248)
+	if_setposition(if_getx(if_gethash(1215, 9)), ivar1, 0, 0, 79626249)
+	if_setposition(ivar0, ivar1, 2, 0, 79626252)
+}
+script5652();
+return;

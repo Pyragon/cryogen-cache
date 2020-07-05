@@ -1,0 +1,45 @@
+//script213(213)(int arg0, int arg1, int arg2, int arg3)(void)
+switch (load_varpbit(278)) {
+	default:
+		if_settrans(255, arg2);
+		break;
+	case 1:
+		if_settrans(200, arg2);
+		break;
+	case 2:
+		if_settrans(150, arg2);
+		break;
+	case 3:
+		if_settrans(50, arg2);
+}
+switch (load_varc(97)) {
+	default:
+		if_sethide(arg0, 1)
+		if_sethide(arg2, 0)
+		break;
+	case 1:
+		script2766(0, 20, arg3);
+		break;
+	case 2:
+		if_sethide(arg0, 0)
+		if_setmodelanim(10708, arg1);
+		if_sethide(arg2, 1)
+		script2768(10, arg3);
+		break;
+	case 3:
+		if_sethide(arg0, 1)
+		if_sethide(arg2, 1)
+		script2768(50, arg3);
+		break;
+	case 4:
+		if_sethide(arg0, 0)
+		if_setmodelanim(10712, arg1);
+		if_sethide(arg2, 1)
+		script2768(115, arg3);
+		break;
+	case 5:
+		if_sethide(arg0, 1)
+		if_sethide(arg2, 0)
+		script2768(50, arg3);
+}
+return;

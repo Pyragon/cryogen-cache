@@ -1,0 +1,52 @@
+//script497(497)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int ivar3;
+string svar0;
+string svar1;
+string svar2;
+string svar3;
+ivar0 = 0;
+ivar1 = 0;
+ivar2 = 0;
+ivar3 = 0;
+svar0 = "";
+svar1 = "";
+svar2 = "";
+svar3 = "";
+if (load_varc(1367) != -1) {
+	ivar0 = npc_param(load_varc(1367), 1134);
+	if (load_varc(1368) > ivar0) 
+		svar0 = "Movement: " + "<col=00c800>" + to_string(load_varc(1368)) + "<col=ff981f>" + "/" + to_string(ivar0);
+	else if (load_varc(1368) < ivar0) 
+		svar0 = "Movement: " + "<col=c80000>" + to_string(load_varc(1368)) + "<col=ff981f>" + "/" + to_string(ivar0);
+	else 
+		svar0 = "Movement: " + to_string(load_varc(1368)) + "/" + to_string(ivar0);
+	ivar1 = npc_param(load_varc(1367), 1135);
+	if (load_varc(1369) > ivar1) 
+		svar1 = "Damage: " + "<col=00c800>" + to_string(calc(100 * load_varc(1369))) + "<col=ff981f>" + "/" + to_string(calc(100 * ivar1));
+	else if (load_varc(1369) < ivar1) 
+		svar1 = "Damage: " + "<col=c80000>" + to_string(calc(100 * load_varc(1369))) + "<col=ff981f>" + "/" + to_string(calc(100 * ivar1));
+	else 
+		svar1 = "Damage: " + to_string(calc(100 * load_varc(1369))) + "/" + to_string(calc(100 * ivar1));
+	ivar2 = npc_param(load_varc(1367), 1136);
+	if (load_varc(1370) > ivar2) 
+		svar2 = "Health: " + "<col=00c800>" + to_string(calc(100 * load_varc(1370))) + "<col=ff981f>" + "/" + to_string(calc(100 * ivar2));
+	else if (load_varc(1370) < ivar2) 
+		svar2 = "Health: " + "<col=c80000>" + to_string(calc(100 * load_varc(1370))) + "<col=ff981f>" + "/" + to_string(calc(100 * ivar2));
+	else 
+		svar2 = "Health: " + to_string(calc(100 * load_varc(1370))) + "/" + to_string(calc(100 * ivar2));
+	ivar3 = npc_param(load_varc(1367), 1137);
+	if (load_varc(1371) > ivar3) 
+		svar3 = "Range: " + "<col=00c800>" + to_string(load_varc(1371)) + "<col=ff981f>" + "/" + to_string(ivar3);
+	else if (load_varc(1371) < ivar3) 
+		svar3 = "Range: " + "<col=c80000>" + to_string(load_varc(1371)) + "<col=ff981f>" + "/" + to_string(ivar3);
+	else 
+		svar3 = "Range: " + to_string(load_varc(1371)) + "/" + to_string(ivar3);
+	if_settext(if_gethash(1012, 8), svar0);
+	if_settext(if_gethash(1012, 9), svar1);
+	if_settext(if_gethash(1012, 10), svar2);
+	if_settext(if_gethash(1012, 11), svar3);
+}
+return;

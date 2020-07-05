@@ -1,0 +1,7 @@
+//script5425(5425)()(void)
+store_varc(1685, calc(load_varc(1685) + 2))
+if (load_varc(1685) <= 40) 
+	if_setposition(load_varc(1685), 0, 0, 1, 75956252)
+else 
+	instr6342(if_gethash(1159, 30), 5426, "");
+return;

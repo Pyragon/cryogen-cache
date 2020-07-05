@@ -1,0 +1,17 @@
+{
+  "id": 203,
+  "name": "Carnillean Rising",
+  "members": false,
+  "varbitValues": [
+    [
+      11402,
+      5,
+      100
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 10930
+}

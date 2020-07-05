@@ -1,0 +1,26 @@
+//script1923(1923)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int ivar3;
+ivar0 = load_varc(550);
+ivar1 = load_varc(554);
+ivar2 = load_varc(555);
+ivar3 = 0;
+if (ivar0 == 0) {
+	ivar1 = max(0, min(calc(ivar1 - 5), 5));
+	ivar2 = max(0, min(calc(ivar2 - 5), 5));
+	if_settext(if_gethash(804, 34), to_string(ivar1));
+	if_settext(if_gethash(804, 33), to_string(ivar2));
+	if_sethide(if_gethash(804, 2), 0)
+}
+else {
+	if_sethide(if_gethash(804, 2), 1)
+	if (calc(100 % ivar0) != 0) 
+		ivar3 = 1;
+	ivar0 = calc(60 / calc(100 / calc(60 * ivar0)));
+	if (ivar3 == 1) 
+		ivar0 = calc(ivar0 + 1);
+	if_settext(if_gethash(804, 1), "Game start : " + to_string(ivar0) + " mins");
+}
+return;

@@ -1,0 +1,275 @@
+//script1439(1439)(int arg0, int arg1, int arg2)(void)
+int ivar3;
+int ivar4;
+int ivar5;
+string svar0;
+cc_deleteall(arg0)
+cc_deleteall(arg1)
+cc_deleteall(arg2)
+store_varc(656, min(load_varc(656), calc(1 - load_varc(657))))
+ivar3 = 0;
+if (load_varc(658) > 0 || load_varc(659) > 0 || load_varc(660) > 0 || load_varc(661) > 0 || load_varc(662) > 0 || load_varc(663) > 0 || load_varc(664) > 0 || load_varc(665) > 0 || load_varc(666) > 0 || load_varc(667) > 0 || load_varc(668) > 0 || load_varc(669) > 0 || load_varc(670) > 0 || load_varc(658) > 13 || load_varc(672) > 0 || load_varc(673) > 0) 
+	ivar3 = 1;
+if (ivar3 == 0 || load_varc(656) > 0) {
+	cc_create(arg2, 4, if_getnextsubid(arg2));
+	cc_setsize(2, 14, 1, 0);
+	cc_setposition(0, 0, 1, 2);
+	cc_settextalign(1, 1, 0);
+	cc_settextfont(494);
+	cc_setcolor(16750623);
+	if (ivar3 == 0) 
+		cc_settext(to_string(calc(load_varc(656) + 1)) + " / " + to_string(load_varc(657)));
+	else 
+		cc_settext(to_string(load_varc(656)) + " / " + to_string(calc(1 - load_varc(657))));
+}
+if (load_varc(656) > 0) {
+	cc_create(arg2, 4, if_getnextsubid(arg2));
+	cc_setsize(2, 17, 1, 1);
+	cc_setposition(0, 1, 1, 0);
+	cc_settextalign(0, 0, 0);
+	cc_settextfont(495);
+	cc_setcolor(16750623);
+	switch (load_varc(656)) {
+		case 1:
+			cc_settext(load_varc_string(73));
+			break;
+		case 2:
+			cc_settext(load_varc_string(74));
+			break;
+		case 3:
+			cc_settext(load_varc_string(75));
+			break;
+		case 4:
+			cc_settext(load_varc_string(76));
+			break;
+		case 5:
+			cc_settext(load_varc_string(77));
+			break;
+		case 6:
+			cc_settext(load_varc_string(78));
+			break;
+		case 7:
+			cc_settext(load_varc_string(79));
+			break;
+		case 8:
+			cc_settext(load_varc_string(80));
+			break;
+		case 9:
+			cc_settext(load_varc_string(81));
+			break;
+		case 10:
+			cc_settext(load_varc_string(82));
+			break;
+		case 11:
+			cc_settext(load_varc_string(83));
+			break;
+		case 12:
+			cc_settext(load_varc_string(84));
+			break;
+		case 13:
+			cc_settext(load_varc_string(85));
+			break;
+		case 14:
+			cc_settext(load_varc_string(86));
+			break;
+		case 15:
+			cc_settext(load_varc_string(87));
+			break;
+		case 16:
+			cc_settext(load_varc_string(88));
+			break;
+		case 17:
+			cc_settext(load_varc_string(89));
+			break;
+		case 18:
+			cc_settext(load_varc_string(90));
+			break;
+		case 19:
+			cc_settext(load_varc_string(91));
+			break;
+		case 20:
+			cc_settext(load_varc_string(92));
+			break;
+		case 21:
+			cc_settext(load_varc_string(93));
+			break;
+		case 22:
+			cc_settext(load_varc_string(94));
+			break;
+		case 23:
+			cc_settext(load_varc_string(95));
+			break;
+		case 24:
+			cc_settext(load_varc_string(96));
+			break;
+		case 25:
+			cc_settext(load_varc_string(97));
+			break;
+		case 26:
+			cc_settext(load_varc_string(98));
+			break;
+		case 27:
+			cc_settext(load_varc_string(99));
+			break;
+		case 28:
+			cc_settext(load_varc_string(100));
+			break;
+		case 29:
+			cc_settext(load_varc_string(101));
+			break;
+		case 30:
+			cc_settext(load_varc_string(102));
+			break;
+		case 31:
+			cc_settext(load_varc_string(103));
+			break;
+		case 32:
+			cc_settext(load_varc_string(104));
+			break;
+		case 33:
+			cc_settext(load_varc_string(105));
+			break;
+		case 34:
+			cc_settext(load_varc_string(106));
+			break;
+		case 35:
+			cc_settext(load_varc_string(107));
+			break;
+		case 36:
+			cc_settext(load_varc_string(108));
+			break;
+		case 37:
+			cc_settext(load_varc_string(109));
+			break;
+		case 38:
+			cc_settext(load_varc_string(110));
+			break;
+		case 39:
+			cc_settext(load_varc_string(111));
+			break;
+		case 40:
+			cc_settext(load_varc_string(112));
+			break;
+		case 41:
+			cc_settext(load_varc_string(113));
+			break;
+		case 42:
+			cc_settext(load_varc_string(114));
+			break;
+		case 43:
+			cc_settext(load_varc_string(115));
+			break;
+		case 44:
+			cc_settext(load_varc_string(116));
+			break;
+		case 45:
+			cc_settext(load_varc_string(117));
+			break;
+		case 46:
+			cc_settext(load_varc_string(118));
+			break;
+		case 47:
+			cc_settext(load_varc_string(119));
+			break;
+		case 48:
+			cc_settext(load_varc_string(120));
+			break;
+		case 49:
+			cc_settext(load_varc_string(121));
+	}
+	return;
+}
+ivar4 = 0;
+svar0 = "";
+ivar5 = 0;
+while (ivar4 < 16) {
+	switch (ivar4) {
+		case 0:
+			svar0 = load_varc_string(57);
+			ivar5 = load_varc(658);
+			break;
+		case 1:
+			svar0 = load_varc_string(58);
+			ivar5 = load_varc(659);
+			break;
+		case 2:
+			svar0 = load_varc_string(59);
+			ivar5 = load_varc(660);
+			break;
+		case 3:
+			svar0 = load_varc_string(60);
+			ivar5 = load_varc(661);
+			break;
+		case 4:
+			svar0 = load_varc_string(61);
+			ivar5 = load_varc(662);
+			break;
+		case 5:
+			svar0 = load_varc_string(62);
+			ivar5 = load_varc(663);
+			break;
+		case 6:
+			svar0 = load_varc_string(63);
+			ivar5 = load_varc(664);
+			break;
+		case 7:
+			svar0 = load_varc_string(64);
+			ivar5 = load_varc(665);
+			break;
+		case 8:
+			svar0 = load_varc_string(65);
+			ivar5 = load_varc(666);
+			break;
+		case 9:
+			svar0 = load_varc_string(66);
+			ivar5 = load_varc(667);
+			break;
+		case 10:
+			svar0 = load_varc_string(67);
+			ivar5 = load_varc(668);
+			break;
+		case 11:
+			svar0 = load_varc_string(68);
+			ivar5 = load_varc(669);
+			break;
+		case 12:
+			svar0 = load_varc_string(69);
+			ivar5 = load_varc(670);
+			break;
+		case 13:
+			svar0 = load_varc_string(70);
+			ivar5 = load_varc(671);
+			break;
+		case 14:
+			svar0 = load_varc_string(71);
+			ivar5 = load_varc(672);
+			break;
+		case 15:
+			svar0 = load_varc_string(72);
+			ivar5 = load_varc(673);
+			break;
+		default:
+			svar0 = "";
+			ivar5 = 0;
+	}
+	if (string_length(svar0) > 0) {
+		cc_create(arg2, 4, if_getnextsubid(arg2));
+		if (ivar4 == calc(1 - 16)) 
+			cc_setsize(6, 17, 1, 0);
+		else 
+			cc_setsize(2, 12, 1, 0);
+		cc_setposition(0, calc(calc(12 * ivar4) + 1), 1, 0);
+		cc_settextalign(0, 0, 0);
+		cc_settextfont(495);
+		cc_setcolor(16750623);
+		cc_settext(svar0);
+		if (ivar5 > 0) {
+			cc_setop(1, "Go");
+			instr6687(2065, "iiIII", -2147483644, ivar5, arg0, arg1, arg2);
+			instr6091(1356, "Iii", -2147483645, -2147483643, 16777215);
+			instr6092(1356, "Iii", -2147483645, -2147483643, 16750623);
+		}
+	}
+	ivar4 = calc(ivar4 + 1);
+}
+return;

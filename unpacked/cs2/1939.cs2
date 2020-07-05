@@ -1,0 +1,3 @@
+//script1939(1939)()(void)
+store_varc(556, calc(clientclock() + calc(30 * load_varc(558))))
+return;

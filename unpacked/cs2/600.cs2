@@ -1,0 +1,10 @@
+//script600(600)()(void)
+if (load_varp(1113) == 0) {
+	if (load_varc(84) <= 2147483547) 
+		store_varc(84, calc(load_varc(84) + 100))
+}
+else 
+	store_varc(84, 100)
+if_settext(if_gethash(105, 148), tostring_localized(load_varc(84), 1));
+script602();
+return;

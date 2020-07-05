@@ -1,0 +1,4 @@
+//script1462(1462)(int arg0)(void)
+if_sethide(enum(arg0, 1614, 73, 105), 1)
+if_sethide(enum(arg0, 1615, 73, 105), 1)
+return;

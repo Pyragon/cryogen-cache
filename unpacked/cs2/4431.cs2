@@ -1,0 +1,46 @@
+//script4431(4431)(int arg0)(void)
+string svar0;
+int stack_dump0;
+int stack_dump1;
+string stack_dump2;
+svar0 = "";
+if (activeclanchannel_find_affined() == 1) {
+	instr6342(arg0, None, "");
+	script4434();
+	stack_dump0 = 4433;
+	stack_dump1 = 72744963;
+	stack_dump2 = "";
+	/* 
+		AT PrimitiveInstruction(opcode=401, value=false, type=boolean)
+		com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=401, value=false, type=boolean)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+script4437();
+svar0 = "Join Clan Chat channel.";
+if_setonmouseover(if_gethash(1110, 82), 4538, "IIisifdiiiiii", 72745084, -2147483645, -1, svar0, 120, 3793, 3793, 16101953, 13, 4, 0, -2147483647, -2147483646);
+stack_dump2 = "Join Clan Chat channel";
+stack_dump0 = instr6213(1, if_gethash(1110, 82));
+script4589();
+stack_dump0 = stack_dump0;
+stack_dump2 = stack_dump2;
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, -1, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:446)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

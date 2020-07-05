@@ -1,0 +1,97 @@
+//script46(46)(int arg0, string arg1)(void)
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int stack_dump0;
+string stack_dump1;
+string stack_dump2;
+string stack_dump3;
+ivar1 = calc(1000000000 / arg0);
+ivar2 = calc(1000000 / calc(calc(1000000000 * ivar1) - arg0));
+ivar3 = calc(1000 / calc(calc(calc(1000000000 * ivar1) + calc(1000000 * ivar2)) - arg0));
+ivar4 = calc(calc(calc(calc(1000000000 * ivar1) + calc(1000000 * ivar2)) + calc(1000 * ivar3)) - arg0);
+if (ivar1 > 0) {
+	stack_dump0 = to_string(ivar1);
+	stack_dump1 = arg1;
+	script47(ivar2);
+	stack_dump0 = stack_dump0;
+	stack_dump1 = stack_dump1;
+	stack_dump2 = arg1;
+	script47(ivar3);
+	stack_dump0 = stack_dump0;
+	stack_dump1 = stack_dump1;
+	stack_dump2 = stack_dump2;
+	stack_dump3 = arg1;
+	script47(ivar4);
+	stack_dump0 = stack_dump0;
+	/* 
+		AT PrimitiveInstruction(opcode=531, value=7, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:488)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if (ivar2 > 0) {
+	stack_dump0 = to_string(ivar2);
+	stack_dump1 = arg1;
+	script47(ivar3);
+	stack_dump0 = stack_dump0;
+	stack_dump1 = stack_dump1;
+	stack_dump2 = arg1;
+	script47(ivar4);
+	stack_dump0 = stack_dump0;
+	/* 
+		AT PrimitiveInstruction(opcode=531, value=5, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:488)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if (ivar3 > 0) {
+	stack_dump0 = to_string(ivar3);
+	stack_dump1 = arg1;
+	script47(ivar4);
+	stack_dump0 = stack_dump0;
+	/* 
+		AT PrimitiveInstruction(opcode=531, value=3, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:488)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+stack_dump0 = to_string(arg0);
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

@@ -1,0 +1,17 @@
+{
+  "id": 105,
+  "name": "Horror from the Deep",
+  "members": false,
+  "varbitValues": [
+    [
+      34,
+      1,
+      10
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

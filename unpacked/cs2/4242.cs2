@@ -1,0 +1,288 @@
+//script4242(4242)(int arg0)(void)
+string stack_dump0;
+switch (arg0) {
+	case 1:
+		stack_dump0 = "You are more likely to hit with your melee attacks." + "<br>" + "<br>";
+		/* 
+			AT PrimitiveInstruction(opcode=184, value=0, type=int)
+			java.lang.RuntimeException: can't merge: diff stack sizes/types, 0, -1, 0, true
+				at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	case 2:
+		stack_dump0 = "You are able to deal more damage with your melee attacks." + "<br>" + "<br>";
+		/* 
+			AT PrimitiveInstruction(opcode=184, value=0, type=int)
+			java.lang.RuntimeException: can't merge: diff stack sizes/types, 0, -1, 0, true
+				at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	case 5:
+		stack_dump0 = "You are less likely to be hit by an enemy's attacks." + "<br>" + "<br>";
+		/* 
+			AT PrimitiveInstruction(opcode=184, value=0, type=int)
+			java.lang.RuntimeException: can't merge: diff stack sizes/types, 0, -1, 0, true
+				at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	case 3:
+		stack_dump0 = "You are more likely to hit with your ranged attacks." + "<br>" + "<br>";
+		/* 
+			AT PrimitiveInstruction(opcode=184, value=0, type=int)
+			java.lang.RuntimeException: can't merge: diff stack sizes/types, 0, -1, 0, true
+				at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	case 7:
+		stack_dump0 = "You are able to sustain your prayers for longer before needing to recharge." + "<br>" + "<br>";
+		/* 
+			AT PrimitiveInstruction(opcode=184, value=0, type=int)
+			java.lang.RuntimeException: can't merge: diff stack sizes/types, 0, -1, 0, true
+				at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	case 4:
+		stack_dump0 = "Your ability to hit with and defend against magical attacks is improved." + "<br>" + "<br>";
+		/* 
+			AT PrimitiveInstruction(opcode=184, value=0, type=int)
+			java.lang.RuntimeException: can't merge: diff stack sizes/types, 0, -1, 0, true
+				at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	case 6:
+		stack_dump0 = "Your maximum lifepoints have been increased by 10." + "<br>" + "<br>";
+		/* 
+			AT PrimitiveInstruction(opcode=184, value=0, type=int)
+			java.lang.RuntimeException: can't merge: diff stack sizes/types, 0, -1, 0, true
+				at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	case 8:
+		stack_dump0 = "Your chance of failing agility shortcuts and obstacles is reduced." + "<br>" + "<br>";
+		/* 
+			AT PrimitiveInstruction(opcode=184, value=0, type=int)
+			java.lang.RuntimeException: can't merge: diff stack sizes/types, 0, -1, 0, true
+				at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	case 10:
+		stack_dump0 = "You are more likely to succeed when picking pockets or locks." + "<br>" + "<br>";
+		/* 
+			AT PrimitiveInstruction(opcode=184, value=0, type=int)
+			java.lang.RuntimeException: can't merge: diff stack sizes/types, 0, -1, 0, true
+				at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	case 13:
+		stack_dump0 = "You are more likely to succeed when attempting to mine ore." + "<br>" + "<br>";
+		/* 
+			AT PrimitiveInstruction(opcode=184, value=0, type=int)
+			java.lang.RuntimeException: can't merge: diff stack sizes/types, 0, -1, 0, true
+				at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	case 15:
+		stack_dump0 = "You are more likely to succeed when attempting to catch a fish." + "<br>" + "<br>";
+		/* 
+			AT PrimitiveInstruction(opcode=184, value=0, type=int)
+			java.lang.RuntimeException: can't merge: diff stack sizes/types, 0, -1, 0, true
+				at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	case 16:
+		stack_dump0 = "Your likelihood of burning food is decreased." + "<br>" + "<br>";
+		/* 
+			AT PrimitiveInstruction(opcode=184, value=0, type=int)
+			java.lang.RuntimeException: can't merge: diff stack sizes/types, 0, -1, 0, true
+				at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	case 17:
+		stack_dump0 = "Your chance of success when lighting a fire is improved." + "<br>" + "<br>";
+		/* 
+			AT PrimitiveInstruction(opcode=184, value=0, type=int)
+			java.lang.RuntimeException: can't merge: diff stack sizes/types, 0, -1, 0, true
+				at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	case 18:
+		stack_dump0 = "You are more likely to succeed when attempting to cut a log." + "<br>" + "<br>";
+		/* 
+			AT PrimitiveInstruction(opcode=184, value=0, type=int)
+			java.lang.RuntimeException: can't merge: diff stack sizes/types, 0, -1, 0, true
+				at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	case 12:
+		stack_dump0 = "Your chance of crafting multiple runes from a single piece of essence is increased." + "<br>" + "<br>";
+		/* 
+			AT PrimitiveInstruction(opcode=184, value=0, type=int)
+			java.lang.RuntimeException: can't merge: diff stack sizes/types, 0, -1, 0, true
+				at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	case 21:
+		stack_dump0 = "Your chance of successfully pruning diseased plants is increased." + "<br>" + "<br>";
+		/* 
+			AT PrimitiveInstruction(opcode=184, value=0, type=int)
+			java.lang.RuntimeException: can't merge: diff stack sizes/types, 0, -1, 0, true
+				at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	case 23:
+		stack_dump0 = "Your chance of successfully trapping creatures is increased." + "<br>" + "<br>";
+		/* 
+			AT PrimitiveInstruction(opcode=184, value=0, type=int)
+			java.lang.RuntimeException: can't merge: diff stack sizes/types, 0, -1, 0, true
+				at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	case 24:
+		stack_dump0 = "You are able to sustain your familiars for longer before needing to recharge." + "<br>" + "<br>";
+		/* 
+			AT PrimitiveInstruction(opcode=184, value=0, type=int)
+			java.lang.RuntimeException: can't merge: diff stack sizes/types, 0, -1, 0, true
+				at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+}
+stack_dump0 = "";
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, 0, -1, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

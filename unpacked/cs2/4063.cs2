@@ -1,0 +1,20 @@
+//script4063(4063)()(void)
+if (load_varpbit(8669) == 1) 
+	return;
+switch (load_varpbit(8668)) {
+	case 1:
+		script4065(69337113);
+		break;
+	case 4:
+		script4065(69337112);
+		break;
+	case 5:
+		script4065(69337110);
+		break;
+	case 3:
+		script4065(69337111);
+		break;
+	case 2:
+		script4065(69337114);
+}
+return;

@@ -1,0 +1,17 @@
+{
+  "id": 177,
+  "name": "Quiet Before the Swarm",
+  "members": false,
+  "varbitValues": [
+    [
+      7958,
+      5,
+      90
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 3140
+}

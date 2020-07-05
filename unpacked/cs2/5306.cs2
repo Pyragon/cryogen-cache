@@ -1,0 +1,10 @@
+//script5306(5306)()(void)
+if_sethide(if_gethash(824, 8), 1)
+if_setgraphic(6168, 54001738)
+if_sethide(if_gethash(824, 9), 1)
+if_setgraphic(6168, 54001791)
+if_sethide(if_gethash(824, 10), 1)
+if_setgraphic(6168, 54001844)
+if_sethide(if_gethash(824, 11), 1)
+if_setgraphic(6168, 54001881)
+return;

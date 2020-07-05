@@ -1,0 +1,22 @@
+//script6388(6388)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+int ivar6;
+string svar0;
+svar0 = "";
+ivar6 = -1;
+cc_create(arg4, 5, arg2);
+cc_setsize(36, 36, 0, 0);
+cc_setposition(arg0, arg1, 0, 0);
+cc_setgraphic(11756)
+cc_create(arg5, 5, arg2);
+cc_setsize(36, 32, 0, 0);
+cc_setposition(calc(2 + arg0), calc(2 + arg1), 0, 0);
+if (arg3 != -1) {
+	svar0 = "<col=ff981f>" + item_name(arg3);
+	cc_setitem(arg3, 1);
+	cc_setopbase(svar0);
+	ivar6 = 11755;
+	instr6091(688, "Iid", arg4, arg2, ivar6);
+	ivar6 = 11756;
+	instr6092(688, "Iid", arg4, arg2, ivar6);
+}
+return;

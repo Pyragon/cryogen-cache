@@ -1,0 +1,17 @@
+{
+  "id": 169,
+  "name": "Blood Runs Deep",
+  "members": false,
+  "varbitValues": [
+    [
+      6883,
+      3,
+      147
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

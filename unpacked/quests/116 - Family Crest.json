@@ -1,0 +1,17 @@
+{
+  "id": 116,
+  "name": "Family Crest",
+  "members": false,
+  "varValues": [
+    [
+      148,
+      1,
+      11
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

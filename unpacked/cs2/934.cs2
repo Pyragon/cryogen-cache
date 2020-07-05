@@ -1,0 +1,47 @@
+//script934(934)(int arg0)(void)
+int ivar1;
+string svar0;
+string stack_dump0;
+svar0 = "";
+ivar1 = item_param(arg0, 742);
+switch (item_param(arg0, 741)) {
+	case 1:
+		if (ivar1 == 1) 
+			svar0 = "Rescued 1 dignitary in Recipe for Disaster";
+		else 
+			svar0 = "Rescued " + to_string(ivar1) + " dignitaries in Recipe for Disaster";
+		script913(load_varpbit(1852), item_param(arg0, 742), svar0);
+		return;
+	case 2:
+		script913(load_varpbit(3763), 2, "Barbarian spearmaking");
+		return;
+	case 3:
+		script913(load_varpbit(4310), 10, "Complete: Chaos Tunnels");
+		return;
+	case 4:
+		script913(load_varpbit(1990), 280, "Part of quest: In Aid of the Myreque");
+		return;
+	case 5:
+		script913(load_varpbit(1850), 4, "Part of quest: Recipe for Disaster");
+		return;
+	case 6:
+		script913(load_varpbit(3550), 8, "Part of quest: Another Slice of H.A.M.");
+		return;
+	case 7:
+		script913(load_varpbit(998), 7, "You need to complete the first puzzle in the Elemental Workshop IV Quest.");
+		return;
+}
+stack_dump0 = "";
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, 0, -1, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

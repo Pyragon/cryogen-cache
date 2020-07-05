@@ -1,0 +1,16 @@
+//script2089(2089)()(void)
+int ivar0;
+int ivar1;
+ivar0 = 0;
+ivar1 = 0;
+ivar0 = enum(load_varc(647), 723, 105, 105);
+ivar1 = enum(load_varc(647), 2196, 105, 105);
+if (load_varc(647) < 15) 
+	if_setcolor(3368703, if_gethash(836, 68));
+else if (load_varc(647) > 15) 
+	if_setcolor(14754595, if_gethash(836, 68));
+else 
+	if_setcolor(6710886, if_gethash(836, 68));
+if_setposition(ivar0, 66, 2, 0, 54788164)
+if_setsize(ivar1, 8, 0, 0, 54788164)
+return;

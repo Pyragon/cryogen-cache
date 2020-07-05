@@ -1,0 +1,4 @@
+//script5043(5043)(int arg0, int arg1, int arg2)(void)
+store_varc(1396, max(min(calc(3 + scale(calc(arg2 + calc(2 / if_getwidth(arg1))), if_getwidth(if_getlayer(arg1)), calc(calc(3 - 21) + 1))), 21), 3))
+script5044(arg0, 0, 0);
+return;

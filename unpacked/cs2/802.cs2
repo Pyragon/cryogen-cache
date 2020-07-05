@@ -1,0 +1,147 @@
+//script802(802)(int arg0, int arg1, int arg2, int arg3, string arg4)(void)
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+string svar1;
+string svar2;
+ivar4 = string_length(arg4);
+if (arg0 <= -1) 
+	arg0 = ivar4;
+else 
+	arg0 = min(arg0, ivar4);
+svar1 = "";
+if (arg0 > 0) 
+	svar1 = substring(0, arg0, arg4);
+svar2 = "";
+if (arg0 < ivar4) 
+	svar2 = substring(arg0, ivar4, arg4);
+ivar5 = 0;
+ivar6 = 0;
+ivar7 = 0;
+if (arg2 == 85) {
+	ivar5 = string_length(svar1);
+	if (ivar5 > 1) 
+		svar1 = substring(0, calc(1 - ivar5), svar1);
+	else {
+		svar1 = "";
+		ivar7 = 1;
+	}
+	arg4 = append(svar1, svar2);
+	arg0 = max(calc(1 - arg0), 0);
+}
+else if (arg2 == 101) {
+	ivar5 = string_length(svar2);
+	if (ivar5 > 1) 
+		svar2 = substring(1, ivar5, svar2);
+	else {
+		svar2 = "";
+		ivar7 = 1;
+	}
+	arg4 = append(svar1, svar2);
+}
+else {
+	if (char_isprintable(arg3) == 1) {
+		switch (arg1) {
+			case 0:
+				if (load_varc(1650) == 1) 
+					ivar6 = 255;
+				else 
+					ivar6 = 80;
+				if (ivar4 < ivar6) {
+					arg4 = append(append_char(arg3, svar1), svar2);
+					arg0 = calc(arg0 + 1);
+				}
+				else 
+					ivar7 = 1;
+				break;
+			case 1:
+				if (char_isnumeric(arg3) == 1 && ivar4 < 10) {
+					arg4 = append(append_char(arg3, svar1), svar2);
+					arg0 = calc(arg0 + 1);
+				}
+				else 
+					ivar7 = 1;
+				break;
+			case 2:
+				if (ivar4 < 12) {
+					arg4 = append(append_char(arg3, svar1), svar2);
+					arg0 = calc(arg0 + 1);
+				}
+				else 
+					ivar7 = 1;
+				break;
+			case 3:
+				if (ivar4 < 320) {
+					arg4 = append(append_char(arg3, svar1), svar2);
+					arg0 = calc(arg0 + 1);
+				}
+				else 
+					ivar7 = 1;
+				break;
+			case 4:
+				if ((char_isalphanumeric(arg3) == 1 || string_indexof_char(arg3, 0, " '&,.!-\uffe0\uffc0\uffe1\uffc1\uffe2\uffc2\uffe3\uffc3\uffe4\uffc4\uffe5\uffc5\uffe7\uffc7\uffe8\uffc8\uffe9\uffc9\uffea\uffca\uffeb\uffcb\uffec\uffcc\uffed\uffcd\uffee\uffce\uffef\uffcf\ufff1\uffd1\ufff2\uffd2\ufff3\uffd3\ufff4\uffd4\ufff5\uffd5\ufff6\uffd6\ufff9\uffd9\ufffa\uffda\ufffb\uffdb\ufffc\uffdc\ufffd\uffdd\uffff") != -1) && ivar4 < 50) {
+					arg4 = append(append_char(arg3, svar1), svar2);
+					arg0 = calc(arg0 + 1);
+				}
+				else 
+					ivar7 = 1;
+				break;
+			case 5:
+				if (ivar4 < 50) {
+					arg4 = append(append_char(arg3, svar1), svar2);
+					arg0 = calc(arg0 + 1);
+				}
+				else 
+					ivar7 = 1;
+				break;
+			case 6:
+				switch (world_language()) {
+					case 1:
+						if ((char_isnumeric(arg3) == 1 || string_indexof_char(arg3, 0, "KkMmTt") != -1 && ivar4 > 0) && ivar4 < 10) {
+							if (string_indexof_string(0, arg4, "K") == -1 && string_indexof_string(0, arg4, "k") == -1 && string_indexof_string(0, arg4, "M") == -1 && string_indexof_string(0, arg4, "m") == -1 && string_indexof_string(0, arg4, "T") == -1 && string_indexof_string(0, arg4, "t") == -1) {
+								arg4 = append(append_char(arg3, svar1), svar2);
+								arg0 = calc(arg0 + 1);
+							}
+							else 
+								ivar7 = 1;
+						}
+						else 
+							ivar7 = 1;
+						break;
+					default:
+						if ((char_isnumeric(arg3) == 1 || string_indexof_char(arg3, 0, "KkMm") != -1 && ivar4 > 0) && ivar4 < 10) {
+							if (string_indexof_string(0, arg4, "K") == -1 && string_indexof_string(0, arg4, "k") == -1 && string_indexof_string(0, arg4, "M") == -1 && string_indexof_string(0, arg4, "m") == -1) {
+								arg4 = append(append_char(arg3, svar1), svar2);
+								arg0 = calc(arg0 + 1);
+							}
+							else 
+								ivar7 = 1;
+						}
+						else 
+							ivar7 = 1;
+				}
+				break;
+			case 7:
+				if (ivar4 < 30) {
+					arg4 = append(append_char(arg3, svar1), svar2);
+					arg0 = calc(arg0 + 1);
+				}
+				else 
+					ivar7 = 1;
+		}
+	}
+}
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, -1, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:446)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

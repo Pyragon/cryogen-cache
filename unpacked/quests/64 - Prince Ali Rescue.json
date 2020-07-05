@@ -1,0 +1,17 @@
+{
+  "id": 64,
+  "name": "Prince Ali Rescue",
+  "members": false,
+  "varValues": [
+    [
+      273,
+      10,
+      110
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 3,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

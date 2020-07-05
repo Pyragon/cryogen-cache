@@ -1,0 +1,294 @@
+//script4348(4348)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int stack_dump0;
+ivar0 = 0;
+ivar1 = 0;
+ivar2 = 0;
+script4501(71958722, "Day");
+script4501(71958710, "Month");
+script4501(71958700, "Year");
+script4501(71958752, "World");
+script4501(71958647, "Select Event Type");
+script4501(71958662, "Select Event Place");
+script4501(71958677, "Select Event Attendees");
+if_setscrollpos(0, 0, if_gethash(1098, 160));
+script157(71958687, 71958688, 0, 1);
+if_setscrollpos(0, 0, if_gethash(1098, 145));
+script157(71958672, 71958673, 0, 1);
+if_setscrollpos(0, 0, if_gethash(1098, 130));
+script157(71958657, 71958658, 0, 1);
+if (load_varpbit(9140) == 1) 
+	if_settext(if_gethash(1098, 41), "All events relative to clan time");
+else 
+	if_settext(if_gethash(1098, 41), "All events relative to game time");
+switch (load_varp(2128)) {
+	case 1:
+		if (load_varpbit(9115) > 0) {
+			stack_dump0 = load_varpbit(9115);
+			/* 
+				AT PrimitiveInstruction(opcode=17, value=false, type=boolean)
+				com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=17, value=false, type=boolean)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		if (ivar0 > 0) 
+			script4501(71958722, enum(ivar0, 3697, 115, 105));
+		if (ivar1 > 0) 
+			script4501(71958710, enum(ivar1, 3698, 115, 105));
+		if (ivar2 > 0) 
+			script4501(71958700, enum(ivar2, 3699, 115, 105));
+		script4501(71958736, enum(load_varpbit(9123), 3695, 115, 105));
+		if (load_varpbit(9107) > 0) 
+			script4501(71958752, enum(load_varpbit(9107), 3700, 115, 105));
+		if (load_varpbit(9091) > 0) 
+			script4501(71958647, enum(load_varpbit(9091), 3687, 115, 105));
+		if (load_varpbit(9099) > 0) 
+			script4501(71958662, enum(load_varpbit(9099), 3696, 115, 105));
+		if (load_varp(2120) >= 0) 
+			script4501(71958677, enum(load_varp(2120), 3725, 115, 105));
+		script4358(71958773);
+		break;
+	case 2:
+		if (load_varpbit(9116) > 0) {
+			stack_dump0 = load_varpbit(9116);
+			/* 
+				AT PrimitiveInstruction(opcode=17, value=false, type=boolean)
+				com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=17, value=false, type=boolean)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		if (ivar0 > 0) 
+			script4501(71958722, enum(ivar0, 3697, 115, 105));
+		if (ivar1 > 0) 
+			script4501(71958710, enum(ivar1, 3698, 115, 105));
+		if (ivar2 > 0) 
+			script4501(71958700, enum(ivar2, 3699, 115, 105));
+		script4501(71958736, enum(load_varpbit(9124), 3695, 115, 105));
+		if (load_varpbit(9108) > 0) 
+			script4501(71958752, enum(load_varpbit(9108), 3700, 115, 105));
+		if (load_varpbit(9092) > 0) 
+			script4501(71958647, enum(load_varpbit(9092), 3687, 115, 105));
+		if (load_varpbit(9100) > 0) 
+			script4501(71958662, enum(load_varpbit(9100), 3696, 115, 105));
+		if (load_varp(2121) >= 0) 
+			script4501(71958677, enum(load_varp(2121), 3725, 115, 105));
+		script4358(71958780);
+		break;
+	case 3:
+		if (load_varpbit(9117) > 0) {
+			stack_dump0 = load_varpbit(9117);
+			/* 
+				AT PrimitiveInstruction(opcode=17, value=false, type=boolean)
+				com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=17, value=false, type=boolean)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		if (ivar0 > 0) 
+			script4501(71958722, enum(ivar0, 3697, 115, 105));
+		if (ivar1 > 0) 
+			script4501(71958710, enum(ivar1, 3698, 115, 105));
+		if (ivar2 > 0) 
+			script4501(71958700, enum(ivar2, 3699, 115, 105));
+		script4501(71958736, enum(load_varpbit(9125), 3695, 115, 105));
+		if (load_varpbit(9109) > 0) 
+			script4501(71958752, enum(load_varpbit(9109), 3700, 115, 105));
+		if (load_varpbit(9093) > 0) 
+			script4501(71958647, enum(load_varpbit(9093), 3687, 115, 105));
+		if (load_varpbit(9101) > 0) 
+			script4501(71958662, enum(load_varpbit(9101), 3696, 115, 105));
+		if (load_varp(2122) >= 0) 
+			script4501(71958677, enum(load_varp(2122), 3725, 115, 105));
+		script4358(71958787);
+		break;
+	case 4:
+		if (load_varpbit(9118) > 0) {
+			stack_dump0 = load_varpbit(9118);
+			/* 
+				AT PrimitiveInstruction(opcode=17, value=false, type=boolean)
+				com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=17, value=false, type=boolean)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		if (ivar0 > 0) 
+			script4501(71958722, enum(ivar0, 3697, 115, 105));
+		if (ivar1 > 0) 
+			script4501(71958710, enum(ivar1, 3698, 115, 105));
+		if (ivar2 > 0) 
+			script4501(71958700, enum(ivar2, 3699, 115, 105));
+		script4501(71958736, enum(load_varpbit(9126), 3695, 115, 105));
+		if (load_varpbit(9110) > 0) 
+			script4501(71958752, enum(load_varpbit(9110), 3700, 115, 105));
+		if (load_varpbit(9094) > 0) 
+			script4501(71958647, enum(load_varpbit(9094), 3687, 115, 105));
+		if (load_varpbit(9102) > 0) 
+			script4501(71958662, enum(load_varpbit(9102), 3696, 115, 105));
+		if (load_varp(2123) >= 0) 
+			script4501(71958677, enum(load_varp(2123), 3725, 115, 105));
+		script4358(71958794);
+		break;
+	case 5:
+		if (load_varpbit(9119) > 0) {
+			stack_dump0 = load_varpbit(9119);
+			/* 
+				AT PrimitiveInstruction(opcode=17, value=false, type=boolean)
+				com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=17, value=false, type=boolean)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		if (ivar0 > 0) 
+			script4501(71958722, enum(ivar0, 3697, 115, 105));
+		if (ivar1 > 0) 
+			script4501(71958710, enum(ivar1, 3698, 115, 105));
+		if (ivar2 > 0) 
+			script4501(71958700, enum(ivar2, 3699, 115, 105));
+		script4501(71958736, enum(load_varpbit(9127), 3695, 115, 105));
+		if (load_varpbit(9111) > 0) 
+			script4501(71958752, enum(load_varpbit(9111), 3700, 115, 105));
+		if (load_varpbit(9095) > 0) 
+			script4501(71958647, enum(load_varpbit(9095), 3687, 115, 105));
+		if (load_varpbit(9103) > 0) 
+			script4501(71958662, enum(load_varpbit(9103), 3696, 115, 105));
+		if (load_varp(2124) >= 0) 
+			script4501(71958677, enum(load_varp(2124), 3725, 115, 105));
+		script4358(71958801);
+		break;
+	case 6:
+		if (load_varpbit(9120) > 0) {
+			stack_dump0 = load_varpbit(9120);
+			/* 
+				AT PrimitiveInstruction(opcode=17, value=false, type=boolean)
+				com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=17, value=false, type=boolean)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		if (ivar0 > 0) 
+			script4501(71958722, enum(ivar0, 3697, 115, 105));
+		if (ivar1 > 0) 
+			script4501(71958710, enum(ivar1, 3698, 115, 105));
+		if (ivar2 > 0) 
+			script4501(71958700, enum(ivar2, 3699, 115, 105));
+		script4501(71958736, enum(load_varpbit(9128), 3695, 115, 105));
+		if (load_varpbit(9112) > 0) 
+			script4501(71958752, enum(load_varpbit(9112), 3700, 115, 105));
+		if (load_varpbit(9096) > 0) 
+			script4501(71958647, enum(load_varpbit(9096), 3687, 115, 105));
+		if (load_varpbit(9104) > 0) 
+			script4501(71958662, enum(load_varpbit(9104), 3696, 115, 105));
+		if (load_varp(2125) >= 0) 
+			script4501(71958677, enum(load_varp(2125), 3725, 115, 105));
+		script4358(71958808);
+		break;
+	case 7:
+		if (load_varpbit(9121) > 0) {
+			stack_dump0 = load_varpbit(9121);
+			/* 
+				AT PrimitiveInstruction(opcode=17, value=false, type=boolean)
+				com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=17, value=false, type=boolean)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		if (ivar0 > 0) 
+			script4501(71958722, enum(ivar0, 3697, 115, 105));
+		if (ivar1 > 0) 
+			script4501(71958710, enum(ivar1, 3698, 115, 105));
+		if (ivar2 > 0) 
+			script4501(71958700, enum(ivar2, 3699, 115, 105));
+		script4501(71958736, enum(load_varpbit(9129), 3695, 115, 105));
+		if (load_varpbit(9113) > 0) 
+			script4501(71958752, enum(load_varpbit(9113), 3700, 115, 105));
+		if (load_varpbit(9097) > 0) 
+			script4501(71958647, enum(load_varpbit(9097), 3687, 115, 105));
+		if (load_varpbit(9105) > 0) 
+			script4501(71958662, enum(load_varpbit(9105), 3696, 115, 105));
+		if (load_varp(2126) >= 0) 
+			script4501(71958677, enum(load_varp(2126), 3725, 115, 105));
+		script4358(71958815);
+		break;
+	case 8:
+		if (load_varpbit(9122) > 0) {
+			stack_dump0 = load_varpbit(9122);
+			/* 
+				AT PrimitiveInstruction(opcode=17, value=false, type=boolean)
+				com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=17, value=false, type=boolean)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		if (ivar0 > 0) 
+			script4501(71958722, enum(ivar0, 3697, 115, 105));
+		if (ivar1 > 0) 
+			script4501(71958710, enum(ivar1, 3698, 115, 105));
+		if (ivar2 > 0) 
+			script4501(71958700, enum(ivar2, 3699, 115, 105));
+		script4501(71958736, enum(load_varpbit(9130), 3695, 115, 105));
+		if (load_varpbit(9114) > 0) 
+			script4501(71958752, enum(load_varpbit(9114), 3700, 115, 105));
+		if (load_varpbit(9098) > 0) 
+			script4501(71958647, enum(load_varpbit(9098), 3687, 115, 105));
+		if (load_varpbit(9106) > 0) 
+			script4501(71958662, enum(load_varpbit(9106), 3696, 115, 105));
+		if (load_varp(2127) >= 0) 
+			script4501(71958677, enum(load_varp(2127), 3725, 115, 105));
+		script4358(71958822);
+}
+script4353(71958575);
+script4356(71958577);
+script4350();
+return;

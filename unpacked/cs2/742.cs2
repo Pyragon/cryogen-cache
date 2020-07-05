@@ -1,0 +1,35 @@
+//script742(742)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int ivar3;
+ivar0 = load_varp(1164);
+ivar1 = 0;
+if (ivar0 == 0) 
+	return;
+if (ivar0 == 10) {
+	store_varc(105, calc(1 - load_varc(105)))
+	if (load_varpbit(4228) != load_varc(105)) {
+		if (load_varpbit(4228) > load_varc(105)) {
+			ivar1 = 1;
+			send_message("Part of the mechanism jams due to your frenzied manipulation.");
+		}
+		store_varc(105, load_varpbit(4228))
+	}
+	if (load_varc(105) == 0) {
+		send_message("The mechanism issues forth a whine and shuts down.");
+		script675();
+	}
+	script738();
+	return;
+}
+ivar0 = calc(1 - ivar0);
+if (calc(ivar0 & 1 << load_varc(106)) == 1) 
+	return;
+store_varc(106, calc(ivar0 | 1 << load_varc(106)))
+store_varc(105, calc(load_varc(105) + 5))
+script738();
+ivar2 = enum(ivar0, 1155, 109, 105);
+ivar3 = enum(ivar0, 1154, 73, 105);
+if_setmodel(ivar2, ivar3);
+return;

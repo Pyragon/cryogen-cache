@@ -1,0 +1,17 @@
+{
+  "id": 80,
+  "name": "Smoking Kills",
+  "members": false,
+  "varbitValues": [
+    [
+      4764,
+      10,
+      250
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

@@ -1,0 +1,15 @@
+//script6159(6159)(int arg0, int arg1)(void)
+switch (load_varc(1917)) {
+	case 1:
+		script569(arg0, -1, arg1, 25, 190, "Current Floor: Bottom Floor");
+		break;
+	case 2:
+		script569(arg0, -1, arg1, 25, 190, "Current Floor: Middle Floor");
+		break;
+	case 3:
+		script569(arg0, -1, arg1, 25, 190, "Current Floor: Top Floor");
+		break;
+	default:
+		script569(arg0, -1, arg1, 25, 190, "Current Floor.");
+}
+return;

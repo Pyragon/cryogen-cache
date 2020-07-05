@@ -1,0 +1,8 @@
+//script2102(2102)()(void)
+int ivar0;
+script31(19464198, 19464196, 798, 795, 796, 797, 793, 794);
+ivar0 = calc(calc(12 * paramheight(if_getwidth(if_gethash(297, 7)), 495, if_gettext(if_gethash(297, 7)))) + 5);
+if_setsize(if_getwidth(if_gethash(297, 7)), ivar0, 0, 0, 19464199)
+if_setposition(if_getx(if_gethash(297, 49)), calc(calc(if_gety(if_gethash(297, 7)) + ivar0) + 5), 0, 0, 19464241)
+script2104(0);
+return;

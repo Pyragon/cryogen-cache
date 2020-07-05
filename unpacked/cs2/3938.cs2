@@ -1,0 +1,10 @@
+//script3938(3938)()(void)
+if (load_varc(1411) == 1) {
+	store_varc(1411, 0)
+	if_setgraphic(4085, 44105768)
+}
+else {
+	store_varc(1411, 1)
+	if_setgraphic(4087, 44105768)
+}
+return;

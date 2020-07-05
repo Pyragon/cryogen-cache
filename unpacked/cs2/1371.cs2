@@ -1,0 +1,42 @@
+//script1371(1371)()(void)
+if (load_varpbit(7520) == 0) 
+	if_setcolor(5787714, if_gethash(1017, 156));
+else 
+	if_setcolor(16750623, if_gethash(1017, 156));
+if (load_varpbit(7521) == 0) 
+	if_setcolor(5787714, if_gethash(1017, 157));
+else 
+	if_setcolor(16750623, if_gethash(1017, 157));
+if (load_varpbit(7526) == 0) 
+	if_setcolor(5787714, if_gethash(1017, 158));
+else 
+	if_setcolor(16750623, if_gethash(1017, 158));
+if (load_varpbit(7527) == 0) 
+	if_setcolor(5787714, if_gethash(1017, 159));
+else 
+	if_setcolor(16750623, if_gethash(1017, 159));
+if (load_varpbit(7530) == 0) 
+	if_setcolor(5787714, if_gethash(1017, 160));
+else 
+	if_setcolor(16750623, if_gethash(1017, 160));
+if (load_varpbit(7531) == 0) 
+	if_setcolor(5787714, if_gethash(1017, 161));
+else 
+	if_setcolor(16750623, if_gethash(1017, 161));
+if (load_varpbit(7532) == 0) 
+	if_setcolor(5787714, if_gethash(1017, 162));
+else 
+	if_setcolor(16750623, if_gethash(1017, 162));
+if (load_varpbit(7533) == 0) 
+	if_setcolor(5787714, if_gethash(1017, 163));
+else 
+	if_setcolor(16750623, if_gethash(1017, 163));
+if (load_varpbit(7534) == 0) 
+	if_setcolor(5787714, if_gethash(1017, 164));
+else 
+	if_setcolor(16750623, if_gethash(1017, 164));
+if (load_varpbit(7535) == 0) 
+	if_setcolor(5787714, if_gethash(1017, 165));
+else 
+	if_setcolor(16750623, if_gethash(1017, 165));
+return;

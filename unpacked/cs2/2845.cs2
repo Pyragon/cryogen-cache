@@ -1,0 +1,220 @@
+//script2845(2845)()(void)
+int ivar0;
+if (load_varpbit(3251) == 1) {
+	if_setmodel(20522, if_gethash(473, 43));
+	if_settext(if_gethash(473, 44), "Attacker level up to 2");
+	if_settext(if_gethash(473, 46), "+20 bonus damage");
+	if_settext(if_gethash(473, 45), "200 Attacker Honour Points");
+	if (load_varpbit(3256) > 199) 
+		if_setcolor(65280, if_gethash(473, 45));
+}
+else if (load_varpbit(3251) == 2) {
+	if_setmodel(20523, if_gethash(473, 43));
+	if_settext(if_gethash(473, 44), "Attacker level up to 3");
+	if_settext(if_gethash(473, 46), "+30 bonus damage");
+	if_settext(if_gethash(473, 45), "300 Attacker Honour Points");
+	if (load_varpbit(3256) > 299) 
+		if_setcolor(65280, if_gethash(473, 45));
+}
+else if (load_varpbit(3251) == 3) {
+	if_setmodel(20524, if_gethash(473, 43));
+	if_settext(if_gethash(473, 44), "Attacker level up to 4");
+	if_settext(if_gethash(473, 46), "+40 bonus damage");
+	if_settext(if_gethash(473, 45), "400 Attacker Honour Points");
+	if (load_varpbit(3256) > 399) 
+		if_setcolor(65280, if_gethash(473, 45));
+}
+else if (load_varpbit(3251) == 4) {
+	if_setmodel(20525, if_gethash(473, 43));
+	if_settext(if_gethash(473, 44), "Attacker level up to 5");
+	if_settext(if_gethash(473, 46), "+50 bonus damage");
+	if_settext(if_gethash(473, 45), "500 Attacker Honour Points");
+	if (load_varpbit(3256) > 499) 
+		if_setcolor(65280, if_gethash(473, 45));
+}
+else if (load_varpbit(3251) == 5) {
+	if_setmodel(20525, if_gethash(473, 43));
+	if_settext(if_gethash(473, 44), "Attacker level up complete");
+	if_settext(if_gethash(473, 46), " - Mastered - ");
+	if_settext(if_gethash(473, 45), " - Mastered - ");
+}
+else {
+	store_varc(3251, 1)
+	if_setmodel(20522, if_gethash(473, 43));
+	if_settext(if_gethash(473, 44), "Attacker level up to 2");
+	if_settext(if_gethash(473, 46), "+20 bonus damage");
+	if_settext(if_gethash(473, 45), "200 Attacker Honour Points");
+	if (load_varpbit(3256) > 199) 
+		if_setcolor(65280, if_gethash(473, 45));
+}
+if (load_varpbit(3253) == 1) {
+	if_setmodel(20531, if_gethash(473, 50));
+	if_settext(if_gethash(473, 51), "Defender level up to 2");
+	if_settext(if_gethash(473, 53), "Lure range 5");
+	if_settext(if_gethash(473, 52), "200 Defender Honour Points");
+	if (load_varpbit(3263) > 199) 
+		if_setcolor(65280, if_gethash(473, 52));
+}
+else if (load_varpbit(3253) == 2) {
+	if_setmodel(20532, if_gethash(473, 50));
+	if_settext(if_gethash(473, 51), "Defender level up to 3");
+	if_settext(if_gethash(473, 53), "Lure range 6");
+	if_settext(if_gethash(473, 52), "300 Defender Honour Points");
+	if (load_varpbit(3263) > 299) 
+		if_setcolor(65280, if_gethash(473, 52));
+}
+else if (load_varpbit(3253) == 3) {
+	if_setmodel(20533, if_gethash(473, 50));
+	if_settext(if_gethash(473, 51), "Defender level up to 4");
+	if_settext(if_gethash(473, 53), "Lure range 8");
+	if_settext(if_gethash(473, 52), "400 Defender Honour Points");
+	if (load_varpbit(3263) > 399) 
+		if_setcolor(65280, if_gethash(473, 52));
+}
+else if (load_varpbit(3253) == 4) {
+	if_setmodel(20534, if_gethash(473, 50));
+	if_settext(if_gethash(473, 51), "Defender level up to 5");
+	if_settext(if_gethash(473, 53), "Lure range 10");
+	if_settext(if_gethash(473, 52), "500 Defender Honour Points");
+	if (load_varpbit(3263) > 499) 
+		if_setcolor(65280, if_gethash(473, 52));
+}
+else if (load_varpbit(3253) == 5) {
+	if_setmodel(20534, if_gethash(473, 50));
+	if_settext(if_gethash(473, 51), "Defender level up complete");
+	if_settext(if_gethash(473, 53), " - Mastered - ");
+	if_settext(if_gethash(473, 52), " - Mastered - ");
+}
+else {
+	store_varc(3253, 1)
+	if_setmodel(20531, if_gethash(473, 50));
+	if_settext(if_gethash(473, 51), "Defender level up to 2");
+	if_settext(if_gethash(473, 53), "Lure range 5");
+	if_settext(if_gethash(473, 52), "200 Defender Honour Points");
+	if (load_varpbit(3263) > 199) 
+		if_setcolor(65280, if_gethash(473, 52));
+}
+if (load_varpbit(3254) == 1) {
+	if_setmodel(20526, if_gethash(473, 57));
+	if_settext(if_gethash(473, 58), "Collector level up to 2");
+	if_settext(if_gethash(473, 60), "Egg conversion");
+	if_settext(if_gethash(473, 59), "200 Collector Honour Points");
+	if (load_varpbit(3261) > 199) 
+		if_setcolor(65280, if_gethash(473, 59));
+}
+else if (load_varpbit(3254) == 2) {
+	if_setmodel(20527, if_gethash(473, 57));
+	if_settext(if_gethash(473, 58), "Collector level up to 3");
+	if_settext(if_gethash(473, 60), "Egg convert success (80%)");
+	if_settext(if_gethash(473, 59), "300 Collector Honour Points");
+	if (load_varpbit(3261) > 299) 
+		if_setcolor(65280, if_gethash(473, 59));
+}
+else if (load_varpbit(3254) == 3) {
+	if_setmodel(20528, if_gethash(473, 57));
+	if_settext(if_gethash(473, 58), "Collector level up to 4");
+	if_settext(if_gethash(473, 60), "Egg convert success (90%)");
+	if_settext(if_gethash(473, 59), "400 Collector Honour Points");
+	if (load_varpbit(3261) > 399) 
+		if_setcolor(65280, if_gethash(473, 59));
+}
+else if (load_varpbit(3254) == 4) {
+	if_setmodel(20529, if_gethash(473, 57));
+	if_settext(if_gethash(473, 58), "Collector level up to 5");
+	if_settext(if_gethash(473, 60), "Egg convert success (100%)");
+	if_settext(if_gethash(473, 59), "500 Collector Honour Points");
+	if (load_varpbit(3261) > 499) 
+		if_setcolor(65280, if_gethash(473, 59));
+}
+else if (load_varpbit(3254) == 5) {
+	if_setmodel(20529, if_gethash(473, 57));
+	if_settext(if_gethash(473, 58), "Collector level up complete");
+	if_settext(if_gethash(473, 60), " - Mastered - ");
+	if_settext(if_gethash(473, 59), " - Mastered - ");
+}
+else {
+	store_varc(3254, 1)
+	if_setmodel(20526, if_gethash(473, 57));
+	if_settext(if_gethash(473, 58), "Collector level up to 2");
+	if_settext(if_gethash(473, 60), "Egg conversion");
+	if_settext(if_gethash(473, 59), "200 Collector Honour Points");
+	if (load_varpbit(3261) > 199) 
+		if_setcolor(65280, if_gethash(473, 59));
+}
+if (load_varpbit(3255) == 1) {
+	if_setmodel(20538, if_gethash(473, 64));
+	if_settext(if_gethash(473, 65), "Healer level up to 2");
+	if_settext(if_gethash(473, 67), "Heal 150 points, more run energy");
+	if_settext(if_gethash(473, 66), "200 Healer Honour Points");
+	if (load_varpbit(3262) > 199) 
+		if_setcolor(65280, if_gethash(473, 66));
+}
+else if (load_varpbit(3255) == 2) {
+	if_setmodel(20539, if_gethash(473, 64));
+	if_settext(if_gethash(473, 65), "Healer level up to 3");
+	if_settext(if_gethash(473, 67), "Heal 200 points, more run energy");
+	if_settext(if_gethash(473, 66), "300 Healer Honour Points");
+	if (load_varpbit(3262) > 299) 
+		if_setcolor(65280, if_gethash(473, 66));
+}
+else if (load_varpbit(3255) == 3) {
+	if_setmodel(20540, if_gethash(473, 64));
+	if_settext(if_gethash(473, 65), "Healer level up to 4");
+	if_settext(if_gethash(473, 67), "Heal 250 points, more run energy");
+	if_settext(if_gethash(473, 66), "400 Healer Honour Points");
+	if (load_varpbit(3262) > 399) 
+		if_setcolor(65280, if_gethash(473, 66));
+}
+else if (load_varpbit(3255) == 4) {
+	if_setmodel(20541, if_gethash(473, 64));
+	if_settext(if_gethash(473, 65), "Healer level up to 5");
+	if_settext(if_gethash(473, 67), "Heal 350 points, more run energy");
+	if_settext(if_gethash(473, 66), "500 Healer Honour Points");
+	if (load_varpbit(3262) > 499) 
+		if_setcolor(65280, if_gethash(473, 66));
+}
+else if (load_varpbit(3255) == 5) {
+	if_setmodel(20541, if_gethash(473, 64));
+	if_settext(if_gethash(473, 65), "Healer level up complete");
+	if_settext(if_gethash(473, 67), " - Mastered - ");
+	if_settext(if_gethash(473, 66), " - Mastered - ");
+}
+else {
+	store_varc(3255, 1)
+	if_setmodel(20538, if_gethash(473, 64));
+	if_settext(if_gethash(473, 65), "Healer level up to 2");
+	if_settext(if_gethash(473, 67), "Heal 150 points and even more run energy");
+	if_settext(if_gethash(473, 66), "200 Healer Honour Points");
+	if (load_varpbit(3262) > 199) 
+		if_setcolor(65280, if_gethash(473, 66));
+}
+if (load_varpbit(3256) > 274 && load_varpbit(3263) > 274 && load_varpbit(3261) > 274 && load_varpbit(3262) > 274) 
+	if_setcolor(65280, if_gethash(473, 128));
+if (load_varpbit(3256) > 274 && load_varpbit(3263) > 274 && load_varpbit(3261) > 274 && load_varpbit(3262) > 274) 
+	if_setcolor(65280, if_gethash(473, 121));
+if (load_varpbit(3256) > 274 && load_varpbit(3263) > 274 && load_varpbit(3261) > 274 && load_varpbit(3262) > 274) 
+	if_setcolor(65280, if_gethash(473, 114));
+if (load_varpbit(3256) > 274 && load_varpbit(3263) > 274 && load_varpbit(3261) > 274 && load_varpbit(3262) > 274) 
+	if_setcolor(65280, if_gethash(473, 107));
+if (load_varpbit(3256) > 374 && load_varpbit(3263) > 374 && load_varpbit(3261) > 374 && load_varpbit(3262) > 374) 
+	if_setcolor(65280, if_gethash(473, 100));
+if (load_varpbit(3256) > 374 && load_varpbit(3263) > 374 && load_varpbit(3261) > 374 && load_varpbit(3262) > 374) 
+	if_setcolor(65280, if_gethash(473, 93));
+if (load_varpbit(3256) > 99 && load_varpbit(3263) > 99 && load_varpbit(3261) > 99 && load_varpbit(3262) > 99) 
+	if_setcolor(65280, if_gethash(473, 87));
+if (load_varpbit(3256) > 149 && load_varpbit(3263) > 149 && load_varpbit(3261) > 149 && load_varpbit(3262) > 149) 
+	if_setcolor(65280, if_gethash(473, 81));
+script5567(995, 95000);
+/* 
+	AT JumpInstruction(target=LabelInstruction(labelId=120))
+	java.lang.RuntimeException: Stack underflow
+		at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:182)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

@@ -1,0 +1,17 @@
+{
+  "id": 51,
+  "name": "Demon Slayer",
+  "members": false,
+  "varbitValues": [
+    [
+      2561,
+      1,
+      3
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 3,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

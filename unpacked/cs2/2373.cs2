@@ -1,0 +1,94 @@
+//script2373(2373)(int arg0, int arg1)(void)
+int ivar2;
+int ivar3;
+int ivar4;
+string svar0;
+cc_deleteall(43712521)
+ivar2 = 0;
+ivar3 = -1;
+ivar4 = -1;
+svar0 = "";
+while (ivar2 < inv_size(94)) {
+	switch (ivar2) {
+		case 0:
+			ivar3 = 43712522;
+			break;
+		case 1:
+			ivar3 = 43712524;
+			break;
+		case 2:
+			ivar3 = 43712525;
+			break;
+		case 3:
+			ivar3 = 43712527;
+			break;
+		case 4:
+			ivar3 = 43712528;
+			break;
+		case 5:
+			ivar3 = 43712529;
+			break;
+		case 7:
+			ivar3 = 43712530;
+			break;
+		case 9:
+			ivar3 = 43712532;
+			break;
+		case 10:
+			ivar3 = 43712531;
+			break;
+		case 12:
+			ivar3 = 43712533;
+			break;
+		case 13:
+			ivar3 = 43712526;
+			break;
+		case 14:
+			ivar3 = 43712523;
+			break;
+		default:
+			ivar3 = -1;
+	}
+	cc_create(if_gethash(667, 9), 5, ivar2);
+	if (ivar3 != -1) {
+		ivar4 = inv_getitem(94, ivar2);
+		if (ivar4 != -1) {
+			cc_setsize(36, 32, 0, 0);
+			script788(ivar3, 2, 2);
+			/* 
+				AT PrimitiveInstruction(opcode=847, value=0, type=int)
+				java.lang.RuntimeException: Stack underflow
+					at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:160)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		cc_setsize(32, 32, 0, 0);
+		script788(ivar3, 2, 2);
+		/* 
+			AT PrimitiveInstruction(opcode=847, value=0, type=int)
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:160)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	cc_sethide(1);
+	ivar2 = calc(ivar2 + 1);
+}
+if (arg1 != -1 && inv_getitem(94, arg1) == -1) 
+	arg1 = -1;
+if_setonmouseleave(arg0, 2372, "IiY", 1, 94, , -2147483645, arg1);
+return;

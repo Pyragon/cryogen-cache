@@ -1,0 +1,17 @@
+{
+  "id": 47,
+  "name": "Legacy of Seergaze",
+  "members": false,
+  "varbitValues": [
+    [
+      4569,
+      10,
+      500
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

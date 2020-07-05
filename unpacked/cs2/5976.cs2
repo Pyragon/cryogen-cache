@@ -1,0 +1,6 @@
+//script5976(5976)(int arg0, int arg1)(void)
+store_varc(9548, arg0)
+store_varc(9549, arg1)
+script5974();
+script5975();
+return;

@@ -1,0 +1,22 @@
+//script945(945)(int arg0, int arg1, int arg2)(void)
+int ivar3;
+arg0 = min(100, arg0);
+arg0 = max(0, arg0);
+ivar3 = calc(10 / calc(25 * arg0));
+if_setposition(0, calc(ivar3 - 250), 0, 0, 81657877)
+if_settext(if_gethash(1246, 17), to_string(arg1) + "%");
+if (arg2 == 1) {
+	if_setposition(32, 217, 0, 0, 81657861)
+	if_setposition(32, 167, 0, 0, 81657862)
+}
+else if (arg2 == 2) {
+	if_setposition(32, 130, 0, 0, 81657861)
+	if_setposition(32, 92, 0, 0, 81657862)
+}
+else {
+	if (arg2 == 3) {
+		if_setposition(32, 67, 0, 0, 81657861)
+		if_setposition(32, 42, 0, 0, 81657862)
+	}
+}
+return;

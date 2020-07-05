@@ -1,0 +1,86 @@
+//script3498(3498)(int arg0, int arg1)(void)
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+ivar2 = 65142858;
+ivar3 = 65142862;
+ivar4 = 65142864;
+ivar5 = calc(10 + calc(arg0 * 10));
+ivar6 = if_gety(if_gethash(994, 135));
+switch (ivar6) {
+	case -22:
+		ivar6 = arg0;
+		break;
+	case -137:
+		ivar6 = calc(arg0 + 11);
+		break;
+	case -222:
+		ivar6 = calc(arg0 + 17);
+		break;
+	case -277:
+		ivar6 = calc(arg0 + 29);
+		break;
+	case -400:
+		ivar6 = calc(arg0 + 35);
+		break;
+	case -500:
+		ivar6 = calc(arg0 + 47);
+		break;
+	default:
+		ivar6 = arg0;
+}
+if (arg1 != 0) 
+	ivar6 = arg1;
+sound_synth(8809, 1, 0);
+if_setposition(0, ivar5, 0, 0, ivar2)
+if_settext(ivar3, to_string(ivar6));
+switch (arg0) {
+	case 1:
+		if_settext(ivar4, if_gettext(if_gethash(994, 44)));
+		break;
+	case 2:
+		if_settext(ivar4, if_gettext(if_gethash(994, 46)));
+		break;
+	case 3:
+		if_settext(ivar4, if_gettext(if_gethash(994, 48)));
+		break;
+	case 4:
+		if_settext(ivar4, if_gettext(if_gethash(994, 50)));
+		break;
+	case 5:
+		if_settext(ivar4, if_gettext(if_gethash(994, 52)));
+		break;
+	case 6:
+		if_settext(ivar4, if_gettext(if_gethash(994, 54)));
+		break;
+	case 7:
+		if_settext(ivar4, if_gettext(if_gethash(994, 56)));
+		break;
+	case 8:
+		if_settext(ivar4, if_gettext(if_gethash(994, 58)));
+		break;
+	case 9:
+		if_settext(ivar4, if_gettext(if_gethash(994, 60)));
+		break;
+	case 10:
+		if_settext(ivar4, if_gettext(if_gethash(994, 62)));
+		break;
+	case 11:
+		if_settext(ivar4, if_gettext(if_gethash(994, 64)));
+		break;
+	case 12:
+		if_settext(ivar4, if_gettext(if_gethash(994, 66)));
+		break;
+	case 13:
+		if_settext(ivar4, if_gettext(if_gethash(994, 68)));
+		break;
+	case 14:
+		if_settext(ivar4, if_gettext(if_gethash(994, 70)));
+		break;
+	case 15:
+		if_settext(ivar4, if_gettext(if_gethash(994, 72)));
+		break;
+}
+return;

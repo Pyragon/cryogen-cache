@@ -1,0 +1,5 @@
+//script6432(6432)()(void)
+if_setgraphic(6379, 85852207)
+if_setgraphic(6380, 85852208)
+if_setgraphic(6381, 85852209)
+return;

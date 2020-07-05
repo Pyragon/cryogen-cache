@@ -1,0 +1,13 @@
+//script6118(6118)(int arg0, int arg1)(void)
+if_setcolor(arg1, if_gethash(1050, 4));
+if_setcolor(arg0, if_gethash(1050, 7));
+if_setcolor(arg0, if_gethash(1050, 8));
+if_setcolor(arg0, if_gethash(1050, 9));
+if_setcolor(arg0, if_gethash(1050, 10));
+if_setcolor(arg0, if_gethash(1050, 11));
+if_setcolor(arg0, if_gethash(1050, 12));
+if_setcolor(arg0, if_gethash(1050, 13));
+if_setcolor(arg0, if_gethash(1050, 14));
+if_setcolor(arg0, if_gethash(1050, 15));
+if_setcolor(arg0, if_gethash(1050, 16));
+return;

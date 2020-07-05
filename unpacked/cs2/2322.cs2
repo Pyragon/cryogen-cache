@@ -1,0 +1,9 @@
+//script2322(2322)()(void)
+int ivar0;
+ivar0 = 20054024;
+store_varc(763, enum(random(enum_getoutputcount(208)), 208, 109, 105))
+if (load_varc(763) != -1) 
+	if_setmodel(load_varc(763), ivar0);
+if_setposition(calc(if_getwidth(ivar0) - 0), 120, 0, 0, ivar0)
+instr6342(if_gethash(306, 21), None, "");
+return;

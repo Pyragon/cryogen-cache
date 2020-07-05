@@ -1,0 +1,32 @@
+//script1280(1280)(int arg0, int arg1, int arg2, int arg3)(void)
+string svar0;
+int stack_dump0;
+svar0 = "";
+if (cc_find(arg2, arg3) == 1) {
+	if (inv_getitem(arg0, arg1) != -1) {
+		svar0 = "<col=ff981f>" + item_name(inv_getitem(arg0, arg1));
+		cc_setitem(inv_getitem(arg0, arg1), inv_getnum(arg0, arg1));
+		cc_setopbase(svar0);
+		cc_setop(10, "Examine" + "<col=ff9040>");
+		instr6443(5);
+		instr6075(10);
+		cc_setgraphicshadow(colour_gethashedhsv(51, 51, 51));
+		cc_setoutline(1);
+	}
+	else {
+		stack_dump0 = -1;
+		/* 
+			AT PrimitiveInstruction(opcode=872, value=false, type=boolean)
+			com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=872, value=false, type=boolean)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+}
+return;

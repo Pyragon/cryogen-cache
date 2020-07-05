@@ -1,0 +1,17 @@
+{
+  "id": 33,
+  "name": "Fur 'n' Seek",
+  "members": false,
+  "varbitValues": [
+    [
+      6307,
+      1,
+      5
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

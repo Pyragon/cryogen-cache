@@ -1,0 +1,17 @@
+{
+  "id": 114,
+  "name": "Chosen Commander",
+  "members": false,
+  "varbitValues": [
+    [
+      1938,
+      10,
+      110
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 0,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

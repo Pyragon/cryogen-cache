@@ -1,0 +1,44 @@
+//script5686(5686)(int arg0, string arg1)(void)
+int stack_dump0;
+cc_create(if_gethash(1218, 72), 5, if_getnextsubid(if_gethash(1218, 72)));
+cc_setgraphic(9042)
+cc_setsize(130, 105, 0, 0);
+cc_setposition(5, arg0, 0, 0);
+cc_create(if_gethash(1218, 72), 5, if_getnextsubid(if_gethash(1218, 72)));
+cc_setgraphic(9045)
+cc_setsize(130, 105, 0, 0);
+cc_setposition(5, arg0, 2, 0);
+cc_create(if_gethash(1218, 72), 5, if_getnextsubid(if_gethash(1218, 72)));
+cc_setgraphic(9043)
+cc_setsize(138, 105, 0, 0);
+cc_setposition(135, arg0, 0, 0);
+cc_create(if_gethash(1218, 72), 5, if_getnextsubid(if_gethash(1218, 72)));
+cc_setgraphic(9044)
+cc_setsize(138, 105, 0, 0);
+cc_setposition(135, arg0, 2, 0);
+cc_create(if_gethash(1218, 72), 5, if_getnextsubid(if_gethash(1218, 72)));
+cc_setgraphic(2270)
+cc_setsize(64, 64, 0, 0);
+cc_setposition(30, calc(arg0 + 25), 0, 0);
+cc_create(if_gethash(1218, 72), 4, if_getnextsubid(if_gethash(1218, 72)));
+cc_setposition(135, arg0, 0, 0);
+cc_settextfont(4040);
+cc_settextshadow(0);
+cc_setcolor(0);
+cc_settextalign(1, 1, 15);
+cc_setsize(380, 100, 0, 0);
+cc_settext(arg1);
+stack_dump0 = calc(arg0 + 105);
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

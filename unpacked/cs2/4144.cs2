@@ -1,0 +1,15 @@
+//script4144(4144)(int arg0, int arg1, int arg2)(void)
+int ivar3;
+ivar3 = calc(calc(12 * paramheight(if_getwidth(arg1), 495, load_varc_string(343))) + 5);
+if_setsize(0, ivar3, 1, 0, arg1)
+instr6185(0, ivar3, arg0)
+if_setscrollpos(0, 0, arg0);
+if_settext(arg1, load_varc_string(343));
+if (ivar3 <= if_getheight(arg0)) {
+	cc_deleteall(arg2)
+	if_sethide(arg2, 1)
+	return;
+}
+if_sethide(arg2, 0)
+script31(arg2, arg0, 798, 795, 796, 797, 793, 794);
+return;

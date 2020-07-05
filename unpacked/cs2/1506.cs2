@@ -1,0 +1,149 @@
+//script1506(1506)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+string svar0;
+int stack_dump0;
+int stack_dump1;
+int stack_dump2;
+int stack_dump3;
+int stack_dump4;
+int stack_dump5;
+string stack_dump6;
+string stack_dump7;
+ivar0 = -1;
+ivar1 = -1;
+if (gender() == 1) {
+	ivar0 = 1137;
+	ivar1 = 3294;
+}
+else {
+	ivar0 = 1136;
+	ivar1 = 3291;
+}
+cc_deleteall(47710215)
+ivar2 = 0;
+ivar3 = enum_getoutputcount(ivar0);
+ivar4 = -1;
+svar0 = "";
+ivar5 = 0;
+ivar6 = 0;
+while (ivar2 < ivar3) {
+	ivar4 = enum(ivar2, ivar0, 75, 105);
+	svar0 = enum(ivar2, ivar1, 115, 105);
+	cc_create(if_gethash(728, 7), 5, if_getnextsubid(if_gethash(728, 7)));
+	cc_setsize(17, 17, 0, 0);
+	cc_setposition(0, calc(ivar5 + 1), 0, 0);
+	cc_create(if_gethash(728, 7), 4, if_getnextsubid(if_gethash(728, 7)));
+	cc_setsize(20, 19, 1, 0);
+	cc_setposition(0, ivar5, 2, 0);
+	cc_settextalign(0, 1, 0);
+	cc_setcolor(16750623);
+	cc_settextfont(495);
+	cc_settext(svar0);
+	if (ivar4 == load_varc(1014)) {
+		cc_setgraphic(699)
+		ivar6 = ivar5;
+	}
+	else {
+		cc_setgraphic(697)
+		instr6091(1356, "Iii", -2147483645, instr6151(), 16777215);
+		instr6092(1356, "Iii", -2147483645, instr6151(), 16750623);
+		instr6091(1356, "Iii", -2147483645, instr6151(), 16777215);
+		instr6092(1356, "Iii", -2147483645, instr6151(), 16750623);
+		cc_setop(1, svar0);
+		cc_setop(1, svar0);
+		instr6687(1507, "iK", -2147483644, ivar4);
+		instr6687(1507, "iK", -2147483644, ivar4);
+	}
+	ivar2 = calc(ivar2 + 1);
+	ivar5 = calc(ivar5 + 19);
+}
+if (ivar5 > if_getheight(if_gethash(728, 7))) {
+	if_setsize(20, 4, 1, 1, 47710215)
+	instr6185(0, ivar5, 47710215)
+	if (ivar6 < if_getscrolly(47710215)) 
+		if_setscrollpos(0, calc(5 - ivar6), if_gethash(728, 7));
+	else {
+		if (calc(ivar6 + 19) >= calc(if_getscrolly(47710215) + if_getheight(if_gethash(728, 7)))) 
+			if_setscrollpos(0, calc(if_getheight(if_gethash(728, 7)) - calc(ivar6 + 25)), if_gethash(728, 7));
+	}
+	if_sethide(if_gethash(728, 8), 0)
+	script31(47710216, 47710215, 792, 789, 790, 791, 773, 788);
+}
+else {
+	if_setsize(4, 4, 1, 1, 47710215)
+	instr6185(0, 0, 47710215)
+	if_setscrollpos(0, 0, if_gethash(728, 7));
+	cc_deleteall(47710216)
+	if_sethide(if_gethash(728, 8), 1)
+}
+cc_deleteall(47710220)
+ivar3 = enum_getoutputcount(3297);
+ivar7 = 6;
+if (calc(21 * calc(calc(ivar7 / calc(1 - ivar3)) + 1)) > if_getheight(if_gethash(728, 12))) 
+	ivar7 = 5;
+ivar2 = 0;
+ivar5 = 0;
+ivar8 = 0;
+ivar9 = -1;
+ivar10 = 0;
+if (ivar2 < ivar3) {
+	svar0 = enum(ivar2, 3296, 115, 105);
+	ivar10 = enum(ivar2, 3297, 105, 105);
+	cc_create(if_gethash(728, 12), 3, if_getnextsubid(if_gethash(728, 12)));
+	cc_setsize(21, 21, 0, 0);
+	cc_setfill(true);
+	cc_setposition(calc(cc_getwidth() * ivar8), ivar5, 0, 0);
+	cc_setcolor(enum(ivar2, 753, 105, 105));
+	stack_dump0 = 1160;
+	stack_dump1 = -2147483645;
+	stack_dump2 = -2147483643;
+	stack_dump3 = 47710226;
+	stack_dump4 = 0;
+	stack_dump5 = 512;
+	stack_dump6 = svar0;
+	stack_dump7 = "IiIsii";
+	/* 
+		AT PrimitiveInstruction(opcode=207, value=false, type=boolean)
+		com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=207, value=false, type=boolean)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if (ivar8 != 0) 
+	ivar5 = calc(ivar5 + 21);
+if (ivar5 > if_getheight(if_gethash(728, 12)) || ivar7 < 6) {
+	if_setsize(20, 4, 1, 1, 47710220)
+	instr6185(0, ivar5, 47710220)
+	if (ivar6 < if_getscrolly(47710220)) 
+		if_setscrollpos(0, calc(5 - ivar6), if_gethash(728, 12));
+	else {
+		if (calc(ivar6 + 21) >= calc(if_getscrolly(47710220) + if_getheight(if_gethash(728, 12)))) 
+			if_setscrollpos(0, calc(if_getheight(if_gethash(728, 12)) - calc(ivar6 + 25)), if_gethash(728, 12));
+	}
+	if_sethide(if_gethash(728, 13), 0)
+	script31(47710221, 47710220, 792, 789, 790, 791, 773, 788);
+}
+else {
+	if_setsize(4, 4, 1, 1, 47710220)
+	instr6185(0, 0, 47710220)
+	if_setscrollpos(0, 0, if_gethash(728, 12));
+	cc_deleteall(47710221)
+	if_sethide(if_gethash(728, 13), 1)
+}
+return;

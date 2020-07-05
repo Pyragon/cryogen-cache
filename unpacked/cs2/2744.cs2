@@ -1,0 +1,70 @@
+//script2744(2744)()(void)
+int ivar0;
+ivar0 = 0;
+while (ivar0 < 31) {
+	cc_create(if_gethash(204, 86), 4, ivar0);
+	cc_setsize(46, 20, 0, 0);
+	cc_setposition(4, calc(20 * ivar0), 0, 0);
+	cc_settextfont(496);
+	cc_settextalign(1, 1, 0);
+	cc_settext(to_string(calc(ivar0 + 1)));
+	cc_setcolor(16777215);
+	cc_setop(1, "Select");
+	instr6687(2748, "i");
+	instr6091(1356, "Iii", -2147483645, -2147483643, 16723968);
+	instr6092(1356, "Iii", -2147483645, -2147483643, 16777215);
+	ivar0 = calc(ivar0 + 1);
+}
+instr6185(0, calc(20 * ivar0), 13369430)
+script31(13369431, 13369430, 792, 789, 790, 791, 773, 788);
+ivar0 = 0;
+while (ivar0 < 12) {
+	cc_create(if_gethash(204, 98), 4, ivar0);
+	cc_setsize(158, 20, 0, 0);
+	cc_setposition(4, calc(20 * ivar0), 0, 0);
+	cc_settextfont(496);
+	cc_settextalign(1, 1, 0);
+	cc_settext(enum(ivar0, 950, 115, 105));
+	cc_setcolor(16777215);
+	cc_setop(1, "Select");
+	instr6687(2749, "i");
+	instr6091(1356, "Iii", -2147483645, -2147483643, 16723968);
+	instr6092(1356, "Iii", -2147483645, -2147483643, 16777215);
+	ivar0 = calc(ivar0 + 1);
+}
+instr6185(0, calc(20 * ivar0), 13369442)
+script31(13369443, 13369442, 792, 789, 790, 791, 773, 788);
+ivar0 = 0;
+while (ivar0 < 90) {
+	cc_create(if_gethash(204, 110), 4, ivar0);
+	cc_setsize(70, 20, 0, 0);
+	cc_setposition(6, calc(calc(20 * ivar0) + 1), 0, 0);
+	cc_settextfont(496);
+	cc_settextalign(1, 1, 0);
+	cc_settext(to_string(calc(ivar0 - 2009)));
+	cc_setcolor(16777215);
+	cc_setop(1, "Select");
+	instr6687(2750, "i");
+	instr6091(1356, "Iii", -2147483645, -2147483643, 16723968);
+	instr6092(1356, "Iii", -2147483645, -2147483643, 16777215);
+	ivar0 = calc(ivar0 + 1);
+}
+instr6185(0, calc(20 * ivar0), 13369454)
+script31(13369455, 13369454, 792, 789, 790, 791, 773, 788);
+if_sethide(if_gethash(204, 86), 1)
+if_sethide(if_gethash(204, 77), 1)
+if_sethide(if_gethash(204, 87), 1)
+if_sethide(if_gethash(204, 98), 1)
+if_sethide(if_gethash(204, 89), 1)
+if_sethide(if_gethash(204, 99), 1)
+if_sethide(if_gethash(204, 110), 1)
+if_sethide(if_gethash(204, 111), 1)
+if_sethide(if_gethash(204, 101), 1)
+if_sethide(if_gethash(204, 26), 1)
+if_sethide(if_gethash(204, 27), 1)
+if_sethide(if_gethash(204, 28), 1)
+if_sethide(if_gethash(204, 29), 0)
+if_sethide(if_gethash(204, 45), 0)
+if_sethide(if_gethash(204, 61), 0)
+if_sethide(if_gethash(204, 113), 1)
+return;

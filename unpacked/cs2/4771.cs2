@@ -1,0 +1,41 @@
+//script4771(4771)(int arg0, int arg1)(void)
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int stack_dump0;
+ivar2 = 38;
+ivar3 = calc(8 / arg1);
+ivar4 = 5470;
+cc_create(arg0, 3, arg1);
+cc_setposition(2, calc(ivar3 * ivar2), 0, 0);
+cc_setsize(4, 10, 1, 0);
+if (calc(2 % ivar3) == 0) 
+	cc_setcolor(1578773);
+else 
+	cc_setcolor(2170652);
+cc_setfill(true);
+ivar5 = calc(arg1 + 1);
+instr6091(4779, "Iii", arg0, ivar5, 1);
+instr6092(4779, "Iii", arg0, ivar5, 0);
+arg1 = calc(arg1 + 1);
+cc_create(arg0, 5, arg1);
+cc_setgraphic(ivar4)
+cc_setsize(4, 10, 1, 0);
+cc_setposition(2, calc(ivar3 * ivar2), 0, 0);
+cc_sethide(1);
+arg1 = calc(arg1 + 1);
+stack_dump0 = arg1;
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

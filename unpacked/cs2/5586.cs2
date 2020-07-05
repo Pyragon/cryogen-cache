@@ -1,0 +1,10 @@
+//script5586(5586)(int arg0, int arg1)(void)
+int ivar2;
+ivar2 = 240;
+if (string_length(if_gettext(arg1)) > 0) {
+	ivar2 = calc(paramwidth(500, 4040, if_gettext(arg1)) + 80);
+	if (ivar2 > if_getwidth(arg0)) 
+		if_setsize(ivar2, 30, 0, 0, arg0)
+	instr6342(arg0, None, "");
+}
+return;

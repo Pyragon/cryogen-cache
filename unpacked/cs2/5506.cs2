@@ -1,0 +1,40 @@
+//script5506(5506)(int arg0, int arg1, int arg2)(void)
+int ivar3;
+ivar3 = if_getscrolly(arg1);
+switch (arg1) {
+	case 38666248:
+		if (arg2 > 0) {
+			script191(arg1, ivar3, 0);
+			/* 
+				AT PrimitiveInstruction(opcode=168, value=3, type=int)
+				java.lang.RuntimeException: Stack underflow
+					at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:468)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		script191(arg1, ivar3, 1);
+		/* 
+			AT PrimitiveInstruction(opcode=168, value=3, type=int)
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:468)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+}
+ivar3 = calc(ivar3 + calc(45 * arg2));
+if (cc_find(arg0, 3) == 1) 
+	script5507(arg0, arg1, ivar3, 1);
+return;

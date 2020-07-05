@@ -1,0 +1,59 @@
+//script1382(1382)(int arg0, int arg1, int arg2, int arg3)(void)
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+string svar0;
+string svar1;
+int stack_dump0;
+switch (arg0) {
+	case 84:
+		if (arg3 != -1) {
+			stack_dump0 = arg3;
+			/* 
+				AT PrimitiveInstruction(opcode=410, value=false, type=boolean)
+				com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=410, value=false, type=boolean)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		store_varc(31, "")
+		script308(arg2);
+		return;
+	case 96:
+		script1603(-1, 0);
+		return;
+	case 97:
+		script1603(1, 0);
+		return;
+	case 98:
+		script1603(0, 1);
+		return;
+	case 99:
+		script1603(0, -1);
+		return;
+}
+script74(4, arg0, arg1, load_varc_string(31));
+/* 
+	AT PrimitiveInstruction(opcode=41, value=0, type=int)
+	java.lang.RuntimeException: Stack underflow
+		at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:301)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

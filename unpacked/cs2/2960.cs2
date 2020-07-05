@@ -1,0 +1,20 @@
+//script2960(2960)(int arg0, int arg1, int arg2, int arg3, int arg4, string arg5)(void)
+if (arg0 != -1) {
+	if (arg4 == 1) 
+		if_setgraphic(2525, arg0)
+	else 
+		if_setgraphic(2524, arg0)
+}
+if (arg1 != -1) {
+	if (arg4 == 1) {
+		if_settext(arg0, arg5);
+		if_setcolor(16439174, arg2);
+		if_setsize(calc(stringwidth(arg5, arg3) + 23), if_getheight(arg1), 0, 0, arg1)
+	}
+	else {
+		if_settext(arg2, arg5);
+		if_setcolor(15182884, arg2);
+		if_setsize(calc(stringwidth(arg5, arg3) + 23), if_getheight(arg1), 0, 0, arg1)
+	}
+}
+return;

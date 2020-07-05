@@ -1,0 +1,91 @@
+//script5476(5476)(int arg0, int arg1)(void)
+int ivar2;
+int ivar3;
+int ivar4;
+string svar0;
+string svar1;
+string svar2;
+ivar2 = -1;
+svar0 = "";
+svar1 = "";
+ivar3 = -1;
+svar2 = "";
+ivar4 = 0;
+if (load_varpbit(9987) == 0) {
+	if_sethide(if_gethash(1163, 103), 1)
+	if_sethide(if_gethash(1163, 104), 0)
+}
+else {
+	if_sethide(if_gethash(1163, 103), 0)
+	if_sethide(if_gethash(1163, 104), 1)
+}
+if (load_varpbit(10849) == 0) {
+	if_sethide(if_gethash(1163, 179), 1)
+	if_sethide(if_gethash(1163, 180), 0)
+}
+else {
+	if_sethide(if_gethash(1163, 179), 0)
+	if_sethide(if_gethash(1163, 180), 1)
+}
+if (load_varpbit(10850) == 0) {
+	if_sethide(if_gethash(1163, 181), 1)
+	if_sethide(if_gethash(1163, 182), 0)
+}
+else {
+	if_sethide(if_gethash(1163, 181), 0)
+	if_sethide(if_gethash(1163, 182), 1)
+}
+if_settext(if_gethash(1163, 34), to_string(load_varpbit(9990)));
+if (load_varpbit(9990) > 0) 
+	if_settext(if_gethash(1163, 38), to_string(calc(3 / load_varpbit(9990))));
+else 
+	if_settext(if_gethash(1163, 38), "0");
+store_varc(2, 0)
+sound_vorbis_volume(8099, 1, 0, 255)
+if (arg1 == 0) {
+	if_settext(if_gethash(1163, 50), to_string(calc(load_varpbit(9984) + 1)));
+	store_varc(1678, calc(1 + random(48)))
+	store_varc(1679, 30)
+	store_varc(1677, arg0)
+	if_sethide(if_gethash(1163, 89), 1)
+	instr6342(if_gethash(1163, 45), 5477, "");
+}
+else {
+	store_varc(1677, arg0)
+	if_settext(if_gethash(1163, 50), to_string(load_varpbit(9984)));
+	ivar2 = enum(load_varc(1677), 5213, 74, 105);
+	svar0 = struct_param(ivar2, 2095);
+	svar1 = struct_param(ivar2, 2184);
+	ivar3 = struct_param(ivar2, 2101);
+	if (struct_param(ivar2, 2097) == 1) 
+		svar2 = "<col=f5b241>" + "Arena" + "</col>" + ": Single-way combat.";
+	else if (struct_param(ivar2, 2097) == 2) 
+		svar2 = "<col=f5b241>" + "Arena" + "</col>" + ": Multi-way combat.";
+	else if (struct_param(ivar2, 2097) == 3) 
+		svar2 = "<col=f5b241>" + "Arena" + "</col>" + ": Single-way combat with small blocking pillars.";
+	else if (struct_param(ivar2, 2097) == 4) 
+		svar2 = "<col=f5b241>" + "Arena" + "</col>" + ": Multi-way combat with large blocking pillars.";
+	else {
+		if (struct_param(ivar2, 2097) == 5) 
+			svar2 = "<col=f5b241>" + "Arena" + "</col>" + ": Multi-way combat with podiums";
+	}
+	if_settext(if_gethash(1163, 88), svar0);
+	if_settext(if_gethash(1163, 40), svar1 + "<br>" + "<br>" + svar2);
+	script5475(76218408, 76218411, 76218410, svar1 + "<br>" + "<br>" + svar2);
+	if_setgraphic(ivar3, 76218393)
+	script5459(1);
+	/* 
+		AT PrimitiveInstruction(opcode=168, value=4, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:468)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+return;

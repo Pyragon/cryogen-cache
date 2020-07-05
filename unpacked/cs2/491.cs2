@@ -1,0 +1,15 @@
+//script491(491)(int arg0)(void)
+switch (arg0) {
+	case 66519136:
+		if_setcolor(16777215, if_gethash(1015, 100));
+		break;
+	case 66519130:
+		if_setcolor(16777215, if_gethash(1015, 92));
+		break;
+	case 66519124:
+		if_setcolor(16777215, if_gethash(1015, 86));
+		break;
+	case 66519118:
+		if_setcolor(16777215, if_gethash(1015, 80));
+}
+return;

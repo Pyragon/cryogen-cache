@@ -1,0 +1,65 @@
+//script5346(5346)()(void)
+if_settext(if_gethash(1180, 84), to_string(load_varpbit(10301)));
+if_settext(if_gethash(1180, 70), to_string(load_varc(1732)));
+if_settext(if_gethash(1180, 56), to_string(load_varpbit(10313)) + "%");
+if (load_varc(1731) != 1) 
+	if_settext(if_gethash(1180, 77), to_string(load_varc(1731)) + " sets");
+else 
+	if_settext(if_gethash(1180, 77), "1 set");
+switch (load_varc(1731)) {
+	case 0:
+		if_setcolor(12857645, if_gethash(1180, 77));
+		break;
+	case 1:
+		if_setcolor(12857645, if_gethash(1180, 77));
+		break;
+	case 2:
+		if_setcolor(13681696, if_gethash(1180, 77));
+		break;
+	case 3:
+		if_setcolor(13681696, if_gethash(1180, 77));
+		break;
+	case 4:
+		if_setcolor(13681696, if_gethash(1180, 77));
+		break;
+	case 5:
+		if_setcolor(2672721, if_gethash(1180, 77));
+		break;
+	case 6:
+		if_setcolor(2672721, if_gethash(1180, 77));
+}
+if (load_varc(1732) < 3) 
+	if_setcolor(12857645, if_gethash(1180, 70));
+else 
+	if_setcolor(2672721, if_gethash(1180, 70));
+switch (load_varc(1730)) {
+	case 0:
+		if_settext(if_gethash(1180, 63), "None");
+		if_setcolor(12857645, if_gethash(1180, 63));
+		break;
+	case 1:
+		if_settext(if_gethash(1180, 63), "A");
+		if_setcolor(13681696, if_gethash(1180, 63));
+		break;
+	case 2:
+		if_settext(if_gethash(1180, 63), "B");
+		if_setcolor(13681696, if_gethash(1180, 63));
+		break;
+	case 3:
+		if_settext(if_gethash(1180, 63), "A & B");
+		if_setcolor(2672721, if_gethash(1180, 63));
+}
+if_settext(if_gethash(1180, 49), to_string(load_varpbit(10304)) + " mins");
+if (load_varpbit(10304) < 4) 
+	if_setcolor(12857645, if_gethash(1180, 49));
+else 
+	if_setcolor(2672721, if_gethash(1180, 49));
+if (load_varc(1733) == 0) {
+	if_setgraphic(3302, 77332510)
+	if_sethide(if_gethash(1180, 11), 0)
+}
+else {
+	if_setgraphic(3303, 77332510)
+	if_sethide(if_gethash(1180, 11), 1)
+}
+return;

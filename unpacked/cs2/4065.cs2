@@ -1,0 +1,49 @@
+//script4065(4065)(int arg0)(void)
+script4066();
+switch (arg0) {
+	case 69337110:
+		if_setgraphic(4444, 69337107)
+		if_settext(if_gethash(1058, 46), "Currently selected: Balance tokens - earned through the keg balancing minigame.");
+		if_setposition(-160, 13, 1, 0, arg0)
+		if (load_varpbit(8666) < 200) 
+			script4061();
+		else 
+			script4062();
+		break;
+	case 69337111:
+		if_setgraphic(4445, 69337105)
+		if_settext(if_gethash(1058, 46), "Currently selected: Strength tokens - earned through the shot put minigame.");
+		if_setposition(-80, 13, 1, 0, arg0)
+		if (load_varpbit(8662) < 200) 
+			script4061();
+		else 
+			script4062();
+		break;
+	case 69337112:
+		if_setgraphic(4446, 69337103)
+		if_settext(if_gethash(1058, 46), "Currently selected: Combat tokens - earned through the animator minigame.");
+		if_setposition(0, 13, 1, 0, arg0)
+		if (load_varpbit(8665) < 200) 
+			script4061();
+		else 
+			script4062();
+		break;
+	case 69337114:
+		if_setgraphic(4447, 69337101)
+		if_settext(if_gethash(1058, 46), "Currently selected: Defence tokens - earned through the catapult minigame.");
+		if_setposition(80, 13, 1, 0, arg0)
+		if (load_varpbit(8663) < 200) 
+			script4061();
+		else 
+			script4062();
+		break;
+	case 69337113:
+		if_setgraphic(4448, 69337099)
+		if_settext(if_gethash(1058, 46), "Currently selected: Attack tokens - earned through the dummy minigame.");
+		if_setposition(160, 13, 1, 0, arg0)
+		if (load_varpbit(8664) < 200) 
+			script4061();
+		else 
+			script4062();
+}
+return;

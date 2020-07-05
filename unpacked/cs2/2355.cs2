@@ -1,0 +1,11 @@
+//script2355(2355)(int arg0, int arg1)(void)
+store_varc(92, arg0)
+if (arg0 == 1) {
+	instr6342(if_gethash(916, 26), 2356, "i");
+	script2192(0, arg1);
+}
+else {
+	instr6342(if_gethash(916, 26), 2356, "i");
+	script2192(1, arg1);
+}
+return;

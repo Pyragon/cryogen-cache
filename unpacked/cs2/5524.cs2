@@ -1,0 +1,17 @@
+//script5524(5524)(int arg0)(void)
+if (if_gethide(if_gethash(916, 4)) == 0) {
+	if (arg0 == 1) {
+		if_setgraphic(3860, 60030977)
+		if_setgraphic(3861, 60030978)
+		if_setgraphic(3862, 60030976)
+		if_setgraphic(3884, 60030979)
+	}
+	if (arg0 == 0) {
+		if_setgraphic(3857, 60030977)
+		if_setgraphic(3858, 60030978)
+		if_setgraphic(3859, 60030976)
+		if_setgraphic(3883, 60030979)
+		script41(59310109);
+	}
+}
+return;

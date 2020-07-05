@@ -1,0 +1,49 @@
+//script1796(1796)(int arg0)(void)
+int stack_dump0;
+int stack_dump1;
+int stack_dump2;
+int stack_dump3;
+int stack_dump4;
+string stack_dump5;
+store_varc(246, 0)
+store_varc(247, 0)
+store_varc(248, 0)
+store_varc(249, 0)
+store_varc(250, 0)
+store_varc(251, 0)
+if (world_members() == 0) {
+	store_varc(252, 1)
+	store_varc(253, 0)
+	script1775();
+	script1778();
+}
+else {
+	store_varc(252, 0)
+	store_varc(253, 0)
+}
+store_varc(254, 0)
+store_varc(255, 0)
+store_varc(256, 0)
+store_varc(257, 0)
+store_varc(258, 0)
+store_varc(259, 0)
+instr6237(arg0, 1836, "Y", 2, 1305, 1149, );
+instr6257(arg0, 1837, "Y", 1, 259, );
+stack_dump0 = 1838;
+stack_dump1 = arg0;
+stack_dump2 = 37;
+stack_dump3 = 1;
+stack_dump4 = arg0;
+stack_dump5 = "IY";
+/* 
+	AT PrimitiveInstruction(opcode=768, value=false, type=boolean)
+	com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=768, value=false, type=boolean)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

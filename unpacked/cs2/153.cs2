@@ -1,0 +1,38 @@
+//script153(153)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, string arg6, string arg7, string arg8, string arg9, string arg10, string arg11, string arg12, string arg13, string arg14)(void)
+int ivar6;
+int ivar7;
+int ivar8;
+int stack_dump0;
+cc_deleteall(arg0)
+ivar6 = 0;
+ivar7 = 0;
+if (arg2 > 1) {
+	stack_dump0 = arg0;
+	/* 
+		AT PrimitiveInstruction(opcode=496, value=false, type=boolean)
+		com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=496, value=false, type=boolean)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if (arg3 > 1) {
+	if (if_getscrollheight(arg0) > 0) 
+		ivar7 = calc(calc(1 - arg3) / calc(calc(arg3 * 32) - if_getscrollheight(arg0)));
+	else 
+		ivar7 = calc(calc(1 - arg3) / calc(calc(arg3 * 32) - if_getheight(arg0)));
+}
+ivar8 = 0;
+while (ivar8 <= calc(arg3 * arg2)) {
+	cc_create(arg0, 5, ivar8);
+	cc_setsize(36, 32, 0, 0);
+	cc_setposition(calc(calc(arg2 % ivar8) * calc(36 + ivar6)), calc(calc(32 + ivar7) * calc(arg2 / ivar8)), 0, 0);
+	script154(arg1, ivar8, arg0, ivar8, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14);
+	ivar8 = calc(ivar8 + 1);
+}
+return;

@@ -1,0 +1,38 @@
+//script1626(1626)()(void)
+string svar0;
+string svar1;
+string stack_dump0;
+int stack_dump1;
+string stack_dump2;
+int stack_dump3;
+svar0 = "Curtsy";
+svar1 = "Bow";
+if (gender() > 0) {
+	if_setgraphic(2317, 30408708)
+	if_setonmouseover(if_gethash(464, 4), 38, "IIsii", -2147483645, 30408758, svar0, 50, 150);
+	stack_dump0 = svar0;
+	stack_dump1 = instr6213(1, if_gethash(464, 4));
+	stack_dump2 = svar1;
+	stack_dump3 = instr6213(2, if_gethash(464, 4));
+}
+else {
+	if_setgraphic(703, 30408708)
+	if_setonmouseover(if_gethash(464, 4), 38, "IIsii", -2147483645, 30408758, svar1, 50, 150);
+	stack_dump0 = svar0;
+	stack_dump1 = instr6213(2, if_gethash(464, 4));
+	stack_dump2 = svar1;
+	stack_dump3 = instr6213(1, if_gethash(464, 4));
+}
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, -2, -2, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:446)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

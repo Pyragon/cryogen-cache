@@ -1,0 +1,94 @@
+//script322(322)(int arg0, int arg1, int arg2, int arg3, int arg4, string arg5, string arg6, string arg7, string arg8, string arg9, string arg10)(void)
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+int ivar12;
+int ivar13;
+int ivar14;
+int ivar15;
+int ivar16;
+string svar6;
+int stack_dump0;
+cc_deleteall(arg0)
+ivar5 = 0;
+ivar6 = 0;
+instr6185(0, calc(57 * calc(calc(arg1 / calc(arg3 - arg4)) + 1)), arg0)
+ivar7 = 0;
+ivar8 = 1;
+ivar9 = 0;
+ivar10 = 0;
+ivar11 = -1;
+ivar12 = -1;
+ivar13 = -1;
+svar6 = "hello";
+ivar14 = 0;
+ivar15 = 0;
+ivar16 = 0;
+if (ivar7 < 78) {
+	ivar5 = calc(calc(16 + calc(48 * calc(arg1 % ivar7))) + calc(5 * calc(arg1 % ivar7)));
+	ivar6 = calc(calc(52 * calc(arg1 / ivar7)) + calc(5 * calc(arg1 / ivar7)));
+	cc_create(arg0, 5, ivar16);
+	ivar16 = calc(ivar16 + 1);
+	cc_setsize(48, 52, 0, 0);
+	cc_setposition(ivar5, ivar6, 0, 0);
+	cc_setgraphic(2205)
+	instr6091(6114, "Ii1", -2147483645, ivar16, 0);
+	instr6092(6114, "Ii1", -2147483645, ivar16, 1);
+	cc_create(arg0, 5, ivar16);
+	ivar16 = calc(ivar16 + 1);
+	cc_setsize(48, 52, 0, 0);
+	cc_setposition(ivar5, ivar6, 0, 0);
+	cc_setgraphic(2206)
+	cc_sethide(1);
+	cc_create(arg0, 5, ivar16);
+	cc_setsize(36, 32, 0, 0);
+	cc_setposition(calc(ivar5 + 6), calc(ivar6 + 4), 0, 0);
+	ivar12 = enum(ivar8, 1277, 111, 105);
+	ivar13 = enum(ivar8, 1188, 111, 105);
+	ivar15 = enum(item_uncert(ivar12), 1185, 105, 111);
+	if (ivar13 == 12421) 
+		script1670(ivar13, ivar13, arg0, ivar16, arg5, arg6, arg7, arg8, arg9, arg10);
+	else if (inv_total(93, item_uncert(ivar13)) > 0 && inv_total(93, item_uncert(ivar13)) >= item_param(item_uncert(ivar13), 599) && stat_base(23) >= enum(ivar15, 1472, 105, 105)) 
+		script1670(ivar13, ivar13, arg0, ivar16, arg5, arg6, arg7, arg8, arg9, arg10);
+	else 
+		script1670(enum(ivar8, 1184, 111, 105), ivar13, arg0, ivar16, arg5, arg6, arg7, arg8, arg9, arg10);
+	ivar16 = calc(ivar16 + 1);
+	cc_create(arg0, 5, ivar16);
+	ivar16 = calc(ivar16 + 1);
+	cc_setsize(12, 12, 0, 0);
+	cc_setposition(calc(ivar5 + 2), calc(ivar6 + 38), 0, 0);
+	cc_create(arg0, 4, ivar16);
+	stack_dump0 = cc_setitem_nonum(12183, 1);
+	ivar16 = calc(ivar16 + 1);
+	cc_setsize(31, 12, 0, 0);
+	cc_setposition(calc(ivar5 + 13), calc(ivar6 + 39), 0, 0);
+	cc_settextfont(494);
+	cc_setcolor(16777215);
+	cc_settextalign(2, 1, 0);
+	cc_settext(to_string(max(1, item_param(ivar13, 457))));
+	cc_settextshadow(1);
+	stack_dump0 = stack_dump0;
+	ivar7 = calc(ivar7 + 1);
+	stack_dump0 = stack_dump0;
+	ivar8 = calc(ivar8 + 1);
+	stack_dump0 = stack_dump0;
+	stack_dump0 = stack_dump0;
+	/* 
+		AT JumpInstruction(target=LabelInstruction(labelId=0))
+		com.cryo.utils.cs2.DecompilerException: Can't merge two stacks (Code is invalid).
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generateFlowBlock(CS2FlowGenerator.java:846)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:202)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+return;

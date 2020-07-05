@@ -1,0 +1,7 @@
+//script5285(5285)()(void)
+if (if_gety(if_gethash(555, 48)) < 170) {
+	sound_vorbis_rate(7557, 1, 0, 200, rsp_val1(20, 20));
+	if_setposition(if_getx(if_gethash(555, 48)), calc(if_gety(if_gethash(555, 48)) + 10), 0, 0, 36372528)
+	if_setposition(if_getx(if_gethash(555, 49)), calc(if_gety(if_gethash(555, 49)) + 10), 0, 0, 36372529)
+}
+return;

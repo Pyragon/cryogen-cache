@@ -1,0 +1,17 @@
+{
+  "id": 117,
+  "name": "Curse of Arrav",
+  "members": false,
+  "varbitValues": [
+    [
+      6289,
+      10,
+      240
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 0,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

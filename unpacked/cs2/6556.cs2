@@ -1,0 +1,215 @@
+//script6556(6556)(int arg0)(void)
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+string stack_dump0;
+int stack_dump1;
+ivar1 = 7893;
+ivar2 = 7891;
+ivar3 = 7893;
+ivar4 = 7891;
+ivar5 = calc(arg0 & 1 << load_varp(2702));
+ivar6 = 86310937;
+ivar7 = 86310939;
+switch (arg0) {
+	case 0:
+		ivar6 = 86310937;
+		ivar7 = 86310939;
+		break;
+	case 1:
+		ivar6 = 86311040;
+		ivar7 = 86311042;
+		break;
+	case 2:
+		ivar6 = 86311045;
+		ivar7 = 86311047;
+		break;
+	case 3:
+		ivar6 = 86311050;
+		ivar7 = 86311052;
+		break;
+	case 4:
+		ivar6 = 86311055;
+		ivar7 = 86311057;
+		break;
+	case 5:
+		ivar6 = 86311060;
+		ivar7 = 86311062;
+		break;
+	case 6:
+		ivar6 = 86311065;
+		ivar7 = 86311067;
+		break;
+	case 7:
+		ivar6 = 86311070;
+		ivar7 = 86311072;
+		break;
+	case 8:
+		ivar6 = 86311075;
+		ivar7 = 86311077;
+		break;
+	case 9:
+		ivar6 = 86311080;
+		ivar7 = 86311082;
+		break;
+	case 10:
+		ivar6 = 86311085;
+		ivar7 = 86311087;
+		break;
+	case 11:
+		ivar6 = 86311090;
+		ivar7 = 86311092;
+		break;
+	case 12:
+		ivar6 = 86311095;
+		ivar7 = 86311097;
+		break;
+	case 13:
+		ivar6 = 86311100;
+		ivar7 = 86311102;
+		break;
+	case 14:
+		ivar6 = 86311105;
+		ivar7 = 86311107;
+		break;
+	case 15:
+		ivar6 = 86311110;
+		ivar7 = 86311112;
+		break;
+	case 16:
+		ivar6 = 86311115;
+		ivar7 = 86311117;
+		break;
+	case 17:
+		ivar6 = 86311120;
+		ivar7 = 86311122;
+		break;
+	case 18:
+		ivar6 = 86311124;
+		ivar7 = 86311126;
+		break;
+	case 19:
+		ivar6 = 86311129;
+		ivar7 = 86311131;
+		break;
+	case 20:
+		ivar6 = 86311134;
+		ivar7 = 86311136;
+		break;
+	case 21:
+		ivar6 = 86311139;
+		ivar7 = 86311141;
+		break;
+	case 22:
+		ivar6 = 86311144;
+		ivar7 = 86311146;
+		break;
+	case 23:
+		ivar6 = 86311149;
+		ivar7 = 86311151;
+		break;
+	case 24:
+		ivar6 = 86311154;
+		ivar7 = 86311156;
+		break;
+	case 25:
+		ivar6 = 86311159;
+		ivar7 = 86311161;
+}
+if (ivar5 == 0) {
+	if_settext(ivar7, to_string(enum(arg0, 5996, 105, 105)));
+	if_setgraphic(7891, ivar6)
+	hook_mouse_press(ivar6, 44, "Id", -2147483645, ivar1);
+	hook_mouse_release(ivar6, 44, "Id", -2147483645, ivar2);
+	stack_dump0 = "Buy";
+	stack_dump1 = instr6213(1, ivar6);
+	/* 
+		AT PrimitiveInstruction(opcode=968, value=0, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:148)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if (ivar5 == 1) {
+	if (arg0 == 0 || arg0 == 8 || arg0 == 23 || arg0 == 24 || arg0 == 25) {
+		if_settext(ivar7, "Purchased");
+		if_setgraphic(7892, ivar6)
+		hook_mouse_press(ivar6, None, "");
+		hook_mouse_release(ivar6, None, "");
+		stack_dump0 = "";
+		stack_dump1 = instr6213(1, ivar6);
+		/* 
+			AT PrimitiveInstruction(opcode=968, value=0, type=int)
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:148)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	if (arg0 == 1 || arg0 == 9 || arg0 == 16) {
+		ivar1 = 7894;
+		ivar2 = 7892;
+		ivar3 = 7894;
+		ivar4 = 7892;
+		if_settext(ivar7, "Recharge");
+		if_setgraphic(7892, ivar6)
+		hook_mouse_press(ivar6, 44, "Id", -2147483645, ivar1);
+		hook_mouse_release(ivar6, 44, "Id", -2147483645, ivar2);
+		stack_dump0 = "Recharge";
+		stack_dump1 = instr6213(1, ivar6);
+		/* 
+			AT PrimitiveInstruction(opcode=968, value=0, type=int)
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:148)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	ivar1 = 7894;
+	ivar2 = 7892;
+	ivar3 = 7894;
+	ivar4 = 7892;
+	if_settext(ivar7, "Reclaim");
+	if_setgraphic(7892, ivar6)
+	hook_mouse_press(ivar6, 44, "Id", -2147483645, ivar1);
+	hook_mouse_release(ivar6, 44, "Id", -2147483645, ivar2);
+	stack_dump0 = "Reclaim";
+	stack_dump1 = instr6213(1, ivar6);
+	/* 
+		AT PrimitiveInstruction(opcode=968, value=0, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:148)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+return;

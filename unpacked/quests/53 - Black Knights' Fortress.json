@@ -1,0 +1,17 @@
+{
+  "id": 53,
+  "name": "Black Knights' Fortress",
+  "members": false,
+  "varValues": [
+    [
+      130,
+      1,
+      4
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 0,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

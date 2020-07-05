@@ -1,0 +1,17 @@
+{
+  "id": 35,
+  "name": "Forgiveness of a Chaos Dwarf",
+  "members": false,
+  "varbitValues": [
+    [
+      6471,
+      10,
+      80
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

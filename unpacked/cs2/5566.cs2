@@ -1,0 +1,6 @@
+//script5566(5566)()(void)
+if_setcolor(16750623, if_gethash(631, 71));
+if_setcolor(16750623, if_gethash(631, 70));
+if_setcolor(16750623, if_gethash(335, 1));
+if_setcolor(16750623, if_gethash(335, 0));
+return;

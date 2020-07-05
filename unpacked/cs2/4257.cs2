@@ -1,0 +1,9 @@
+//script4257(4257)(int arg0)(void)
+if (instr6004(arg0) == 1) {
+	cc_setposition(0, 0, 1, 1);
+	cc_setsize(16, 15, 0, 0);
+	cc_setgraphic(5450)
+	instr6687(29, "");
+	cc_setop(1, "Close");
+}
+return;

@@ -1,0 +1,198 @@
+//script793(793)(int arg0, int arg1, int arg2, int arg3, int arg4, string arg5, string arg6, string arg7, string arg8, string arg9)(void)
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+int ivar12;
+int ivar13;
+int ivar14;
+int ivar15;
+int ivar16;
+int ivar17;
+int ivar18;
+int ivar19;
+int ivar20;
+int ivar21;
+int ivar22;
+int ivar23;
+int ivar24;
+int ivar25;
+int ivar26;
+int ivar27;
+int ivar28;
+int ivar29;
+int ivar30;
+int ivar31;
+int ivar32;
+int ivar33;
+int ivar34;
+string svar5;
+int stack_dump0;
+int stack_dump1;
+int stack_dump2;
+int stack_dump3;
+int stack_dump4;
+int stack_dump5;
+int stack_dump6;
+int stack_dump7;
+int stack_dump8;
+int stack_dump9;
+int stack_dump10;
+int stack_dump11;
+int stack_dump12;
+int stack_dump13;
+int stack_dump14;
+int stack_dump15;
+int stack_dump16;
+int stack_dump17;
+int stack_dump18;
+int stack_dump19;
+int stack_dump20;
+int stack_dump21;
+int stack_dump22;
+int stack_dump23;
+int stack_dump24;
+string stack_dump25;
+string stack_dump26;
+cc_deleteall(arg0)
+ivar5 = 0;
+ivar6 = 0;
+instr6185(0, calc(57 * calc(calc(arg1 / calc(arg3 - arg4)) + 1)), arg0)
+ivar7 = 0;
+ivar8 = 1;
+ivar9 = 0;
+ivar10 = 0;
+ivar11 = -1;
+ivar12 = 12525;
+ivar13 = 12530;
+ivar14 = 2859;
+ivar15 = 12527;
+ivar16 = -1;
+ivar17 = -1;
+ivar18 = -1;
+ivar19 = -1;
+ivar20 = -1;
+ivar21 = -1;
+ivar22 = 1;
+ivar23 = 7;
+ivar24 = 1;
+ivar25 = 1;
+ivar26 = 0;
+ivar27 = 0;
+ivar28 = 0;
+ivar29 = 0;
+ivar30 = 0;
+ivar31 = 0;
+svar5 = "hello";
+ivar32 = 0;
+globalarray_0 = new obj[10];
+ivar33 = -1;
+ivar34 = 0;
+if (ivar7 <= calc(arg3 - arg4)) {
+	ivar5 = calc(calc(16 + calc(48 * calc(arg1 % ivar7))) + calc(5 * calc(arg1 % ivar7)));
+	ivar6 = calc(calc(52 * calc(arg1 / ivar7)) + calc(5 * calc(arg1 / ivar7)));
+	cc_create(arg0, 5, ivar34);
+	ivar34 = calc(ivar34 + 1);
+	cc_setsize(48, 52, 0, 0);
+	cc_setposition(ivar5, ivar6, 0, 0);
+	cc_setgraphic(2205)
+	instr6091(6114, "Ii1", -2147483645, ivar34, 0);
+	instr6092(6114, "Ii1", -2147483645, ivar34, 1);
+	cc_create(arg0, 5, ivar34);
+	ivar34 = calc(ivar34 + 1);
+	cc_setsize(48, 52, 0, 0);
+	cc_setposition(ivar5, ivar6, 0, 0);
+	cc_setgraphic(2206)
+	cc_sethide(1);
+	cc_create(arg0, 5, ivar34);
+	cc_setsize(36, 32, 0, 0);
+	cc_setposition(calc(ivar5 + 6), calc(ivar6 + 4), 0, 0);
+	ivar33 = enum(ivar8, 1182, 111, 105);
+	if (ivar8 == 1) {
+		script795(ivar33);
+		/* 
+			AT JumpInstruction(target=LabelInstruction(labelId=3))
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:182)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	if (ivar33 == 12292) 
+		script794(ivar33, ivar33, arg0, ivar34, arg5, arg6, arg7, arg8, arg9);
+	else 
+		script794(enum(ivar8, 1183, 111, 105), ivar33, arg0, ivar34, arg5, arg6, arg7, arg8, arg9);
+	svar5 = enum(ivar33, 1187, 115, 111);
+	ivar32 = enum(ivar33, 1185, 105, 111);
+	if (ivar8 == 1) {
+		stack_dump0 = 770;
+		stack_dump1 = -2147483643;
+		stack_dump2 = 44040216;
+		stack_dump3 = 44040208;
+		stack_dump4 = ivar32;
+		stack_dump5 = ivar12;
+		stack_dump6 = 1;
+		stack_dump7 = ivar13;
+		stack_dump8 = ivar23;
+		stack_dump9 = ivar14;
+		stack_dump10 = ivar24;
+		stack_dump11 = ivar15;
+		stack_dump12 = ivar25;
+		stack_dump13 = ivar16;
+		stack_dump14 = ivar26;
+		stack_dump15 = ivar17;
+		stack_dump16 = ivar27;
+		stack_dump17 = ivar18;
+		stack_dump18 = ivar28;
+		stack_dump19 = ivar19;
+		stack_dump20 = ivar29;
+		stack_dump21 = ivar20;
+		stack_dump22 = ivar30;
+		stack_dump23 = ivar21;
+		stack_dump24 = ivar31;
+		stack_dump25 = svar5;
+		stack_dump26 = "iIIisoioioioioioioioioioi";
+		/* 
+			AT PrimitiveInstruction(opcode=207, value=false, type=boolean)
+			com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=207, value=false, type=boolean)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	svar5 = "You do not have access to this type of summoning pouch.";
+	stack_dump0 = 800;
+	stack_dump1 = -2147483643;
+	stack_dump2 = 44040216;
+	stack_dump3 = 44040208;
+	stack_dump4 = ivar32;
+	stack_dump25 = svar5;
+	stack_dump26 = "iIIis";
+	/* 
+		AT PrimitiveInstruction(opcode=207, value=false, type=boolean)
+		com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=207, value=false, type=boolean)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+return;

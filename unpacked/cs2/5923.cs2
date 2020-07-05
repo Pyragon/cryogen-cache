@@ -1,0 +1,8 @@
+//script5923(5923)()(void)
+int ivar0;
+int ivar1;
+ivar0 = 82116655;
+ivar1 = if_getwidth(ivar0);
+if_setsize(ivar1, 1, 0, 0, ivar0)
+instr6342(ivar0, 5924, "I");
+return;

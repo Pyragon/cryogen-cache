@@ -1,0 +1,17 @@
+{
+  "id": 89,
+  "name": "Tai Bwo Wannai Trio",
+  "members": false,
+  "varValues": [
+    [
+      320,
+      1,
+      6
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

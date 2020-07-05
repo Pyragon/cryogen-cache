@@ -1,0 +1,11 @@
+//script5003(5003)(int arg0)(void)
+switch (arg0) {
+	case 75497500:
+		if (load_varpbit(9950) == 1) 
+			if_setgraphic(5523, 75497474)
+		break;
+	case 75497548:
+		if (load_varpbit(9950) == 0) 
+			if_setgraphic(5523, 75497549)
+}
+return;

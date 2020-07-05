@@ -1,0 +1,17 @@
+{
+  "id": 20,
+  "name": "Swept Away",
+  "members": false,
+  "varbitValues": [
+    [
+      5448,
+      5,
+      50
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 3143
+}

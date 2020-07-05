@@ -1,0 +1,10 @@
+//script3017(3017)()(void)
+script3018();
+if_sethide(if_gethash(906, 56), 1)
+if (if_gethide(enum(5, 941, 73, 105)) == 0) 
+	script3161(1);
+else {
+	if (if_gethide(enum(3, 941, 73, 105)) == 0) 
+		script4556(1);
+}
+return;

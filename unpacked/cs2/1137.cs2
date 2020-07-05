@@ -1,0 +1,12 @@
+//script1137(1137)(int arg0, int arg1)(void)
+int ivar2;
+string svar0;
+svar0 = "Special Attack (" + to_string(calc(10 / load_varp(300))) + "%)";
+if (load_varpbit(9306) == 3 && load_varpbit(11084) == 1) 
+	svar0 = "Portal Energy (" + to_string(calc(10 / load_varp(300))) + "%)";
+script4542(scale(load_varp(300), 1000, 100), arg0, arg1);
+ivar2 = 14014931;
+if (load_varp(301) > 0) 
+	ivar2 = 16750623;
+script4212(arg1, 3793, ivar2, 0, svar0);
+return;

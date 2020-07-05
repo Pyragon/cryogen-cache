@@ -1,0 +1,105 @@
+//script3029(3029)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+int ivar12;
+int ivar13;
+int ivar14;
+int ivar15;
+int ivar16;
+string svar0;
+string svar1;
+string svar2;
+string svar3;
+int stack_dump0;
+if (instr6661(arg3, -1) == 1) {
+	instr6342(arg4, 3028, "IIIIII", arg0, arg1, arg2, arg3, arg4, arg5);
+	return;
+}
+instr6342(arg4, None, "");
+cc_deleteall(arg0)
+cc_deleteall(arg1)
+cc_deleteall(arg2)
+cc_deleteall(arg3)
+ivar6 = friend_count();
+ivar7 = 0;
+ivar8 = 0;
+svar0 = "";
+svar1 = "";
+svar2 = "";
+ivar9 = 0;
+ivar10 = 0;
+ivar11 = 15;
+ivar12 = 0;
+ivar13 = 5;
+ivar14 = 0;
+ivar15 = 0;
+ivar16 = 0;
+svar3 = "";
+if (ivar6 == -2) {
+	if_settext(if_gethash(909, 38), "Name");
+	script3038(arg3, "Loading Friends List." + "<br>" + "<br>" + "Please wait.");
+	if_setsize(if_getwidth(if_gethash(909, 31)), if_getheight(if_gethash(909, 36)), 0, 0, 59572255)
+}
+else if (ivar6 == -1) {
+	if_settext(if_gethash(909, 38), "Name");
+	script3038(arg3, "Connecting to server." + "<br>" + "<br>" + "Please wait.");
+	if_setsize(if_getwidth(if_gethash(909, 31)), if_getheight(if_gethash(909, 36)), 0, 0, 59572255)
+}
+else if (ivar6 > 0) {
+	if_settext(if_gethash(909, 38), "Name (" + to_string(ivar6) + "/200)");
+	if_setsize(if_getwidth(if_gethash(909, 31)), 4, 0, 1, 59572255)
+	if (ivar7 < ivar6) {
+		stack_dump0 = ivar7;
+		/* 
+			AT PrimitiveInstruction(opcode=252, value=false, type=boolean)
+			com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=252, value=false, type=boolean)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	ivar10 = calc(calc(ivar11 / if_getheight(arg4)) + 1);
+	if (ivar10 > ivar6) {
+		while (ivar7 < ivar10) {
+			script2996(arg3, ivar7, if_getwidth(arg3), ivar11, 0, ivar8, 0, 1, 0);
+			if (calc(2 % ivar7) == 0) 
+				cc_setcolor(2103569);
+			else 
+				cc_setcolor(2695190);
+			ivar8 = calc(ivar8 + ivar11);
+			ivar7 = calc(ivar7 + 1);
+		}
+		ivar12 = if_getheight(arg4);
+	}
+	else 
+		ivar12 = ivar8;
+	if (ivar10 <= ivar6) {
+		ivar15 = if_getscrolly(59572265);
+		instr6185(0, ivar12, 59572265)
+		if (ivar15 > ivar12) 
+			ivar15 = ivar12;
+		script72(59572271, 59572265, ivar15);
+	}
+	else {
+		instr6185(0, 0, 59572265)
+		if_setscrollpos(0, 0, if_gethash(909, 41));
+		script72(59572271, 59572265, 0);
+	}
+}
+else {
+	if (ivar6 == 0) {
+		if_settext(if_gethash(909, 38), "Name");
+		script3038(arg3, "You have not added any friends to your list.");
+		if_setsize(if_getwidth(if_gethash(909, 31)), if_getheight(if_gethash(909, 36)), 0, 0, 59572255)
+	}
+}
+return;

@@ -1,0 +1,5 @@
+//script2154(2154)(int arg0)(void)
+int ivar1;
+ivar1 = enum(arg0, 2252, 74, 105);
+script2155(ivar1);
+return;

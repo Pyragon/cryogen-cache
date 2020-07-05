@@ -1,0 +1,95 @@
+//script2646(2646)(int arg0)(void)
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int stack_dump0;
+int stack_dump1;
+int stack_dump2;
+if (load_varc(842) == 3) {
+	store_varc(842, 1)
+	if_settext(arg0, "Check bank & inventory");
+	if_settext(if_gethash(860, 18), "Commodities");
+	if_sethide(if_gethash(860, 20), 0)
+	script2645(56360980);
+	script2642();
+	return;
+}
+store_varc(842, 3)
+ivar1 = 0;
+ivar2 = 0;
+ivar3 = 0;
+ivar4 = 0;
+ivar5 = 0;
+store_varc(842, 3)
+ivar6 = -1;
+if_sethide(if_gethash(860, 20), 1)
+if_settext(arg0, "View all commodities");
+if_settext(if_gethash(860, 18), "Commodities in your bank & inventory");
+cc_deleteall(56360983)
+if_settext(if_gethash(860, 19), "A list of items already in your inventory or bank that you can trade with Mal for investment credit.");
+ivar3 = calc(calc(1 - 10) / calc(calc(10 * 36) - if_getwidth(if_gethash(860, 23))));
+ivar4 = calc(3 / calc(128 - if_getheight(if_gethash(860, 23))));
+ivar7 = 0;
+while (ivar1 <= inv_size(95)) {
+	ivar6 = inv_getitem(95, ivar1);
+	if (ivar6 != -1) {
+		stack_dump0 = 111;
+		stack_dump1 = 1939;
+		stack_dump2 = ivar6;
+		/* 
+			AT PrimitiveInstruction(opcode=60, value=false, type=boolean)
+			com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=60, value=false, type=boolean)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	ivar1 = calc(ivar1 + 1);
+}
+ivar8 = 0;
+while (ivar8 <= inv_size(93)) {
+	ivar6 = inv_getitem(93, ivar8);
+	if (ivar6 != -1) {
+		stack_dump0 = 111;
+		stack_dump1 = 1939;
+		stack_dump2 = ivar6;
+		/* 
+			AT PrimitiveInstruction(opcode=60, value=false, type=boolean)
+			com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=60, value=false, type=boolean)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	ivar8 = calc(ivar8 + 1);
+}
+if (ivar2 == 0) {
+	cc_create(if_gethash(860, 23), 4, ivar2);
+	cc_setsize(200, 32, 0, 0);
+	cc_setposition(0, 0, 1, 4);
+	cc_settext("No valid commodities were found in your bank or inventory.");
+	cc_settextfont(496);
+	cc_settextalign(1, 1, 0);
+	cc_settextshadow(0);
+	cc_setcolor(16750623);
+	ivar2 = 1;
+}
+instr6185(if_getwidth(if_gethash(860, 23)), calc(ivar7 + 32), 56360983)
+if_setscrollpos(0, 0, if_gethash(860, 23));
+script31(56360982, 56360983, 792, 789, 790, 791, 773, 788);
+return;

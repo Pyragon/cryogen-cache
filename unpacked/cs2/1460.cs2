@@ -1,0 +1,26 @@
+//script1460(1460)(int arg0, int arg1)(void)
+int ivar2;
+int ivar3;
+string svar0;
+int stack_dump0;
+int stack_dump1;
+ivar2 = enum(arg0, 1614, 73, 105);
+ivar3 = enum(arg0, 1615, 73, 105);
+if_sethide(ivar2, 0)
+if_sethide(ivar3, 0)
+instr6879(inv_getitem(95, arg1), inv_getnum(95, arg1), ivar3);
+if_setborderthickness(1, ivar3);
+stack_dump0 = 3355443;
+stack_dump1 = ivar3;
+/* 
+	AT PrimitiveInstruction(opcode=131, value=false, type=boolean)
+	com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=131, value=false, type=boolean)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

@@ -1,0 +1,23 @@
+//script373(373)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int ivar5;
+ivar5 = -1;
+if (arg1 == -1) 
+	ivar5 = if_getlayer(arg0);
+else 
+	ivar5 = arg0;
+if (arg4 == 1) {
+	if (arg1 == -1 && instr6004(arg0) == 1 || cc_find(arg0, arg1) == 1) {
+		cc_create(ivar5, 3, arg2);
+		cc_setsize(calc(calc(2 * arg3) - cc_getwidth()), calc(calc(2 * arg3) - cc_getheight()), 0, 0);
+		cc_setposition(calc(cc_getx() + arg3), calc(cc_gety() + arg3), 0, 0);
+		cc_setcolor(16777215);
+		cc_settrans(200)
+		cc_setfill(true);
+	}
+}
+else {
+	if (cc_find(ivar5, arg2) == 1) 
+		cc_delete()
+	script383();
+}
+return;

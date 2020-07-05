@@ -1,0 +1,76 @@
+//script3055(3055)(int arg0, int arg1, int arg2, string arg3, string arg4, string arg5)(void)
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+string svar3;
+int stack_dump0;
+ivar3 = if_getwidth(if_gethash(909, 52));
+ivar4 = calc(15 * max(paramheight(ivar3, 494, arg3), 1));
+cc_create(if_gethash(909, 52), 4, arg0);
+cc_setsize(0, ivar4, 1, 0);
+cc_setcolor(16777215);
+cc_settextfont(494);
+cc_settext(arg3);
+cc_settextalign(0, 0, 15);
+ivar5 = 0;
+ivar6 = 0;
+while (ivar6 < arg0) {
+	if (cc_find(if_gethash(909, 52), ivar6) == 1) 
+		ivar5 = calc(ivar5 + cc_getheight());
+	ivar6 = calc(ivar6 + 1);
+}
+cc_setposition(0, ivar5, 0, 2);
+svar3 = "";
+if (arg1 == 1) {
+	cc_setopbase(removetags(arg4));
+	instr6687(3056, "iss", -2147483644, arg4, arg5);
+	switch (arg2) {
+		case 18:
+		case 3:
+		case 6:
+		case 7:
+			svar3 = removetags(arg5);
+			if (compare(removetags(instr6574()), svar3) != 0) {
+				flow_9:
+					if (friend_test(svar3) == 0 && ignore_test(svar3) == 0) {
+						cc_setop(1, "Add friend");
+						cc_setop(2, "Add ignore");
+					}
+					else {
+						if (friend_test(svar3) == 1 && userdetail_quickchat() == 0) 
+							cc_setop(3, "Message");
+					}
+					IF (load_varpbit(9982) == 1 || staffmodlevel() > 0) 
+						GOTO	flow_16
+					/* 
+						AT PrimitiveInstruction(opcode=81, value=false, type=boolean)
+						com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=81, value=false, type=boolean)
+							at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+							at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+							at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+							at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+							at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+							at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+							at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+						
+					 */
+				flow_16:
+					cc_setop(5, "Report");
+			}
+	}
+}
+stack_dump0 = calc(arg0 + 1);
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

@@ -1,0 +1,12 @@
+//script3440(3440)(int arg0, int arg1)(void)
+sound_vorbis_volume(6185, 1, 0, 200)
+if (if_gethide(arg0) == 1) {
+	if_sethide(arg0, 0)
+	if_setgraphic(6007, arg1)
+}
+else {
+	if_sethide(arg0, 1)
+	if_setgraphic(6009, arg1)
+}
+script5245();
+return;

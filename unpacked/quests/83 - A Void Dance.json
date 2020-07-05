@@ -1,0 +1,17 @@
+{
+  "id": 83,
+  "name": "A Void Dance",
+  "members": false,
+  "varbitValues": [
+    [
+      7451,
+      3,
+      63
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 3141
+}

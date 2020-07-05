@@ -1,0 +1,14 @@
+//script2486(2486)()(void)
+if (load_varc(882) != -1) 
+	if_settext(if_gethash(655, 42), "Players: " + to_string(load_varc(882)));
+if (load_varc(887) != -1) 
+	if_settext(if_gethash(655, 31), "Players: " + to_string(load_varc(887)));
+if (load_varc(892) != -1) 
+	if_settext(if_gethash(655, 38), "Players: " + to_string(load_varc(892)));
+if (load_varc(897) != -1) 
+	if_settext(if_gethash(655, 26), "Players: " + to_string(load_varc(897)));
+if_setcolor(14784543, if_gethash(655, 42));
+if_setcolor(14784543, if_gethash(655, 31));
+if_setcolor(14784543, if_gethash(655, 38));
+if_setcolor(14784543, if_gethash(655, 26));
+return;

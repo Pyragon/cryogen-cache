@@ -1,0 +1,41 @@
+//script1541(1541)()(void)
+int ivar0;
+int stack_dump0;
+ivar0 = 0;
+ivar0 = calc(ivar0 + load_varpbit(4949));
+ivar0 = calc(ivar0 + load_varpbit(4950));
+ivar0 = calc(ivar0 + load_varpbit(4951));
+ivar0 = calc(ivar0 + load_varpbit(4952));
+ivar0 = calc(ivar0 + load_varpbit(4953));
+ivar0 = calc(ivar0 + load_varpbit(4954));
+ivar0 = calc(ivar0 + load_varpbit(4955));
+ivar0 = calc(ivar0 + load_varpbit(4956));
+ivar0 = calc(ivar0 + load_varpbit(4957));
+ivar0 = calc(ivar0 + load_varpbit(4958));
+ivar0 = calc(ivar0 + load_varpbit(4959));
+ivar0 = calc(ivar0 + load_varpbit(4960));
+ivar0 = calc(ivar0 + load_varpbit(4961));
+ivar0 = calc(ivar0 + load_varpbit(4962));
+ivar0 = calc(ivar0 + load_varpbit(4963));
+ivar0 = calc(ivar0 + load_varpbit(4964));
+ivar0 = calc(ivar0 + load_varpbit(4965));
+ivar0 = calc(ivar0 + load_varpbit(4966));
+ivar0 = calc(ivar0 + load_varpbit(4967));
+ivar0 = calc(ivar0 + load_varpbit(4968));
+ivar0 = calc(ivar0 + load_varpbit(4969));
+ivar0 = calc(ivar0 + load_varpbit(4970));
+ivar0 = calc(ivar0 + load_varpbit(4971));
+stack_dump0 = ivar0;
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

@@ -1,0 +1,92 @@
+//script2879(2879)(int arg0, int arg1, int arg2)(void)
+string svar0;
+int stack_dump0;
+int stack_dump1;
+int stack_dump2;
+int stack_dump3;
+int stack_dump4;
+int stack_dump5;
+string stack_dump6;
+string stack_dump7;
+svar0 = "Remove from Playlist";
+if (cc_find(if_gethash(187, 9), arg0) == 1 && cc_find(if_gethash(187, 9), calc(arg0 + 12)) == 1) {
+	if (arg1 == 32767) {
+		cc_sethide(1);
+		cc_sethide(1);
+		stack_dump0 = arg2;
+		/* 
+			AT PrimitiveInstruction(opcode=184, value=0, type=int)
+			java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+				at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	cc_setposition(15, arg2, 0, 0);
+	cc_settextalign(0, 1, 0);
+	if (load_varpbit(4388) == arg1 && load_varpbit(7078) == 1) {
+		cc_setcolor(16777062);
+		instr6092(1356, "Iii", -2147483645, -2147483643, 16777062);
+	}
+	else {
+		cc_setcolor(65535);
+		instr6092(1356, "Iii", -2147483645, -2147483643, 65535);
+	}
+	instr6091(1356, "Iii", -2147483645, -2147483643, 16777215);
+	cc_settext(enum_string(1345, arg1));
+	cc_setsize(150, 15, 0, 0);
+	cc_setop(1, "Play");
+	cc_setop(2, "Remove");
+	cc_setopbase(enum_string(1345, arg1));
+	cc_setopbase(enum_string(1345, arg1));
+	cc_settextshadow(0);
+	cc_settextfont(494);
+	instr6676(if_gethash(187, 9), -1);
+	instr6676(if_gethash(-1, 65535), -1);
+	instr6073(2);
+	cc_setsize(12, 12, 0, 0);
+	cc_setposition(2, calc(arg2 + 1), 0, 0);
+	cc_setop(2, "Remove");
+	cc_setgraphic(2430)
+	instr6687(2885, "Iiiiii", -2147483645, -2147483643, 150, 0, 20, -2147483644);
+	stack_dump0 = 1160;
+	stack_dump1 = 12255241;
+	stack_dump2 = -2147483643;
+	stack_dump3 = 12255249;
+	stack_dump4 = 25;
+	stack_dump5 = 189;
+	stack_dump6 = svar0;
+	stack_dump7 = "IiIsii";
+	/* 
+		AT PrimitiveInstruction(opcode=207, value=true, type=boolean)
+		com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=207, value=true, type=boolean)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+stack_dump0 = calc(arg2 + 15);
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

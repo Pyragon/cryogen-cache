@@ -1,0 +1,69 @@
+//script5563(5563)(int arg0, int arg1)(void)
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+ivar2 = calc(arg0 + 20);
+ivar3 = calc(arg0 + 40);
+ivar4 = calc(arg0 + 60);
+ivar5 = calc(arg0 + 80);
+ivar6 = calc(arg0 + 100);
+ivar7 = calc(arg0 + 120);
+ivar8 = -1;
+if (clientclock() >= ivar7) {
+	if_sethide(arg1, 1)
+	if_settrans(255, arg1);
+	instr6342(arg1, None, "");
+}
+if (clientclock() < ivar2) {
+	ivar8 = calc(15 - if_gettrans(arg1));
+	if (ivar8 < 0) 
+		ivar8 = 0;
+	if_settrans(ivar8, arg1);
+	if_setgraphic(8946, 48890065)
+	if_setgraphic(8957, 35913760)
+}
+else if (clientclock() < ivar3) {
+	ivar8 = calc(if_gettrans(arg1) + 15);
+	if (ivar8 > 255) 
+		ivar8 = 255;
+	if_settrans(ivar8, arg1);
+	if_setgraphic(8945, 48890065)
+	if_setgraphic(8956, 35913760)
+}
+else if (clientclock() < ivar4) {
+	ivar8 = calc(15 - if_gettrans(arg1));
+	if (ivar8 < 0) 
+		ivar8 = 0;
+	if_settrans(ivar8, arg1);
+	if_setgraphic(8946, 48890065)
+	if_setgraphic(8957, 35913760)
+}
+else if (clientclock() < ivar5) {
+	ivar8 = calc(if_gettrans(arg1) + 15);
+	if (ivar8 > 255) 
+		ivar8 = 255;
+	if_settrans(ivar8, arg1);
+	if_setgraphic(8945, 48890065)
+	if_setgraphic(8956, 35913760)
+}
+else if (clientclock() < ivar6) {
+	ivar8 = calc(15 - if_gettrans(arg1));
+	if (ivar8 < 0) 
+		ivar8 = 0;
+	if_settrans(ivar8, arg1);
+	if_setgraphic(8946, 48890065)
+	if_setgraphic(8957, 35913760)
+}
+else {
+	ivar8 = calc(if_gettrans(arg1) + 15);
+	if (ivar8 > 255) 
+		ivar8 = 255;
+	if_settrans(ivar8, arg1);
+	if_setgraphic(8945, 48890065)
+	if_setgraphic(8956, 35913760)
+}
+return;

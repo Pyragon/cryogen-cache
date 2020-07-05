@@ -1,0 +1,13 @@
+//script5644(5644)(int arg0, int arg1, int arg2)(void)
+if (arg2 == 1) {
+	if (arg1 == 1) 
+		if_setgraphic(9209, arg0)
+	else 
+		if_setgraphic(9208, arg0)
+}
+else if (arg1 == 1) 
+	if_setgraphic(4584, arg0)
+else 
+	if_setgraphic(4583, arg0)
+script41(17104927);
+return;

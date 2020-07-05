@@ -1,0 +1,45 @@
+//script4741(4741)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int stack_dump0;
+int stack_dump1;
+int stack_dump2;
+ivar0 = 0;
+ivar1 = -1;
+ivar2 = -1;
+if (load_varpbit(9904) < 99999 && load_varpbit(9903) != 0) {
+	ivar2 = enum(load_varpbit(9903), 3879, 118, 105);
+	if (cc_find(if_gethash(1144, 0), load_varpbit(9904)) == 1) {
+		ivar0 = inv_getnum(ivar2, load_varpbit(9904));
+		if (ivar0 > 0) {
+			ivar1 = inv_getitem(ivar2, load_varpbit(9904));
+			if (ivar1 != -1) {
+				if_sethide(if_gethash(1144, 23), 1)
+				if_sethide(if_gethash(1144, 22), 0)
+				if_sethide(if_gethash(1144, 9), 0)
+				if_sethide(if_gethash(1144, 39), 0)
+				if (ivar0 == 1) 
+					if_settext(if_gethash(1144, 49), "Are you sure you want to delete " + "<col=ffff80>" + item_name(ivar1) + "</col>" + "?");
+				else 
+					if_settext(if_gethash(1144, 49), "Are you sure you want to delete " + "<col=ffff80>" + item_name(ivar1) + "</col>" + " (" + "<col=ffffff>" + to_string(ivar0) + "</col>" + " items)?");
+				stack_dump0 = ivar1;
+				stack_dump1 = ivar0;
+				stack_dump2 = 74973234;
+				/* 
+					AT PrimitiveInstruction(opcode=388, value=false, type=boolean)
+					com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=388, value=false, type=boolean)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+						at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+						at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+						at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+						at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+					
+				 */
+			}
+		}
+	}
+}
+return;

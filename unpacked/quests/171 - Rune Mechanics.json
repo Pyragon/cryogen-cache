@@ -1,0 +1,17 @@
+{
+  "id": 171,
+  "name": "Rune Mechanics",
+  "members": false,
+  "varbitValues": [
+    [
+      7050,
+      5,
+      35
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

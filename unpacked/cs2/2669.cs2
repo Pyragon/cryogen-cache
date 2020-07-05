@@ -1,0 +1,22 @@
+//script2669(2669)()(void)
+if (load_varpbit(6304) == 0) 
+	if_setmodel(48047, if_gethash(866, 64));
+if (load_varpbit(6304) == 1) 
+	if_setmodel(48028, if_gethash(866, 64));
+if (load_varpbit(6304) == 2) 
+	if_setmodel(48038, if_gethash(866, 64));
+if (load_varpbit(6304) == 3) 
+	if_setmodel(48027, if_gethash(866, 64));
+if (load_varpbit(6304) == 4) 
+	if_setmodel(48030, if_gethash(866, 64));
+if (load_varpbit(6304) == 5) 
+	if_setmodel(48052, if_gethash(866, 64));
+if (load_varpbit(6304) == 6) 
+	if_setmodel(48051, if_gethash(866, 64));
+if (load_varpbit(6304) == 7) 
+	if_setmodel(48050, if_gethash(866, 64));
+if (load_varpbit(6304) == 8) 
+	if_setmodel(48015, if_gethash(866, 64));
+if (load_varpbit(6304) == 9) 
+	if_setmodel(48029, if_gethash(866, 64));
+return;

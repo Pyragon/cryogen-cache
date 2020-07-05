@@ -1,0 +1,8 @@
+//script4321(4321)()(void)
+script4307();
+script4311();
+if_sethide(if_gethash(1096, 72), 0)
+if_settext(if_gethash(1096, 61), "Please select a clanmate to view.");
+script4501(71827721, "");
+script4501(71827707, "");
+return;

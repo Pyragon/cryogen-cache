@@ -1,0 +1,17 @@
+{
+  "id": 48,
+  "name": "Swan Song",
+  "members": false,
+  "varbitValues": [
+    [
+      2098,
+      10,
+      200
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

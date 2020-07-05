@@ -1,0 +1,77 @@
+//script6518(6518)(int arg0, int arg1)(void)
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+string svar0;
+ivar2 = 0;
+ivar3 = 0;
+ivar4 = 0;
+ivar5 = 0;
+ivar6 = 0;
+ivar7 = 0;
+if_sethide(if_gethash(1302, 37), 0)
+switch (arg1) {
+	case 1:
+		ivar2 = load_varc(1973);
+		ivar3 = load_varc(1974);
+		ivar4 = load_varc(1975);
+		ivar5 = load_varc(1976);
+		ivar6 = -50;
+		ivar7 = -100;
+		break;
+	case 2:
+		ivar2 = load_varc(1977);
+		ivar3 = load_varc(1978);
+		ivar4 = load_varc(1979);
+		ivar5 = load_varc(1980);
+		ivar6 = -25;
+		ivar7 = -50;
+		break;
+	case 3:
+		ivar2 = load_varc(1981);
+		ivar3 = load_varc(1982);
+		ivar4 = load_varc(1983);
+		ivar5 = load_varc(1984);
+		ivar6 = 0;
+		ivar7 = 0;
+		break;
+	case 4:
+		ivar2 = load_varc(1985);
+		ivar3 = load_varc(1986);
+		ivar4 = load_varc(1987);
+		ivar5 = load_varc(1988);
+		ivar6 = 25;
+		ivar7 = 50;
+		break;
+	case 5:
+		ivar2 = load_varc(1989);
+		ivar3 = load_varc(1990);
+		ivar4 = load_varc(1991);
+		ivar5 = load_varc(1992);
+		ivar6 = 50;
+		ivar7 = 100;
+}
+if_settext(if_gethash(1302, 44), enum(ivar2, 5995, 115, 105));
+if (ivar2 == 0 && ivar3 == 0 && ivar4 == 0 && ivar5 == 0) 
+	if_settext(if_gethash(1302, 43), "No active conditions");
+else 
+	if_settext(if_gethash(1302, 43), enum(ivar3, 5995, 115, 105));
+if_settext(if_gethash(1302, 42), enum(ivar4, 5995, 115, 105));
+svar0 = "";
+switch (ivar5) {
+	case 1:
+		svar0 = "Mildly struggling";
+		break;
+	case 2:
+		svar0 = "Severely struggling";
+		break;
+	case 3:
+		svar0 = "Removed from the race";
+}
+if_settext(if_gethash(1302, 45), svar0);
+if_setposition(ivar6, 71, 1, 0, 85327911)
+if_setposition(ivar7, 47, 1, 0, 85327912)
+return;

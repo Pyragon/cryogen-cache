@@ -1,0 +1,36 @@
+//script1453(1453)(int arg0)(void)
+int ivar1;
+int stack_dump0;
+int stack_dump1;
+string stack_dump2;
+ivar1 = inv_getitem(95, arg0);
+cc_setitem(ivar1, inv_getnum(95, arg0));
+cc_setopbase("<col=ff981f>" + item_name(inv_getitem(95, arg0)));
+cc_setop(1, "Withdraw-1");
+cc_setop(2, "Withdraw-5");
+cc_setop(3, "Withdraw-10");
+cc_setop(4, "Withdraw-" + to_string(load_varp(1249)));
+cc_setop(5, "Withdraw-X");
+cc_setop(6, "Withdraw-All");
+cc_setop(7, "Withdraw-All but one");
+cc_setop(10, "Examine" + "<col=ff9040>");
+instr6676(if_gethash(762, 0), -1);
+instr6443(5);
+instr6075(5);
+instr6224(1454, "i");
+instr6499(1482, "I");
+stack_dump0 = 5495;
+stack_dump1 = ivar1;
+stack_dump2 = "o";
+/* 
+	AT PrimitiveInstruction(opcode=207, value=false, type=boolean)
+	com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=207, value=false, type=boolean)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

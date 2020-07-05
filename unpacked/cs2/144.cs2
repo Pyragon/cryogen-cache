@@ -1,0 +1,18 @@
+//script144(144)(int arg0, int arg1, int arg2, int arg3)(void)
+int ivar4;
+ivar4 = 0;
+if (cc_find(arg0, arg1) == 1) {
+	if (clientclock() >= arg3) {
+		cc_delete()
+		return;
+	}
+	if (calc(40 % clientclock()) < 20) {
+		ivar4 = calc(arg2 - clientclock());
+		ivar4 = calc(255 * ivar4);
+		ivar4 = calc(calc(arg2 - arg3) / ivar4);
+		cc_settrans(ivar4)
+	}
+	else 
+		cc_settrans(255)
+}
+return;

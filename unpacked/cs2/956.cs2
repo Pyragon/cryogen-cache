@@ -1,0 +1,46 @@
+//script956(956)()(void)
+if_sethide(if_gethash(732, 234), 0)
+if_sethide(if_gethash(732, 235), 1)
+if_sethide(if_gethash(732, 236), 1)
+if_sethide(if_gethash(732, 237), 1)
+if_setcolor(16777215, if_gethash(732, 232));
+if_setcolor(0, if_gethash(732, 239));
+if_setcolor(0, if_gethash(732, 241));
+if_setcolor(0, if_gethash(732, 38));
+item_useonname("<col=ff981f>" + "Druidic Mage Top" + "</col>", 47972531);
+item_useonname("<col=ff981f>" + "Druidic Mage Bottom" + "</col>", 47972532);
+item_useonname("<col=ff981f>" + "Druidic Mage Hood" + "</col>", 47972533);
+item_useonname("<col=ff981f>" + "Combat Robe Top" + "</col>", 47972534);
+item_useonname("<col=ff981f>" + "Combat Robe Bottom" + "</col>", 47972535);
+item_useonname("<col=ff981f>" + "Combat Hood" + "</col>", 47972536);
+item_useonname("<col=ff981f>" + "Battle Robe Top" + "</col>", 47972537);
+item_useonname("<col=ff981f>" + "Battle Robe Bottom" + "</col>", 47972538);
+item_useonname("<col=ff981f>" + "Battle Hood" + "</col>", 47972539);
+item_useonname("<col=ff981f>" + "Green D'Hide Coif" + "</col>", 47972540);
+item_useonname("<col=ff981f>" + "Blue D'Hide Coif" + "</col>", 47972541);
+item_useonname("<col=ff981f>" + "Red D'Hide Coif" + "</col>", 47972542);
+item_useonname("<col=ff981f>" + "Black D'Hide Coif" + "</col>", 47972543);
+item_useonname("<col=ff981f>" + "Bronze Gauntlets" + "</col>", 47972545);
+item_useonname("<col=ff981f>" + "Iron Gauntlets" + "</col>", 47972546);
+item_useonname("<col=ff981f>" + "Steel Gauntlets" + "</col>", 47972547);
+item_useonname("<col=ff981f>" + "Black Gauntlets" + "</col>", 47972548);
+item_useonname("<col=ff981f>" + "Mithril Gauntlets" + "</col>", 47972353);
+item_useonname("<col=ff981f>" + "Adamant Gauntlets" + "</col>", 47972549);
+item_useonname("<col=ff981f>" + "Rune Gauntlets" + "</col>", 47972550);
+item_useonname("<col=ff981f>" + "Dragon Gauntlets" + "</col>", 47972551);
+item_useonname("<col=ff981f>" + "Adamant Spikeshield" + "</col>", 47972552);
+item_useonname("<col=ff981f>" + "Adamant Berserker Shield" + "</col>", 47972553);
+item_useonname("<col=ff981f>" + "Rune Spikeshield" + "</col>", 47972554);
+item_useonname("<col=ff981f>" + "Rune Berserker Shield" + "</col>", 47972555);
+item_useonname("<col=ff981f>" + "Irit Gloves" + "</col>", 47972556);
+item_useonname("<col=ff981f>" + "Avantoe Gloves" + "</col>", 47972352);
+item_useonname("<col=ff981f>" + "Kwuarm Gloves" + "</col>", 47972557);
+item_useonname("<col=ff981f>" + "Cadantine Gloves" + "</col>", 47972558);
+item_useonname("<col=ff981f>" + "Swordfish Gloves" + "</col>", 47972559);
+item_useonname("<col=ff981f>" + "Shark Gloves" + "</col>", 47972560);
+item_useonname("<col=ff981f>" + "Dragon Slayer Gloves" + "</col>", 47972561);
+item_useonname("<col=ff981f>" + "Air Runecrafting Gloves" + "</col>", 47972562);
+item_useonname("<col=ff981f>" + "Water Runecrafting Gloves" + "</col>", 47972563);
+item_useonname("<col=ff981f>" + "Earth Runecrafting Gloves" + "</col>", 47972564);
+item_useonname("<col=ff981f>" + "Royal D'Hide Coif" + "</col>", 47972544);
+return;

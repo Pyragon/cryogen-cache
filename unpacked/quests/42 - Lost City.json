@@ -1,0 +1,17 @@
+{
+  "id": 42,
+  "name": "Lost City",
+  "members": false,
+  "varValues": [
+    [
+      147,
+      1,
+      6
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 3,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

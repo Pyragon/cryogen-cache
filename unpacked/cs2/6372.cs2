@@ -1,0 +1,29 @@
+//script6372(6372)(int arg0)(void)
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+ivar1 = 0;
+ivar2 = 0;
+ivar3 = max(20, calc(2 + cc_getwidth()));
+ivar4 = max(20, calc(2 + cc_getheight()));
+ivar5 = 0;
+ivar6 = 0;
+ivar7 = 0;
+script6375();
+/* 
+	AT JumpInstruction(target=LabelInstruction(labelId=0))
+	java.lang.RuntimeException: Stack underflow
+		at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:182)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

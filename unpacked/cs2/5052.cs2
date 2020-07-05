@@ -1,0 +1,8 @@
+//script5052(5052)(int arg0, int arg1)(void)
+if (cc_find(arg0, 3) == 1) {
+	if (arg1 == 1) 
+		cc_dragpickup(0, calc(2 / cc_getheight()));
+	else 
+		cc_dragpickup(calc(2 / cc_getwidth()), 0);
+}
+return;

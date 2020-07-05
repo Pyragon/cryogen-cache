@@ -1,0 +1,6 @@
+//script3291(3291)(int arg0, int arg1, int arg2)(void)
+int ivar3;
+ivar3 = calc(4 - if_getscrolly(arg1));
+if (cc_find(arg0, 1) == 1) 
+	script3296(arg0, arg1, arg2, ivar3, 1);
+return;

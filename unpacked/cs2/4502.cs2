@@ -1,0 +1,6 @@
+//script4502(4502)(int arg0, int arg1, int arg2)(void)
+if (cc_find(arg1, arg2) == 1 && string_length(cc_gettext()) > 0) {
+	if_sethide(arg0, 0)
+	if_setposition(0, cc_gety(), 0, 0, arg0)
+}
+return;

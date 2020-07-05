@@ -1,0 +1,135 @@
+//script4769(4769)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8)(void)
+int ivar9;
+int ivar10;
+int ivar11;
+int ivar12;
+int ivar13;
+int ivar14;
+int ivar15;
+int ivar16;
+int ivar17;
+int ivar18;
+int ivar19;
+int ivar20;
+int ivar21;
+int ivar22;
+int ivar23;
+int ivar24;
+int ivar25;
+int ivar26;
+int ivar27;
+int ivar28;
+int ivar29;
+int ivar30;
+int ivar31;
+int ivar32;
+int ivar33;
+int ivar34;
+int ivar35;
+int ivar36;
+int ivar37;
+int ivar38;
+int ivar39;
+int ivar40;
+int ivar41;
+int ivar42;
+ivar9 = 0;
+ivar10 = 0;
+ivar11 = 0;
+ivar12 = 0;
+ivar13 = -1;
+ivar14 = -1;
+ivar15 = 0;
+ivar16 = 0;
+ivar17 = 0;
+ivar18 = 0;
+ivar19 = 0;
+ivar20 = 0;
+ivar21 = 0;
+ivar22 = 0;
+ivar23 = 0;
+ivar24 = 0;
+ivar25 = 0;
+ivar26 = 0;
+ivar27 = 0;
+ivar28 = 0;
+ivar29 = 0;
+ivar30 = 0;
+ivar31 = 0;
+ivar32 = 0;
+ivar33 = 0;
+ivar34 = 0;
+ivar35 = 0;
+ivar36 = 0;
+ivar37 = 0;
+ivar38 = 0;
+ivar39 = 0;
+ivar40 = 0;
+if (arg0 == 1) {
+	ivar11 = 300;
+	ivar13 = 73072707;
+	ivar14 = 73072706;
+}
+else if (arg0 == 2) {
+	ivar11 = 600;
+	ivar13 = 73072705;
+	ivar14 = 73072704;
+}
+else {
+	ivar11 = 900;
+	ivar13 = 73072703;
+	ivar14 = 73072702;
+	store_varc(1561, 0)
+	store_varc(1562, 0)
+}
+if (arg1 <= 31 && ivar12 == 0) {
+	script4790(arg1);
+	/* 
+		AT PrimitiveInstruction(opcode=168, value=10, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:468)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+ivar41 = 38;
+ivar42 = calc(ivar41 * calc(8 / ivar9));
+if (ivar9 > 0) {
+	script4771(ivar13, ivar9);
+	/* 
+		AT PrimitiveInstruction(opcode=168, value=9, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:468)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+ivar42 = calc(ivar42 + 10);
+instr6185(if_getwidth(ivar13), ivar42, ivar13)
+if_setscrollpos(0, 0, ivar13);
+script31(ivar14, ivar13, 5666, 5663, 5664, 5665, 5686, 5685);
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, -8, 0, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:446)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

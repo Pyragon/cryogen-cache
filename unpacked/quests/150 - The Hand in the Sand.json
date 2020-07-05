@@ -1,0 +1,17 @@
+{
+  "id": 150,
+  "name": "The Hand in the Sand",
+  "members": false,
+  "varbitValues": [
+    [
+      1527,
+      10,
+      160
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

@@ -1,0 +1,9 @@
+//script6328(6328)(int arg0, int arg1)(void)
+int ivar2;
+if (clientclock() < arg1) 
+	return;
+ivar2 = min(calc(if_gettrans(arg0) + 20), 255);
+if_settrans(ivar2, arg0);
+if (ivar2 >= 255) 
+	instr6342(arg0, None, "");
+return;

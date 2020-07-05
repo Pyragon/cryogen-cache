@@ -1,0 +1,9 @@
+//script4297(4297)()(void)
+flow_0:
+	if_sethide(if_gethash(1096, 84), 0)
+	if_sethide(if_gethash(1096, 83), 1)
+	IF (activeclansettings_find_affined() == 1) 
+		GOTO	flow_1
+	GOTO	flow_1
+flow_1:
+	return;

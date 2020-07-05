@@ -1,0 +1,84 @@
+//script89(89)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+if (instr6661(if_gethash(754, 0), -1) == 1) {
+	instr6342(if_gethash(754, 0), 1562, "");
+	return;
+}
+ivar0 = 0;
+ivar1 = -1;
+ivar2 = 0;
+ivar3 = 0;
+if (get_system_update_timer() > 0) {
+	ivar2 = calc(60 % calc(50 / get_system_update_timer()));
+	ivar3 = calc(3000 / get_system_update_timer());
+	if (ivar2 < 10) 
+		if_settext(if_gethash(754, 5), "<col=ffff00>" + "System update in: " + to_string(ivar3) + ":0" + to_string(ivar2));
+	else 
+		if_settext(if_gethash(754, 5), "<col=ffff00>" + "System update in: " + to_string(ivar3) + ":" + to_string(ivar2));
+	ivar0 = 1;
+	instr6220(if_gethash(754, 5));
+	instr6239(if_gethash(754, 5), None, "");
+	if_settextshadow(1, if_gethash(754, 5));
+}
+ivar4 = 0;
+ivar5 = 0;
+ivar6 = enum(load_varp(287), 3056, 105, 105);
+ivar7 = enum(load_varp(287), 3057, 49, 105);
+if (load_varp(287) > 0 && (instr6644() < 2 || load_varc(41) != -1) && ivar4 < 100 && ivar0 < 5) {
+	script91(ivar4);
+	/* 
+		AT JumpInstruction(target=LabelInstruction(labelId=11))
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:182)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+while (ivar0 < 5) {
+	ivar1 = enum(ivar0, 580, 73, 105);
+	if_settext(ivar1, "");
+	instr6220(ivar1);
+	ivar0 = calc(ivar0 + 1);
+}
+ivar8 = 0;
+ivar9 = 0;
+if (instr6644() >= 2) 
+	ivar9 = 9;
+else 
+	ivar9 = 5;
+ivar8 = calc(ivar9 - 512);
+ivar0 = 0;
+while (ivar0 < 5) {
+	ivar1 = enum(ivar0, 580, 73, 105);
+	if_setsize(max(min(paramwidth(ivar8, instr6289(ivar1), if_gettext(ivar1)), ivar8), 1), calc(14 * max(paramheight(ivar8, instr6289(ivar1), if_gettext(ivar1)), 1)), 0, 0, ivar1)
+	ivar0 = calc(ivar0 + 1);
+}
+ivar10 = -1;
+ivar0 = 0;
+ivar1 = enum(ivar0, 580, 73, 105);
+if_setposition(ivar9, 2, 0, 2, ivar1)
+ivar0 = 1;
+while (ivar0 < 5) {
+	ivar1 = enum(ivar0, 580, 73, 105);
+	ivar10 = enum(calc(1 - ivar0), 580, 73, 105);
+	if (ivar1 != -1 && ivar10 != -1) 
+		if_setposition(ivar9, calc(if_getheight(ivar1) - if_gety(ivar10)), 0, 0, ivar1)
+	ivar0 = calc(ivar0 + 1);
+}
+return;

@@ -1,0 +1,15 @@
+//script4784(4784)(int arg0, int arg1, string arg2)(void)
+int ivar2;
+int ivar3;
+int ivar4;
+ivar2 = 2;
+ivar3 = calc(2 / if_getwidth(arg0));
+ivar4 = if_gety(arg0);
+if (arg1 != -1 && cc_find(arg0, arg1) == 1) {
+	ivar3 = calc(2 / cc_getwidth());
+	ivar4 = cc_gety();
+}
+if (calc(if_getscrolly(arg0) - ivar4) > 114) 
+	ivar2 = 0;
+script4539(73072826, arg0, arg1, 150, -1, -1, -1, 13, 4, ivar2, ivar3, ivar4, arg2);
+return;

@@ -1,0 +1,7 @@
+//script311(311)(int arg0, int arg1, string arg2)(void)
+if (load_varpbit(6177) == 1) {
+	cc_deleteall(49479737)
+	return;
+}
+script312(calc(arg0 + 3), calc(arg1 + 3), arg2);
+return;

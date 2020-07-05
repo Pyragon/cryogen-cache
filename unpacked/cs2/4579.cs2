@@ -1,0 +1,3 @@
+//script4579(4579)(int arg0, int arg1)(void)
+script311(arg0, arg1, struct_param(1816, 596));
+return;

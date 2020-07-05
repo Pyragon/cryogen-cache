@@ -1,0 +1,21 @@
+//script6195(6195)()(void)
+int ivar0;
+ivar0 = 0;
+instr6248(if_gethash(137, 55), None, "");
+if (load_varc(1920) == 1) {
+	instr6248(if_gethash(906, 361), 6196, "izIi", -2147483640, -2147483639, -2147483645, ivar0);
+	store_varc(1921, 0)
+	hook_mouse_press(if_gethash(906, 361), 6197, "iiII", -2147483647, -2147483646, 59375977, 59375978);
+	script6199(59375977, 59375978, "");
+	if_sethide(if_gethash(906, 362), 1)
+}
+else {
+	if (load_varc(1920) == 2) {
+		instr6248(if_gethash(906, 368), 6196, "izIi", -2147483640, -2147483639, -2147483645, ivar0);
+		store_varc(1922, 0)
+		hook_mouse_press(if_gethash(906, 368), 6197, "iiII", -2147483647, -2147483646, 59375984, 59375985);
+		script6199(59375984, 59375985, "");
+		if_sethide(if_gethash(906, 369), 1)
+	}
+}
+return;

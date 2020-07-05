@@ -1,0 +1,20 @@
+//script3298(3298)(int arg0, int arg1, int arg2, int arg3)(void)
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+ivar4 = if_getscrollheight(arg1);
+ivar5 = if_getheight(arg0);
+ivar6 = calc(32 - ivar5);
+ivar7 = 0;
+if (ivar4 > 0) 
+	ivar7 = calc(ivar4 / calc(ivar5 * ivar6));
+else 
+	ivar7 = ivar6;
+if (ivar7 < 10) 
+	ivar7 = 10;
+if (cc_find(arg0, 1) == 1) {
+	cc_setsize(16, ivar7, 0, 0);
+	script3296(arg0, arg1, arg2, arg3, 1);
+}
+return;

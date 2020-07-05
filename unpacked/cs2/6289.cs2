@@ -1,0 +1,21 @@
+//script6289(6289)()(void)
+int ivar0;
+ivar0 = 0;
+if (calc(4 % clientclock()) == 0 && cc_find(if_gethash(1296, 2), 0) == 1) {
+	if (load_varc(1932) == 0) {
+		ivar0 = cc_gety();
+		ivar0 = calc(ivar0 + 1);
+		if (ivar0 > 30) 
+			store_varc(1932, 1)
+		else 
+			cc_setposition(0, ivar0, 0, 0);
+	}
+	else {
+		store_varc(1932, calc(load_varc(1932) + 1))
+		if (load_varc(1932) == 30) {
+			cc_delete()
+			instr6342(if_gethash(1296, 2), None, "");
+		}
+	}
+}
+return;

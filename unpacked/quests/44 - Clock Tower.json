@@ -1,0 +1,17 @@
+{
+  "id": 44,
+  "name": "Clock Tower",
+  "members": false,
+  "varValues": [
+    [
+      10,
+      1,
+      8
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

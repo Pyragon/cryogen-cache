@@ -1,0 +1,42 @@
+//script26(26)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+ivar0 = 0;
+ivar1 = 0;
+ivar2 = 25;
+ivar3 = 20;
+ivar4 = 0;
+ivar5 = 0;
+ivar6 = 0;
+ivar4 = calc(calc(ivar2 + 36) / calc(ivar2 - if_getwidth(if_gethash(197, 16))));
+while (ivar0 <= inv_size(347)) {
+	cc_create(if_gethash(197, 16), 5, ivar0);
+	cc_setsize(36, 32, 0, 0);
+	cc_setposition(calc(ivar2 + calc(calc(calc(ivar4 * ivar1) - ivar0) * calc(36 + ivar2))), calc(ivar3 + calc(calc(32 + ivar3) * ivar1)), 0, 0);
+	ivar5 = calc(ivar2 + calc(calc(calc(ivar4 * ivar1) - ivar0) * calc(36 + ivar2)));
+	ivar6 = calc(ivar3 + calc(calc(32 + ivar3) * ivar1));
+	if (inv_getitem(347, ivar0) != -1) {
+		if (inv_getitem(347, ivar0) == 6910) 
+			if_setposition(calc(8 - ivar5), calc(ivar6 + 94), 0, 0, 12910604)
+		if (inv_getitem(347, ivar0) == 6912) 
+			if_setposition(calc(8 - ivar5), calc(ivar6 + 94), 0, 0, 12910606)
+		if (inv_getitem(347, ivar0) == 6914) 
+			if_setposition(calc(8 - ivar5), calc(ivar6 + 94), 0, 0, 12910605)
+		cc_setitem(inv_getitem(347, ivar0), inv_getnum(347, ivar0));
+		cc_setgraphicshadow(colour_gethashedhsv(0, 0, 0));
+		cc_setopbase("<col=ff9040>" + item_name(inv_getitem(347, ivar0)));
+		cc_setoutline(1);
+		cc_setop(1, "Value");
+		cc_setop(2, "Buy");
+		cc_setop(10, "Examine");
+	}
+	ivar0 = calc(ivar0 + 1);
+	if (calc(ivar4 % ivar0) == 0) 
+		ivar1 = calc(ivar1 + 1);
+}
+return;

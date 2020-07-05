@@ -1,0 +1,30 @@
+//script4445(4445)()(void)
+string svar0;
+string stack_dump0;
+int stack_dump1;
+cc_deleteall(72744965)
+cc_deleteall(72744968)
+cc_deleteall(72744966)
+cc_deleteall(72744967)
+cc_deleteall(72744964)
+if_setgraphic(6256, 72745052)
+if_sethide(if_gethash(1110, 39), 1)
+if_sethide(if_gethash(1110, 64), 0)
+if_settext(if_gethash(1110, 65), "");
+stack_dump0 = "Join chat";
+stack_dump1 = instr6213(1, if_gethash(1110, 91));
+svar0 = "Join another" + "<br>" + "clan's clanchat.";
+if_setonmouseover(if_gethash(1110, 91), 4538, "IIisifdiiiiii", 72745084, -2147483645, -1, svar0, 120, 3793, 3793, 16101953, 13, 4, 0, -2147483647, -2147483646);
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, -2, -2, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:446)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

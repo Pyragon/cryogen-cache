@@ -1,0 +1,17 @@
+{
+  "id": 106,
+  "name": "Fight Arena",
+  "members": false,
+  "varValues": [
+    [
+      17,
+      1,
+      14
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

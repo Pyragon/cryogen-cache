@@ -1,0 +1,17 @@
+{
+  "id": 192,
+  "name": "Salt in the Wound",
+  "members": false,
+  "varbitValues": [
+    [
+      9491,
+      5,
+      250
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 5575
+}

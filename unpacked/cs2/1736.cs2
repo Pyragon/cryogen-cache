@@ -1,0 +1,10 @@
+//script1736(1736)(int arg0, int arg1)(void)
+int ivar2;
+ivar2 = 0;
+if (cc_find(arg0, arg1) == 1) {
+	if (calc(40 % clientclock()) > 20) 
+		cc_settrans(0)
+	else 
+		cc_settrans(255)
+}
+return;

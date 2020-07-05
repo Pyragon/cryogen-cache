@@ -1,0 +1,6 @@
+//script5916(5916)()(void)
+int ivar0;
+ivar0 = 82116686;
+if_setsize(18, if_getheight(ivar0), 0, 0, ivar0)
+instr6342(ivar0, 5918, "Ii", -2147483645, 0);
+return;

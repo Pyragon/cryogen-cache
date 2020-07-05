@@ -1,0 +1,91 @@
+//script2588(2588)()(void)
+int ivar0;
+int ivar1;
+script2587();
+ivar0 = -1;
+switch (load_varc(929)) {
+	case 0:
+		ivar0 = inv_getitem(93, load_varc(930));
+		break;
+	case 1:
+		ivar0 = inv_getitem(93, load_varc(931));
+		break;
+	case 2:
+		ivar0 = inv_getitem(93, load_varc(932));
+		break;
+	case 3:
+		ivar0 = inv_getitem(93, load_varc(933));
+		break;
+	case 4:
+		ivar0 = inv_getitem(93, load_varc(934));
+		break;
+	case 5:
+		ivar0 = inv_getitem(93, load_varc(935));
+		break;
+	case 6:
+		ivar0 = inv_getitem(93, load_varc(936));
+		break;
+	case 7:
+		ivar0 = inv_getitem(93, load_varc(937));
+		break;
+	case 8:
+		ivar0 = inv_getitem(93, load_varc(938));
+		break;
+	case 9:
+		ivar0 = inv_getitem(93, load_varc(939));
+}
+if (ivar0 == -1) 
+	return;
+ivar1 = item_param(ivar0, 805);
+switch (load_varc(929)) {
+	case 0:
+		if (load_varpbit(6385) != 0 && load_varpbit(6385) != ivar1) 
+			ivar1 = load_varpbit(6385);
+		break;
+	case 1:
+		if (load_varpbit(6386) != 0 && load_varpbit(6386) != ivar1) 
+			ivar1 = load_varpbit(6386);
+		break;
+	case 2:
+		if (load_varpbit(6387) != 0 && load_varpbit(6387) != ivar1) 
+			ivar1 = load_varpbit(6387);
+		break;
+	case 3:
+		if (load_varpbit(6388) != 0 && load_varpbit(6388) != ivar1) 
+			ivar1 = load_varpbit(6388);
+		break;
+	case 4:
+		if (load_varpbit(6389) != 0 && load_varpbit(6389) != ivar1) 
+			ivar1 = load_varpbit(6389);
+		break;
+	case 5:
+		if (load_varpbit(6390) != 0 && load_varpbit(6390) != ivar1) 
+			ivar1 = load_varpbit(6390);
+		break;
+	case 6:
+		if (load_varpbit(6391) != 0 && load_varpbit(6391) != ivar1) 
+			ivar1 = load_varpbit(6391);
+		break;
+	case 7:
+		if (load_varpbit(6392) != 0 && load_varpbit(6392) != ivar1) 
+			ivar1 = load_varpbit(6392);
+		break;
+	case 8:
+		if (load_varpbit(6393) != 0 && load_varpbit(6393) != ivar1) 
+			ivar1 = load_varpbit(6393);
+		break;
+	case 9:
+		if (load_varpbit(6394) != 0 && load_varpbit(6394) != ivar1) 
+			ivar1 = load_varpbit(6394);
+}
+switch (ivar1) {
+	case 1:
+		if_setgraphic(1135, 19136614)
+		break;
+	case 2:
+		if_setgraphic(1135, 19136616)
+		break;
+	case 3:
+		if_setgraphic(1135, 19136615)
+}
+return;

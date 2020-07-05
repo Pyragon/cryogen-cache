@@ -1,0 +1,9 @@
+//script6505(6505)()(void)
+int ivar0;
+ivar0 = 0;
+while (ivar0 < 13) {
+	script5902(ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+script5903();
+return;

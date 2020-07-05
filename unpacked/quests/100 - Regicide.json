@@ -1,0 +1,17 @@
+{
+  "id": 100,
+  "name": "Regicide",
+  "members": false,
+  "varValues": [
+    [
+      328,
+      1,
+      13
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 3,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

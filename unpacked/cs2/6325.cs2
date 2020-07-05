@@ -1,0 +1,28 @@
+//script6325(6325)()(void)
+int ivar0;
+string svar0;
+svar0 = "<col=c8c8c8>";
+ivar0 = 11504;
+if (load_varc(1936) == 2) {
+	script6326(1, 85458957, 85458958);
+	script6326(0, 85458960, 85458961);
+	script6326(0, 85458963, 85458964);
+	ivar0 = 11505;
+}
+else if (load_varc(1936) == 1) {
+	script6326(0, 85458957, 85458958);
+	script6326(1, 85458960, 85458961);
+	script6326(0, 85458963, 85458964);
+}
+else {
+	script6326(0, 85458957, 85458958);
+	script6326(0, 85458960, 85458961);
+	script6326(1, 85458963, 85458964);
+	svar0 = "<col=787878>";
+}
+if_setgraphic(ivar0, 85458956)
+if (load_varc(1935) > 0) 
+	if_settext(if_gethash(1304, 6), svar0 + to_string(min(load_varc(1935), 999999999)) + "</col>");
+else 
+	if_settext(if_gethash(1304, 6), svar0 + "None" + "</col>");
+return;

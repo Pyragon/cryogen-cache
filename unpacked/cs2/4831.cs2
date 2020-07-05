@@ -1,0 +1,75 @@
+//script4831(4831)(int arg0)(void)
+if (if_gethide(arg0) == 1) 
+	return;
+script4834(arg0);
+switch (load_varpbit(9558)) {
+	case 1:
+		switch (arg0) {
+			case 82444714:
+			case 82444572:
+			case 82444646:
+				if (load_varpbit(9567) > 0 && cc_find(arg0, calc(1 - load_varpbit(9567))) == 1) 
+					cc_setgraphic(6004)
+				break;
+			case 82444632:
+			case 82444702:
+			case 82444556:
+				if (load_varpbit(9568) > 0 && cc_find(arg0, calc(1 - load_varpbit(9568))) == 1) 
+					cc_setgraphic(6004)
+				break;
+			case 82444618:
+			case 82444540:
+			case 82444690:
+				if (load_varpbit(9569) > 0 && cc_find(arg0, calc(1 - load_varpbit(9569))) == 1) 
+					cc_setgraphic(6004)
+		}
+		break;
+	case 2:
+		switch (arg0) {
+			case 82444714:
+			case 82444572:
+			case 82444646:
+				if (load_varpbit(9576) > 0 && cc_find(arg0, calc(1 - load_varpbit(9576))) == 1) 
+					cc_setgraphic(6004)
+				break;
+			case 82444632:
+			case 82444702:
+			case 82444556:
+				if (load_varpbit(9577) > 0 && cc_find(arg0, calc(1 - load_varpbit(9577))) == 1) 
+					cc_setgraphic(6004)
+				break;
+			case 82444618:
+			case 82444540:
+			case 82444690:
+				if (load_varpbit(9578) > 0 && cc_find(arg0, calc(1 - load_varpbit(9578))) == 1) 
+					cc_setgraphic(6004)
+		}
+		break;
+	case 3:
+		switch (arg0) {
+			default:
+				break;
+			case 82444714:
+			case 82444572:
+			case 82444646:
+				if (load_varpbit(9585) > 0 && cc_find(arg0, calc(1 - load_varpbit(9585))) == 1) 
+					cc_setgraphic(6004)
+				break;
+			case 82444632:
+			case 82444702:
+			case 82444556:
+				if (load_varpbit(9586) > 0 && cc_find(arg0, calc(1 - load_varpbit(9586))) == 1) 
+					cc_setgraphic(6004)
+				break;
+			case 82444618:
+			case 82444540:
+			case 82444690:
+				if (load_varpbit(9587) > 0 && cc_find(arg0, calc(1 - load_varpbit(9587))) == 1) 
+					cc_setgraphic(6004)
+		}
+}
+script4838();
+script4810();
+script4840();
+script4814();
+return;

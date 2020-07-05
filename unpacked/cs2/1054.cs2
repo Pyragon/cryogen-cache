@@ -1,0 +1,13 @@
+//script1054(1054)()(void)
+int ivar0;
+if_sethide(if_gethash(137, 50), 0)
+instr6248(if_gethash(137, 55), 73, "iz", -2147483640, -2147483639);
+if_sethide(if_gethash(137, 0), 1)
+ivar0 = 0;
+while (enum(ivar0, 1550, 73, 105) != -1) {
+	instr6248(enum(ivar0, 1550, 73, 105), None, "");
+	ivar0 = calc(ivar0 + 1);
+}
+if (instr6644() >= 2) 
+	script1364();
+return;

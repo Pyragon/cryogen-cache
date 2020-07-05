@@ -1,0 +1,23 @@
+//script313(313)(int arg0)(void)
+string svar0;
+int stack_dump0;
+int stack_dump1;
+instr6239(if_gethash(1028, 139), 353, "1");
+instr6239(if_gethash(1028, 137), 353, "1");
+instr6239(if_gethash(1028, 62), 350, "i1", -2147483644, 0);
+instr6239(if_gethash(1028, 63), 350, "i1", -2147483644, 1);
+script385(-1);
+stack_dump0 = 1;
+stack_dump1 = 67371131;
+/* 
+	AT PrimitiveInstruction(opcode=164, value=false, type=boolean)
+	com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=164, value=false, type=boolean)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

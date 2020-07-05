@@ -1,0 +1,24 @@
+//script1126(1126)(int arg0)(void)
+store_varc(993, 0)
+switch (arg0) {
+	case 12582914:
+		script41(12583008);
+		if (load_varpbit(2668) == 0) 
+			if_setgraphic(1701, arg0)
+		break;
+	case 12648466:
+		script41(12648501);
+		if (load_varpbit(2668) == 0) 
+			if_setgraphic(1701, arg0)
+		break;
+	case 28180500:
+		script41(28180545);
+		if (load_varpbit(2668) == 0) 
+			if_setgraphic(1701, arg0)
+		break;
+	case 62259202:
+		script41(62259272);
+		if (load_varpbit(2668) == 0) 
+			if_setgraphic(1701, arg0)
+}
+return;

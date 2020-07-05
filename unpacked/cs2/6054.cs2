@@ -1,0 +1,22 @@
+//script6054(6054)()(void)
+int ivar0;
+int ivar1;
+ivar0 = 82116692;
+sound_vorbis_rate(14351, 1, 0, 50, 255);
+ivar1 = 1;
+if (load_varc(1803) == 1) {
+	store_varc(1803, 0)
+	ivar1 = 1;
+	if_sethflip(0, if_gethash(1253, 96));
+	if_sethflip(0, if_gethash(1253, 97));
+	if_sethflip(0, if_gethash(1253, 98));
+}
+else {
+	store_varc(1803, 1)
+	ivar1 = 0;
+	if_sethflip(1, if_gethash(1253, 96));
+	if_sethflip(1, if_gethash(1253, 97));
+	if_sethflip(1, if_gethash(1253, 98));
+}
+instr6342(ivar0, 6055, "Ii", -2147483645, ivar1);
+return;

@@ -1,0 +1,10 @@
+//script1253(1253)(int arg0)(void)
+int ivar1;
+ivar1 = if_gettrans(arg0);
+ivar1 = max(calc(calc(30 / 255) - ivar1), 0);
+if_settrans(ivar1, arg0);
+if (ivar1 <= 0) {
+	instr6342(arg0, None, "");
+	return;
+}
+return;

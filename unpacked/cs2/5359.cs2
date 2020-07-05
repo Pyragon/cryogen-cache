@@ -1,0 +1,142 @@
+//script5359(5359)(int arg0, int arg1, int arg2, int arg3)(void)
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+int ivar12;
+int ivar13;
+int ivar14;
+int ivar15;
+int ivar16;
+string svar0;
+string svar1;
+string svar2;
+string svar3;
+string svar4;
+ivar4 = 0;
+ivar5 = 0;
+ivar6 = 0;
+ivar7 = 0;
+ivar8 = 4;
+ivar9 = struct_param(arg2, 1935);
+ivar10 = 0;
+ivar11 = 0;
+ivar12 = 0;
+svar0 = "";
+svar1 = "";
+svar2 = "";
+svar3 = "";
+svar4 = "";
+ivar13 = 0;
+ivar14 = 0;
+ivar15 = 0;
+ivar16 = 0;
+if (arg3 == 1 && struct_param(arg2, 1937) != 2 && cc_find(arg0, arg1) == 1) {
+	ivar4 = cc_getx();
+	ivar5 = cc_gety();
+	ivar6 = cc_getwidth();
+	ivar4 = calc(ivar4 + ivar6);
+	ivar5 = calc(ivar5 + ivar8);
+	ivar15 = if_getscrolly(74907653);
+	if (calc(ivar15 - ivar5) <= 0) {
+		ivar16 = 2;
+		ivar5 = ivar15;
+	}
+	if_setposition(ivar4, ivar5, 0, 0, 74907727)
+	if_settext(if_gethash(1143, 114), struct_param(arg2, 1931));
+	if (struct_param(arg2, 1937) == 1) {
+		ivar10 = calc(100 / item_param(ivar9, 1430));
+		svar0 = "Duration: " + to_string(ivar10) + " mins.";
+		ivar11 = calc(100 / item_param(ivar9, 1429));
+		svar1 = "Recharge: " + to_string(ivar11) + " mins.";
+		if (ivar10 > 60) {
+			ivar12 = calc(60 % ivar10);
+			ivar10 = calc(60 / ivar10);
+			if (ivar12 > 0) {
+				if (ivar10 > 1) 
+					svar0 = "Duration: " + to_string(ivar10) + " hours, " + to_string(ivar12) + " mins.";
+				else 
+					svar0 = "Duration: 1 hour, " + to_string(ivar12) + " mins.";
+			}
+			else if (ivar10 > 1) 
+				svar0 = "Duration: " + to_string(ivar10) + " hours.";
+			else 
+				svar0 = "Duration: 1 hour.";
+		}
+		if (ivar11 > 60) {
+			ivar12 = calc(60 % ivar11);
+			ivar11 = calc(60 / ivar11);
+			if (ivar12 > 0) {
+				if (ivar11 > 1) 
+					svar1 = "Recharge: " + to_string(ivar11) + " hours, " + to_string(ivar12) + " mins.";
+				else 
+					svar1 = "Recharge: 1 hour, " + to_string(ivar12) + " mins.";
+			}
+			else if (ivar11 > 1) 
+				svar1 = "Recharge: " + to_string(ivar11) + " hours.";
+			else 
+				svar1 = "Recharge: 1 hour.";
+		}
+		svar2 = "<br>" + "<br>" + svar0 + "<br>" + svar1;
+		if_settext(if_gethash(1143, 114), append(if_gettext(if_gethash(1143, 114)), svar2));
+	}
+	else {
+		if (struct_param(arg2, 1937) == 4) {
+			while (ivar13 < enum_getoutputcount(5184) && ivar14 == 0) {
+				if (enum(ivar13, 5184, 74, 105) == arg2) {
+					svar4 = enum(ivar13, 5187, 115, 105);
+					svar3 = enum(ivar13, 5186, 115, 105);
+					ivar14 = 1;
+				}
+				ivar13 = calc(ivar13 + 1);
+			}
+			svar3 = append("Male Title: ", svar3);
+			svar4 = append("Female Title: ", svar4);
+			if_settext(if_gethash(1143, 114), svar3 + "<br>" + svar4);
+		}
+	}
+	ivar7 = paramheight(if_getwidth(if_gethash(1143, 114)), instr6289(if_gethash(1143, 114)), if_gettext(if_gethash(1143, 114)));
+	ivar7 = calc(calc(13 * ivar7) + calc(2 * ivar8));
+	if_setsize(if_getwidth(if_gethash(1143, 79)), ivar7, 0, 0, 74907727)
+	if_sethide(if_gethash(1143, 79), 0)
+	if (calc(calc(ivar15 - ivar5) + ivar7) > if_getheight(if_gethash(1143, 5))) {
+		ivar5 = calc(ivar15 + calc(ivar7 - if_getheight(if_gethash(1143, 5))));
+		if_setposition(ivar4, ivar5, 0, 0, 74907727)
+		ivar16 = 1;
+	}
+	if (calc(if_getwidth(if_gethash(1143, 79)) + if_getx(if_gethash(1143, 79))) > if_getwidth(if_gethash(1143, 5))) {
+		ivar4 = calc(calc(if_getwidth(if_gethash(1143, 79)) - cc_getx()) + 2);
+		if_setposition(ivar4, ivar5, 0, 0, 74907727)
+		if_setposition(12, if_gety(if_gethash(1143, 32)), 2, 0, 74907680)
+		if_setposition(10, if_gety(if_gethash(1143, 111)), 2, 0, 74907759)
+		if_setposition(11, if_gety(if_gethash(1143, 112)), 2, 0, 74907760)
+		if_setposition(14, if_gety(if_gethash(1143, 114)), 2, 0, 74907762)
+		if_setposition(0, 10, 2, 0, 74907761)
+		if_sethflip(1, if_gethash(1143, 113));
+	}
+	else {
+		if_setposition(12, if_gety(if_gethash(1143, 32)), 0, 0, 74907680)
+		if_setposition(10, if_gety(if_gethash(1143, 111)), 0, 0, 74907759)
+		if_setposition(11, if_gety(if_gethash(1143, 112)), 0, 0, 74907760)
+		if_setposition(14, if_gety(if_gethash(1143, 114)), 0, 0, 74907762)
+		if_setposition(0, 10, 0, 0, 74907761)
+		if_sethflip(0, if_gethash(1143, 113));
+	}
+	if (if_getheight(if_gethash(1143, 79)) < calc(if_getheight(if_gethash(1143, 113)) + 40)) 
+		if_setposition(if_getx(if_gethash(1143, 113)), 0, 0, 1, 74907761)
+	else 
+		if_setposition(if_getx(if_gethash(1143, 113)), 10, 0, 0, 74907761)
+	if (ivar16 > 0) {
+		if (ivar16 == 1) 
+			if_setposition(if_getx(if_gethash(1143, 113)), 0, 0, 2, 74907761)
+		else 
+			if_setposition(if_getx(if_gethash(1143, 113)), 0, 0, 0, 74907761)
+	}
+	return;
+}
+if_sethide(if_gethash(1143, 79), 1)
+return;

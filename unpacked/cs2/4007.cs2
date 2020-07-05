@@ -1,0 +1,13 @@
+//script4007(4007)(int arg0)(void)
+if (arg0 == 0) {
+	if_setgraphic(4324, 69206125)
+	if_setgraphic(4324, 69206126)
+	if_setgraphic(4325, 69206127)
+}
+else {
+	if_setgraphic(4322, 69206125)
+	if_setgraphic(4322, 69206126)
+	if_setgraphic(4323, 69206127)
+	script41(69206147);
+}
+return;

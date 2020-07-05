@@ -1,0 +1,111 @@
+//script2442(2442)()(void)
+int stack_dump0;
+int stack_dump1;
+int stack_dump2;
+int stack_dump3;
+int stack_dump4;
+int stack_dump5;
+int stack_dump6;
+int stack_dump7;
+int stack_dump8;
+int stack_dump9;
+int stack_dump10;
+int stack_dump11;
+int stack_dump12;
+int stack_dump13;
+int stack_dump14;
+int stack_dump15;
+int stack_dump16;
+int stack_dump17;
+int stack_dump18;
+int stack_dump19;
+int stack_dump20;
+int stack_dump21;
+int stack_dump22;
+int stack_dump23;
+int stack_dump24;
+int stack_dump25;
+int stack_dump26;
+int stack_dump27;
+int stack_dump28;
+int stack_dump29;
+int stack_dump30;
+int stack_dump31;
+int stack_dump32;
+string stack_dump33;
+store_varc(149, "")
+store_varc(150, "")
+store_varc(151, "")
+store_varc(152, "")
+store_varc(153, "")
+store_varc(154, "")
+store_varc(155, "")
+store_varc(156, "")
+store_varc(157, "")
+store_varc(158, "")
+store_varc(159, "")
+store_varc(160, "")
+store_varc(161, "")
+store_varc(162, "")
+store_varc(163, "")
+store_varc(164, "")
+store_varc(165, "")
+store_varc(166, "")
+store_varc(167, "")
+store_varc(168, "")
+store_varc(169, "")
+store_varc(170, "")
+store_varc(171, "")
+store_varc(172, "")
+store_varc(173, "")
+store_varc(174, "")
+store_varc(175, "")
+store_varc(176, "")
+store_varc(177, "")
+store_varc(178, "")
+stack_dump0 = 2443;
+stack_dump1 = 149;
+stack_dump2 = 150;
+stack_dump3 = 151;
+stack_dump4 = 152;
+stack_dump5 = 153;
+stack_dump6 = 154;
+stack_dump7 = 155;
+stack_dump8 = 156;
+stack_dump9 = 157;
+stack_dump10 = 158;
+stack_dump11 = 159;
+stack_dump12 = 160;
+stack_dump13 = 161;
+stack_dump14 = 162;
+stack_dump15 = 163;
+stack_dump16 = 164;
+stack_dump17 = 165;
+stack_dump18 = 166;
+stack_dump19 = 167;
+stack_dump20 = 168;
+stack_dump21 = 169;
+stack_dump22 = 170;
+stack_dump23 = 171;
+stack_dump24 = 172;
+stack_dump25 = 173;
+stack_dump26 = 174;
+stack_dump27 = 175;
+stack_dump28 = 176;
+stack_dump29 = 177;
+stack_dump30 = 178;
+stack_dump31 = 30;
+stack_dump32 = 2228233;
+stack_dump33 = "Y";
+/* 
+	AT PrimitiveInstruction(opcode=768, value=false, type=boolean)
+	com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=768, value=false, type=boolean)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

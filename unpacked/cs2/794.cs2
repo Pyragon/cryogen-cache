@@ -1,0 +1,26 @@
+//script794(794)(int arg0, int arg1, int arg2, int arg3, string arg4, string arg5, string arg6, string arg7, string arg8)(void)
+if (cc_find(arg2, arg3) == 1) {
+	if (arg0 != -1) {
+		cc_setitem(arg0, -1);
+		cc_setopbase(item_name(arg1));
+		cc_setop(1, arg4);
+		cc_setop(2, arg5);
+		cc_setop(3, arg6);
+		cc_setop(4, arg7);
+		cc_setop(5, arg8);
+		cc_setop(6, "Examine" + "<col=ff9040>");
+		cc_setgraphicshadow(colour_gethashedhsv(51, 51, 51));
+		cc_setoutline(1);
+	}
+	else {
+		cc_setitem(-1, 0);
+		cc_setopbase("");
+		cc_setop(1, "");
+		cc_setop(2, "");
+		cc_setop(3, "");
+		cc_setop(4, "");
+		cc_setop(5, "");
+		cc_setop(6, "");
+	}
+}
+return;

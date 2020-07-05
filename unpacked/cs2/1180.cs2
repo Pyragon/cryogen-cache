@@ -1,0 +1,20 @@
+//script1180(1180)()(void)
+if (load_varpbit(7232) == 1) {
+	if (world_language() == 1) {
+		if_setgraphic(5570, 35913763)
+		if_setgraphic(8639, 48889911)
+	}
+	else {
+		if_setgraphic(5568, 35913763)
+		if_setgraphic(8637, 48889911)
+	}
+}
+else if (world_language() == 1) {
+	if_setgraphic(2714, 35913763)
+	if_setgraphic(8635, 48889911)
+}
+else {
+	if_setgraphic(2730, 35913763)
+	if_setgraphic(8633, 48889911)
+}
+return;

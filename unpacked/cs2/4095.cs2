@@ -1,0 +1,12 @@
+//script4095(4095)()(void)
+int ivar0;
+ivar0 = if_gettrans(if_gethash(1202, 0));
+if (ivar0 > 75) {
+	if_settrans(80, if_gethash(1202, 0));
+	if_settrans(40, if_gethash(1202, 2));
+	instr6342(if_gethash(1202, 0), None, "");
+	return;
+}
+if_settrans(calc(ivar0 + 4), if_gethash(1202, 0));
+if_settrans(calc(2 / calc(ivar0 + 4)), if_gethash(1202, 2));
+return;

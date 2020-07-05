@@ -1,0 +1,3 @@
+//script4882(4882)(int arg0, int arg1, string arg2)(void)
+script4883(arg0, arg1, arg2);
+return;

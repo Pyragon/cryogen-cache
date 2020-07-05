@@ -1,0 +1,17 @@
+{
+  "id": 74,
+  "name": "Myths of the White Lands",
+  "members": false,
+  "varbitValues": [
+    [
+      5733,
+      5,
+      60
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 3142
+}

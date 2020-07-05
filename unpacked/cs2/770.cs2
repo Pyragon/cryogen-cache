@@ -1,0 +1,278 @@
+//script770(770)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, int arg13, int arg14, int arg15, int arg16, int arg17, int arg18, int arg19, int arg20, int arg21, int arg22, int arg23, string arg24)(void)
+int ivar24;
+int ivar25;
+int ivar26;
+int ivar27;
+int ivar28;
+int ivar29;
+int ivar30;
+int ivar31;
+cc_deleteall(arg1)
+ivar24 = paramheight(177, 495, "Level " + to_string(arg3) + ": " + arg24);
+ivar25 = calc(2 + calc(ivar24 * 13));
+ivar26 = calc(2 + calc(paramheight(177, 494, "To craft this you need") * 13));
+ivar27 = calc(calc(calc(calc(calc(2 + ivar25) + ivar26) + 32) + 14) + 2);
+ivar28 = 5;
+ivar29 = 5;
+ivar30 = 1;
+ivar31 = 1;
+if (cc_find(arg2, arg0) == 1) {
+	if (arg4 == -1) 
+		ivar27 = calc(14 - calc(32 - ivar27));
+	if (ivar24 > 1) {
+		if (arg12 != -1) 
+			ivar27 = calc(ivar27 + 57);
+	}
+	else {
+		if (arg12 != -1) 
+			ivar27 = calc(calc(ivar27 + 32) + 14);
+	}
+	ivar28 = calc(calc(if_getscrolly(arg2) - cc_gety()) + 110);
+	if (ivar28 > 200) 
+		ivar28 = calc(calc(ivar27 - calc(if_getscrolly(arg2) - cc_gety())) + 45);
+	ivar29 = calc(60 - cc_getx());
+	if (ivar29 < 0) 
+		ivar29 = 5;
+	if (ivar29 > 270) 
+		ivar29 = 285;
+	cc_create(arg1, 3, 0);
+	cc_setposition(ivar29, ivar28, 0, 0);
+	cc_setsize(180, ivar27, 0, 0);
+	cc_setfill(true);
+	cc_setcolor(0);
+	cc_settrans(42)
+	cc_create(arg1, 3, 1);
+	cc_setposition(calc(ivar29 + 1), calc(ivar28 + 1), 0, 0);
+	cc_setsize(179, calc(1 - ivar27), 0, 0);
+	cc_setfill(false);
+	cc_setcolor(3025699);
+	cc_create(arg1, 3, 2);
+	cc_setposition(ivar29, ivar28, 0, 0);
+	cc_setsize(179, calc(1 - ivar27), 0, 0);
+	cc_setfill(false);
+	cc_setcolor(7496785);
+	cc_create(arg1, 4, 3);
+	cc_setposition(calc(ivar29 + 2), calc(ivar28 + 2), 0, 0);
+	cc_setsize(177, ivar25, 0, 0);
+	cc_settextalign(1, 1, 0);
+	cc_settextfont(495);
+	cc_setcolor(16750623);
+	cc_settextshadow(0);
+	cc_settext("Level " + to_string(arg3) + ": " + arg24);
+	cc_create(arg1, 4, 4);
+	cc_setposition(ivar29, calc(calc(ivar28 + 2) + ivar25), 0, 0);
+	cc_setsize(177, ivar26, 0, 0);
+	cc_settextalign(1, 1, 0);
+	cc_settextfont(494);
+	cc_setcolor(11495962);
+	cc_settextshadow(0);
+	cc_settext("This item requires");
+	if (arg6 != -1) 
+		ivar30 = 2;
+	if (arg8 != -1) 
+		ivar30 = 3;
+	if (arg10 != -1) 
+		ivar30 = 4;
+	ivar31 = calc(calc(ivar30 + 1) / calc(calc(35 * ivar30) - 190));
+	if (arg4 != -1) {
+		cc_create(arg1, 5, 5);
+		cc_setposition(calc(ivar29 + ivar31), calc(calc(calc(ivar28 + 2) + ivar25) + ivar26), 0, 0);
+		cc_setsize(35, 32, 0, 0);
+		cc_setitem(arg4, -1);
+		cc_create(arg1, 4, 6);
+		cc_setposition(calc(ivar29 + ivar31), calc(calc(calc(calc(ivar28 + 2) + ivar25) + ivar26) + 32), 0, 0);
+		cc_setsize(35, 14, 0, 0);
+		cc_settextalign(1, 1, 0);
+		cc_settextfont(494);
+		script771(arg4);
+		/* 
+			AT JumpInstruction(target=LabelInstruction(labelId=22))
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:182)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	if (arg6 != -1) {
+		cc_create(arg1, 5, 7);
+		cc_setposition(calc(calc(ivar29 + calc(2 * ivar31)) + 35), calc(calc(calc(ivar28 + 2) + ivar25) + ivar26), 0, 0);
+		cc_setsize(35, 32, 0, 0);
+		cc_setitem(arg6, -1);
+		cc_create(arg1, 4, 8);
+		cc_setposition(calc(calc(ivar29 + calc(2 * ivar31)) + 35), calc(calc(calc(calc(ivar28 + 2) + ivar25) + ivar26) + 32), 0, 0);
+		cc_setsize(35, 14, 0, 0);
+		cc_settextalign(1, 1, 0);
+		cc_settextfont(494);
+		script771(arg6);
+		/* 
+			AT JumpInstruction(target=LabelInstruction(labelId=27))
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:182)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	if (arg8 != -1) {
+		cc_create(arg1, 5, 9);
+		cc_setposition(calc(calc(ivar29 + calc(3 * ivar31)) + 70), calc(calc(calc(ivar28 + 2) + ivar25) + ivar26), 0, 0);
+		cc_setsize(35, 32, 0, 0);
+		cc_setitem(arg8, -1);
+		cc_create(arg1, 4, 10);
+		cc_setposition(calc(calc(ivar29 + calc(3 * ivar31)) + 70), calc(calc(calc(calc(ivar28 + 2) + ivar25) + ivar26) + 32), 0, 0);
+		cc_setsize(35, 14, 0, 0);
+		cc_settextalign(1, 1, 0);
+		cc_settextfont(494);
+		script771(arg8);
+		/* 
+			AT JumpInstruction(target=LabelInstruction(labelId=32))
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:182)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	if (arg10 != -1) {
+		cc_create(arg1, 5, 11);
+		cc_setposition(calc(calc(ivar29 + calc(4 * ivar31)) + 105), calc(calc(calc(ivar28 + 2) + ivar25) + ivar26), 0, 0);
+		cc_setsize(35, 32, 0, 0);
+		cc_setitem(arg10, -1);
+		cc_create(arg1, 4, 12);
+		cc_setposition(calc(calc(ivar29 + calc(4 * ivar31)) + 105), calc(calc(calc(calc(ivar28 + 2) + ivar25) + ivar26) + 32), 0, 0);
+		cc_setsize(35, 14, 0, 0);
+		cc_settextalign(1, 1, 0);
+		cc_settextfont(494);
+		script771(arg10);
+		/* 
+			AT JumpInstruction(target=LabelInstruction(labelId=37))
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:182)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	if (arg12 != -1) {
+		cc_create(arg1, 5, 13);
+		cc_setposition(calc(ivar29 + ivar31), calc(calc(calc(ivar28 + 16) + calc(ivar25 * 2)) + calc(ivar26 * 2)), 0, 0);
+		cc_setsize(35, 32, 0, 0);
+		cc_setitem(arg12, -1);
+		cc_create(arg1, 4, 14);
+		cc_setposition(calc(ivar29 + ivar31), calc(calc(calc(calc(ivar28 + 16) + calc(ivar25 * 2)) + calc(ivar26 * 2)) + 32), 0, 0);
+		cc_setsize(35, 14, 0, 0);
+		cc_settextalign(1, 1, 0);
+		cc_settextfont(494);
+		script771(arg12);
+		/* 
+			AT JumpInstruction(target=LabelInstruction(labelId=42))
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:182)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	if (arg14 != -1) {
+		cc_create(arg1, 5, 15);
+		cc_setposition(calc(calc(ivar29 + calc(2 * ivar31)) + 35), calc(calc(calc(ivar28 + 16) + calc(ivar25 * 2)) + calc(ivar26 * 2)), 0, 0);
+		cc_setsize(35, 32, 0, 0);
+		cc_setitem(arg14, -1);
+		cc_create(arg1, 4, 16);
+		cc_setposition(calc(calc(ivar29 + calc(2 * ivar31)) + 35), calc(calc(calc(calc(ivar28 + 16) + calc(ivar25 * 2)) + calc(ivar26 * 2)) + 32), 0, 0);
+		cc_setsize(35, 14, 0, 0);
+		cc_settextalign(1, 1, 0);
+		cc_settextfont(494);
+		script771(arg14);
+		/* 
+			AT JumpInstruction(target=LabelInstruction(labelId=47))
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:182)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	if (arg16 != -1) {
+		cc_create(arg1, 5, 15);
+		cc_setposition(calc(calc(calc(ivar29 + calc(3 * ivar31)) + 35) + 2), calc(calc(calc(ivar28 + 16) + calc(ivar25 * 2)) + calc(ivar26 * 2)), 0, 0);
+		cc_setsize(35, 32, 0, 0);
+		cc_setitem(arg16, -1);
+		cc_create(arg1, 4, 16);
+		cc_setposition(calc(calc(calc(ivar29 + calc(3 * ivar31)) + 35) + 2), calc(calc(calc(calc(ivar28 + 16) + calc(ivar25 * 2)) + calc(ivar26 * 2)) + 32), 0, 0);
+		cc_setsize(35, 14, 0, 0);
+		cc_settextalign(1, 1, 0);
+		cc_settextfont(494);
+		script771(arg16);
+		/* 
+			AT JumpInstruction(target=LabelInstruction(labelId=52))
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:182)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	if (arg18 != -1) {
+		cc_create(arg1, 5, 15);
+		cc_setposition(calc(calc(calc(ivar29 + calc(4 * ivar31)) + 35) + 3), calc(calc(calc(ivar28 + 16) + calc(ivar25 * 2)) + calc(ivar26 * 2)), 0, 0);
+		cc_setsize(35, 32, 0, 0);
+		cc_setitem(arg18, -1);
+		cc_create(arg1, 4, 16);
+		cc_setposition(calc(calc(calc(ivar29 + calc(4 * ivar31)) + 35) + 3), calc(calc(calc(calc(ivar28 + 16) + calc(ivar25 * 2)) + calc(ivar26 * 2)) + 32), 0, 0);
+		cc_setsize(35, 14, 0, 0);
+		cc_settextalign(1, 1, 0);
+		cc_settextfont(494);
+		script771(arg18);
+		/* 
+			AT JumpInstruction(target=LabelInstruction(labelId=57))
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:182)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+}
+return;

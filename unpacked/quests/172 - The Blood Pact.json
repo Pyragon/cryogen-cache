@@ -1,0 +1,17 @@
+{
+  "id": 172,
+  "name": "The Blood Pact",
+  "members": false,
+  "varbitValues": [
+    [
+      7238,
+      10,
+      60
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 3144
+}

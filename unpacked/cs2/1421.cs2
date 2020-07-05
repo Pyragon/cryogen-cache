@@ -1,0 +1,62 @@
+//script1421(1421)(int arg0)(void)
+string svar0;
+svar0 = "";
+switch (arg0) {
+	case 1:
+		svar0 = enum(load_varpbit(5146), 1697, 115, 105);
+		if_setonmouseover(if_gethash(575, 3), 38, "IIsii", -2147483645, 37683202, svar0, 25, 130);
+		break;
+	case 2:
+		svar0 = enum(load_varpbit(5147), 1698, 115, 105);
+		if_setonmouseover(if_gethash(575, 4), 38, "IIsii", -2147483645, 37683202, svar0, 25, 160);
+		break;
+	case 3:
+		svar0 = enum(load_varpbit(5148), 1699, 115, 105);
+		if_setonmouseover(if_gethash(575, 5), 38, "IIsii", -2147483645, 37683202, svar0, 25, 200);
+		break;
+	case 4:
+		svar0 = enum(load_varpbit(5149), 1700, 115, 105);
+		if_setonmouseover(if_gethash(575, 6), 38, "IIsii", -2147483645, 37683202, svar0, 25, 200);
+		break;
+	case 5:
+		svar0 = enum(load_varpbit(5150), 1701, 115, 105);
+		if_setonmouseover(if_gethash(575, 7), 38, "IIsii", -2147483645, 37683202, svar0, 25, 200);
+		break;
+	case 6:
+		svar0 = enum(load_varpbit(5151), 1702, 115, 105);
+		if_setonmouseover(if_gethash(575, 8), 38, "IIsii", -2147483645, 37683202, svar0, 25, 200);
+		break;
+	case 7:
+		svar0 = enum(load_varpbit(5152), 1703, 115, 105);
+		if_setonmouseover(if_gethash(575, 9), 38, "IIsii", -2147483645, 37683202, svar0, 25, 200);
+		break;
+	case 8:
+		svar0 = enum(load_varpbit(5153), 1704, 115, 105);
+		if_setonmouseover(if_gethash(575, 10), 38, "IIsii", -2147483645, 37683202, svar0, 25, 200);
+		break;
+	case 9:
+		svar0 = enum(load_varpbit(5154), 1705, 115, 105);
+		if_setonmouseover(if_gethash(575, 11), 38, "IIsii", -2147483645, 37683202, svar0, 25, 200);
+		break;
+	case 10:
+		svar0 = enum(load_varpbit(5155), 1706, 115, 105);
+		if_setonmouseover(if_gethash(575, 12), 38, "IIsii", -2147483645, 37683202, svar0, 25, 200);
+		break;
+	case 11:
+		svar0 = enum(load_varpbit(5156), 1707, 115, 105);
+		if_setonmouseover(if_gethash(575, 13), 38, "IIsii", -2147483645, 37683202, svar0, 25, 200);
+		break;
+	case 12:
+		svar0 = enum(load_varpbit(5157), 1708, 115, 105);
+		if_setonmouseover(if_gethash(575, 14), 38, "IIsii", -2147483645, 37683202, svar0, 25, 200);
+		break;
+	case 13:
+		svar0 = enum(load_varpbit(5158), 1709, 115, 105);
+		if_setonmouseover(if_gethash(575, 15), 38, "IIsii", -2147483645, 37683202, svar0, 25, 200);
+		break;
+	case 14:
+		svar0 = enum(load_varpbit(5159), 1710, 115, 105);
+		if_setonmouseover(if_gethash(575, 16), 38, "IIsii", -2147483645, 37683202, svar0, 25, 200);
+}
+store_varc(2, 0)
+return;

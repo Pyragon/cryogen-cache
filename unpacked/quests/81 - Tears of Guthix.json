@@ -1,0 +1,17 @@
+{
+  "id": 81,
+  "name": "Tears of Guthix",
+  "members": false,
+  "varbitValues": [
+    [
+      451,
+      1,
+      2
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

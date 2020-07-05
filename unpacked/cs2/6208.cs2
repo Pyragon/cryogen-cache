@@ -1,0 +1,5 @@
+//script6208(6208)()(void)
+store_varc(363, "")
+store_varc(364, "")
+script2422();
+return;

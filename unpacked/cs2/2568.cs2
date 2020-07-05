@@ -1,0 +1,110 @@
+//script2568(2568)()(void)
+if (cc_find(if_gethash(842, 17), 0) == 1) {
+	if (load_varc(857) == 0) 
+		cc_settrans(190)
+	else 
+		cc_settrans(0)
+}
+if (cc_find(if_gethash(842, 17), 1) == 1) {
+	if (load_varc(858) == 0) 
+		cc_settrans(190)
+	else 
+		cc_settrans(0)
+}
+if (cc_find(if_gethash(842, 17), 2) == 1) {
+	if (load_varc(859) == 0) 
+		cc_settrans(190)
+	else 
+		cc_settrans(0)
+}
+if (cc_find(if_gethash(842, 17), 3) == 1) {
+	if (load_varc(860) == 0) 
+		cc_settrans(190)
+	else 
+		cc_settrans(0)
+}
+if (cc_find(if_gethash(842, 17), 4) == 1) {
+	if (load_varc(861) == 0) 
+		cc_settrans(190)
+	else 
+		cc_settrans(0)
+}
+if (cc_find(if_gethash(842, 17), 5) == 1) {
+	if (load_varc(862) == 0) 
+		cc_settrans(190)
+	else 
+		cc_settrans(0)
+}
+if (cc_find(if_gethash(842, 17), 6) == 1) {
+	if (load_varc(863) == 0) 
+		cc_settrans(190)
+	else 
+		cc_settrans(0)
+}
+if (cc_find(if_gethash(842, 17), 7) == 1) {
+	if (load_varc(864) == 0) 
+		cc_settrans(190)
+	else 
+		cc_settrans(0)
+}
+if (cc_find(if_gethash(842, 17), 8) == 1) {
+	if (load_varc(865) == 0) 
+		cc_settrans(190)
+	else 
+		cc_settrans(0)
+}
+if (cc_find(if_gethash(842, 17), 9) == 1) {
+	if (load_varc(866) == 0) 
+		cc_settrans(190)
+	else 
+		cc_settrans(0)
+}
+if (cc_find(if_gethash(842, 17), 10) == 1) {
+	if (load_varc(867) == 0) 
+		cc_settrans(190)
+	else 
+		cc_settrans(0)
+}
+if (cc_find(if_gethash(842, 17), 11) == 1) {
+	if (load_varc(868) == 0) 
+		cc_settrans(190)
+	else 
+		cc_settrans(0)
+}
+if (cc_find(if_gethash(842, 17), 12) == 1) {
+	if (load_varc(869) == 0) 
+		cc_settrans(190)
+	else 
+		cc_settrans(0)
+}
+if (cc_find(if_gethash(842, 17), 13) == 1) {
+	if (load_varc(870) == 0) 
+		cc_settrans(190)
+	else 
+		cc_settrans(0)
+}
+if (cc_find(if_gethash(842, 17), 14) == 1) {
+	if (load_varc(871) == 0) 
+		cc_settrans(190)
+	else 
+		cc_settrans(0)
+}
+if (cc_find(if_gethash(842, 17), 15) == 1) {
+	if (load_varc(872) == 0) 
+		cc_settrans(190)
+	else 
+		cc_settrans(0)
+}
+if (cc_find(if_gethash(842, 17), 16) == 1) {
+	if (load_varc(873) == 0) 
+		cc_settrans(190)
+	else 
+		cc_settrans(0)
+}
+if (cc_find(if_gethash(842, 17), 17) == 1) {
+	if (load_varc(874) == 0) 
+		cc_settrans(190)
+	else 
+		cc_settrans(0)
+}
+return;

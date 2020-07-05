@@ -1,0 +1,46 @@
+//script5913(5913)(int arg0)(void)
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+int ivar12;
+ivar1 = 82116688;
+ivar2 = 82116689;
+ivar3 = 82116645;
+arg0 = calc(arg0 + 1);
+if (arg0 >= 50) 
+	arg0 = 0;
+ivar4 = 0;
+ivar5 = 0;
+ivar6 = 0;
+ivar7 = -1;
+ivar8 = if_get2dangle(ivar1);
+if (arg0 > 25) 
+	ivar8 = max(61659, calc(154 - ivar8));
+else 
+	ivar8 = min(65535, calc(ivar8 + 154));
+if_set2dangle(ivar8, ivar1);
+ivar9 = 0;
+ivar10 = calc(151 - 189);
+ivar11 = calc(25 % arg0);
+script669(ivar11, 25, ivar10);
+/* 
+	AT PrimitiveInstruction(opcode=168, value=12, type=int)
+	java.lang.RuntimeException: Stack underflow
+		at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:468)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

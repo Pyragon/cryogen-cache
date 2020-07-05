@@ -1,0 +1,118 @@
+//script6312(6312)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
+int ivar7;
+int ivar8;
+string svar0;
+int stack_dump0;
+int stack_dump1;
+int stack_dump2;
+flow_0:
+	cc_deleteall(arg1)
+	cc_deleteall(arg5)
+	ivar7 = inv_getitem(398, calc(1 - arg0));
+	if (ivar7 == -1 || ivar7 == 8245) {
+		if_sethide(arg2, 1)
+		if_sethide(arg3, 1)
+		if_sethide(arg4, 1)
+		if_sethide(arg5, 1)
+		if_sethide(arg6, 1)
+		return;
+	}
+	if_sethide(arg2, 0)
+	if_sethide(arg5, 0)
+	cc_create(arg5, 5, 0);
+	cc_setsize(36, 32, 0, 0);
+	cc_setposition(12, 4, 0, 0);
+	cc_setoutline(1);
+	cc_setgraphicshadow(colour_gethashedhsv(48, 32, 32));
+	cc_create(arg5, 4, 1);
+	cc_setsize(60, calc(32 + 4), 0, 1);
+	cc_setposition(0, 0, 0, 2);
+	cc_settextfont(494);
+	cc_settextalign(1, 1, 0);
+	cc_setcolor(16750623);
+	cc_settextshadow(1);
+	cc_settext("Level " + to_string(item_param(ivar7, 23)));
+	cc_create(arg5, 4, 2);
+	cc_setsize(60, 12, 1, 0);
+	cc_setposition(0, 0, 2, 0);
+	cc_settextfont(494);
+	cc_settextalign(0, 1, 0);
+	cc_setcolor(16750623);
+	cc_settextshadow(1);
+	cc_settext(item_name(ivar7));
+	cc_create(arg5, 4, 3);
+	cc_setsize(60, 12, 1, 1);
+	cc_setposition(0, 0, 2, 2);
+	cc_settextfont(494);
+	cc_settextalign(0, 1, 0);
+	cc_setcolor(13421772);
+	cc_settextshadow(1);
+	stack_dump0 = cc_setitem_nonum(ivar7, 1);
+	svar0 = item_param(ivar7, 2522);
+	stack_dump0 = stack_dump0;
+	IF (string_length(svar0) <= 0) 
+		GOTO	flow_3
+	stack_dump0 = stack_dump0;
+	GOTO	flow_4
+flow_3:
+	stack_dump0 = stack_dump0;
+	script6313(item_param(ivar7, 211), item_param(ivar7, 212), "");
+	stack_dump0 = stack_dump0;
+	/* 
+		AT PrimitiveInstruction(opcode=356, value=0, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:468)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+flow_4:
+	cc_settext(svar0);
+	stack_dump0 = stack_dump0;
+	IF (calc(arg0 & 1 << load_varc(841)) == 0) 
+		GOTO	flow_5
+	stack_dump0 = stack_dump0;
+	GOTO	flow_6
+flow_5:
+	if_sethide(arg3, 1)
+	if_sethide(arg4, 1)
+	if_sethide(arg6, 0)
+	stack_dump0 = stack_dump0;
+	stack_dump1 = 1;
+	stack_dump2 = arg1;
+	/* 
+		AT PrimitiveInstruction(opcode=668, value=false, type=boolean)
+		com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=668, value=false, type=boolean)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+flow_6:
+	if_sethide(arg3, 0)
+	if_sethide(arg4, 0)
+	if_sethide(arg6, 1)
+	stack_dump0 = stack_dump0;
+	stack_dump1 = 0;
+	stack_dump2 = arg1;
+	/* 
+		AT PrimitiveInstruction(opcode=668, value=false, type=boolean)
+		com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=668, value=false, type=boolean)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */

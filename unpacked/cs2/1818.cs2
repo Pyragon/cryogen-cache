@@ -1,0 +1,15 @@
+//script1818(1818)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+if_settext(arg0, "Defeat!");
+if_setposition(64, 49, 0, 0, arg0)
+if_settext(arg1, "Your clan has been defeated.");
+if_setposition(41, 93, 0, 0, arg1)
+if_setposition(41, 179, 0, 0, arg2)
+if_setsize(180, 125, 0, 0, arg2)
+if_setposition(38, 81, 0, 0, arg3)
+if_sethide(arg0, 0)
+if_sethide(arg1, 0)
+if_sethide(arg2, 0)
+if_sethide(arg3, 0)
+if_sethide(arg4, 1)
+if_sethide(arg5, 0)
+return;

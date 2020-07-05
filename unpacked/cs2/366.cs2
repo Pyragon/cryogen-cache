@@ -1,0 +1,84 @@
+//script366(366)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, string arg9)(void)
+int ivar9;
+int ivar10;
+int ivar11;
+string stack_dump0;
+int stack_dump1;
+flow_0:
+	if (arg0 != -1) {
+		if (arg5 == 1) 
+			script365(arg0, arg3, 1);
+		else 
+			script365(arg0, arg3, 0);
+		if (arg6 == 1) 
+			instr6342(arg0, 367, "Ii1", arg0, arg4, arg5);
+	}
+	else 
+		script365(arg7, arg3, 2);
+	if (instr6004(arg7) == 1) {
+		if (arg5 == 1) {
+			if (string_length(arg9) > 0) {
+				stack_dump0 = arg9;
+				script3365(arg7);
+				stack_dump1 = if_getwidth(arg7);
+				stack_dump0 = stack_dump0;
+				script3366(arg7);
+				/* 
+					AT PrimitiveInstruction(opcode=902, value=379, type=int)
+					java.lang.RuntimeException: Stack underflow
+						at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.analyzeCall(CS2FlowGenerator.java:590)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:497)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+						at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+						at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+						at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+						at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+					
+				 */
+			}
+		}
+		else {
+			script3365(arg7);
+			/* 
+				AT JumpInstruction(target=LabelInstruction(labelId=13))
+				java.lang.RuntimeException: Stack underflow
+					at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:182)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+	}
+	if (arg2 == -1) 
+		return;
+	ivar9 = 0;
+	ivar10 = enum_getoutputcount(arg2);
+	ivar11 = -1;
+	IF (arg5 == 1) 
+		GOTO	flow_19
+	GOTO	flow_27
+flow_19:
+	IF (ivar9 < ivar10) 
+		GOTO	flow_20
+	GOTO	flow_27
+flow_20:
+	if (ivar9 != arg1) {
+		ivar11 = enum(ivar9, arg2, 73, 105);
+		if (ivar11 == -1) 
+			return;
+		if (ivar11 != arg0 && if_gethide(ivar11) == 0) {
+			instr6342(ivar11, 367, "Ii1", ivar11, arg4, 0);
+			script365(ivar11, arg3, 0);
+		}
+	}
+	ivar9 = calc(ivar9 + 1);
+	GOTO	flow_19
+flow_27:
+	return;

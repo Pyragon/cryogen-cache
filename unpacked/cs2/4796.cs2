@@ -1,0 +1,62 @@
+//script4796(4796)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11)(void)
+int ivar12;
+int ivar13;
+int ivar14;
+int ivar15;
+int ivar16;
+int ivar17;
+int ivar18;
+int ivar19;
+int ivar20;
+int stack_dump0;
+ivar12 = 0;
+ivar13 = 0;
+ivar14 = 0;
+ivar15 = 0;
+ivar16 = 0;
+ivar17 = 0;
+ivar18 = 0;
+ivar19 = 0;
+if (arg1 > 0) {
+	ivar14 = calc(arg1 / calc(1000 * arg0));
+	ivar12 = calc(ivar12 + 1);
+}
+if (arg3 > 0) {
+	ivar15 = calc(arg3 / calc(1000 * arg2));
+	ivar12 = calc(ivar12 + 1);
+}
+if (arg5 > 0) {
+	ivar16 = calc(arg5 / calc(1000 * arg4));
+	ivar12 = calc(ivar12 + 1);
+}
+if (arg7 > 0) {
+	ivar17 = calc(arg7 / calc(1000 * arg6));
+	ivar12 = calc(ivar12 + 1);
+}
+if (arg9 > 0) {
+	ivar18 = calc(arg9 / calc(1000 * arg8));
+	ivar12 = calc(ivar12 + 1);
+}
+if (arg11 > 0) {
+	ivar19 = calc(arg11 / calc(1000 * arg10));
+	ivar12 = calc(ivar12 + 1);
+}
+ivar12 = max(ivar12, 1);
+ivar20 = calc(calc(10 * ivar12) / calc(calc(calc(calc(calc(ivar14 + ivar15) + ivar16) + ivar17) + ivar18) + ivar19));
+ivar13 = calc(ivar20 - 100);
+if (ivar13 == 100 && (arg0 != arg1 && arg0 != 0 || arg2 != arg3 && arg2 != 0 || arg4 != arg5 && arg4 != 0 || arg6 != arg7 && arg6 != 0 || arg8 != arg9 && arg8 != 0 || arg10 != arg11 && arg10 != 0)) 
+	ivar13 = 99;
+stack_dump0 = ivar13;
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

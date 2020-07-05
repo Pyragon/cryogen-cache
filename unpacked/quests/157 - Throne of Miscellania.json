@@ -1,0 +1,17 @@
+{
+  "id": 157,
+  "name": "Throne of Miscellania",
+  "members": false,
+  "varValues": [
+    [
+      359,
+      10,
+      100
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

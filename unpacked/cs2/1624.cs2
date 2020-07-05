@@ -1,0 +1,10 @@
+//script1624(1624)()(void)
+if (world_language() == 1) 
+	if_setgraphic(7668, 33947654)
+else if (world_language() == 2) 
+	if_setgraphic(7667, 33947654)
+else {
+	if (world_language() == 3) 
+		if_setgraphic(7669, 33947654)
+}
+return;

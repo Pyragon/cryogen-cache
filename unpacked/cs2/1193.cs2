@@ -1,0 +1,4 @@
+//script1193(1193)(int arg0)(void)
+if (arg0 == 1 || calc(50 % clientclock()) == 0) 
+	script1194();
+return;

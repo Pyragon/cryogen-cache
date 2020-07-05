@@ -1,0 +1,12 @@
+//script896(896)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+ivar0 = calc(12 / 116);
+ivar1 = calc(load_varpbit(4527) * ivar0);
+ivar2 = calc(load_varpbit(4526) * ivar0);
+if_setposition(if_getx(if_gethash(717, 8)), calc(122 + calc(ivar1 - 116)), 0, 0, 46989320)
+if_setposition(if_getx(if_gethash(717, 7)), calc(122 + calc(ivar2 - 116)), 0, 0, 46989319)
+if_setsize(27, ivar1, 0, 0, 46989320)
+if_setsize(27, ivar2, 0, 0, 46989319)
+return;

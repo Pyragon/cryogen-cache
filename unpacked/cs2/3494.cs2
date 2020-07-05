@@ -1,0 +1,121 @@
+//script3494(3494)(int arg0)(void)
+int ivar1;
+sound_synth(9499, 1, 0);
+if_setposition(if_getx(if_gethash(993, 112)), 52, 0, 0, 65077360)
+if_setposition(if_getx(if_gethash(993, 27)), 52, 0, 0, 65077275)
+if_setposition(if_getx(if_gethash(993, 26)), 52, 0, 0, 65077274)
+if_setsize(0, 16384, 2, 2, 65077408)
+if_setsize(0, 16384, 2, 2, 65077315)
+if_setsize(0, 16384, 2, 2, 65077357)
+if_sethide(if_gethash(993, 254), 1)
+if_sethide(if_gethash(993, 239), 1)
+if_sethide(if_gethash(993, 224), 1)
+if_sethide(if_gethash(993, 209), 1)
+if_settrans(255, if_gethash(993, 257));
+if_settrans(255, if_gethash(993, 242));
+if_settrans(255, if_gethash(993, 227));
+if_settrans(255, if_gethash(993, 212));
+if_sethide(if_gethash(993, 194), 1)
+if_sethide(if_gethash(993, 195), 1)
+if_sethide(if_gethash(993, 196), 1)
+if_sethide(if_gethash(993, 197), 1)
+if_sethide(if_gethash(993, 261), 1)
+switch (load_varc(1184)) {
+	case 1:
+		if (load_varpbit(8065) == 1) 
+			if_settext(if_gethash(993, 139), "In use");
+		else 
+			if_settext(if_gethash(993, 139), "Switch-to");
+		if (load_varpbit(8065) == 2) 
+			if_settext(if_gethash(993, 46), "In use");
+		else 
+			if_settext(if_gethash(993, 46), "Switch-to");
+		if (load_varpbit(8065) == 3) 
+			if_settext(if_gethash(993, 88), "In use");
+		else 
+			if_settext(if_gethash(993, 88), "Switch-to");
+		break;
+	case 2:
+		if (load_varpbit(8065) == 4) 
+			if_settext(if_gethash(993, 139), "In use");
+		else 
+			if_settext(if_gethash(993, 139), "Switch-to");
+		if (load_varpbit(8065) == 5) 
+			if_settext(if_gethash(993, 46), "In use");
+		else 
+			if_settext(if_gethash(993, 46), "Switch-to");
+		if (load_varpbit(8065) == 6) 
+			if_settext(if_gethash(993, 88), "In use");
+		else 
+			if_settext(if_gethash(993, 88), "Switch-to");
+		break;
+	case 3:
+		if (load_varpbit(8065) == 7) 
+			if_settext(if_gethash(993, 139), "In use");
+		else 
+			if_settext(if_gethash(993, 139), "Switch-to");
+		if (load_varpbit(8065) == 8) 
+			if_settext(if_gethash(993, 46), "In use");
+		else 
+			if_settext(if_gethash(993, 46), "Switch-to");
+		if (load_varpbit(8065) == 9) 
+			if_settext(if_gethash(993, 88), "In use");
+		else 
+			if_settext(if_gethash(993, 88), "Switch-to");
+		break;
+	case 4:
+		if (load_varpbit(8065) == 10) 
+			if_settext(if_gethash(993, 139), "In use");
+		else 
+			if_settext(if_gethash(993, 139), "Switch-to");
+		if (load_varpbit(8065) == 11) 
+			if_settext(if_gethash(993, 46), "In use");
+		else 
+			if_settext(if_gethash(993, 46), "Switch-to");
+		if (load_varpbit(8065) == 12) 
+			if_settext(if_gethash(993, 88), "In use");
+		else 
+			if_settext(if_gethash(993, 88), "Switch-to");
+}
+switch (arg0) {
+	case 65077505:
+		if_sethide(if_gethash(993, 254), 0)
+		if_sethide(if_gethash(993, 194), 0)
+		store_varc(1184, 1)
+		if_setcolor(16724580, if_gethash(993, 134));
+		if_setcolor(16724580, if_gethash(993, 41));
+		if_setcolor(16724580, if_gethash(993, 83));
+		break;
+	case 65077490:
+		if_sethide(if_gethash(993, 239), 0)
+		if_sethide(if_gethash(993, 195), 0)
+		store_varc(1184, 2)
+		if_setcolor(9895830, if_gethash(993, 134));
+		if_setcolor(9895830, if_gethash(993, 41));
+		if_setcolor(9895830, if_gethash(993, 83));
+		break;
+	case 65077475:
+		if_sethide(if_gethash(993, 224), 0)
+		if_sethide(if_gethash(993, 196), 0)
+		store_varc(1184, 3)
+		if_setcolor(51455, if_gethash(993, 134));
+		if_setcolor(51455, if_gethash(993, 41));
+		if_setcolor(51455, if_gethash(993, 83));
+		break;
+	case 65077460:
+		if_sethide(if_gethash(993, 209), 0)
+		if_sethide(if_gethash(993, 197), 0)
+		store_varc(1184, 4)
+		if_setcolor(16777215, if_gethash(993, 134));
+		if_setcolor(16777215, if_gethash(993, 41));
+		if_setcolor(16777215, if_gethash(993, 83));
+}
+ivar1 = enum(load_varc(1184), 3088, 103, 105);
+if_settext(if_gethash(993, 132), struct_param(enum(1, ivar1, 74, 105), 1089));
+if_settext(if_gethash(993, 133), struct_param(enum(1, ivar1, 74, 105), 1090));
+if_settext(if_gethash(993, 39), struct_param(enum(2, ivar1, 74, 105), 1089));
+if_settext(if_gethash(993, 40), struct_param(enum(2, ivar1, 74, 105), 1090));
+if_settext(if_gethash(993, 81), struct_param(enum(3, ivar1, 74, 105), 1089));
+if_settext(if_gethash(993, 82), struct_param(enum(3, ivar1, 74, 105), 1090));
+store_varc(1186, 0)
+return;

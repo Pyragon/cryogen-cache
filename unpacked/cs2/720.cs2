@@ -1,0 +1,4 @@
+//script720(720)(int arg0, int arg1, int arg2)(void)
+if (cc_find(arg0, 3) == 1) 
+	cc_dragpickup(0, calc(2 / cc_getheight()));
+return;

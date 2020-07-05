@@ -1,0 +1,17 @@
+{
+  "id": 7,
+  "name": "Witch's House",
+  "members": false,
+  "varValues": [
+    [
+      226,
+      1,
+      7
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 4,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

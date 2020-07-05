@@ -1,0 +1,61 @@
+//script2610(2610)(int arg0)(void)
+string svar0;
+svar0 = "";
+if (load_varpbit(6357) == 2) {
+	if_sethide(arg0, 0)
+	if (load_varpbit(6372) == 15) {
+		if (load_varpbit(6373) > 0) {
+			svar0 = "Collected " + to_string(load_varpbit(6373)) + " out of 4 rocks";
+			if_setgraphic(1985, 2424868)
+		}
+		else {
+			svar0 = "Send a squad to collect rocks";
+			if_setgraphic(1990, 2424868)
+		}
+		if_setonmouseover(if_gethash(37, 0), 38, "IIsii", 2424832, 2424873, svar0, 50, 150);
+		/* 
+			AT PrimitiveInstruction(opcode=600, value=0, type=int)
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:148)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	if (load_varpbit(6368) > 0) {
+		svar0 = "Collected wheels";
+		if_setgraphic(1981, 2424868)
+	}
+	else {
+		svar0 = "Send a squad to collect wheels.";
+		if_setgraphic(1986, 2424868)
+	}
+	if_setonmouseover(if_gethash(37, 0), 38, "IIsii", 2424832, 2424873, svar0, 50, 150);
+	/* 
+		AT PrimitiveInstruction(opcode=600, value=0, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:148)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if (load_varpbit(6357) == 1) 
+	if_sethide(arg0, 1)
+else if (load_varpbit(6357) == 3) 
+	if_sethide(arg0, 1)
+else {
+	if (load_varpbit(6357) == 4) 
+		if_sethide(arg0, 1)
+}
+return;

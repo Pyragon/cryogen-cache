@@ -1,0 +1,116 @@
+//script662(662)(int arg0)(void)
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+int ivar12;
+string svar0;
+int stack_dump0;
+ivar1 = enum(arg0, 1080, 73, 105);
+ivar2 = enum(arg0, 1081, 73, 105);
+ivar3 = enum(arg0, 1079, 118, 105);
+cc_deleteall(ivar1)
+ivar4 = if_getwidth(ivar1);
+ivar5 = if_getheight(ivar1);
+ivar6 = calc(40 - calc(2 / ivar4));
+ivar7 = calc(47 - ivar5);
+ivar8 = inv_getitem(ivar3, 0);
+ivar9 = inv_getitem(ivar3, 1);
+ivar10 = enum(arg0, 1082, 73, 105);
+if (ivar10 != -1) 
+	/* 
+		AT PrimitiveInstruction(opcode=262, value=false, type=boolean)
+		com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=262, value=false, type=boolean)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+script98(ivar1, 0, 1138, calc(2 - ivar6), calc(2 - ivar7), 40, 36);
+ivar11 = 1140;
+if ((ivar10 == -1 || if_gethide(ivar10) == 1) && cc_find(ivar1, 0) == 1) {
+	instr6091(688, "Iid", -2147483645, -2147483643, ivar11);
+	ivar11 = 1138;
+	instr6092(688, "Iid", -2147483645, -2147483643, ivar11);
+	if (ivar8 != -1) {
+		if (item_cert(ivar8) != ivar8) {
+			if (inv_getnum(ivar3, 0) > 1) {
+				cc_setop(1, "Collect-notes");
+				cc_setop(2, "Collect-items");
+			}
+			else {
+				cc_setop(1, "Collect-items");
+				cc_setop(2, "Collect-notes");
+			}
+		}
+		else 
+			cc_setop(1, "Collect");
+		cc_setopbase(item_name(ivar8));
+	}
+}
+cc_create(ivar1, 5, 1);
+cc_setposition(ivar6, ivar7, 0, 0);
+cc_setsize(36, 32, 0, 0);
+cc_setgraphicshadow(colour_gethashedhsv(51, 51, 51));
+cc_setitem(ivar8, inv_getnum(ivar3, 0));
+ivar6 = calc(calc(2 / ivar4) + 4);
+script98(ivar1, 2, 1138, calc(2 - ivar6), calc(2 - ivar7), 40, 36);
+if ((ivar10 == -1 || if_gethide(ivar10) == 1) && cc_find(ivar1, 2) == 1) {
+	ivar11 = 1140;
+	instr6091(688, "Iid", -2147483645, -2147483643, ivar11);
+	ivar11 = 1138;
+	instr6092(688, "Iid", -2147483645, -2147483643, ivar11);
+	if (ivar9 != -1) {
+		if (item_cert(ivar9) != ivar9) {
+			if (inv_getnum(ivar3, 1) > 1) {
+				cc_setop(1, "Collect-notes");
+				cc_setop(2, "Collect-items");
+			}
+			else {
+				cc_setop(1, "Collect-items");
+				cc_setop(2, "Collect-notes");
+			}
+		}
+		else 
+			cc_setop(1, "Collect");
+		cc_setopbase(item_name(ivar9));
+	}
+}
+cc_create(ivar1, 5, 3);
+cc_setposition(ivar6, ivar7, 0, 0);
+cc_setsize(36, 32, 0, 0);
+cc_setgraphicshadow(colour_gethashedhsv(51, 51, 51));
+cc_setitem(ivar9, inv_getnum(ivar3, 1));
+script652(11, 11, calc(65 - ivar4), 16, arg0, ivar1, 4, ivar2, 0);
+cc_create(ivar1, 3, 9);
+ivar6 = calc(30 - ivar4);
+cc_setposition(ivar6, 11, 0, 0);
+cc_setsize(18, 16, 0, 0);
+cc_setcolor(0);
+cc_settrans(160)
+cc_setfill(true);
+cc_create(ivar1, 6, 10);
+stack_dump0 = arg0;
+/* 
+	AT PrimitiveInstruction(opcode=602, value=false, type=boolean)
+	com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=602, value=false, type=boolean)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

@@ -1,0 +1,11 @@
+//script1906(1906)(int arg0, int arg1)(void)
+if (cc_find(arg1, arg0) == 1) {
+	store_varc(128, calc(1 - arg0))
+	if (cc_find(arg1, 0) == 1) {
+		cc_setposition(cc_getx(), cc_gety(), 0, 0);
+		cc_setsize(cc_getwidth(), cc_getheight(), 0, 0);
+		cc_setcolor(5733957);
+		cc_setfill(true);
+	}
+}
+return;

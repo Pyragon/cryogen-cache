@@ -1,0 +1,14 @@
+//script2061(2061)(int arg0)(void)
+int ivar1;
+int ivar2;
+int ivar3;
+string svar0;
+ivar1 = enum(load_varpbit(357), 2162, 74, 105);
+ivar2 = enum(arg0, struct_param(ivar1, 664), 105, 73);
+ivar3 = struct_param(ivar1, 661);
+svar0 = enum(ivar2, struct_param(ivar1, 665), 115, 105);
+if (ivar3 != -1) 
+	script39(arg0, ivar3, 25, 300, svar0);
+if (ivar2 != load_varc(631)) 
+	if_setgraphic(1702, arg0)
+return;

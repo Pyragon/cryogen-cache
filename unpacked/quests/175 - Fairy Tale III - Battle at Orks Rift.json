@@ -1,0 +1,17 @@
+{
+  "id": 175,
+  "name": "Fairy Tale III - Battle at Orks Rift",
+  "members": true,
+  "varbitValues": [
+    [
+      7826,
+      10,
+      180
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "EXPERIENCED",
+  "graphicId": 3131
+}

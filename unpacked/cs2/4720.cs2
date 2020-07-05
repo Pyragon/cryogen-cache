@@ -1,0 +1,12 @@
+//script4720(4720)(int arg0)(void)
+if (arg0 == 40763415) {
+	if_setgraphic(6356, 40763416)
+	if_setgraphic(6355, 40763417)
+	if_setgraphic(6357, 40763418)
+}
+else {
+	if_setgraphic(6371, 40763421)
+	if_setgraphic(6370, 40763422)
+	if_setgraphic(6372, 40763423)
+}
+return;

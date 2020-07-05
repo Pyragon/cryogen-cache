@@ -1,0 +1,8 @@
+//script4184(4184)(int arg0, int arg1)(void)
+if (arg0 != 1) 
+	return;
+store_varc(8877, max(min(calc(load_varpbit(8877) + arg1), 28), 1))
+if_settext(if_gethash(1072, 33), to_string(load_varpbit(8877)));
+instr6342(if_gethash(1072, 83), 4187, "i");
+if_sethide(if_gethash(1072, 83), 0)
+return;

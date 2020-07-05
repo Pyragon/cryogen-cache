@@ -1,0 +1,17 @@
+{
+  "id": 97,
+  "name": "Enakhra's Lament",
+  "members": false,
+  "varbitValues": [
+    [
+      1560,
+      10,
+      70
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

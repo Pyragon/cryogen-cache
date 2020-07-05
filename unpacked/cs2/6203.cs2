@@ -1,0 +1,36 @@
+//script6203(6203)()(void)
+int ivar0;
+int ivar1;
+int stack_dump0;
+int stack_dump1;
+int stack_dump2;
+int stack_dump3;
+if (compare(load_varc_string(363), load_varc_string(364)) != 0 && (string_length(load_varc_string(363)) > 0 || string_length(load_varc_string(364)) > 0)) {
+	script3093(-5, 1, 0, 2608, 0, -1, 1, "Please ensure both email addresses are the same.", "", "", "Back", "Back");
+	return;
+}
+instr6237(if_gethash(906, 235), 6204, "Y", 1, 2411, );
+script5522();
+if_settext(if_gethash(906, 252), "Please wait...");
+ivar0 = 0;
+ivar1 = 0;
+if (load_varc(1411) == 1) {
+	ivar0 = 1;
+	ivar1 = 1;
+}
+stack_dump0 = 1;
+stack_dump1 = ivar0;
+stack_dump2 = ivar1;
+stack_dump3 = load_varc_string(363);
+/* 
+	AT PrimitiveInstruction(opcode=511, value=false, type=boolean)
+	com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=511, value=false, type=boolean)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

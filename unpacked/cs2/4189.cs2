@@ -1,0 +1,10 @@
+//script4189(4189)(int arg0)(void)
+if (arg0 == 70385726) 
+	if_setcolor(16777215, if_gethash(1074, 57));
+if (arg0 == 70385727) 
+	if_setcolor(16777215, if_gethash(1074, 58));
+if (arg0 == 70385728) 
+	if_setcolor(16777215, if_gethash(1074, 59));
+if (arg0 == 70385729) 
+	if_setcolor(16777215, if_gethash(1074, 60));
+return;

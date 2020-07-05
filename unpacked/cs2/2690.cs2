@@ -1,0 +1,23 @@
+//script2690(2690)(int arg0)(void)
+int ivar1;
+int ivar2;
+int ivar3;
+ivar1 = 0;
+ivar2 = 0;
+ivar3 = 5;
+while (cc_find(if_gethash(1022, 15), ivar1) == 1) 
+	ivar1 = calc(ivar1 + 1);
+if (arg0 > 4) {
+	ivar3 = calc(ivar3 + 40);
+	ivar2 = calc(40 * calc(5 - arg0));
+}
+else 
+	ivar2 = calc(40 * arg0);
+ivar2 = calc(ivar2 + 17);
+cc_create(if_gethash(1022, 15), 5, ivar1);
+cc_setgraphic(937)
+cc_setsize(10, 32, 0, 0);
+cc_setposition(ivar2, ivar3, 0, 0);
+cc_sethide(0);
+instr6556(144, "Iiii", 66977807, ivar1, clientclock(), calc(clientclock() + 750));
+return;

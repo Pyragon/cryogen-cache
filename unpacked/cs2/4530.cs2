@@ -1,0 +1,54 @@
+//script4530(4530)(int arg0)(void)
+int ivar1;
+int ivar2;
+ivar1 = 4;
+ivar2 = 4;
+cc_deleteall(arg0)
+cc_create(arg0, 5, if_getnextsubid(arg0));
+cc_setsize(calc(2 * ivar1), calc(2 * ivar2), 1, 1);
+cc_setposition(0, 0, 1, 1);
+cc_setgraphic(5470)
+cc_settiling(true);
+cc_create(arg0, 5, if_getnextsubid(arg0));
+cc_setsize(calc(2 * ivar1), ivar2, 1, 0);
+cc_setposition(0, 0, 1, 0);
+cc_setgraphic(5472)
+cc_settiling(true);
+cc_setvflip(1);
+cc_create(arg0, 5, if_getnextsubid(arg0));
+cc_setsize(calc(2 * ivar1), ivar2, 1, 0);
+cc_setposition(0, 0, 1, 2);
+cc_setgraphic(5472)
+cc_settiling(true);
+cc_create(arg0, 5, if_getnextsubid(arg0));
+cc_setsize(ivar1, calc(2 * ivar2), 0, 1);
+cc_setposition(0, 0, 0, 1);
+cc_setgraphic(5473)
+cc_settiling(true);
+cc_sethflip(1)
+cc_create(arg0, 5, if_getnextsubid(arg0));
+cc_setsize(ivar1, calc(2 * ivar2), 0, 1);
+cc_setposition(0, 0, 2, 1);
+cc_setgraphic(5473)
+cc_settiling(true);
+cc_create(arg0, 5, if_getnextsubid(arg0));
+cc_setsize(ivar1, ivar2, 0, 0);
+cc_setposition(0, 0, 0, 0);
+cc_setgraphic(5633)
+cc_sethflip(1)
+cc_setvflip(1);
+cc_create(arg0, 5, if_getnextsubid(arg0));
+cc_setsize(ivar1, ivar2, 0, 0);
+cc_setposition(0, 0, 2, 0);
+cc_setgraphic(5633)
+cc_setvflip(1);
+cc_create(arg0, 5, if_getnextsubid(arg0));
+cc_setsize(ivar1, ivar2, 0, 0);
+cc_setposition(0, 0, 0, 2);
+cc_setgraphic(5633)
+cc_sethflip(1)
+cc_create(arg0, 5, if_getnextsubid(arg0));
+cc_setsize(ivar1, ivar2, 0, 0);
+cc_setposition(0, 0, 2, 2);
+cc_setgraphic(5633)
+return;

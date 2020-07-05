@@ -1,0 +1,31 @@
+//script5154(5154)(int arg0, int arg1)(void)
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+if (arg0 == -1 || arg1 == -1) 
+	return;
+ivar2 = struct_param(arg1, 1348);
+ivar3 = struct_param(arg1, 1355);
+ivar4 = struct_param(arg1, 1356);
+ivar5 = struct_param(arg1, 1358);
+cc_deleteall(arg0)
+cc_create(arg0, 5, if_getnextsubid(arg0));
+cc_setposition(0, 0, 0, 1);
+cc_setsize(8, 20, 0, 0);
+cc_setgraphic(ivar2)
+cc_settrans(ivar5)
+cc_settiling(true);
+cc_create(arg0, 5, if_getnextsubid(arg0));
+cc_setposition(0, 0, 1, 1);
+cc_setsize(16, 20, 1, 0);
+cc_setgraphic(ivar3)
+cc_settrans(ivar5)
+cc_settiling(true);
+cc_create(arg0, 5, if_getnextsubid(arg0));
+cc_setposition(0, 0, 2, 1);
+cc_setsize(8, 20, 0, 0);
+cc_setgraphic(ivar4)
+cc_settrans(ivar5)
+cc_settiling(true);
+return;

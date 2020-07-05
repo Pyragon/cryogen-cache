@@ -1,0 +1,10 @@
+//script2752(2752)()(void)
+cc_settextalign(1, 1, 0);
+cc_settextfont(495);
+cc_setcolor(255);
+cc_settextshadow(0);
+cc_setsize(0, calc(calc(if_gety(if_gethash(752, 5)) + if_getheight(if_gethash(752, 5))) - if_getheight(cc_getparent())), 1, 0);
+cc_setposition(0, 0, 1, 2);
+instr6091(1356, "Iii", -2147483645, -2147483643, 16777215);
+instr6092(1356, "Iii", -2147483645, -2147483643, 255);
+return;

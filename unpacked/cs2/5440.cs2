@@ -1,0 +1,4 @@
+//script5440(5440)()(void)
+sound_vorbis_volume(6185, 1, 0, 255)
+script5441();
+return;

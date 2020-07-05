@@ -1,0 +1,81 @@
+//script5754(5754)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, string arg9)(void)
+int ivar9;
+int ivar10;
+int ivar11;
+int ivar12;
+int ivar13;
+int ivar14;
+int ivar15;
+int ivar16;
+int ivar17;
+if (arg2 == -1) 
+	arg2 = calc(1 - enum_getoutputcount(arg0));
+else 
+	arg2 = arg2;
+if (load_varp(2504) != 0) 
+	arg9 = enum(load_varp(2504), 680, 115, 83);
+else 
+	arg9 = "Combat";
+cc_deleteall(arg7)
+ivar9 = 0;
+ivar10 = 5;
+ivar11 = 0;
+ivar12 = 0;
+if (ivar9 <= arg2) {
+	ivar11 = enum(ivar9, arg0, 105, 105);
+	script5733(ivar11);
+	/* 
+		AT JumpInstruction(target=LabelInstruction(labelId=8))
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:182)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if (arg1 == 1) 
+	script4508(arg7, calc(1 - ivar12));
+arg3 = min(ivar12, arg3);
+arg3 = max(arg3, 1);
+ivar13 = calc(arg3 * 15);
+ivar14 = calc(ivar13 + calc(2 * 5));
+ivar15 = if_getlayer(arg7);
+if (ivar15 == -1) 
+	return;
+ivar16 = if_getlayer(ivar15);
+if (ivar16 == -1) 
+	return;
+ivar17 = if_getlayer(ivar16);
+if (ivar17 == -1) 
+	return;
+if_setsize(if_getwidth(ivar16), calc(ivar14 + if_getheight(arg4)), 0, 0, ivar16)
+if_setsize(if_getwidth(ivar16), ivar14, 0, 0, ivar15)
+if (if_getlayer(ivar16) == -1) 
+	return;
+if (if_getheight(ivar17) < if_getheight(ivar16)) 
+	return;
+if (if_getheight(ivar17) < calc(if_gety(ivar16) + if_getheight(ivar16)) && calc(if_getheight(ivar16) - calc(if_gety(ivar16) + if_getheight(arg4))) < 0) 
+	return;
+if (calc(if_gety(ivar16) + ivar14) > if_getheight(if_getlayer(ivar16))) {
+	if_setposition(if_getx(ivar16), calc(calc(if_getheight(arg4) - if_getheight(ivar16)) - if_gety(ivar16)), 0, 0, ivar16)
+	if_setposition(0, 0, 0, 0, ivar15)
+	if_setposition(0, 0, 0, 2, arg4)
+}
+else {
+	if_setposition(0, 0, 0, 0, arg4)
+	if_setposition(0, 0, 0, 2, ivar15)
+}
+if_sethide(ivar15, 1)
+hook_mouse_press(arg4, 4505, "III", arg7, arg4, arg8);
+if_setsize(0, 15, 1, 0, arg6)
+if_sethide(arg6, 1)
+instr6185(0, calc(ivar10 + 5), arg7)
+cc_deleteall(arg5)
+script31(arg5, arg7, 5666, 5663, 5664, 5665, 5686, 5685);
+script4501(arg4, arg9);
+return;

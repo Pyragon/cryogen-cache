@@ -1,0 +1,12 @@
+//script703(703)(int arg0, int arg1, int arg2, int arg3)(void)
+int ivar4;
+int ivar5;
+ivar4 = 0;
+ivar5 = 0;
+if (cc_find(arg0, arg1) == 1 && cc_find(arg2, arg3) == 1) {
+	ivar4 = cc_getx();
+	ivar5 = cc_gety();
+	cc_setposition(cc_getx(), cc_gety(), 0, 0);
+	cc_setposition(ivar4, ivar5, 0, 0);
+}
+return;

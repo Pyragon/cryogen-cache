@@ -1,0 +1,5 @@
+//script830(830)(int arg0, int arg1)(void)
+if_setmodelanim(3320, arg1);
+instr6237(arg0, 831, "IY", 1, 425, );
+script834(arg0);
+return;

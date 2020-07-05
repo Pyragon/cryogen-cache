@@ -1,0 +1,17 @@
+{
+  "id": 98,
+  "name": "Forgettable Tale of a Drunken Dwarf",
+  "members": false,
+  "varbitValues": [
+    [
+      822,
+      10,
+      140
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

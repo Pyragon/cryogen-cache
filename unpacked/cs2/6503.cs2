@@ -1,0 +1,8 @@
+//script6503(6503)(int arg0, int arg1)(void)
+int ivar2;
+int ivar3;
+ivar2 = 0;
+ivar3 = calc(if_getwidth(arg1) - if_getwidth(arg0));
+ivar2 = scale(ivar3, 100, calc(170 - load_varc(1971)));
+if_setposition(ivar2, 0, 0, 0, arg1)
+return;

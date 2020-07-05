@@ -1,0 +1,6 @@
+//script4433(4433)()(void)
+if (activeclanchannel_find_affined() == 1) 
+	script4434();
+else 
+	script4589();
+return;

@@ -1,0 +1,17 @@
+{
+  "id": 8,
+  "name": "The Elemental Workshop I",
+  "members": true,
+  "varValues": [
+    [
+      299,
+      1,
+      524288
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

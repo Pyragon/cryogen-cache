@@ -1,0 +1,17 @@
+{
+  "id": 134,
+  "name": "The Giant Dwarf",
+  "members": false,
+  "varbitValues": [
+    [
+      571,
+      5,
+      50
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

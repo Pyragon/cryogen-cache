@@ -1,0 +1,32 @@
+//script5131(5131)()(void)
+int stack_dump0;
+if (load_varc(1572) != -1 && load_varc(1574) != -1 && load_varc(1576) != -1 && load_varc(1577) != -1 && load_varc(1578) != -1 && load_varc(1579) != -1 && load_varc(1580) != -1 && load_varc(1581) != -1 && load_varc(1582) != -1 && load_varc(1583) != -1 && load_varc(1584) != -1 && load_varc(1585) != -1 && load_varc(1586) != -1 && load_varc(1587) != -1 && load_varc(1588) != -1 && load_varc(1589) != -1 && load_varc(1649) != -1 && load_varc(1590) != -1 && load_varc(1569) != -1 && load_varc(1571) != -1 && load_varc(1570) != -1 && load_varc(1573) != -1 && load_varc(1575) != -1 && load_varc(1792) != -1) {
+	stack_dump0 = 1;
+	/* 
+		AT PrimitiveInstruction(opcode=184, value=0, type=int)
+		java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+			at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+stack_dump0 = 0;
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

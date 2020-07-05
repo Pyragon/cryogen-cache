@@ -1,0 +1,17 @@
+{
+  "id": 79,
+  "name": "Dream Mentor",
+  "members": false,
+  "varbitValues": [
+    [
+      3618,
+      2,
+      28
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

@@ -1,0 +1,39 @@
+//script4598(4598)(int arg0)(void)
+int ivar1;
+string svar0;
+cc_deleteall(1048596)
+script4534(1048596);
+cc_deleteall(1048615)
+script4534(1048615);
+cc_deleteall(1048635)
+script4535(1048635);
+script4513(1048584, 1746);
+script4510(1048644, 1736);
+script4510(1048645, 1737);
+script4530(1048578);
+script4531(1048648);
+script4532(1048650);
+script4530(1048653);
+script4531(1048657);
+script4599(11694, 1, 1048590, "A beautiful, heavy sword.");
+script4599(20151, 1, 1048591, "An ancient ranger's body armour.");
+script4599(20167, 1, 1048592, "An ancient mage's robe legs.");
+script4599(2667, 1, 1048607, "A rune kiteshield in the colours of Saradomin.");
+script4599(4587, 1, 1048608, "A vicious, curved sword.");
+script4599(1955, 1, 1048609, "Keeps the doctor away.");
+script4599(11235, 1, 1048610, "A bow from a darker dimension.");
+script4599(560, 1337, 1048611, "Used for medium level missile spells.");
+script4599(4151, 1, 1048612, "A weapon from the Abyss.");
+script4599(995, 6969, 1048624, "Lovely money!");
+script4599(11279, 1, 1048625, "The severed head of the great dragon Elvarg!");
+script4599(2347, 1, 1048626, "Good for hitting things!");
+script4599(14090, 1, 1048627, "This cat definitely likes you.");
+svar0 = enum(0, 3796, 115, 105);
+if_settext(if_gethash(16, 63), svar0);
+ivar1 = calc(max(stringwidth(if_gettext(if_gethash(16, 58)), 494), stringwidth(svar0, 494)) + 26);
+if_setsize(ivar1, if_getheight(if_gethash(16, 52)), 0, 0, 1048628)
+if_setsize(ivar1, if_getheight(if_gethash(16, 59)), 0, 0, 1048635)
+if_setposition(max(calc(calc(2 / calc(if_getwidth(if_gethash(16, 4)) - if_getwidth(if_gethash(16, 3)))) - calc(ivar1 + 1)), 0), 0, 1, 0, 1048580)
+instr6257(arg0, 4601, "IY", 1, 1514, );
+script4602(load_varc(1514), arg0);
+return;

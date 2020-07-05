@@ -1,0 +1,17 @@
+{
+  "id": 186,
+  "name": "Prisoner of Glouphrie",
+  "members": false,
+  "varbitValues": [
+    [
+      5332,
+      1,
+      120
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 4581
+}

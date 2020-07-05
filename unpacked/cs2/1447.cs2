@@ -1,0 +1,31 @@
+//script1447(1447)(int arg0)(void)
+int ivar1;
+int ivar2;
+ivar1 = 0;
+ivar2 = enum(ivar1, 1617, 73, 105);
+while (ivar2 != -1) {
+	if (ivar1 == arg0) 
+		if_sethide(ivar2, 0)
+	else 
+		if_sethide(ivar2, 1)
+	ivar1 = calc(ivar1 + 1);
+	ivar2 = enum(ivar1, 1617, 73, 105);
+}
+if (arg0 > 0) {
+	instr6239(if_gethash(767, 64), 1446, "i");
+	if_settrans(0, if_gethash(767, 64));
+}
+else {
+	instr6239(if_gethash(767, 64), None, "");
+	if_settrans(200, if_gethash(767, 64));
+}
+if (arg0 < calc(1 - ivar1)) {
+	instr6239(if_gethash(767, 63), 1446, "i");
+	if_settrans(0, if_gethash(767, 63));
+}
+else {
+	instr6239(if_gethash(767, 63), None, "");
+	if_settrans(200, if_gethash(767, 63));
+}
+if_settext(if_gethash(767, 62), "Page " + to_string(calc(arg0 + 1)) + " of " + to_string(ivar1));
+return;

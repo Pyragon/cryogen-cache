@@ -1,0 +1,11 @@
+//script2665(2665)()(void)
+int ivar0;
+int ivar1;
+ivar0 = enum(load_varpbit(6297), 2566, 73, 105);
+ivar1 = enum(load_varpbit(6297), 2565, 73, 105);
+if (if_gety(ivar0) > -13) {
+	sound_vorbis_volume(7570, 1, 0, 50)
+	if_setposition(if_getx(ivar0), calc(2 - if_gety(ivar0)), 0, 0, ivar0)
+	if_setposition(if_getx(ivar1), calc(2 - if_gety(ivar1)), 0, 0, ivar1)
+}
+return;

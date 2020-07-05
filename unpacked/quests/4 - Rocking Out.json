@@ -1,0 +1,17 @@
+{
+  "id": 4,
+  "name": "Rocking Out",
+  "members": false,
+  "varbitValues": [
+    [
+      4797,
+      10,
+      90
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

@@ -1,0 +1,216 @@
+//script6070(6070)()(void)
+int ivar0;
+int ivar1;
+int stack_dump0;
+ivar0 = 64;
+ivar1 = 0;
+while (ivar0 != 0) {
+	switch (ivar0) {
+		case 1:
+			ivar1 = calc(ivar1 + load_varc(1812));
+			break;
+		case 2:
+			ivar1 = calc(ivar1 + load_varc(1813));
+			break;
+		case 3:
+			ivar1 = calc(ivar1 + load_varc(1814));
+			break;
+		case 4:
+			ivar1 = calc(ivar1 + load_varc(1815));
+			break;
+		case 5:
+			ivar1 = calc(ivar1 + load_varc(1816));
+			break;
+		case 6:
+			ivar1 = calc(ivar1 + load_varc(1817));
+			break;
+		case 7:
+			ivar1 = calc(ivar1 + load_varc(1818));
+			break;
+		case 8:
+			ivar1 = calc(ivar1 + load_varc(1819));
+			break;
+		case 9:
+			ivar1 = calc(ivar1 + load_varc(1820));
+			break;
+		case 10:
+			ivar1 = calc(ivar1 + load_varc(1821));
+			break;
+		case 11:
+			ivar1 = calc(ivar1 + load_varc(1822));
+			break;
+		case 12:
+			ivar1 = calc(ivar1 + load_varc(1823));
+			break;
+		case 13:
+			ivar1 = calc(ivar1 + load_varc(1824));
+			break;
+		case 14:
+			ivar1 = calc(ivar1 + load_varc(1825));
+			break;
+		case 15:
+			ivar1 = calc(ivar1 + load_varc(1826));
+			break;
+		case 16:
+			ivar1 = calc(ivar1 + load_varc(1827));
+			break;
+		case 17:
+			ivar1 = calc(ivar1 + load_varc(1828));
+			break;
+		case 18:
+			ivar1 = calc(ivar1 + load_varc(1829));
+			break;
+		case 19:
+			ivar1 = calc(ivar1 + load_varc(1830));
+			break;
+		case 20:
+			ivar1 = calc(ivar1 + load_varc(1831));
+			break;
+		case 21:
+			ivar1 = calc(ivar1 + load_varc(1832));
+			break;
+		case 22:
+			ivar1 = calc(ivar1 + load_varc(1833));
+			break;
+		case 23:
+			ivar1 = calc(ivar1 + load_varc(1834));
+			break;
+		case 24:
+			ivar1 = calc(ivar1 + load_varc(1835));
+			break;
+		case 25:
+			ivar1 = calc(ivar1 + load_varc(1836));
+			break;
+		case 26:
+			ivar1 = calc(ivar1 + load_varc(1837));
+			break;
+		case 27:
+			ivar1 = calc(ivar1 + load_varc(1838));
+			break;
+		case 28:
+			ivar1 = calc(ivar1 + load_varc(1839));
+			break;
+		case 29:
+			ivar1 = calc(ivar1 + load_varc(1840));
+			break;
+		case 30:
+			ivar1 = calc(ivar1 + load_varc(1841));
+			break;
+		case 31:
+			ivar1 = calc(ivar1 + load_varc(1842));
+			break;
+		case 32:
+			ivar1 = calc(ivar1 + load_varc(1843));
+			break;
+		case 33:
+			ivar1 = calc(ivar1 + load_varc(1844));
+			break;
+		case 34:
+			ivar1 = calc(ivar1 + load_varc(1845));
+			break;
+		case 35:
+			ivar1 = calc(ivar1 + load_varc(1846));
+			break;
+		case 36:
+			ivar1 = calc(ivar1 + load_varc(1847));
+			break;
+		case 37:
+			ivar1 = calc(ivar1 + load_varc(1848));
+			break;
+		case 38:
+			ivar1 = calc(ivar1 + load_varc(1849));
+			break;
+		case 39:
+			ivar1 = calc(ivar1 + load_varc(1850));
+			break;
+		case 40:
+			ivar1 = calc(ivar1 + load_varc(1851));
+			break;
+		case 41:
+			ivar1 = calc(ivar1 + load_varc(1852));
+			break;
+		case 42:
+			ivar1 = calc(ivar1 + load_varc(1853));
+			break;
+		case 43:
+			ivar1 = calc(ivar1 + load_varc(1854));
+			break;
+		case 44:
+			ivar1 = calc(ivar1 + load_varc(1855));
+			break;
+		case 45:
+			ivar1 = calc(ivar1 + load_varc(1856));
+			break;
+		case 46:
+			ivar1 = calc(ivar1 + load_varc(1857));
+			break;
+		case 47:
+			ivar1 = calc(ivar1 + load_varc(1858));
+			break;
+		case 48:
+			ivar1 = calc(ivar1 + load_varc(1859));
+			break;
+		case 49:
+			ivar1 = calc(ivar1 + load_varc(1860));
+			break;
+		case 50:
+			ivar1 = calc(ivar1 + load_varc(1861));
+			break;
+		case 51:
+			ivar1 = calc(ivar1 + load_varc(1862));
+			break;
+		case 52:
+			ivar1 = calc(ivar1 + load_varc(1863));
+			break;
+		case 53:
+			ivar1 = calc(ivar1 + load_varc(1864));
+			break;
+		case 54:
+			ivar1 = calc(ivar1 + load_varc(1865));
+			break;
+		case 55:
+			ivar1 = calc(ivar1 + load_varc(1866));
+			break;
+		case 56:
+			ivar1 = calc(ivar1 + load_varc(1867));
+			break;
+		case 57:
+			ivar1 = calc(ivar1 + load_varc(1868));
+			break;
+		case 58:
+			ivar1 = calc(ivar1 + load_varc(1869));
+			break;
+		case 59:
+			ivar1 = calc(ivar1 + load_varc(1870));
+			break;
+		case 60:
+			ivar1 = calc(ivar1 + load_varc(1871));
+			break;
+		case 61:
+			ivar1 = calc(ivar1 + load_varc(1872));
+			break;
+		case 62:
+			ivar1 = calc(ivar1 + load_varc(1873));
+			break;
+		case 63:
+			ivar1 = calc(ivar1 + load_varc(1874));
+			break;
+		case 64:
+			ivar1 = calc(ivar1 + load_varc(1875));
+	}
+	ivar0 = calc(1 - ivar0);
+}
+stack_dump0 = ivar1;
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

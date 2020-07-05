@@ -1,0 +1,7 @@
+//script3478(3478)(int arg0, int arg1, int arg2, int arg3)(void)
+cc_create(arg0, 3, if_getnextsubid(arg0));
+cc_setsize(6, 6, 0, 0);
+cc_setcolor(arg3);
+cc_setfill(true);
+cc_setposition(calc(16 * arg1), calc(16 * arg2), 1, 1);
+return;

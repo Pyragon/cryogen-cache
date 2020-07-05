@@ -1,0 +1,48 @@
+//script819(819)()(void)
+int stack_dump0;
+int stack_dump1;
+if (load_varp(1174) != -1 && load_varp(1174) != 0) {
+	stack_dump0 = load_varp(1174);
+	stack_dump1 = 43450371;
+	/* 
+		AT PrimitiveInstruction(opcode=857, value=false, type=boolean)
+		com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=857, value=false, type=boolean)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if_setmodel(-1, if_gethash(663, 3));
+if (load_varpbit(1049) == 1) {
+	script821();
+	stack_dump0 = 43450393;
+	/* 
+		AT PrimitiveInstruction(opcode=724, value=0, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:160)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if (load_varp(448) != -1) 
+	if_settext(if_gethash(663, 25), item_name(load_varp(448)));
+else 
+	if_settext(if_gethash(663, 25), "");
+if (load_varpbit(4282) > 50) {
+	store_varc(4282, calc(50 - load_varpbit(4282)))
+	if_setmodelanim(enum(load_varpbit(4282), 1275, 65, 105), if_gethash(663, 3));
+}
+else 
+	if_setmodelanim(enum(load_varpbit(4282), 1276, 65, 105), if_gethash(663, 3));
+return;

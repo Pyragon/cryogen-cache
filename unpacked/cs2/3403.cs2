@@ -1,0 +1,21 @@
+//script3403(3403)(int arg0, int arg1)(void)
+int ivar2;
+int ivar3;
+ivar2 = calc(7 - calc(arg0 - calc(35 - calc(if_gety(if_gethash(909, 61)) - if_getheight(if_gethash(909, 13))))));
+if (arg1 == 1) 
+	ivar2 = calc(calc(15 % ivar2) - ivar2);
+if (ivar2 < 113) 
+	ivar2 = 113;
+if_setsize(20, ivar2, 1, 0, 59572273)
+store_varc(1274, arg0)
+if_setposition(0, calc(7 - calc(if_gety(if_gethash(909, 61)) - if_gety(if_gethash(909, 49)))), 0, 0, 59572286)
+ivar3 = calc(8 - ivar2);
+ivar3 = calc(calc(15 % ivar3) - ivar3);
+if_setsize(if_getwidth(if_gethash(909, 52)), ivar3, 0, 0, 59572276)
+store_varc(1122, calc(calc(ivar3 - ivar3) - load_varc(1122)))
+script3054(59572273);
+if_setsize(if_getwidth(if_gethash(909, 16)), calc(ivar2 + 86), 0, 1, 59572240)
+if_setsize(if_getwidth(if_gethash(909, 48)), calc(ivar2 + 86), 0, 1, 59572272)
+script3029(59572269, 59572268, 59572270, 59572266, 59572265, 59572271);
+script3041(59572311, 59572310, 59572308, 59572302, 59572303);
+return;

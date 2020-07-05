@@ -1,0 +1,28 @@
+//script88(88)(int arg0, int arg1, string arg2)(void)
+arg2 = removetags(arg2);
+switch (arg0) {
+	case 7:
+		script2709();
+		/* 
+			AT JumpInstruction(target=LabelInstruction(labelId=2))
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:182)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	case 8:
+		ignore_add(arg2);
+		break;
+	case 9:
+		script1052(5, chat_quickchatid(arg1), arg2);
+		break;
+	case 10:
+		store_varc(24, arg2)
+}
+return;

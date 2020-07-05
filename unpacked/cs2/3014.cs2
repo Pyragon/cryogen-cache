@@ -1,0 +1,46 @@
+//script3014(3014)()(void)
+int ivar0;
+string svar0;
+string svar1;
+int stack_dump0;
+int stack_dump1;
+svar0 = "news";
+svar1 = "mad-may-and-wild-weekends";
+ivar0 = random(100);
+if_sethide(if_gethash(908, 15), 1)
+if_sethide(if_gethash(908, 30), 0)
+switch (world_language()) {
+	case 0:
+		if (ivar0 < 50) 
+			if_setgraphic(11955, 59506719)
+		else 
+			if_setgraphic(11910, 59506719)
+		break;
+	case 1:
+		if_setgraphic(11957, 59506719)
+		break;
+	case 2:
+		if_setgraphic(11956, 59506719)
+		break;
+	case 3:
+		if_setgraphic(11958, 59506719)
+}
+if_setgraphic(-1, 59506723)
+if_settext(if_gethash(908, 33), "");
+if_setsize(345, 35, 0, 0, 59506721)
+if_setposition(231, 5, 0, 0, 59506721)
+if_setcolor(923907, if_gethash(908, 33));
+stack_dump0 = 473;
+stack_dump1 = 59506721;
+/* 
+	AT PrimitiveInstruction(opcode=85, value=false, type=boolean)
+	com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=85, value=false, type=boolean)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

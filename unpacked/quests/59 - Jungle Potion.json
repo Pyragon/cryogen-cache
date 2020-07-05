@@ -1,0 +1,17 @@
+{
+  "id": 59,
+  "name": "Jungle Potion",
+  "members": false,
+  "varValues": [
+    [
+      175,
+      1,
+      12
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

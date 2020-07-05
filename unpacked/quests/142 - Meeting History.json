@@ -1,0 +1,17 @@
+{
+  "id": 142,
+  "name": "Meeting History",
+  "members": false,
+  "varbitValues": [
+    [
+      5075,
+      5,
+      20
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

@@ -1,0 +1,54 @@
+//script846(846)(int arg0, int arg1)(void)
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+int ivar12;
+int ivar13;
+int ivar14;
+ivar2 = enum(arg0, 1354, 73, 105);
+ivar3 = enum(arg0, 1355, 73, 105);
+ivar4 = 0;
+ivar5 = 0;
+ivar6 = if_getx(ivar2);
+ivar7 = if_gety(ivar2);
+ivar8 = if_getx(ivar3);
+ivar9 = if_gety(ivar3);
+ivar10 = instr6280(ivar2);
+ivar11 = calc(calc(18 * 15) + 65);
+ivar12 = calc(calc(18 * 11) + -2);
+ivar13 = 0;
+ivar14 = 0;
+if (arg0 != 10) {
+	if (arg1 == 0 && ivar6 > 65) {
+		ivar13 = calc(18 - ivar13);
+		sound_synth(4503, 1, 0);
+	}
+	else if (arg1 == 1 && ivar6 < calc(1 - ivar11)) {
+		ivar13 = calc(ivar13 + 18);
+		sound_synth(4503, 1, 0);
+	}
+	else if (arg1 == 2 && ivar7 > -2) {
+		ivar14 = calc(18 - ivar14);
+		sound_synth(4503, 1, 0);
+	}
+	else {
+		if (arg1 == 3 && ivar7 < ivar12) {
+			ivar14 = calc(ivar14 + 18);
+			sound_synth(4503, 1, 0);
+		}
+	}
+	ivar6 = calc(calc(ivar6 + ivar13) + ivar4);
+	ivar7 = calc(calc(ivar7 + ivar14) + ivar5);
+	ivar8 = calc(calc(ivar8 + ivar13) + ivar4);
+	ivar9 = calc(calc(ivar9 + ivar14) + ivar5);
+	if_setposition(ivar6, ivar7, 0, 0, ivar2)
+	if_setposition(ivar8, ivar9, 0, 0, ivar3)
+}
+return;

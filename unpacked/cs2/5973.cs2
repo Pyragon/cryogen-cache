@@ -1,0 +1,8 @@
+//script5973(5973)()(void)
+if (clan_vars_enabled() == 1) {
+	script5974();
+	script5975();
+	script5012();
+	script4900();
+}
+return;

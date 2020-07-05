@@ -1,0 +1,17 @@
+{
+  "id": 69,
+  "name": "Dig Site",
+  "members": false,
+  "varValues": [
+    [
+      131,
+      1,
+      9
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

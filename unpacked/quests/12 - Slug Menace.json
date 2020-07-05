@@ -1,0 +1,17 @@
+{
+  "id": 12,
+  "name": "Slug Menace",
+  "members": false,
+  "varbitValues": [
+    [
+      2610,
+      1,
+      14
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

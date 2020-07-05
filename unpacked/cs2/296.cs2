@@ -1,0 +1,36 @@
+//script296(296)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int stack_dump0;
+ivar7 = 0;
+ivar8 = 0;
+if (arg1 == 1) {
+	ivar7 = get_player_x(arg0);
+	ivar8 = get_player_plane(arg0);
+}
+else {
+	stack_dump0 = test_ex_1(arg0);
+	ivar8 = test_ex_2(arg0);
+	ivar7 = stack_dump0;
+}
+ivar9 = if_getwidth(arg2);
+ivar10 = if_getheight(arg2);
+ivar7 = scale(ivar9, calc(arg6 - arg5), calc(arg6 - ivar7));
+ivar8 = scale(ivar10, calc(arg4 - arg3), calc(arg4 - ivar8));
+ivar7 = calc(calc(2 / ivar9) - ivar7);
+ivar8 = calc(ivar8 - calc(2 / ivar10));
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, -2, 0, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:446)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

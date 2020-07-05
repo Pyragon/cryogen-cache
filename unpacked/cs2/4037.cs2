@@ -1,0 +1,248 @@
+//script4037(4037)(int arg0)(void)
+int ivar1;
+int ivar2;
+int ivar3;
+ivar1 = 0;
+ivar2 = 0;
+ivar3 = 0;
+switch (arg0) {
+	case 1:
+		ivar3 = calc(arg0 & 1 << load_varp(1968));
+		break;
+	case 2:
+		ivar3 = calc(arg0 & 1 << load_varp(1968));
+		break;
+	case 3:
+		ivar3 = calc(arg0 & 1 << load_varp(1968));
+		break;
+	case 4:
+		ivar3 = calc(arg0 & 1 << load_varp(1968));
+		break;
+	case 5:
+		ivar3 = calc(arg0 & 1 << load_varp(1968));
+		break;
+	case 6:
+		ivar3 = calc(arg0 & 1 << load_varp(1968));
+		break;
+	case 7:
+		ivar3 = calc(arg0 & 1 << load_varp(1968));
+		break;
+	case 8:
+		ivar3 = calc(arg0 & 1 << load_varp(1968));
+		break;
+	case 9:
+		ivar3 = calc(arg0 & 1 << load_varp(1968));
+		break;
+	case 10:
+		ivar3 = calc(arg0 & 1 << load_varp(1968));
+		break;
+	case 11:
+		ivar3 = calc(arg0 & 1 << load_varp(1968));
+		break;
+	case 12:
+		ivar3 = calc(arg0 & 1 << load_varp(1968));
+		break;
+	case 13:
+		ivar3 = calc(arg0 & 1 << load_varp(1968));
+		break;
+	case 14:
+		ivar3 = calc(arg0 & 1 << load_varp(1968));
+		break;
+	case 15:
+		ivar3 = calc(arg0 & 1 << load_varp(1968));
+		break;
+	case 16:
+		ivar3 = calc(arg0 & 1 << load_varp(1968));
+		break;
+	case 17:
+		ivar3 = calc(arg0 & 1 << load_varp(1968));
+		break;
+	case 18:
+		ivar3 = calc(arg0 & 1 << load_varp(1968));
+		break;
+	case 19:
+		ivar3 = calc(arg0 & 1 << load_varp(1968));
+		break;
+	case 20:
+		ivar3 = calc(arg0 & 1 << load_varp(1968));
+		break;
+	case 21:
+		ivar3 = calc(arg0 & 1 << load_varp(1968));
+		break;
+	case 22:
+		ivar3 = calc(arg0 & 1 << load_varp(1968));
+		break;
+	case 23:
+		ivar3 = calc(arg0 & 1 << load_varp(1968));
+		break;
+	case 24:
+		ivar3 = calc(arg0 & 1 << load_varp(1968));
+		break;
+	case 25:
+		ivar3 = calc(arg0 & 1 << load_varp(1968));
+}
+switch (arg0) {
+	case 1:
+		ivar1 = load_varp(1969);
+		break;
+	case 2:
+		ivar1 = load_varp(1970);
+		break;
+	case 3:
+		ivar1 = load_varp(1971);
+		break;
+	case 4:
+		ivar1 = load_varp(1972);
+		break;
+	case 5:
+		ivar1 = load_varp(1973);
+		break;
+	case 6:
+		ivar1 = load_varp(1974);
+		break;
+	case 7:
+		ivar1 = load_varp(1975);
+		break;
+	case 8:
+		ivar1 = load_varp(1976);
+		break;
+	case 9:
+		ivar1 = load_varp(1977);
+		break;
+	case 10:
+		ivar1 = load_varp(1978);
+		break;
+	case 11:
+		ivar1 = load_varp(1979);
+		break;
+	case 12:
+		ivar1 = load_varp(1980);
+		break;
+	case 13:
+		ivar1 = load_varp(1981);
+		break;
+	case 14:
+		ivar1 = load_varp(1982);
+		break;
+	case 15:
+		ivar1 = load_varp(1983);
+		break;
+	case 16:
+		ivar1 = load_varp(1984);
+		break;
+	case 17:
+		ivar1 = load_varp(1985);
+		break;
+	case 18:
+		ivar1 = load_varp(1986);
+		break;
+	case 19:
+		ivar1 = load_varp(1987);
+		break;
+	case 20:
+		ivar1 = load_varp(1988);
+		break;
+	case 21:
+		ivar1 = load_varp(1989);
+		break;
+	case 22:
+		ivar1 = load_varp(1990);
+		break;
+	case 23:
+		ivar1 = load_varp(1991);
+		break;
+	case 24:
+		ivar1 = load_varp(1992);
+		break;
+	case 25:
+		ivar1 = load_varp(1993);
+}
+switch (arg0) {
+	case 1:
+		ivar2 = load_varp(1994);
+		break;
+	case 2:
+		ivar2 = load_varp(1995);
+		break;
+	case 3:
+		ivar2 = load_varp(1996);
+		break;
+	case 4:
+		ivar2 = load_varp(1997);
+		break;
+	case 5:
+		ivar2 = load_varp(1998);
+		break;
+	case 6:
+		ivar2 = load_varp(1999);
+		break;
+	case 7:
+		ivar2 = load_varp(2000);
+		break;
+	case 8:
+		ivar2 = load_varp(2001);
+		break;
+	case 9:
+		ivar2 = load_varp(2002);
+		break;
+	case 10:
+		ivar2 = load_varp(2003);
+		break;
+	case 11:
+		ivar2 = load_varp(2004);
+		break;
+	case 12:
+		ivar2 = load_varp(2005);
+		break;
+	case 13:
+		ivar2 = load_varp(2006);
+		break;
+	case 14:
+		ivar2 = load_varp(2007);
+		break;
+	case 15:
+		ivar2 = load_varp(2008);
+		break;
+	case 16:
+		ivar2 = load_varp(2009);
+		break;
+	case 17:
+		ivar2 = load_varp(2010);
+		break;
+	case 18:
+		ivar2 = load_varp(2011);
+		break;
+	case 19:
+		ivar2 = load_varp(2012);
+		break;
+	case 20:
+		ivar2 = load_varp(2013);
+		break;
+	case 21:
+		ivar2 = load_varp(2014);
+		break;
+	case 22:
+		ivar2 = load_varp(2015);
+		break;
+	case 23:
+		ivar2 = load_varp(2016);
+		break;
+	case 24:
+		ivar2 = load_varp(2017);
+		break;
+	case 25:
+		ivar2 = load_varp(2018);
+}
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, -3, 0, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:446)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

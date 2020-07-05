@@ -1,0 +1,49 @@
+//script5059(5059)(int arg0, int arg1, int arg2)(void)
+int ivar3;
+ivar3 = calc(12 * arg1);
+if (arg2 == 1) {
+	if (cc_find(arg0, calc(ivar3 + 2)) == 1) 
+		cc_setgraphic(7555)
+	if (cc_find(arg0, calc(ivar3 + 3)) == 1) 
+		cc_setgraphic(7554)
+	if (cc_find(arg0, calc(ivar3 + 4)) == 1) 
+		cc_setgraphic(7556)
+	if (cc_find(arg0, ivar3) == 1) {
+		instr6091(None, "");
+		instr6092(None, "");
+	}
+	if (if_gethide(if_gethash(1111, 18)) == 1) {
+		script5063(arg0, arg1, 0);
+		if (cc_find(arg0, calc(ivar3 + 1)) == 1) {
+			instr6091(5061, "Ii11", -2147483645, arg1, 1, 0);
+			instr6092(5061, "Ii11", -2147483645, arg1, 0, 0);
+		}
+	}
+	else {
+		if (cc_find(arg0, calc(ivar3 + 5)) == 1) 
+			cc_setgraphic(7555)
+		if (cc_find(arg0, calc(ivar3 + 6)) == 1) 
+			cc_setgraphic(7554)
+		if (cc_find(arg0, calc(ivar3 + 7)) == 1) 
+			cc_setgraphic(7556)
+		if (cc_find(arg0, calc(ivar3 + 10)) == 1) 
+			cc_setgraphic(7408)
+		if (cc_find(arg0, calc(ivar3 + 1)) == 1) {
+			instr6091(None, "");
+			instr6092(None, "");
+		}
+	}
+}
+else {
+	script5062(arg0, arg1, 0);
+	script5063(arg0, arg1, 0);
+	if (cc_find(arg0, ivar3) == 1) {
+		instr6091(5060, "Ii1", -2147483645, arg1, 1);
+		instr6092(5060, "Ii1", -2147483645, arg1, 0);
+	}
+	if (cc_find(arg0, calc(ivar3 + 1)) == 1) {
+		instr6091(5061, "Ii11", -2147483645, arg1, 1, 1);
+		instr6092(5061, "Ii11", -2147483645, arg1, 0, 1);
+	}
+}
+return;

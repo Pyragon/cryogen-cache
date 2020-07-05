@@ -1,0 +1,39 @@
+//script2120(2120)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int ivar5;
+int ivar6;
+if (arg0 != 1) 
+	return;
+ivar5 = 0;
+while (ivar5 < inv_size(307)) {
+	if (cc_find(arg1, calc(7 * ivar5)) == 1) {
+		if (ivar5 == arg2) 
+			cc_settrans(100)
+		else 
+			cc_settrans(200)
+	}
+	ivar5 = calc(ivar5 + 1);
+}
+if_settext(arg4, "Confirm:" + "<br>" + enum(arg2, 2238, 115, 105));
+cc_deleteall(arg3)
+ivar6 = 833;
+ivar5 = 0;
+while (ivar5 < inv_size(307)) {
+	if (ivar5 == arg2) {
+		cc_create(arg3, 5, ivar5);
+		cc_setsize(90, 56, 0, 0);
+		cc_setposition(0, 0, 0, 0);
+		cc_setgraphic(ivar6)
+		cc_sethide(0);
+		instr6092(688, "Iid", -2147483645, -2147483643, ivar6);
+		ivar6 = 834;
+		instr6091(688, "Iid", -2147483645, -2147483643, ivar6);
+		cc_setop(1, "Confirm");
+		return;
+	}
+	cc_create(arg3, 3, ivar5);
+	cc_setposition(-1, -1, 0, 0);
+	cc_setsize(0, 0, 0, 0);
+	cc_sethide(1);
+	ivar5 = calc(ivar5 + 1);
+}
+return;

@@ -1,0 +1,48 @@
+//script5918(5918)(int arg0, int arg1)(void)
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+ivar2 = if_getwidth(arg0);
+ivar3 = 150;
+ivar4 = 18;
+ivar5 = 15;
+ivar6 = calc(ivar4 - ivar3);
+ivar7 = calc(ivar5 / ivar6);
+if (arg1 == 0) {
+	ivar2 = min(calc(ivar2 + ivar7), ivar3);
+	if (ivar2 == ivar3) {
+		arg1 = 1;
+		instr6342(arg0, 5918, "Ii", -2147483645, arg1);
+		script5914();
+		if (load_varc(1928) == 0) 
+			sound_vorbis_volume(4282, 1, 0, 255)
+		else {
+			if (load_varc(1928) == 1) 
+				sound_vorbis_volume(15762, 1, 0, 255)
+		}
+		script5925(5712);
+		/* 
+			AT PrimitiveInstruction(opcode=516, value=0, type=int)
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:457)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+}
+else {
+	ivar2 = max(calc(ivar7 - ivar2), ivar4);
+	if (ivar2 == ivar4) 
+		instr6342(arg0, None, "");
+}
+if_setsize(ivar2, if_getheight(arg0), 0, 0, arg0)
+return;

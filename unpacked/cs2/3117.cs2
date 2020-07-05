@@ -1,0 +1,133 @@
+//script3117(3117)(int arg0, int arg1, int arg2, int arg3, int arg4, string arg5, string arg6)(void)
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+int ivar12;
+int ivar13;
+int ivar14;
+int ivar15;
+string svar2;
+string svar3;
+string svar4;
+ivar5 = -1;
+ivar6 = -1;
+ivar7 = 0;
+ivar8 = 0;
+svar2 = "";
+ivar9 = -1;
+ivar10 = -1;
+ivar11 = 0;
+ivar12 = 0;
+ivar13 = 0;
+ivar14 = 0;
+ivar15 = 0;
+svar3 = "";
+svar4 = "";
+if (calc(0 & 1 << arg1) == 1) 
+	ivar11 = 1;
+else 
+	ivar11 = 0;
+if (calc(1 & 1 << arg1) == 1) 
+	ivar12 = 1;
+else 
+	ivar12 = 0;
+if (calc(2 & 1 << arg1) == 1) 
+	ivar13 = 1;
+else 
+	ivar13 = 0;
+if (calc(3 & 1 << arg1) == 1) 
+	ivar14 = 1;
+else 
+	ivar14 = 0;
+if (calc(4 & 1 << arg1) == 1) 
+	ivar15 = 1;
+else 
+	ivar15 = 0;
+if (world_language() == 0) {
+	if (ivar15 == 1) {
+		ivar9 = enum(1, 730, 100, 105);
+		svar2 = arg5;
+	}
+	else if (string_length(arg5) > 1) {
+		ivar9 = enum(1, 730, 100, 105);
+		svar2 = arg5;
+	}
+	else {
+		ivar9 = enum(arg4, 1810, 100, 105);
+		svar2 = arg6;
+	}
+}
+else {
+	if (world_language() == 1) 
+		ivar9 = 1517;
+	else if (world_language() == 2) 
+		ivar9 = enum(74, 1810, 100, 105);
+	else {
+		if (world_language() == 3) 
+			ivar9 = enum(31, 1810, 100, 105);
+	}
+	if (ivar15 == 1) 
+		svar2 = arg5;
+	else if (string_length(arg5) > 1) 
+		svar2 = arg5;
+	else if (world_language() == 1) 
+		svar2 = "German";
+	else if (world_language() == 2) 
+		svar2 = "French";
+	else {
+		if (world_language() == 3) 
+			svar2 = "Portuguese";
+	}
+}
+if (ivar11 == 0) {
+	ivar5 = 1532;
+	ivar8 = 16579836;
+	svar3 = "Free";
+}
+else {
+	ivar5 = 1531;
+	ivar8 = 16579684;
+	svar3 = "Members";
+}
+if (ivar14 == 1) 
+	ivar10 = 699;
+else 
+	ivar10 = 698;
+if (arg0 == load_varc(998)) {
+	ivar7 = 2109969;
+	ivar6 = 1541;
+}
+else if (arg0 == load_varc(999)) {
+	ivar7 = 2112529;
+	ivar6 = 1541;
+}
+else {
+	if (calc(2 % arg2) == 0) 
+		ivar7 = 2103569;
+	else 
+		ivar7 = 2695190;
+	ivar6 = 1545;
+}
+if (arg3 >= 1980) 
+	svar4 = "FULL";
+else if (arg3 >= 0) 
+	svar4 = to_string(arg3);
+else 
+	svar4 = "OFFLINE";
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, -6, -3, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:446)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

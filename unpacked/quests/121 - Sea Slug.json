@@ -1,0 +1,17 @@
+{
+  "id": 121,
+  "name": "Sea Slug",
+  "members": false,
+  "varValues": [
+    [
+      159,
+      1,
+      12
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

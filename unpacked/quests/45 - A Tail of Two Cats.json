@@ -1,0 +1,17 @@
+{
+  "id": 45,
+  "name": "A Tail of Two Cats",
+  "members": false,
+  "varbitValues": [
+    [
+      1028,
+      5,
+      70
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

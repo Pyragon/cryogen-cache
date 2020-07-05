@@ -1,0 +1,39 @@
+//script1113(1113)()(void)
+int ivar0;
+int stack_dump0;
+ivar0 = 0;
+ivar0 = calc(ivar0 + load_varpbit(4003));
+ivar0 = calc(ivar0 + load_varpbit(4007));
+ivar0 = calc(ivar0 + load_varpbit(4008));
+ivar0 = calc(ivar0 + load_varpbit(4009));
+ivar0 = calc(ivar0 + load_varpbit(4010));
+ivar0 = calc(ivar0 + load_varpbit(4011));
+ivar0 = calc(ivar0 + load_varpbit(4012));
+ivar0 = calc(ivar0 + load_varpbit(4013));
+ivar0 = calc(ivar0 + load_varpbit(4014));
+ivar0 = calc(ivar0 + load_varpbit(4015));
+ivar0 = calc(ivar0 + load_varpbit(4016));
+ivar0 = calc(ivar0 + load_varpbit(4017));
+ivar0 = calc(ivar0 + load_varpbit(4018));
+ivar0 = calc(ivar0 + load_varpbit(4019));
+ivar0 = calc(ivar0 + load_varpbit(4020));
+ivar0 = calc(ivar0 + load_varpbit(4021));
+ivar0 = calc(ivar0 + load_varpbit(4022));
+ivar0 = calc(ivar0 + load_varpbit(4023));
+ivar0 = calc(ivar0 + load_varpbit(4024));
+ivar0 = calc(ivar0 + load_varpbit(4025));
+ivar0 = calc(ivar0 + load_varpbit(4026));
+stack_dump0 = ivar0;
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

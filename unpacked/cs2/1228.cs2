@@ -1,0 +1,29 @@
+//script1228(1228)(int arg0, int arg1, int arg2, int arg3)(void)
+int ivar4;
+int ivar5;
+int ivar6;
+ivar4 = if_getheight(arg0);
+ivar5 = calc(arg3 - clientclock());
+ivar6 = 0;
+if (ivar5 == 25) 
+	sound_vorbis_volume(8105, 1, 0, 100)
+if (ivar5 <= 30) {
+	ivar6 = calc(ivar4 - scale(ivar5, 30, ivar4));
+	if_setposition(0, ivar6, 1, 1, arg1)
+	if_setposition(0, ivar6, 1, 1, arg2)
+	return;
+}
+if (ivar5 < 170) 
+	return;
+if (ivar5 < 200) {
+	ivar6 = calc(scale(calc(170 - ivar5), 30, ivar4) - 0);
+	if_setposition(0, ivar6, 1, 1, arg1)
+	if_setposition(0, ivar6, 1, 1, arg2)
+	return;
+}
+instr6342(arg0, None, "");
+instr6220(arg1);
+if_sethide(arg1, 1)
+if_sethide(arg2, 1)
+if_sethide(arg0, 1)
+return;

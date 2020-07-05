@@ -1,0 +1,15 @@
+//script5945(5945)(int arg0, int arg1)(void)
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+ivar2 = 82051074;
+ivar3 = 82051072;
+ivar4 = max(1, if_getwidth(ivar2));
+ivar5 = max(1, if_getheight(ivar2));
+store_varc(1787, max(1, arg0))
+store_varc(1788, max(1, arg1))
+store_varc(1787, min(load_varc(1787), calc(if_getwidth(ivar3) - ivar4)))
+store_varc(1788, min(load_varc(1788), calc(if_getheight(ivar3) - ivar5)))
+if_setposition(scale(load_varc(1787), ivar4, 16384), scale(load_varc(1788), ivar5, 16384), 3, 3, ivar3)
+return;

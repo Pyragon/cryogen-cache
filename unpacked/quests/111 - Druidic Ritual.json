@@ -1,0 +1,17 @@
+{
+  "id": 111,
+  "name": "Druidic Ritual",
+  "members": false,
+  "varbitValues": [
+    [
+      10776,
+      2,
+      8
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 4,
+  "difficulty": "NOVICE",
+  "graphicId": 4419
+}

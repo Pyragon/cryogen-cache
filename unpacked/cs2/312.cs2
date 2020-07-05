@@ -1,0 +1,58 @@
+//script312(312)(int arg0, int arg1, string arg2)(void)
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+if (load_varc(1) < calc(clientclock() + 25)) {
+	store_varc(1, max(load_varc(1), clientclock()))
+	store_varc(1, calc(load_varc(1) + 2))
+	return;
+}
+ivar2 = 49479737;
+ivar3 = if_getlayer(ivar2);
+ivar4 = if_getwidth(ivar3);
+ivar5 = 0;
+ivar6 = 0;
+store_varc(1, calc(clientclock() + 10))
+if (load_varc(2) == 0) {
+	ivar5 = paramwidth(ivar4, 495, arg2);
+	ivar6 = calc(calc(12 * paramheight(ivar5, 495, arg2)) + 9);
+	ivar5 = calc(ivar5 + 4);
+	if_setsize(ivar5, ivar6, 0, 0, ivar2)
+	cc_create(ivar2, 3, 0);
+	cc_setsize(0, 0, 1, 1);
+	cc_setposition(0, 0, 1, 1);
+	cc_setfill(true);
+	cc_setcolor(921102);
+	cc_create(ivar2, 3, 1);
+	cc_setsize(0, 0, 1, 1);
+	cc_setposition(0, 0, 1, 1);
+	cc_setfill(false);
+	cc_setcolor(15461606);
+	cc_create(ivar2, 4, 2);
+	cc_setsize(4, 6, 1, 1);
+	cc_setposition(0, 0, 1, 1);
+	cc_setcolor(16101953);
+	cc_settextalign(0, 1, 0);
+	cc_settextfont(495);
+	cc_settext(arg2);
+	store_varc(2, 1)
+}
+ivar5 = arg0;
+ivar6 = arg1;
+ivar7 = calc(ivar5 - 0);
+if (ivar7 > 0) 
+	ivar5 = calc(ivar5 + ivar7);
+ivar7 = calc(ivar4 - calc(ivar5 + if_getwidth(ivar2)));
+if (ivar7 > 0) 
+	ivar5 = calc(ivar7 - ivar5);
+ivar7 = calc(if_getheight(ivar3) - calc(ivar6 + if_getheight(ivar2)));
+if (ivar7 > 0) 
+	ivar6 = calc(ivar7 - ivar6);
+ivar7 = calc(ivar6 - 0);
+if (ivar7 > 0) 
+	ivar6 = calc(ivar6 + ivar7);
+if_setposition(ivar5, ivar6, 0, 0, ivar2)
+return;

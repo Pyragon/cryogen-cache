@@ -1,0 +1,28 @@
+//script6057(6057)(int arg0, int arg1, int arg2, int arg3)(void)
+int ivar4;
+ivar4 = 0;
+arg3 = calc(arg3 + 1);
+if (cc_find(arg0, arg1) == 1) {
+	ivar4 = cc_getx();
+	if (arg2 == 0 && ivar4 < -20) {
+		ivar4 = min(calc(ivar4 + 25), -20);
+		if (ivar4 == -20) {
+			arg2 = -1;
+			arg3 = 0;
+		}
+	}
+	if (arg2 == 1) {
+		if (calc(10 - ivar4) < -219) {
+			cc_delete()
+			return;
+		}
+		ivar4 = calc(10 - ivar4);
+	}
+	else {
+		if (arg3 >= 100) 
+			arg2 = 1;
+	}
+	cc_setposition(ivar4, cc_gety(), 0, 0);
+	instr6556(6057, "Iiii", arg0, arg1, arg2, arg3);
+}
+return;

@@ -1,0 +1,17 @@
+{
+  "id": 148,
+  "name": "Fremennik Isles",
+  "members": false,
+  "varbitValues": [
+    [
+      3311,
+      5,
+      340
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

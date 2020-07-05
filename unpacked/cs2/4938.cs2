@@ -1,0 +1,24 @@
+//script4938(4938)(int arg0)(void)
+int ivar1;
+int ivar2;
+int ivar3;
+ivar1 = 0;
+ivar2 = 0;
+ivar3 = 82640941;
+if (arg0 == 0 && load_varpbit(9552) == 1) {
+	ivar1 = calc(if_getx(ivar3) + 12);
+	ivar2 = 0;
+	ivar1 = min(ivar1, ivar2);
+	ivar1 = max(ivar1, -226);
+}
+else {
+	ivar1 = calc(12 - if_getx(ivar3));
+	ivar2 = -226;
+	ivar1 = max(ivar1, ivar2);
+}
+if_setposition(ivar1, if_gety(ivar3), 0, 0, ivar3)
+if (ivar1 == ivar2) {
+	instr6342(ivar3, None, "");
+	script5220();
+}
+return;

@@ -1,0 +1,155 @@
+//script3337(3337)(int arg0, int arg1)(void)
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+int ivar12;
+string svar0;
+ivar2 = 0;
+switch (arg0) {
+	case 1:
+		ivar2 = load_varc(1469);
+		break;
+	case 2:
+		ivar2 = load_varc(1470);
+		break;
+	case 5:
+		ivar2 = load_varc(1471);
+		break;
+	case 3:
+		ivar2 = load_varc(1472);
+		break;
+	case 7:
+		ivar2 = load_varc(1473);
+		break;
+	case 4:
+		ivar2 = load_varc(1474);
+		break;
+	case 6:
+		ivar2 = load_varc(1475);
+		break;
+	case 8:
+		ivar2 = load_varc(1476);
+		break;
+	case 9:
+		ivar2 = load_varc(1477);
+		break;
+	case 10:
+		ivar2 = load_varc(1478);
+		break;
+	case 11:
+		ivar2 = load_varc(1479);
+		break;
+	case 19:
+		ivar2 = load_varc(1480);
+		break;
+	case 13:
+		ivar2 = load_varc(1481);
+		break;
+	case 14:
+		ivar2 = load_varc(1482);
+		break;
+	case 15:
+		ivar2 = load_varc(1483);
+		break;
+	case 16:
+		ivar2 = load_varc(1484);
+		break;
+	case 17:
+		ivar2 = load_varc(1485);
+		break;
+	case 18:
+		ivar2 = load_varc(1486);
+		break;
+	case 12:
+		ivar2 = load_varc(1487);
+		break;
+	case 20:
+		ivar2 = load_varc(1488);
+		break;
+	case 21:
+		ivar2 = load_varc(1489);
+		break;
+	case 22:
+		ivar2 = load_varc(1490);
+		break;
+	case 23:
+		ivar2 = load_varc(1491);
+		break;
+	case 24:
+		ivar2 = load_varc(1492);
+		break;
+	case 25:
+		ivar2 = load_varc(1493);
+}
+ivar3 = stat_base(enum(arg0, 681, 83, 105));
+ivar4 = enum(arg0, 5420, 103, 105);
+ivar5 = enum_getoutputcount(ivar4);
+ivar6 = enum(arg0, 681, 83, 105);
+ivar6 = enum(ivar6, 744, 83, 83);
+ivar7 = 0;
+ivar8 = 0;
+ivar9 = 0;
+ivar10 = -1;
+ivar11 = 0;
+ivar12 = 0;
+svar0 = "";
+arg1 = calc(5 / arg1);
+if (ivar3 > ivar2) {
+	if (load_varpbit(5395) == 1) {
+		store_varc(5395, 0)
+		script3367(ivar9, arg1, "Increased Combat level!");
+		ivar9 = calc(ivar9 + 1);
+	}
+	if (arg0 == 7 || arg0 == 6) {
+		if (arg0 == 7) 
+			script3367(ivar9, arg1, "More prayer points!");
+		else 
+			script3367(ivar9, arg1, "More lifepoints!");
+		ivar9 = calc(ivar9 + 1);
+	}
+	while (ivar8 < ivar5 && ivar9 < 5) {
+		ivar7 = struct_param(enum(ivar8, ivar4, 74, 105), 2212);
+		if (ivar7 == ivar3 && struct_param(enum(ivar8, ivar4, 74, 105), 2219) == 1) {
+			cc_create(if_gethash(1216, 3), 4, if_getnextsubid(if_gethash(1216, 3)));
+			cc_setposition(0, 25, 1, 2);
+			ivar12 = calc(stringwidth(struct_param(enum(ivar8, ivar4, 74, 105), 2210), 3795) + stringwidth("New", 3795));
+			if (struct_param(enum(ivar8, ivar4, 74, 105), 2217) == 0) 
+				ivar6 = 0;
+			else 
+				ivar6 = -1;
+			cc_setsize(0, 33, 1, 0);
+			instr6556(3368, "isi", -2147483643, struct_param(enum(ivar8, ivar4, 74, 105), 2210), calc(clientclock() + calc(arg1 * ivar9)));
+			ivar11 = cc_getx();
+			cc_create(if_gethash(1216, 3), 5, if_getnextsubid(if_gethash(1216, 3)));
+			cc_setposition(0, 24, 1, 2);
+			cc_setsize(ivar12, 33, 0, 0);
+			cc_settiling(true);
+			if (ivar6 == -1) 
+				ivar10 = 9257;
+			else 
+				ivar10 = 9240;
+			instr6556(4226, "idi", -2147483643, ivar10, calc(clientclock() + calc(arg1 * ivar9)));
+			/* 
+				AT PrimitiveInstruction(opcode=584, value=false, type=boolean)
+				com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=584, value=false, type=boolean)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		ivar8 = calc(ivar8 + 1);
+	}
+}
+return;

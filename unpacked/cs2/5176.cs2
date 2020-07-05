@@ -1,0 +1,340 @@
+//script5176(5176)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+int ivar12;
+int ivar13;
+int ivar14;
+int ivar15;
+int ivar16;
+int ivar17;
+int ivar18;
+int ivar19;
+int ivar20;
+int ivar21;
+int ivar22;
+int ivar23;
+int ivar24;
+int ivar25;
+int ivar26;
+int ivar27;
+ivar0 = -1;
+ivar1 = 60;
+ivar2 = 120;
+ivar3 = 34;
+ivar4 = 60;
+ivar5 = 10;
+ivar6 = 6;
+ivar7 = 60;
+ivar8 = 60;
+ivar9 = ivar6;
+ivar10 = 0;
+ivar11 = -1;
+ivar12 = -1;
+ivar13 = calc(21 - ivar3);
+ivar14 = 3;
+ivar15 = 0;
+ivar16 = 0;
+ivar17 = 0;
+ivar18 = 5523;
+ivar19 = 5524;
+ivar20 = 5525;
+ivar21 = 5526;
+ivar22 = 5527;
+ivar23 = -1;
+ivar24 = 0;
+ivar25 = enum(load_varpbit(9646), 4848, 105, 105);
+ivar26 = enum(ivar25, 4849, 74, 105);
+if (ivar26 != -1) {
+	if (struct_param(ivar26, 1882) == 0) {
+		cc_create(if_gethash(1122, 82), 5, ivar10);
+		cc_setposition(ivar9, 0, 0, 0);
+		cc_setsize(ivar1, ivar4, 0, 0);
+		if (ivar25 == load_varc(1596)) 
+			ivar23 = ivar21;
+		else 
+			ivar23 = ivar18;
+		cc_setgraphic(ivar23)
+		instr6091(688, "Iid", -2147483645, -2147483643, ivar19);
+		instr6092(688, "Iid", -2147483645, -2147483643, ivar23);
+		instr6088(688, "Iid", -2147483645, -2147483643, ivar20);
+		instr6450(688, "Iid", -2147483645, -2147483643, ivar23);
+		cc_setop(1, "Goal details");
+		instr6687(5179, "i");
+		ivar10 = calc(ivar10 + 1);
+		cc_create(if_gethash(1122, 82), 5, ivar10);
+		cc_setposition(ivar9, 0, 0, 0);
+		cc_setgraphic(struct_param(ivar26, 1881))
+		cc_setsize(ivar1, ivar4, 0, 0);
+		ivar9 = calc(calc(ivar9 + ivar1) + ivar5);
+	}
+	else {
+		ivar12 = ivar10;
+		cc_create(if_gethash(1122, 82), 5, ivar10);
+		cc_setposition(ivar9, 0, 0, 0);
+		cc_setsize(7, 7, 0, 0);
+		ivar10 = calc(ivar10 + 1);
+		cc_create(if_gethash(1122, 82), 5, ivar10);
+		cc_setposition(calc(ivar9 + 7), 0, 0, 0);
+		cc_setsize(calc(14 - ivar2), 7, 0, 0);
+		ivar10 = calc(ivar10 + 1);
+		cc_create(if_gethash(1122, 82), 5, ivar10);
+		cc_setposition(calc(7 - calc(ivar9 + ivar2)), 0, 0, 0);
+		cc_setsize(7, 7, 0, 0);
+		cc_sethflip(1)
+		ivar10 = calc(ivar10 + 1);
+		cc_create(if_gethash(1122, 82), 5, ivar10);
+		cc_setposition(ivar9, 7, 0, 0);
+		cc_setsize(7, 7, 0, 0);
+		ivar10 = calc(ivar10 + 1);
+		cc_create(if_gethash(1122, 82), 5, ivar10);
+		cc_setposition(calc(ivar9 + 7), 7, 0, 0);
+		cc_setsize(calc(14 - ivar2), 7, 0, 0);
+		ivar10 = calc(ivar10 + 1);
+		cc_create(if_gethash(1122, 82), 5, ivar10);
+		cc_setposition(calc(7 - calc(ivar9 + ivar2)), 7, 0, 0);
+		cc_setsize(7, 7, 0, 0);
+		cc_sethflip(1)
+		ivar10 = calc(ivar10 + 1);
+		cc_create(if_gethash(1122, 82), 5, ivar10);
+		cc_setposition(ivar9, 14, 0, 0);
+		cc_setsize(7, ivar13, 0, 0);
+		ivar10 = calc(ivar10 + 1);
+		cc_create(if_gethash(1122, 82), 5, ivar10);
+		cc_setposition(calc(ivar9 + 7), 14, 0, 0);
+		cc_setsize(calc(14 - ivar2), ivar13, 0, 0);
+		ivar10 = calc(ivar10 + 1);
+		cc_create(if_gethash(1122, 82), 5, ivar10);
+		cc_setposition(calc(7 - calc(ivar9 + ivar2)), 14, 0, 0);
+		cc_setsize(7, ivar13, 0, 0);
+		cc_sethflip(1)
+		ivar10 = calc(ivar10 + 1);
+		cc_create(if_gethash(1122, 82), 5, ivar10);
+		cc_setposition(ivar9, calc(7 - ivar3), 0, 0);
+		cc_setsize(7, 7, 0, 0);
+		ivar10 = calc(ivar10 + 1);
+		cc_create(if_gethash(1122, 82), 5, ivar10);
+		cc_setposition(calc(ivar9 + 7), calc(7 - ivar3), 0, 0);
+		cc_setsize(calc(14 - ivar2), 7, 0, 0);
+		ivar10 = calc(ivar10 + 1);
+		cc_create(if_gethash(1122, 82), 5, ivar10);
+		cc_setposition(calc(7 - calc(ivar9 + ivar2)), calc(7 - ivar3), 0, 0);
+		cc_setsize(7, 7, 0, 0);
+		cc_sethflip(1)
+		ivar10 = calc(ivar10 + 1);
+		cc_create(if_gethash(1122, 82), 5, ivar10);
+		cc_setposition(calc(ivar9 + ivar14), ivar3, 0, 0);
+		cc_setsize(7, calc(7 - calc(ivar3 - ivar4)), 0, 0);
+		ivar10 = calc(ivar10 + 1);
+		cc_create(if_gethash(1122, 82), 5, ivar10);
+		cc_setposition(calc(calc(ivar9 + ivar14) + 7), ivar3, 0, 0);
+		cc_setsize(calc(ivar14 - calc(ivar14 - calc(14 - ivar2))), calc(7 - calc(ivar3 - ivar4)), 0, 0);
+		ivar10 = calc(ivar10 + 1);
+		cc_create(if_gethash(1122, 82), 5, ivar10);
+		cc_setposition(calc(ivar14 - calc(7 - calc(ivar9 + ivar2))), ivar3, 0, 0);
+		cc_setsize(7, calc(7 - calc(ivar3 - ivar4)), 0, 0);
+		cc_sethflip(1)
+		ivar10 = calc(ivar10 + 1);
+		cc_create(if_gethash(1122, 82), 5, ivar10);
+		cc_setposition(calc(ivar9 + ivar14), calc(7 - ivar4), 0, 0);
+		cc_setsize(7, 7, 0, 0);
+		ivar10 = calc(ivar10 + 1);
+		cc_create(if_gethash(1122, 82), 5, ivar10);
+		cc_setposition(calc(calc(ivar9 + ivar14) + 7), calc(7 - ivar4), 0, 0);
+		cc_setsize(calc(ivar14 - calc(ivar14 - calc(14 - ivar2))), 7, 0, 0);
+		ivar10 = calc(ivar10 + 1);
+		cc_create(if_gethash(1122, 82), 5, ivar10);
+		cc_setposition(calc(ivar14 - calc(7 - calc(ivar9 + ivar2))), calc(7 - ivar4), 0, 0);
+		cc_setsize(7, 7, 0, 0);
+		cc_sethflip(1)
+		ivar10 = calc(ivar10 + 1);
+		cc_create(if_gethash(1122, 82), 4, ivar10);
+		cc_setposition(ivar9, 0, 0, 0);
+		cc_setsize(ivar2, ivar3, 0, 0);
+		cc_settext("Tasks Complete");
+		cc_settextalign(1, 1, 0);
+		cc_setcolor(15458492);
+		cc_settextfont(3793);
+		ivar10 = calc(ivar10 + 1);
+		switch (ivar25) {
+			case 4:
+				ivar15 = 56;
+				script5200(ivar25);
+				/* 
+					AT JumpInstruction(target=LabelInstruction(labelId=9))
+					java.lang.RuntimeException: Stack underflow
+						at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:182)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+						at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+						at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+						at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+						at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+					
+				 */
+			case 8:
+				ivar15 = 17;
+				script5200(ivar25);
+				/* 
+					AT JumpInstruction(target=LabelInstruction(labelId=13))
+					java.lang.RuntimeException: Stack underflow
+						at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:182)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+						at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+						at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+						at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+						at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+					
+				 */
+			case 12:
+				ivar15 = 11;
+				script5200(ivar25);
+				/* 
+					AT JumpInstruction(target=LabelInstruction(labelId=17))
+					java.lang.RuntimeException: Stack underflow
+						at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:182)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+						at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+						at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+						at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+						at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+					
+				 */
+		}
+		cc_create(if_gethash(1122, 82), 5, ivar10);
+		cc_setposition(calc(calc(ivar9 + ivar14) + 7), ivar3, 0, 0);
+		cc_setsize(calc(14 - calc(ivar14 - calc(ivar14 - ivar2))), calc(7 - calc(ivar3 - ivar4)), 0, 0);
+		cc_setgraphic(7536)
+		ivar10 = calc(ivar10 + 1);
+		ivar17 = calc(ivar15 / calc(ivar16 * calc(14 - calc(ivar14 - calc(ivar14 - ivar2)))));
+		cc_create(if_gethash(1122, 82), 5, ivar10);
+		cc_setposition(calc(calc(ivar9 + ivar14) + 7), ivar3, 0, 0);
+		cc_setsize(ivar17, calc(7 - calc(ivar3 - ivar4)), 0, 0);
+		cc_setgraphic(7540)
+		ivar10 = calc(ivar10 + 1);
+		cc_create(if_gethash(1122, 82), 4, ivar10);
+		cc_setposition(ivar9, ivar3, 0, 0);
+		cc_setsize(ivar2, calc(7 - calc(ivar3 - ivar4)), 0, 0);
+		cc_settext(to_string(ivar16) + " of " + to_string(ivar15));
+		cc_settextalign(1, 1, 0);
+		cc_setcolor(15458492);
+		cc_settextfont(3793);
+		ivar10 = calc(ivar10 + 1);
+		cc_create(if_gethash(1122, 82), 3, ivar10);
+		cc_setposition(ivar9, 0, 0, 0);
+		cc_setsize(ivar2, ivar4, 0, 0);
+		cc_setfill(true);
+		cc_setcolor(0);
+		cc_settrans(255)
+		if (ivar25 == load_varc(1596)) 
+			ivar24 = 4;
+		else 
+			ivar24 = 1;
+		instr6091(5177, "ii", ivar12, 2);
+		instr6092(5177, "ii", ivar12, ivar24);
+		instr6088(5177, "ii", ivar12, 3);
+		instr6450(5177, "ii", ivar12, ivar24);
+		cc_setop(1, "Goal details");
+		instr6687(5179, "i");
+		ivar9 = calc(calc(ivar9 + ivar2) + ivar5);
+	}
+	script5200(ivar25);
+	/* 
+		AT JumpInstruction(target=LabelInstruction(labelId=24))
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:182)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+ivar25 = 14;
+ivar26 = enum(ivar25, 4849, 74, 105);
+while (ivar26 != -1) {
+	if (struct_param(ivar26, 2196) == 1) {
+		script5200(ivar25);
+		/* 
+			AT JumpInstruction(target=LabelInstruction(labelId=30))
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:182)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	cc_create(if_gethash(1122, 82), 5, ivar10);
+	cc_setsize(ivar1, ivar4, 0, 0);
+	cc_setposition(ivar9, 0, 0, 0);
+	if (ivar25 == load_varc(1596)) 
+		ivar23 = ivar21;
+	else 
+		ivar23 = ivar18;
+	cc_setgraphic(ivar23)
+	instr6091(688, "Iid", -2147483645, -2147483643, ivar19);
+	instr6092(688, "Iid", -2147483645, -2147483643, ivar23);
+	instr6088(688, "Iid", -2147483645, -2147483643, ivar20);
+	instr6450(688, "Iid", -2147483645, -2147483643, ivar23);
+	cc_setop(1, "Goal details");
+	if (load_varc(1595) > 3) {
+		instr6687(5179, "i");
+		ivar10 = calc(ivar10 + 1);
+		cc_create(if_gethash(1122, 82), 5, ivar10);
+		cc_setgraphic(struct_param(ivar26, 1881))
+		cc_setsize(ivar1, ivar4, 0, 0);
+		cc_setposition(ivar9, 0, 0, 0);
+		script5200(ivar25);
+		/* 
+			AT JumpInstruction(target=LabelInstruction(labelId=36))
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:182)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	instr6687(5179, "i");
+	ivar10 = calc(ivar10 + 1);
+	cc_create(if_gethash(1122, 82), 5, ivar10);
+	cc_setgraphic(7454)
+	cc_setsize(ivar1, ivar4, 0, 0);
+	cc_setposition(ivar9, 0, 0, 0);
+	ivar25 = struct_param(ivar26, 1878);
+	ivar26 = enum(ivar25, 4849, 74, 105);
+	ivar10 = calc(ivar10 + 1);
+	ivar9 = calc(calc(ivar9 + ivar1) + ivar5);
+}
+ivar27 = calc(calc(ivar5 - ivar9) + ivar6);
+if (ivar27 > if_getwidth(if_gethash(1122, 82))) 
+	instr6185(ivar27, if_getheight(if_gethash(1122, 82)), 73531474)
+script5182();
+script5178(ivar12, 1);
+return;

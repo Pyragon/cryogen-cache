@@ -1,0 +1,92 @@
+//script5308(5308)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+string svar0;
+int stack_dump0;
+int stack_dump1;
+string stack_dump2;
+int stack_dump3;
+int stack_dump4;
+int stack_dump5;
+int stack_dump6;
+string stack_dump7;
+ivar0 = 0;
+ivar1 = 0;
+svar0 = "";
+ivar2 = -1;
+ivar3 = 0;
+ivar4 = 7287;
+ivar5 = 7706;
+ivar6 = 7289;
+ivar7 = 2;
+ivar8 = 54;
+cc_deleteall(53936131)
+cc_deleteall(53936132)
+if (ivar0 < enum_getoutputcount(840)) {
+	ivar3 = enum(ivar0, 840, 105, 105);
+	ivar2 = enum(ivar3, 5173, 74, 105);
+	if (ivar2 == -1) 
+		return;
+	svar0 = struct_param(ivar2, 1974) + "<br>" + struct_param(ivar2, 1975);
+	cc_create(if_gethash(823, 3), 5, ivar0);
+	cc_setgraphic(ivar4)
+	cc_setsize(ivar8, ivar8, 0, 0);
+	if (calc(3 % ivar0) == 0) 
+		cc_setposition(ivar7, calc(ivar7 + calc(calc(54 + ivar7) * ivar1)), 0, 0);
+	else if (calc(3 % ivar0) == 1) 
+		cc_setposition(calc(calc(2 * ivar7) + ivar8), calc(ivar7 + calc(calc(54 + ivar7) * ivar1)), 0, 0);
+	else 
+		cc_setposition(calc(calc(3 * ivar7) + calc(2 * ivar8)), calc(ivar7 + calc(calc(54 + ivar7) * ivar1)), 0, 0);
+	if (ivar3 == 0) 
+		cc_setop(1, struct_param(ivar2, 1974));
+	else {
+		stack_dump0 = 5309;
+		stack_dump1 = -2147483643;
+		stack_dump2 = "i";
+		/* 
+			AT PrimitiveInstruction(opcode=991, value=false, type=boolean)
+			com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=991, value=false, type=boolean)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	instr6091(44, "Id", -2147483645, ivar5);
+	stack_dump0 = 5334;
+	stack_dump1 = 53936131;
+	stack_dump3 = ivar0;
+	stack_dump4 = 53936143;
+	stack_dump5 = 20;
+	stack_dump6 = 200;
+	stack_dump2 = svar0;
+	stack_dump7 = "IiIsii";
+	/* 
+		AT PrimitiveInstruction(opcode=207, value=false, type=boolean)
+		com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=207, value=false, type=boolean)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+ivar1 = calc(ivar1 + 1);
+if_setscrollpos(0, 0, if_gethash(823, 9));
+instr6185(0, calc(ivar7 + calc(calc(54 + ivar7) * ivar1)), 53936137)
+script31(53936138, 53936137, 6507, 6504, 6505, 6506, 6499, 6498);
+return;

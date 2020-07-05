@@ -1,0 +1,238 @@
+//script193(193)(int arg0)(void)
+int ivar1;
+int stack_dump0;
+if (load_varc(41) == 0) {
+	stack_dump0 = 1;
+	/* 
+		AT PrimitiveInstruction(opcode=184, value=0, type=int)
+		java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+			at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+ivar1 = chatline_gettype(arg0);
+if (ivar1 == -1) {
+	stack_dump0 = 0;
+	/* 
+		AT PrimitiveInstruction(opcode=184, value=0, type=int)
+		java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+			at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if (ivar1 == 115 || ivar1 == 120) {
+	stack_dump0 = 1;
+	/* 
+		AT PrimitiveInstruction(opcode=184, value=0, type=int)
+		java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+			at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+switch (load_varc(41)) {
+	case 1:
+		if (ivar1 == 0 || ivar1 == 4 || ivar1 == 27 || ivar1 == 28 || ivar1 == 29 || ivar1 == 109 || ivar1 == 110 || ivar1 == 26 || ivar1 == 117) {
+			stack_dump0 = 1;
+			/* 
+				AT PrimitiveInstruction(opcode=184, value=0, type=int)
+				java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+					at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		break;
+	case 2:
+		if (ivar1 == 1 || ivar1 == 2 || ivar1 == 17 || ivar1 == 116) {
+			stack_dump0 = 1;
+			/* 
+				AT PrimitiveInstruction(opcode=184, value=0, type=int)
+				java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+					at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		break;
+	case 3:
+		switch (ivar1) {
+			case 18:
+			case 3:
+			case 19:
+			case 5:
+			case 6:
+			case 7:
+			case 30:
+			case 31:
+				stack_dump0 = 1;
+				/* 
+					AT PrimitiveInstruction(opcode=184, value=0, type=int)
+					java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+						at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+						at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+						at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+						at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+						at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+					
+				 */
+		}
+		break;
+	case 4:
+		switch (ivar1) {
+			case 20:
+			case 9:
+			case 11:
+				stack_dump0 = 1;
+				/* 
+					AT PrimitiveInstruction(opcode=184, value=0, type=int)
+					java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+						at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+						at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+						at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+						at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+						at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+					
+				 */
+		}
+		break;
+	case 5:
+		switch (ivar1) {
+			case 112:
+			case 113:
+			case 114:
+			case 100:
+			case 101:
+			case 118:
+			case 103:
+			case 119:
+			case 105:
+			case 106:
+			case 108:
+			case 111:
+				stack_dump0 = 1;
+				/* 
+					AT PrimitiveInstruction(opcode=184, value=0, type=int)
+					java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+						at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+						at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+						at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+						at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+						at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+					
+				 */
+		}
+		script506(arg0);
+		/* 
+			AT JumpInstruction(target=LabelInstruction(labelId=25))
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:182)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	case 6:
+		if (ivar1 == 102 || ivar1 == 104) {
+			stack_dump0 = 1;
+			/* 
+				AT PrimitiveInstruction(opcode=184, value=0, type=int)
+				java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+					at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		break;
+	case 7:
+		switch (ivar1) {
+			default:
+				break;
+			case 41:
+			case 42:
+			case 43:
+			case 107:
+			case 44:
+			case 45:
+			case 46:
+				stack_dump0 = 1;
+				/* 
+					AT PrimitiveInstruction(opcode=184, value=0, type=int)
+					java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+						at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+						at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+						at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+						at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+						at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+					
+				 */
+		}
+}
+stack_dump0 = 0;
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

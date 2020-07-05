@@ -1,0 +1,9 @@
+//script3181(3181)()(void)
+if_settext(if_gethash(914, 27), "");
+instr6248(if_gethash(914, 27), None, "");
+instr6239(if_gethash(914, 16), None, "");
+if_sethide(if_gethash(914, 21), 1)
+if_setgraphic(4084, 59899927)
+store_varc(277, "")
+store_varc(1094, 0)
+return;

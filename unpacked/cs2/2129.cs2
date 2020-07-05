@@ -1,0 +1,17 @@
+//script2129(2129)(int arg0, int arg1, int arg2)(void)
+switch (arg1) {
+	case 27525136:
+	case 27525137:
+	case 27525138:
+	case 27525139:
+	case 27525132:
+	case 27525133:
+	case 27525134:
+	case 27525135:
+		if_setposition(if_getx(arg1), if_gety(arg1), 0, 0, arg0)
+		sound_synth(5507, 1, 0);
+		break;
+	default:
+		if_setposition(if_getx(arg2), if_gety(arg2), 0, 0, arg0)
+}
+return;

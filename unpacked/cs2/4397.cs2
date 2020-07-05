@@ -1,0 +1,8 @@
+//script4397(4397)(int arg0, int arg1)(void)
+if (cc_find(arg1, arg0) == 1) {
+	if (arg1 == 72417345 && calc(1 - load_varpbit(9086)) == arg0 || arg1 == 72417342 && calc(1 - load_varpbit(9087)) == arg0) 
+		cc_setgraphic(5526)
+	else 
+		cc_setgraphic(5523)
+}
+return;

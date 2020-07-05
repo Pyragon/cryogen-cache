@@ -1,0 +1,65 @@
+//script1442(1442)()(void)
+switch (load_varp(75)) {
+	case 0:
+		return;
+	case 1:
+		if_sethide(if_gethash(299, 54), 0)
+		if_setmodelanim(632, if_gethash(299, 53));
+		break;
+	case 2:
+		if_sethide(if_gethash(299, 46), 0)
+		if_setmodelanim(633, if_gethash(299, 52));
+		break;
+	case 3:
+		if_sethide(if_gethash(299, 44), 0)
+		if_setmodelanim(630, if_gethash(299, 55));
+		break;
+	case 5:
+		if_sethide(if_gethash(299, 43), 0)
+		if_setmodelanim(634, if_gethash(299, 57));
+		break;
+	case 6:
+		if_sethide(if_gethash(299, 42), 0)
+		if_setmodelanim(635, if_gethash(299, 58));
+		break;
+	case 7:
+		if_sethide(if_gethash(299, 41), 0)
+		if_setmodelanim(636, if_gethash(299, 59));
+		break;
+	case 8:
+		if_sethide(if_gethash(299, 40), 0)
+		if_setmodelanim(637, if_gethash(299, 60));
+		break;
+	case 10:
+		if_sethide(if_gethash(299, 38), 0)
+		if_setmodelanim(638, if_gethash(299, 62));
+		break;
+	case 11:
+		if_sethide(if_gethash(299, 37), 0)
+		if_setmodelanim(639, if_gethash(299, 63));
+		break;
+	case 12:
+		if_sethide(if_gethash(299, 36), 0)
+		if_setmodelanim(640, if_gethash(299, 64));
+		break;
+	case 13:
+		if_sethide(if_gethash(299, 35), 0)
+		if_setmodelanim(641, if_gethash(299, 65));
+		break;
+	case 14:
+		if_sethide(if_gethash(299, 34), 0)
+		if_setmodelanim(3545, if_gethash(299, 66));
+		break;
+	case 15:
+		if_sethide(if_gethash(299, 33), 0)
+		if_setmodelanim(3546, if_gethash(299, 67));
+		break;
+	case 16:
+		if_sethide(if_gethash(299, 32), 0)
+		if_setmodelanim(3476, if_gethash(299, 68));
+		break;
+	case 17:
+		if_sethide(if_gethash(299, 31), 0)
+		if_setmodelanim(3477, if_gethash(299, 51));
+}
+return;

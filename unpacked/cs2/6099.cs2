@@ -1,0 +1,27 @@
+//script6099(6099)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+if (arg1 == 1) {
+	if (arg0 == 1) {
+		if_setgraphic(10465, arg2)
+		if_setgraphic(10466, arg3)
+		if_setgraphic(10465, arg4)
+	}
+	else {
+		if_setgraphic(10467, arg2)
+		if_setgraphic(10468, arg3)
+		if_setgraphic(10467, arg4)
+	}
+}
+else {
+	if (arg0 == 1) {
+		if_setgraphic(10465, arg2)
+		if_setgraphic(10466, arg3)
+		if_setgraphic(10465, arg4)
+	}
+	else {
+		if_setgraphic(10463, arg2)
+		if_setgraphic(10464, arg3)
+		if_setgraphic(10463, arg4)
+	}
+	script41(82903129);
+}
+return;

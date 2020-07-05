@@ -1,0 +1,30 @@
+//script407(407)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+string svar0;
+if (load_varc(1362) < 1) 
+	return;
+ivar0 = calc(10 / calc(6 * load_varc(1362)));
+ivar1 = 0;
+ivar2 = 0;
+svar0 = "";
+if (ivar0 < 60) 
+	ivar1 = ivar0;
+else {
+	ivar1 = calc(60 % ivar0);
+	ivar2 = calc(60 / ivar0);
+}
+if (ivar1 < 10) {
+	svar0 = append("0", to_string(ivar1));
+	if (ivar2 == 0 && load_varc(1389) == 0) {
+		store_varc(1389, 1)
+		if (load_varpbit(7511) == 1) 
+			sound_vorbis_volume(3434, 1, 0, 255)
+	}
+}
+else 
+	svar0 = to_string(ivar1);
+if_settext(if_gethash(1010, 21), "Turn Time Left" + "<br>" + to_string(ivar2) + ":" + svar0);
+if_settext(if_gethash(1013, 24), to_string(ivar2) + ":" + svar0);
+return;

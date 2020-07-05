@@ -1,0 +1,17 @@
+{
+  "id": 173,
+  "name": "Sheep Shearer",
+  "members": false,
+  "varValues": [
+    [
+      179,
+      1,
+      21
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 0,
+  "difficulty": "NOVICE",
+  "graphicId": 2375
+}

@@ -1,0 +1,6 @@
+//script2775(2775)(int arg0, int arg1)(void)
+if (clientclock() < arg0) 
+	return;
+instr6342(arg1, None, "");
+if_setcolor(16724016, arg1);
+return;

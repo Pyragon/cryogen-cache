@@ -1,0 +1,49 @@
+//script3437(3437)()(void)
+int ivar0;
+ivar0 = -1;
+if (load_varpbit(7912) == 0 || load_varpbit(7904) == 8 && load_varpbit(7921) == 1 && load_varpbit(7916) == 0) {
+	if (load_varpbit(7919) < 3) {
+		if (load_varpbit(7920) == 1) 
+			ivar0 = enum(load_varpbit(7919), 5079, 109, 105);
+		if (load_varpbit(7920) == 2) 
+			ivar0 = enum(load_varpbit(7919), 5080, 109, 105);
+		if (load_varpbit(7920) == 3) 
+			ivar0 = enum(load_varpbit(7919), 5081, 109, 105);
+	}
+	else if (load_varpbit(7919) < 6) {
+		if (load_varpbit(7920) == 1) 
+			ivar0 = enum(load_varpbit(7919), 5080, 109, 105);
+		if (load_varpbit(7920) == 2) 
+			ivar0 = enum(load_varpbit(7919), 5081, 109, 105);
+		if (load_varpbit(7920) == 3) 
+			ivar0 = enum(load_varpbit(7919), 5079, 109, 105);
+	}
+	else if (load_varpbit(7919) == 10) {
+		if (load_varpbit(7920) == 3) 
+			ivar0 = enum(load_varpbit(7919), 5080, 109, 105);
+		if (load_varpbit(7920) == 2) 
+			ivar0 = enum(load_varpbit(7919), 5081, 109, 105);
+		if (load_varpbit(7920) == 1) 
+			ivar0 = enum(load_varpbit(7919), 5079, 109, 105);
+	}
+	else {
+		if (load_varpbit(7920) == 1) 
+			ivar0 = enum(load_varpbit(7919), 5081, 109, 105);
+		if (load_varpbit(7920) == 2) 
+			ivar0 = enum(load_varpbit(7919), 5079, 109, 105);
+		if (load_varpbit(7920) == 3) 
+			ivar0 = enum(load_varpbit(7919), 5080, 109, 105);
+	}
+	if_setmodel(ivar0, if_gethash(986, 3));
+	if (load_varpbit(7920) != 0) 
+		if_sethide(if_gethash(986, 5), 0)
+	if (load_varpbit(7920) == 1) 
+		if_setposition(30, 205, 0, 0, 64618501)
+	else if (load_varpbit(7920) == 2) 
+		if_setposition(112, 205, 0, 0, 64618501)
+	else if (load_varpbit(7920) == 3) 
+		if_setposition(196, 205, 0, 0, 64618501)
+	else 
+		if_sethide(if_gethash(986, 5), 1)
+}
+return;

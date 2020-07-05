@@ -1,0 +1,3 @@
+//script684(684)(int arg0, int arg1)(void)
+cc_setposition(calc(cc_getx() + arg0), calc(cc_gety() + arg1), 0, 0);
+return;

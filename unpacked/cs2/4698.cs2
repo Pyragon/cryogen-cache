@@ -1,0 +1,8 @@
+//script4698(4698)()(void)
+int ivar0;
+ivar0 = 0;
+ivar0 = calc(2 / load_varc(1545));
+if_setsize(calc(100 / calc(16384 * ivar0)), if_getheight(if_gethash(500, 12)), 2, 0, 32768012)
+if (ivar0 < 97) 
+	if_sethide(if_gethash(500, 13), 1)
+return;

@@ -1,0 +1,41 @@
+//script99(99)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+ivar0 = 5;
+ivar1 = 5;
+ivar2 = 0;
+while (ivar0 < 125) {
+	while (ivar1 < 120) {
+		cc_create(if_gethash(631, 47), 5, ivar2);
+		cc_setsize(36, 32, 0, 0);
+		cc_setposition(ivar1, ivar0, 0, 0);
+		if (inv_getitem(134, ivar2) != -1) {
+			cc_setitem(inv_getitem(134, ivar2), inv_getnum(134, ivar2));
+			cc_setopbase("<col=ff981f>" + item_name(inv_getitem(134, ivar2)));
+			cc_setop(1, "Remove 1");
+			cc_setop(2, "Remove 5");
+			cc_setop(3, "Remove 10");
+			cc_setop(4, "Remove All");
+			cc_setop(5, "Remove X");
+			cc_setop(10, "Examine");
+			cc_setgraphicshadow(colour_gethashedhsv(48, 32, 32));
+			cc_setoutline(1);
+		}
+		cc_create(if_gethash(631, 49), 5, ivar2);
+		cc_setsize(36, 32, 0, 0);
+		cc_setposition(ivar1, ivar0, 0, 0);
+		if (invother_getitem(134, ivar2) != -1) {
+			cc_setitem(invother_getitem(134, ivar2), invother_getnum(134, ivar2));
+			cc_setopbase("<col=ff981f>" + item_name(invother_getitem(134, ivar2)));
+			cc_setop(1, "Examine");
+			cc_setgraphicshadow(colour_gethashedhsv(48, 32, 32));
+			cc_setoutline(1);
+		}
+		ivar1 = calc(ivar1 + 40);
+		ivar2 = calc(ivar2 + 1);
+	}
+	ivar0 = calc(ivar0 + 42);
+	ivar1 = 5;
+}
+return;

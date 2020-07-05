@@ -1,0 +1,40 @@
+{
+  "id": 11,
+  "name": "Love Story",
+  "sortName": "Love Story",
+  "members": true,
+  "_questPrerequisiteIds": [
+    48,
+    163
+  ],
+  "_levelRequirements": [
+    [
+      6,
+      77
+    ],
+    [
+      22,
+      68
+    ],
+    [
+      13,
+      68
+    ],
+    [
+      12,
+      67
+    ]
+  ],
+  "varbitValues": [
+    [
+      8045,
+      5,
+      150
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "MASTER",
+  "graphicId": 3139
+}

@@ -1,0 +1,113 @@
+//script5452(5452)()(void)
+store_varc(1684, 1)
+script5456();
+if (load_varpbit(10017) == 1) 
+	script5453(1, 1);
+else 
+	script5453(0, 1);
+if (load_varpbit(10028) == 1) 
+	script5453(1, 2);
+else 
+	script5453(0, 2);
+if (load_varpbit(10018) == 1) 
+	script5453(1, 3);
+else 
+	script5453(0, 3);
+if (load_varpbit(10029) == 1) 
+	script5453(1, 4);
+else 
+	script5453(0, 4);
+if (load_varpbit(10057) >= 100) 
+	script5453(1, 5);
+else 
+	script5453(0, 5);
+if (load_varpbit(10058) == 1) 
+	script5453(1, 6);
+else 
+	script5453(0, 6);
+if (load_varpbit(10035) == 1 && load_varpbit(10036) == 1 && load_varpbit(10037) == 1 && load_varpbit(10038) == 1 && load_varpbit(10039) == 1 && load_varpbit(10040) == 1 && load_varpbit(10041) == 1 && load_varpbit(10042) == 1 && load_varpbit(10043) == 1 && load_varpbit(10044) == 1 && load_varpbit(10045) == 1 && load_varpbit(10046) == 1 && load_varpbit(10047) == 1 && load_varpbit(10048) == 1 && load_varpbit(10049) == 1 && load_varpbit(10050) == 1 && load_varpbit(10051) == 1 && load_varpbit(10052) == 1 && load_varpbit(10053) == 1 && load_varpbit(10054) == 1 && load_varpbit(10055) == 1 && load_varpbit(10056) == 1) 
+	script5453(1, 7);
+else 
+	script5453(0, 7);
+if (load_varpbit(10031) == 1 && load_varpbit(10032) == 1 && load_varpbit(10033) == 1 && load_varpbit(10034) == 1) 
+	script5453(1, 8);
+else 
+	script5453(0, 8);
+if (load_varpbit(10057) >= 200) 
+	script5453(1, 9);
+else 
+	script5453(0, 9);
+if (load_varpbit(10030) == 1) 
+	script5453(1, 10);
+else 
+	script5453(0, 10);
+if (load_varpbit(10019) == 1) 
+	script5453(1, 11);
+else 
+	script5453(0, 11);
+if (load_varpbit(10057) >= 300) 
+	script5453(1, 12);
+else 
+	script5453(0, 12);
+if (load_varpbit(10059) == 1) 
+	script5453(1, 13);
+else 
+	script5453(0, 13);
+if (load_varpbit(10061) == 1 && load_varpbit(10059) == 1) 
+	script5453(1, 14);
+else 
+	script5453(0, 14);
+if (load_varpbit(10020) == 1 && load_varpbit(10021) == 1 && load_varpbit(10022) == 1 && load_varpbit(10023) == 1 && load_varpbit(10024) == 1 && load_varpbit(10025) == 1 && load_varpbit(10026) == 1 && load_varpbit(10027) == 1 && load_varpbit(10057) >= 400) 
+	script5453(1, 15);
+else 
+	script5453(0, 15);
+if (load_varpbit(10057) >= 450 && load_varpbit(10062) == 1) {
+	if_settext(if_gethash(1156, 152), "Complete 5 climber, endurance or special fights.");
+	if_settext(if_gethash(1156, 153), "100 dreadnips (on purchase must complete 5 more)");
+	if (load_varpbit(10117) > 0) 
+		script5453(1, 16);
+	else 
+		script5453(0, 16);
+}
+else 
+	script5453(0, 16);
+if (load_varpbit(10063) == 1 && load_varpbit(10066) == 1 && load_varpbit(10069) == 1 && load_varpbit(10072) == 1 && load_varpbit(10075) == 1 && load_varpbit(10078) == 1 && load_varpbit(10057) >= 500) {
+	if_settext(if_gethash(1156, 155), "Complete 5 climber, endurance or special fights.");
+	if_settext(if_gethash(1156, 157), "Goliath gloves (on purchase must complete 5 more)");
+	if_settext(if_gethash(1156, 156), "");
+	if (load_varpbit(10117) > 0) 
+		script5453(1, 17);
+	else 
+		script5453(0, 17);
+}
+if (load_varpbit(10065) == 1 && load_varpbit(10068) == 1 && load_varpbit(10071) == 1 && load_varpbit(10074) == 1 && load_varpbit(10077) == 1 && load_varpbit(10080) == 1 && load_varpbit(10057) >= 500) {
+	if_settext(if_gethash(1156, 159), "Complete 5 climber, endurance or special fights.");
+	if_settext(if_gethash(1156, 161), "Spellcaster gloves (on purchase must complete 5 more)");
+	if_settext(if_gethash(1156, 160), "");
+	if (load_varpbit(10117) > 0) 
+		script5453(1, 18);
+	else 
+		script5453(0, 18);
+}
+if (load_varpbit(10064) == 1 && load_varpbit(10067) == 1 && load_varpbit(10070) == 1 && load_varpbit(10073) == 1 && load_varpbit(10076) == 1 && load_varpbit(10079) == 1 && load_varpbit(10057) >= 500) {
+	if_settext(if_gethash(1156, 163), "Complete 5 climber, endurance or special fights.");
+	if_settext(if_gethash(1156, 165), "Swift gloves (on purchase must complete 5 more)");
+	if_settext(if_gethash(1156, 164), "");
+	if (load_varpbit(10117) > 0) 
+		script5453(1, 19);
+	else 
+		script5453(0, 19);
+}
+if (load_varpbit(10111) >= 500) 
+	script5453(1, 20);
+else 
+	script5453(0, 20);
+if (load_varpbit(10057) >= 500 && load_varpbit(10062) == 1 && load_varpbit(10019) == 1 && load_varpbit(10030) == 1 && load_varpbit(10035) == 1 && load_varpbit(10036) == 1 && load_varpbit(10037) == 1 && load_varpbit(10038) == 1 && load_varpbit(10039) == 1 && load_varpbit(10040) == 1 && load_varpbit(10041) == 1 && load_varpbit(10042) == 1 && load_varpbit(10043) == 1 && load_varpbit(10044) == 1 && load_varpbit(10045) == 1 && load_varpbit(10046) == 1 && load_varpbit(10047) == 1 && load_varpbit(10048) == 1 && load_varpbit(10049) == 1 && load_varpbit(10050) == 1 && load_varpbit(10051) == 1 && load_varpbit(10052) == 1 && load_varpbit(10053) == 1 && load_varpbit(10054) == 1 && load_varpbit(10055) == 1 && load_varpbit(10056) == 1 && load_varpbit(10031) == 1 && load_varpbit(10032) == 1 && load_varpbit(10033) == 1 && load_varpbit(10034) == 1 && load_varpbit(10059) == 1 && load_varpbit(10061) == 1 && load_varpbit(10020) == 1 && load_varpbit(10021) == 1 && load_varpbit(10022) == 1 && load_varpbit(10023) == 1 && load_varpbit(10024) == 1 && load_varpbit(10025) == 1 && load_varpbit(10026) == 1 && load_varpbit(10027) == 1 && load_varpbit(10063) == 1 && load_varpbit(10066) == 1 && load_varpbit(10069) == 1 && load_varpbit(10072) == 1 && load_varpbit(10075) == 1 && load_varpbit(10078) == 1 && load_varpbit(10064) == 1 && load_varpbit(10067) == 1 && load_varpbit(10070) == 1 && load_varpbit(10073) == 1 && load_varpbit(10076) == 1 && load_varpbit(10079) == 1 && load_varpbit(10065) == 1 && load_varpbit(10068) == 1 && load_varpbit(10071) == 1 && load_varpbit(10074) == 1 && load_varpbit(10077) == 1 && load_varpbit(10080) == 1) {
+	script5453(1, 21);
+	script5453(1, 22);
+}
+else {
+	script5453(0, 21);
+	script5453(0, 22);
+}
+return;

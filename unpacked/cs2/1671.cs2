@@ -1,0 +1,17 @@
+//script1671(1671)(int arg0, int arg1)(void)
+string svar0;
+svar0 = "Empty display";
+switch (arg1) {
+	case 0:
+		if_setonmouseover(arg0, 38, "IIsii", -2147483645, 5308456, svar0, 25, 180);
+		break;
+	case 1:
+		if_setonmouseover(arg0, 38, "IIsii", -2147483645, 5439528, svar0, 25, 180);
+		break;
+	case 2:
+		if_setonmouseover(arg0, 38, "IIsii", -2147483645, 5242932, svar0, 25, 180);
+		break;
+	case 3:
+		if_setonmouseover(arg0, 38, "IIsii", -2147483645, 5373990, svar0, 25, 180);
+}
+return;

@@ -1,0 +1,71 @@
+//script6389(6389)(int arg0, int arg1, int arg2, int arg3)(void)
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+int ivar12;
+int ivar13;
+int stack_dump0;
+ivar4 = 0;
+ivar5 = 0;
+ivar6 = 0;
+ivar7 = 0;
+ivar8 = 0;
+ivar9 = 0;
+if (load_varpbit(11465) < 18) {
+	ivar4 = calc(ivar4 + item_param(enum(load_varpbit(11465), 5933, 111, 105), 2525));
+	ivar5 = calc(ivar5 + item_param(enum(load_varpbit(11465), 5933, 111, 105), 2530));
+	ivar6 = calc(ivar6 + item_param(enum(load_varpbit(11465), 5933, 111, 105), 2529));
+	ivar7 = calc(ivar7 + item_param(enum(load_varpbit(11465), 5933, 111, 105), 2528));
+	ivar8 = calc(ivar8 + item_param(enum(load_varpbit(11465), 5933, 111, 105), 2527));
+	ivar9 = calc(ivar9 + item_param(enum(load_varpbit(11465), 5933, 111, 105), 2526));
+}
+if (load_varpbit(11466) < 18) {
+	ivar4 = calc(ivar4 + item_param(enum(load_varpbit(11466), 5933, 111, 105), 2525));
+	ivar5 = calc(ivar5 + item_param(enum(load_varpbit(11466), 5933, 111, 105), 2530));
+	ivar6 = calc(ivar6 + item_param(enum(load_varpbit(11466), 5933, 111, 105), 2529));
+	ivar7 = calc(ivar7 + item_param(enum(load_varpbit(11466), 5933, 111, 105), 2528));
+	ivar8 = calc(ivar8 + item_param(enum(load_varpbit(11466), 5933, 111, 105), 2527));
+	ivar9 = calc(ivar9 + item_param(enum(load_varpbit(11466), 5933, 111, 105), 2526));
+}
+if (load_varpbit(11467) < 18) {
+	ivar4 = calc(ivar4 + item_param(enum(load_varpbit(11467), 5933, 111, 105), 2525));
+	ivar5 = calc(ivar5 + item_param(enum(load_varpbit(11467), 5933, 111, 105), 2530));
+	ivar6 = calc(ivar6 + item_param(enum(load_varpbit(11467), 5933, 111, 105), 2529));
+	ivar7 = calc(ivar7 + item_param(enum(load_varpbit(11467), 5933, 111, 105), 2528));
+	ivar8 = calc(ivar8 + item_param(enum(load_varpbit(11467), 5933, 111, 105), 2527));
+	ivar9 = calc(ivar9 + item_param(enum(load_varpbit(11467), 5933, 111, 105), 2526));
+}
+if (load_varpbit(11468) < 18) {
+	ivar4 = calc(ivar4 + item_param(enum(load_varpbit(11468), 5933, 111, 105), 2525));
+	ivar5 = calc(ivar5 + item_param(enum(load_varpbit(11468), 5933, 111, 105), 2530));
+	ivar6 = calc(ivar6 + item_param(enum(load_varpbit(11468), 5933, 111, 105), 2529));
+	ivar7 = calc(ivar7 + item_param(enum(load_varpbit(11468), 5933, 111, 105), 2528));
+	ivar8 = calc(ivar8 + item_param(enum(load_varpbit(11468), 5933, 111, 105), 2527));
+	ivar9 = calc(ivar9 + item_param(enum(load_varpbit(11468), 5933, 111, 105), 2526));
+}
+cc_deleteall(25952269)
+ivar10 = 392;
+ivar11 = 342;
+ivar12 = 200;
+cc_create(if_gethash(396, 13), 9, 0);
+cc_setsize(0, calc(100 / calc(ivar10 * ivar4)), 0, 0);
+cc_setposition(0, calc(2 / calc(calc(100 / calc(ivar10 * ivar4)) - 0)), 1, 1);
+cc_setcolor(5216512);
+stack_dump0 = 4;
+/* 
+	AT PrimitiveInstruction(opcode=124, value=false, type=boolean)
+	com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=124, value=false, type=boolean)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

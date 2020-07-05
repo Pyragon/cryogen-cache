@@ -1,0 +1,10 @@
+//script1094(1094)()(void)
+if (load_varp(2694) == load_varp(1241)) 
+	return;
+if (load_varp(1241) == 1) 
+	script1095();
+else if (load_varp(1241) == 2) 
+	script5229();
+else 
+	script1096();
+return;

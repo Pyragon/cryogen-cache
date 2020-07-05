@@ -1,0 +1,37 @@
+//script4472(4472)(int arg0, int arg1, string arg2)(void)
+int ivar2;
+int ivar3;
+int ivar4;
+ivar2 = -1;
+ivar3 = -1;
+ivar4 = -1;
+switch (arg0) {
+	case 1:
+		store_varc(1650, 1)
+		store_varc(23, arg2)
+		script1558(0);
+		return;
+	case 5:
+		send_message("Attempting to add " + arg2 + " to your Friends List.");
+		arg2 = removetags(arg2);
+		friend_add(arg2);
+		break;
+	case 6:
+		send_message("Attempting to add " + arg2 + " to your Ignore List.");
+		arg2 = removetags(arg2);
+		ignore_add(arg2);
+		break;
+	case 7:
+		send_message("Attempting to remove " + arg2 + " from your Friends List.");
+		arg2 = removetags(arg2);
+		friend_del(arg2);
+		break;
+	case 8:
+		send_message("Attempting to remove " + arg2 + " from your Ignore List.");
+		arg2 = removetags(arg2);
+		ignore_del(arg2);
+		break;
+	case 9:
+		script4465(arg2);
+}
+return;

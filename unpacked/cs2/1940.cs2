@@ -1,0 +1,6 @@
+//script1940(1940)()(void)
+int ivar0;
+ivar0 = calc(clientclock() + calc(3000 * load_varc(557)));
+if (ivar0 < load_varc(556)) 
+	store_varc(556, ivar0)
+return;

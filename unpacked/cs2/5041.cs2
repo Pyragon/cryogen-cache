@@ -1,0 +1,446 @@
+//script5041(5041)(int arg0, int arg1, int arg2, int arg3)(void)
+int ivar4;
+string svar0;
+int stack_dump0;
+int stack_dump1;
+int stack_dump2;
+string stack_dump3;
+string stack_dump4;
+int stack_dump5;
+string stack_dump6;
+int stack_dump7;
+cc_setop(6, "Delete");
+cc_setparam_int(1474, arg1);
+cc_setparam_int(1475, arg2);
+svar0 = struct_param(arg0, 1463);
+cc_setopbase("<col=ff9040>" + svar0);
+ivar4 = -1;
+switch (struct_param(arg0, 1466)) {
+	case 1:
+		stack_dump0 = 1476;
+		script5020(arg3);
+		/* 
+			AT PrimitiveInstruction(opcode=497, value=false, type=boolean)
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:160)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	case 2:
+		ivar4 = struct_param(arg0, 1470);
+		if (ivar4 != -1) {
+			stack_dump0 = 105;
+			stack_dump1 = 115;
+			stack_dump2 = ivar4;
+			stack_dump3 = svar0;
+			stack_dump4 = "<br>";
+			stack_dump5 = enum(-1, ivar4, 115, 105);
+			stack_dump6 = " ";
+			script5023(arg3);
+			stack_dump0 = stack_dump0;
+			stack_dump3 = stack_dump3;
+			stack_dump4 = stack_dump4;
+			stack_dump6 = stack_dump6;
+			/* 
+				AT PrimitiveInstruction(opcode=540, value=0, type=int)
+				java.lang.ClassCastException: com.cryo.cache.loaders.cs2.nodes.CS2VariableLoad cannot be cast to com.cryo.cache.loaders.cs2.nodes.CS2PrimitiveExpression
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:262)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		ivar4 = struct_param(arg0, 1471);
+		if (ivar4 != -1) {
+			stack_dump0 = 105;
+			stack_dump1 = 115;
+			stack_dump2 = ivar4;
+			stack_dump3 = svar0;
+			stack_dump4 = "<br>";
+			stack_dump5 = enum(-1, ivar4, 115, 105);
+			stack_dump6 = " ";
+			script5024(arg3);
+			stack_dump0 = stack_dump0;
+			stack_dump3 = stack_dump3;
+			stack_dump4 = stack_dump4;
+			stack_dump6 = stack_dump6;
+			/* 
+				AT PrimitiveInstruction(opcode=540, value=0, type=int)
+				java.lang.ClassCastException: com.cryo.cache.loaders.cs2.nodes.CS2VariableLoad cannot be cast to com.cryo.cache.loaders.cs2.nodes.CS2PrimitiveExpression
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:262)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		ivar4 = struct_param(arg0, 1472);
+		if (ivar4 != -1) {
+			stack_dump0 = 105;
+			stack_dump1 = 115;
+			stack_dump2 = ivar4;
+			stack_dump3 = svar0;
+			stack_dump4 = "<br>";
+			stack_dump5 = enum(-1, ivar4, 115, 105);
+			stack_dump6 = " ";
+			script5025(arg3);
+			stack_dump0 = stack_dump0;
+			stack_dump3 = stack_dump3;
+			stack_dump4 = stack_dump4;
+			stack_dump6 = stack_dump6;
+			/* 
+				AT PrimitiveInstruction(opcode=540, value=0, type=int)
+				java.lang.ClassCastException: com.cryo.cache.loaders.cs2.nodes.CS2VariableLoad cannot be cast to com.cryo.cache.loaders.cs2.nodes.CS2PrimitiveExpression
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:262)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		break;
+	case 3:
+		ivar4 = struct_param(arg0, 1470);
+		if (ivar4 != -1) {
+			stack_dump0 = 105;
+			stack_dump1 = 115;
+			stack_dump2 = ivar4;
+			stack_dump3 = svar0;
+			stack_dump4 = "<br>";
+			stack_dump5 = enum(-1, ivar4, 115, 105);
+			stack_dump6 = " ";
+			script5026(arg3);
+			stack_dump0 = stack_dump0;
+			stack_dump3 = stack_dump3;
+			stack_dump4 = stack_dump4;
+			stack_dump6 = stack_dump6;
+			/* 
+				AT PrimitiveInstruction(opcode=540, value=0, type=int)
+				java.lang.ClassCastException: com.cryo.cache.loaders.cs2.nodes.CS2VariableLoad cannot be cast to com.cryo.cache.loaders.cs2.nodes.CS2PrimitiveExpression
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:262)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		ivar4 = struct_param(arg0, 1471);
+		if (ivar4 != -1) {
+			stack_dump0 = 105;
+			stack_dump1 = 115;
+			stack_dump2 = ivar4;
+			stack_dump3 = svar0;
+			stack_dump4 = "<br>";
+			stack_dump5 = enum(-1, ivar4, 115, 105);
+			stack_dump6 = " ";
+			script5027(arg3);
+			stack_dump0 = stack_dump0;
+			stack_dump3 = stack_dump3;
+			stack_dump4 = stack_dump4;
+			stack_dump6 = stack_dump6;
+			/* 
+				AT PrimitiveInstruction(opcode=540, value=0, type=int)
+				java.lang.ClassCastException: com.cryo.cache.loaders.cs2.nodes.CS2VariableLoad cannot be cast to com.cryo.cache.loaders.cs2.nodes.CS2PrimitiveExpression
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:262)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		ivar4 = struct_param(arg0, 1472);
+		if (ivar4 != -1) {
+			stack_dump0 = 105;
+			stack_dump1 = 115;
+			stack_dump2 = ivar4;
+			stack_dump3 = svar0;
+			stack_dump4 = "<br>";
+			stack_dump5 = enum(-1, ivar4, 115, 105);
+			stack_dump6 = " ";
+			script5028(arg3);
+			stack_dump0 = stack_dump0;
+			stack_dump3 = stack_dump3;
+			stack_dump4 = stack_dump4;
+			stack_dump6 = stack_dump6;
+			/* 
+				AT PrimitiveInstruction(opcode=540, value=0, type=int)
+				java.lang.ClassCastException: com.cryo.cache.loaders.cs2.nodes.CS2VariableLoad cannot be cast to com.cryo.cache.loaders.cs2.nodes.CS2PrimitiveExpression
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:262)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		break;
+	case 4:
+		ivar4 = struct_param(arg0, 1470);
+		if (ivar4 != -1) {
+			stack_dump0 = 105;
+			stack_dump1 = 115;
+			stack_dump2 = ivar4;
+			stack_dump3 = svar0;
+			stack_dump4 = "<br>";
+			stack_dump5 = enum(-1, ivar4, 115, 105);
+			stack_dump6 = " ";
+			script5029(arg3);
+			stack_dump0 = stack_dump0;
+			stack_dump3 = stack_dump3;
+			stack_dump4 = stack_dump4;
+			stack_dump6 = stack_dump6;
+			/* 
+				AT PrimitiveInstruction(opcode=540, value=0, type=int)
+				java.lang.ClassCastException: com.cryo.cache.loaders.cs2.nodes.CS2VariableLoad cannot be cast to com.cryo.cache.loaders.cs2.nodes.CS2PrimitiveExpression
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:262)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		ivar4 = struct_param(arg0, 1471);
+		if (ivar4 != -1) {
+			stack_dump0 = 105;
+			stack_dump1 = 115;
+			stack_dump2 = ivar4;
+			stack_dump3 = svar0;
+			stack_dump4 = "<br>";
+			stack_dump5 = enum(-1, ivar4, 115, 105);
+			stack_dump6 = " ";
+			script5030(arg3);
+			stack_dump0 = stack_dump0;
+			stack_dump3 = stack_dump3;
+			stack_dump4 = stack_dump4;
+			stack_dump6 = stack_dump6;
+			/* 
+				AT PrimitiveInstruction(opcode=540, value=0, type=int)
+				java.lang.ClassCastException: com.cryo.cache.loaders.cs2.nodes.CS2VariableLoad cannot be cast to com.cryo.cache.loaders.cs2.nodes.CS2PrimitiveExpression
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:262)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		break;
+	case 5:
+		ivar4 = struct_param(arg0, 1470);
+		if (ivar4 != -1) {
+			stack_dump0 = 105;
+			stack_dump1 = 115;
+			stack_dump2 = ivar4;
+			stack_dump3 = svar0;
+			stack_dump4 = "<br>";
+			stack_dump5 = enum(-1, ivar4, 115, 105);
+			stack_dump6 = " ";
+			script5031(arg3);
+			stack_dump0 = stack_dump0;
+			stack_dump3 = stack_dump3;
+			stack_dump4 = stack_dump4;
+			stack_dump6 = stack_dump6;
+			/* 
+				AT PrimitiveInstruction(opcode=540, value=0, type=int)
+				java.lang.ClassCastException: com.cryo.cache.loaders.cs2.nodes.CS2VariableLoad cannot be cast to com.cryo.cache.loaders.cs2.nodes.CS2PrimitiveExpression
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:262)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		ivar4 = struct_param(arg0, 1471);
+		if (ivar4 != -1) {
+			stack_dump0 = 105;
+			stack_dump1 = 115;
+			stack_dump2 = ivar4;
+			stack_dump3 = svar0;
+			stack_dump4 = "<br>";
+			stack_dump5 = enum(-1, ivar4, 115, 105);
+			stack_dump6 = " ";
+			script5032(arg3);
+			stack_dump0 = stack_dump0;
+			stack_dump3 = stack_dump3;
+			stack_dump4 = stack_dump4;
+			stack_dump6 = stack_dump6;
+			/* 
+				AT PrimitiveInstruction(opcode=540, value=0, type=int)
+				java.lang.ClassCastException: com.cryo.cache.loaders.cs2.nodes.CS2VariableLoad cannot be cast to com.cryo.cache.loaders.cs2.nodes.CS2PrimitiveExpression
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:262)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		ivar4 = struct_param(arg0, 1472);
+		if (ivar4 != -1) {
+			stack_dump0 = 105;
+			stack_dump1 = 115;
+			stack_dump2 = ivar4;
+			stack_dump3 = svar0;
+			stack_dump4 = "<br>";
+			stack_dump5 = enum(-1, ivar4, 115, 105);
+			stack_dump6 = " ";
+			script5033(arg3);
+			stack_dump0 = stack_dump0;
+			stack_dump3 = stack_dump3;
+			stack_dump4 = stack_dump4;
+			stack_dump6 = stack_dump6;
+			/* 
+				AT PrimitiveInstruction(opcode=540, value=0, type=int)
+				java.lang.ClassCastException: com.cryo.cache.loaders.cs2.nodes.CS2VariableLoad cannot be cast to com.cryo.cache.loaders.cs2.nodes.CS2PrimitiveExpression
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:262)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		break;
+	case 6:
+		ivar4 = struct_param(arg0, 1470);
+		if (ivar4 != -1) {
+			stack_dump0 = 105;
+			stack_dump1 = 115;
+			stack_dump2 = ivar4;
+			stack_dump3 = svar0;
+			stack_dump4 = "<br>";
+			stack_dump5 = enum(-1, ivar4, 115, 105);
+			stack_dump6 = " ";
+			script5034(arg3);
+			stack_dump0 = stack_dump0;
+			stack_dump3 = stack_dump3;
+			stack_dump4 = stack_dump4;
+			stack_dump6 = stack_dump6;
+			/* 
+				AT PrimitiveInstruction(opcode=540, value=0, type=int)
+				java.lang.ClassCastException: com.cryo.cache.loaders.cs2.nodes.CS2VariableLoad cannot be cast to com.cryo.cache.loaders.cs2.nodes.CS2PrimitiveExpression
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:262)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		ivar4 = struct_param(arg0, 1471);
+		if (ivar4 != -1) {
+			stack_dump0 = 105;
+			stack_dump1 = 115;
+			stack_dump2 = ivar4;
+			stack_dump3 = svar0;
+			stack_dump4 = "<br>";
+			stack_dump5 = enum(-1, ivar4, 115, 105);
+			stack_dump6 = " ";
+			script5035(arg3);
+			stack_dump0 = stack_dump0;
+			stack_dump3 = stack_dump3;
+			stack_dump4 = stack_dump4;
+			stack_dump6 = stack_dump6;
+			/* 
+				AT PrimitiveInstruction(opcode=540, value=0, type=int)
+				java.lang.ClassCastException: com.cryo.cache.loaders.cs2.nodes.CS2VariableLoad cannot be cast to com.cryo.cache.loaders.cs2.nodes.CS2PrimitiveExpression
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:262)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		ivar4 = struct_param(arg0, 1472);
+		if (ivar4 != -1) {
+			stack_dump0 = 105;
+			stack_dump1 = 115;
+			stack_dump2 = ivar4;
+			stack_dump3 = svar0;
+			stack_dump4 = "<br>";
+			stack_dump5 = enum(-1, ivar4, 115, 105);
+			stack_dump6 = " ";
+			script5036(arg3);
+			stack_dump0 = stack_dump0;
+			stack_dump3 = stack_dump3;
+			stack_dump4 = stack_dump4;
+			stack_dump6 = stack_dump6;
+			/* 
+				AT PrimitiveInstruction(opcode=540, value=0, type=int)
+				java.lang.ClassCastException: com.cryo.cache.loaders.cs2.nodes.CS2VariableLoad cannot be cast to com.cryo.cache.loaders.cs2.nodes.CS2PrimitiveExpression
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:262)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		break;
+	default:
+		ivar4 = struct_param(arg0, 1470);
+		if (ivar4 != -1) 
+			svar0 = append(svar0, "<br>" + enum(-1, ivar4, 115, 105) + " " + enum(arg3, ivar4, 115, 105));
+}
+stack_dump0 = 5077;
+stack_dump1 = -2147483645;
+stack_dump2 = -2147483643;
+stack_dump5 = -2147483647;
+stack_dump7 = -2147483646;
+stack_dump3 = svar0;
+stack_dump4 = "Iisii";
+/* 
+	AT PrimitiveInstruction(opcode=207, value=false, type=boolean)
+	com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=207, value=false, type=boolean)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

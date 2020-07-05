@@ -1,0 +1,83 @@
+//script2041(2041)()(void)
+if_settext(if_gethash(28, 42), "Bronze: " + to_string(load_varpbit(941)));
+if (load_varpbit(941) > 0) {
+	if_setcolor(16750623, if_gethash(28, 44));
+	if_setcolor(16750623, if_gethash(28, 42));
+}
+else {
+	if_setcolor(10066329, if_gethash(28, 44));
+	if_setcolor(10066329, if_gethash(28, 42));
+}
+if_settext(if_gethash(28, 39), "Iron: " + to_string(load_varpbit(942)));
+if (load_varpbit(942) > 0) {
+	if_setcolor(16750623, if_gethash(28, 41));
+	if_setcolor(16750623, if_gethash(28, 39));
+}
+else {
+	if_setcolor(10066329, if_gethash(28, 41));
+	if_setcolor(10066329, if_gethash(28, 39));
+}
+if_settext(if_gethash(28, 37), "Steel: " + to_string(load_varpbit(943)));
+if (load_varpbit(943) > 0) {
+	if_setcolor(16750623, if_gethash(28, 38));
+	if_setcolor(16750623, if_gethash(28, 37));
+}
+else {
+	if_setcolor(10066329, if_gethash(28, 38));
+	if_setcolor(10066329, if_gethash(28, 37));
+}
+if_settext(if_gethash(28, 34), "Mithril: " + to_string(load_varpbit(944)));
+if (load_varpbit(944) > 0) {
+	if_setcolor(16750623, if_gethash(28, 35));
+	if_setcolor(16750623, if_gethash(28, 34));
+}
+else {
+	if_setcolor(10066329, if_gethash(28, 35));
+	if_setcolor(10066329, if_gethash(28, 34));
+}
+if_settext(if_gethash(28, 31), "Adamantite: " + to_string(load_varpbit(945)));
+if (load_varpbit(945) > 0) {
+	if_setcolor(16750623, if_gethash(28, 32));
+	if_setcolor(16750623, if_gethash(28, 31));
+}
+else {
+	if_setcolor(10066329, if_gethash(28, 32));
+	if_setcolor(10066329, if_gethash(28, 31));
+}
+if_settext(if_gethash(28, 28), "Runite: " + to_string(load_varpbit(946)));
+if (load_varpbit(946) > 0) {
+	if_setcolor(16750623, if_gethash(28, 29));
+	if_setcolor(16750623, if_gethash(28, 28));
+}
+else {
+	if_setcolor(10066329, if_gethash(28, 29));
+	if_setcolor(10066329, if_gethash(28, 28));
+}
+if_settext(if_gethash(28, 25), "Silver: " + to_string(load_varpbit(948)));
+if (load_varpbit(948) > 0) {
+	if_setcolor(16750623, if_gethash(28, 26));
+	if_setcolor(16750623, if_gethash(28, 25));
+}
+else {
+	if_setcolor(10066329, if_gethash(28, 26));
+	if_setcolor(10066329, if_gethash(28, 25));
+}
+if_settext(if_gethash(28, 22), "Gold: " + to_string(load_varpbit(947)));
+if (load_varpbit(947) > 0) {
+	if_setcolor(16750623, if_gethash(28, 23));
+	if_setcolor(16750623, if_gethash(28, 22));
+}
+else {
+	if_setcolor(10066329, if_gethash(28, 23));
+	if_setcolor(10066329, if_gethash(28, 22));
+}
+if_settext(if_gethash(28, 2), "Perfect Gold: " + to_string(load_varpbit(958)));
+if (load_varpbit(958) > 0) {
+	if_setcolor(16750623, if_gethash(28, 4));
+	if_setcolor(16750623, if_gethash(28, 2));
+}
+else {
+	if_setcolor(10066329, if_gethash(28, 4));
+	if_setcolor(10066329, if_gethash(28, 2));
+}
+return;

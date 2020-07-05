@@ -1,0 +1,17 @@
+{
+  "id": 94,
+  "name": "The Elemental Workshop II",
+  "members": false,
+  "varbitValues": [
+    [
+      2639,
+      1,
+      11
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

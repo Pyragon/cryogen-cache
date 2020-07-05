@@ -1,0 +1,53 @@
+//script4158(4158)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
+hook_mouse_press(arg0, 4162, "I");
+hook_mouse_release(arg0, 4163, "I");
+cc_deleteall(arg0)
+cc_create(arg0, 5, if_getnextsubid(arg0));
+cc_setposition(0, 0, 1, 1);
+cc_setsize(24, 22, 1, 1);
+cc_setgraphic(arg6)
+cc_settrans(255)
+cc_create(arg0, 5, if_getnextsubid(arg0));
+cc_setposition(0, 0, 1, 0);
+cc_setsize(24, 12, 1, 0);
+cc_setgraphic(arg2)
+cc_settrans(255)
+cc_create(arg0, 5, if_getnextsubid(arg0));
+cc_setposition(0, 0, 1, 2);
+cc_setsize(24, 12, 1, 0);
+cc_setgraphic(arg4)
+cc_settrans(255)
+cc_create(arg0, 5, if_getnextsubid(arg0));
+cc_setposition(0, 0, 0, 1);
+cc_setsize(12, 24, 0, 1);
+cc_setgraphic(arg5)
+cc_sethflip(1)
+cc_settrans(255)
+cc_create(arg0, 5, if_getnextsubid(arg0));
+cc_setposition(0, 0, 2, 1);
+cc_setsize(12, 24, 0, 1);
+cc_setgraphic(arg5)
+cc_settrans(255)
+cc_create(arg0, 5, if_getnextsubid(arg0));
+cc_setposition(0, 0, 0, 0);
+cc_setsize(12, 12, 0, 0);
+cc_setgraphic(arg1)
+cc_sethflip(1)
+cc_settrans(255)
+cc_create(arg0, 5, if_getnextsubid(arg0));
+cc_setposition(0, 0, 0, 2);
+cc_setsize(12, 12, 0, 0);
+cc_setgraphic(arg3)
+cc_sethflip(1)
+cc_settrans(255)
+cc_create(arg0, 5, if_getnextsubid(arg0));
+cc_setposition(0, 0, 2, 0);
+cc_setsize(12, 12, 0, 0);
+cc_setgraphic(arg1)
+cc_settrans(255)
+cc_create(arg0, 5, if_getnextsubid(arg0));
+cc_setposition(0, 0, 2, 2);
+cc_setsize(12, 12, 0, 0);
+cc_setgraphic(arg3)
+cc_settrans(255)
+return;

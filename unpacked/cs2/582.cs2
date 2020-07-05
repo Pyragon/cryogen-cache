@@ -1,0 +1,29 @@
+//script582(582)(int arg0)(void)
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+ivar1 = if_getwidth(arg0);
+ivar2 = if_getheight(arg0);
+ivar3 = calc(32 - ivar1);
+ivar4 = calc(32 - ivar2);
+ivar5 = calc(64 - ivar1);
+ivar6 = calc(64 - ivar2);
+if (ivar5 < 0) 
+	ivar5 = 0;
+if (ivar6 < 0) 
+	ivar6 = 0;
+ivar7 = if_getnextsubid(arg0);
+script98(arg0, ivar7, 1136, 7, 7, calc(14 - ivar1), calc(14 - ivar2));
+script98(arg0, calc(ivar7 + 1), 958, 0, 0, 32, 32);
+script98(arg0, calc(ivar7 + 2), 959, ivar3, 0, 32, 32);
+script98(arg0, calc(ivar7 + 3), 960, 0, ivar4, 32, 32);
+script98(arg0, calc(ivar7 + 4), 961, ivar3, ivar4, 32, 32);
+script98(arg0, calc(ivar7 + 5), 954, 32, 0, ivar5, 32);
+script98(arg0, calc(ivar7 + 6), 955, 0, 32, 32, ivar6);
+script98(arg0, calc(ivar7 + 7), 956, 32, ivar4, ivar5, 32);
+script98(arg0, calc(ivar7 + 8), 957, ivar3, 32, 32, ivar6);
+return;

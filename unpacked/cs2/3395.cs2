@@ -1,0 +1,11 @@
+//script3395(3395)()(void)
+int ivar0;
+ivar0 = 0;
+while (ivar0 < if_getnextsubid(if_gethash(979, 25))) {
+	if (cc_find(if_gethash(979, 25), ivar0) == 1) 
+		cc_settrans(255)
+	ivar0 = calc(ivar0 + 1);
+}
+if (cc_find(if_gethash(979, 25), load_varc(792)) == 1) 
+	cc_settrans(0)
+return;

@@ -1,0 +1,25 @@
+//script2889(2889)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+ivar0 = enum(load_varpbit(7099), 927, 110, 105);
+ivar1 = -1;
+ivar2 = -1;
+if (ivar0 != -1) {
+	if (npc_param(ivar0, 956) != -1) {
+		if_setmodel(enum(npc_param(ivar0, 956), 934, 109, 110), if_gethash(476, 45));
+		if_setmodelanim(enum(npc_param(ivar0, 956), 935, 65, 110), if_gethash(476, 45));
+		if_setgraphic(enum(npc_param(ivar0, 956), 932, 100, 110), 31195185)
+		if_settext(if_gethash(476, 52), enum(npc_param(ivar0, 956), 930, 115, 110));
+	}
+	if (npc_param(ivar0, 957) != -1) {
+		if_setmodel(enum(npc_param(ivar0, 957), 934, 109, 110), if_gethash(476, 46));
+		if_setmodelanim(enum(npc_param(ivar0, 957), 935, 65, 110), if_gethash(476, 46));
+		if_setgraphic(enum(npc_param(ivar0, 957), 932, 100, 110), 31195186)
+		if_settext(if_gethash(476, 53), enum(npc_param(ivar0, 957), 930, 115, 110));
+	}
+	if_setgraphic(enum(ivar0, 933, 100, 110), 31195184)
+	if_setmodel(enum(ivar0, 934, 109, 110), if_gethash(476, 44));
+	if_setmodelanim(enum(ivar0, 935, 65, 110), if_gethash(476, 44));
+}
+return;

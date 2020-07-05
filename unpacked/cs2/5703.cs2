@@ -1,0 +1,6 @@
+//script5703(5703)(int arg0)(void)
+if (arg0 < 0) 
+	script5705(1);
+else 
+	script5705(0);
+return;

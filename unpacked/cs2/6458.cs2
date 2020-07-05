@@ -1,0 +1,16 @@
+//script6458(6458)()(void)
+int ivar0;
+int ivar1;
+ivar0 = 0;
+ivar1 = -1;
+while (ivar0 < enum_getoutputcount(5962)) {
+	ivar1 = enum(ivar0, 5962, 73, 105);
+	if (ivar1 != -1 && cc_find(ivar1, 1) == 1) {
+		if (load_varc(1967) == ivar0) 
+			cc_setgraphic(2289)
+		else 
+			cc_setgraphic(2288)
+	}
+	ivar0 = calc(ivar0 + 1);
+}
+return;

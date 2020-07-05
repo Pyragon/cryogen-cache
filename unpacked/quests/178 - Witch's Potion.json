@@ -1,0 +1,17 @@
+{
+  "id": 178,
+  "name": "Witch's Potion",
+  "members": false,
+  "varValues": [
+    [
+      67,
+      1,
+      3
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 0,
+  "difficulty": "NOVICE",
+  "graphicId": 2393
+}

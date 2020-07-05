@@ -1,0 +1,17 @@
+{
+  "id": 18,
+  "name": "Tale of the Muspah",
+  "members": false,
+  "varbitValues": [
+    [
+      6048,
+      5,
+      250
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

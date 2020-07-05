@@ -1,0 +1,155 @@
+//script3020(3020)(int arg0, string arg1)(void)
+int ivar1;
+int ivar2;
+int ivar3;
+string svar1;
+string svar2;
+string svar3;
+string svar4;
+int stack_dump0;
+int stack_dump1;
+string stack_dump2;
+string stack_dump3;
+ivar1 = 0;
+svar1 = "";
+svar2 = "";
+ivar2 = -1;
+svar3 = "";
+svar4 = "";
+ivar3 = -1;
+if (string_length(load_varc_string(277)) > 0) {
+	switch (arg0) {
+		case 0:
+			if (string_length(load_varc_string(277)) > 0 && string_length(arg1) > 0) {
+				if (chat_getfilter_private() == 2) 
+					script3047(1);
+				stack_dump0 = removetags(arg1);
+				stack_dump1 = load_varc_string(277);
+				/* 
+					AT PrimitiveInstruction(opcode=743, value=false, type=boolean)
+					com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=743, value=false, type=boolean)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+						at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+						at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+						at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+						at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+					
+				 */
+			}
+			break;
+		case 1:
+			if (friend_count() < 0) 
+				send_message("Unable to update Friends List - system busy.");
+			else {
+				if (string_length(load_varc_string(277)) > 0) 
+					friend_add(load_varc_string(277));
+			}
+			break;
+		case 2:
+			if (ignore_count() < 0) 
+				send_message("Unable to update Ignore List - system busy.");
+			else {
+				if (string_length(load_varc_string(277)) > 0) 
+					ignore_add(load_varc_string(277));
+			}
+			break;
+		case 3:
+			if (friend_count() < 0) 
+				send_message("Unable to update Friends List - system busy.");
+			else {
+				if (string_length(load_varc_string(277)) > 0) 
+					friend_del(load_varc_string(277));
+			}
+			break;
+		case 4:
+			if (ignore_count() < 0) 
+				send_message("Unable to update Ignore List - system busy.");
+			else {
+				if (string_length(load_varc_string(277)) > 0) 
+					ignore_del(load_varc_string(277));
+			}
+			break;
+		case 5:
+			/* 
+				AT PrimitiveInstruction(opcode=1002, value=false, type=boolean)
+				com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=1002, value=false, type=boolean)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		case 6:
+			store_varc(1094, 0)
+			stack_dump0 = 0;
+			stack_dump2 = "bugtracker_v4";
+			stack_dump3 = "index.html";
+			/* 
+				AT PrimitiveInstruction(opcode=577, value=false, type=boolean)
+				com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=577, value=false, type=boolean)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		case 7:
+			if (string_length(load_varc_string(277)) > 0) 
+				script4465(load_varc_string(277));
+			break;
+		case 9:
+			/* 
+				AT PrimitiveInstruction(opcode=1002, value=false, type=boolean)
+				com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=1002, value=false, type=boolean)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		case 10:
+			/* 
+				AT PrimitiveInstruction(opcode=509, value=false, type=boolean)
+				com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=509, value=false, type=boolean)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		case 12:
+			script3017();
+			/* 
+				AT PrimitiveInstruction(opcode=509, value=false, type=boolean)
+				com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=509, value=false, type=boolean)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+	}
+}
+store_varc(1650, 0)
+if (ivar1 == 1) 
+	script3015(ivar2, svar1, svar2, svar3, svar4);
+else 
+	script3017();
+return;

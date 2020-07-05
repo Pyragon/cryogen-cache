@@ -1,0 +1,17 @@
+{
+  "id": 36,
+  "name": "A Soul's Bane",
+  "members": false,
+  "varbitValues": [
+    [
+      2011,
+      1,
+      13
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

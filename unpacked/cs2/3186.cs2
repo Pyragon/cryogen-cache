@@ -1,0 +1,6 @@
+//script3186(3186)(int arg0, int arg1)(void)
+if_setsize(stringwidth(if_gettext(arg1), 2710), 0, 0, 1, arg1)
+if_setposition(40, 0, 2, 1, arg1)
+if_setsize(38, 31, 0, 0, arg0)
+if_sethide(arg0, 0)
+return;

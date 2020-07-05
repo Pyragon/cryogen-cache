@@ -1,0 +1,17 @@
+{
+  "id": 180,
+  "name": "The Void Stares Back",
+  "members": false,
+  "varbitValues": [
+    [
+      8248,
+      2,
+      40
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 3804
+}

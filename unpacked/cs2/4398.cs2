@@ -1,0 +1,11 @@
+//script4398(4398)(int arg0, int arg1, int arg2)(void)
+int ivar3;
+ivar3 = 0;
+while (ivar3 < arg2) {
+	if (cc_find(arg1, ivar3) == 1) 
+		cc_setgraphic(5523)
+	ivar3 = calc(ivar3 + 1);
+}
+if (cc_find(arg1, arg0) == 1) 
+	cc_setgraphic(5526)
+return;

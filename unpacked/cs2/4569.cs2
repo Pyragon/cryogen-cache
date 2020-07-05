@@ -1,0 +1,21 @@
+//script4569(4569)(int arg0, string arg1, string arg2)(void)
+switch (arg0) {
+	case 1:
+		if (friend_test(removetags(arg2)) == 0) 
+			friend_add(removetags(arg2));
+		break;
+	case 2:
+		if (friend_test(removetags(arg2)) == 0) 
+			ignore_add(removetags(arg2));
+		break;
+	case 3:
+		script3015(0, "Send message to " + arg1, "", arg2, "");
+		break;
+	case 5:
+		store_varc(279, removetags(arg1))
+		script3190();
+		break;
+	case 10:
+		script1633(removetags(arg2));
+}
+return;

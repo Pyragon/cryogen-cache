@@ -1,0 +1,88 @@
+//script2782(2782)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+string svar0;
+if (string_length(load_varc_string(321)) <= 0) {
+	if_sethide(if_gethash(667, 49), 1)
+	if_sethide(if_gethash(670, 1), 1)
+	if_sethide(if_gethash(763, 3), 1)
+	return;
+}
+cc_deleteall(43712563)
+ivar0 = stringwidth(load_varc_string(321), 496);
+ivar1 = paramwidth(2147483647, 494, load_varc_string(322));
+ivar2 = paramwidth(2147483647, 494, load_varc_string(323));
+ivar3 = paramwidth(2147483647, 494, load_varc_string(324));
+ivar4 = 0;
+ivar5 = 0;
+svar0 = "Superior stats are shown in " + "<col=ffffff>" + "white" + "</col>" + ".";
+if (string_length(load_varc_string(325)) > 0) {
+	ivar4 = paramwidth(2147483647, 494, load_varc_string(325));
+	ivar5 = stringwidth(svar0, 494);
+}
+ivar6 = calc(calc(10 * paramheight(2147483647, 494, load_varc_string(324))) + 3);
+ivar7 = calc(calc(calc(5 + ivar2) + 5) + ivar3);
+if (ivar4 > 0) {
+	ivar7 = calc(calc(ivar7 + 5) + ivar4);
+	ivar7 = max(ivar7, calc(ivar5 + 10));
+}
+ivar7 = max(ivar7, ivar1);
+ivar8 = max(max(ivar7, ivar0), if_getwidth(if_gethash(667, 62)));
+ivar9 = 0;
+if (ivar8 > ivar7) 
+	ivar9 = calc(2 / calc(ivar7 - ivar8));
+cc_create(if_gethash(667, 51), 4, if_getnextsubid(if_gethash(667, 51)));
+cc_setposition(calc(ivar9 + 10), 25, 0, 0);
+cc_setsize(cc_getx(), ivar6, 1, 0);
+cc_settextfont(494);
+cc_settextshadow(1);
+cc_setcolor(16750623);
+cc_settext(load_varc_string(322));
+cc_create(if_gethash(667, 51), 4, if_getnextsubid(if_gethash(667, 51)));
+cc_setposition(calc(ivar9 + 15), 25, 0, 0);
+cc_setsize(cc_getx(), ivar6, 1, 0);
+cc_settextfont(494);
+cc_settextshadow(1);
+cc_setcolor(16750623);
+cc_settext(load_varc_string(323));
+cc_create(if_gethash(667, 51), 4, if_getnextsubid(if_gethash(667, 51)));
+cc_setposition(calc(calc(calc(ivar9 + 15) + ivar2) + 5), 25, 0, 0);
+cc_setsize(ivar3, ivar6, 0, 0);
+cc_settextfont(494);
+cc_settextshadow(1);
+cc_setcolor(16750623);
+cc_settextalign(1, 0, 0);
+cc_settext(load_varc_string(324));
+if (ivar4 > 0) {
+	cc_create(if_gethash(667, 51), 4, if_getnextsubid(if_gethash(667, 51)));
+	cc_setposition(calc(calc(calc(calc(calc(ivar9 + 15) + ivar2) + 5) + ivar3) + 5), 25, 0, 0);
+	cc_setsize(ivar4, ivar6, 0, 0);
+	cc_settextfont(494);
+	cc_settextshadow(1);
+	cc_setcolor(16750623);
+	cc_settextalign(1, 0, 0);
+	cc_settext(load_varc_string(325));
+	cc_create(if_gethash(667, 51), 4, if_getnextsubid(if_gethash(667, 51)));
+	cc_setposition(0, calc(25 + ivar6), 1, 0);
+	cc_setsize(ivar5, 12, 0, 0);
+	cc_settextalign(1, 1, 0);
+	cc_settextfont(494);
+	cc_settextshadow(1);
+	cc_setcolor(16750623);
+	cc_settext(svar0);
+	ivar6 = calc(ivar6 + cc_getheight());
+}
+if_setsize(calc(ivar8 + 20), calc(ivar6 + 60), 0, 0, 43712563)
+if_settext(if_gethash(667, 61), load_varc_string(321));
+if_sethide(if_gethash(667, 49), 0)
+if_sethide(if_gethash(670, 1), 0)
+if_sethide(if_gethash(763, 3), 0)
+return;

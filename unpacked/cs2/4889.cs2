@@ -1,0 +1,131 @@
+//script4889(4889)()(void)
+string svar0;
+svar0 = "";
+if_sethide(if_gethash(1258, 558), 1)
+if_sethide(if_gethash(1258, 566), 1)
+if_sethide(if_gethash(1258, 562), 1)
+if_sethide(if_gethash(1258, 570), 1)
+if_sethide(if_gethash(1258, 574), 1)
+if_sethide(if_gethash(1258, 578), 1)
+if_sethide(if_gethash(1258, 582), 1)
+if_sethide(if_gethash(1258, 586), 1)
+if_sethide(if_gethash(1258, 590), 1)
+if_sethide(if_gethash(1258, 594), 1)
+if_sethide(if_gethash(1258, 598), 1)
+if_sethide(if_gethash(1258, 602), 1)
+if_sethide(if_gethash(1258, 606), 1)
+if (load_clan_varbit(2580) > 1) {
+	if_sethide(if_gethash(1258, 594), 0)
+	if_sethide(if_gethash(1258, 570), 0)
+	if_sethide(if_gethash(1258, 595), 1)
+	if_sethide(if_gethash(1258, 571), 1)
+}
+else {
+	if_sethide(if_gethash(1258, 595), 0)
+	if_sethide(if_gethash(1258, 571), 0)
+	svar0 = "You need at least a tier 2 citadel to customise the keep fireplace.";
+	if_setonmouseover(if_gethash(1258, 595), 4538, "IIisifdiiiiii", 82444407, 82444883, -1, svar0, 120, 3793, 3793, 16777215, 13, 4, 1, -2147483647, -2147483646);
+	/* 
+		AT PrimitiveInstruction(opcode=600, value=0, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:148)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if (load_clan_varbit(2580) > 2) {
+	if_sethide(if_gethash(1258, 558), 0)
+	if_sethide(if_gethash(1258, 566), 0)
+	if_sethide(if_gethash(1258, 574), 0)
+	if_sethide(if_gethash(1258, 582), 0)
+	if_sethide(if_gethash(1258, 586), 0)
+	if_sethide(if_gethash(1258, 606), 0)
+	if_sethide(if_gethash(1258, 559), 1)
+	if_sethide(if_gethash(1258, 567), 1)
+	if_sethide(if_gethash(1258, 575), 1)
+	if_sethide(if_gethash(1258, 579), 1)
+	if_sethide(if_gethash(1258, 583), 1)
+	if_sethide(if_gethash(1258, 587), 1)
+	if_sethide(if_gethash(1258, 607), 1)
+}
+else {
+	if_sethide(if_gethash(1258, 559), 0)
+	if_sethide(if_gethash(1258, 567), 0)
+	if_sethide(if_gethash(1258, 575), 0)
+	if_sethide(if_gethash(1258, 583), 0)
+	if_sethide(if_gethash(1258, 587), 0)
+	if_sethide(if_gethash(1258, 607), 0)
+	svar0 = "You need at least a tier 3 citadel to customise the party room chairs.";
+	if_setonmouseover(if_gethash(1258, 559), 4538, "IIisifdiiiiii", 82444407, 82444847, -1, svar0, 120, 3793, 3793, 16777215, 13, 4, 1, -2147483647, -2147483646);
+	/* 
+		AT PrimitiveInstruction(opcode=600, value=0, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:148)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if (load_clan_varbit(2580) > 3) {
+	if_sethide(if_gethash(1258, 598), 0)
+	if_sethide(if_gethash(1258, 602), 0)
+	if_sethide(if_gethash(1258, 562), 0)
+	if_sethide(if_gethash(1258, 590), 0)
+	if_sethide(if_gethash(1258, 599), 1)
+	if_sethide(if_gethash(1258, 603), 1)
+	if_sethide(if_gethash(1258, 563), 1)
+	if_sethide(if_gethash(1258, 591), 1)
+}
+else {
+	if_sethide(if_gethash(1258, 599), 0)
+	if_sethide(if_gethash(1258, 603), 0)
+	if_sethide(if_gethash(1258, 563), 0)
+	if_sethide(if_gethash(1258, 591), 0)
+	svar0 = "You need at least a tier 4 citadel to customise the keep lower windows.";
+	if_setonmouseover(if_gethash(1258, 599), 4538, "IIisifdiiiiii", 82444407, 82444887, -1, svar0, 120, 3793, 3793, 16777215, 13, 4, 1, -2147483647, -2147483646);
+	/* 
+		AT PrimitiveInstruction(opcode=600, value=0, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:148)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if (load_clan_varbit(2580) > 4) 
+	if_sethide(if_gethash(1258, 578), 0)
+else {
+	if_sethide(if_gethash(1258, 579), 0)
+	svar0 = "You need at least a tier 5 citadel to customise the keep flag.";
+	if_setonmouseover(if_gethash(1258, 579), 4538, "IIisifdiiiiii", 82444407, 82444867, -1, svar0, 120, 3793, 3793, 16777215, 13, 4, 1, -2147483647, -2147483646);
+	/* 
+		AT PrimitiveInstruction(opcode=600, value=0, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:148)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+return;

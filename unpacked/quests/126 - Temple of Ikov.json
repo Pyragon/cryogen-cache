@@ -1,0 +1,17 @@
+{
+  "id": 126,
+  "name": "Temple of Ikov",
+  "members": false,
+  "varValues": [
+    [
+      26,
+      10,
+      80
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

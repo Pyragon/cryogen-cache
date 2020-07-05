@@ -1,0 +1,38 @@
+//script1163(1163)(int arg0, int arg1, int arg2, int arg3, int arg4, string arg5)(void)
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+int ivar12;
+int ivar13;
+int ivar14;
+ivar5 = 0;
+ivar6 = 0;
+ivar7 = 0;
+ivar8 = 0;
+ivar9 = 0;
+ivar10 = 0;
+ivar11 = 0;
+ivar12 = 0;
+ivar13 = -1;
+ivar14 = 0;
+if (arg1 == -1 && instr6004(arg0) == 1 || cc_find(arg0, arg1) == 1) {
+	script4761(arg3);
+	/* 
+		AT JumpInstruction(target=LabelInstruction(labelId=3))
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:182)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+return;

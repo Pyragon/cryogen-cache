@@ -1,0 +1,4 @@
+//script302(302)(int arg0, int arg1, int arg2)(void)
+if (arg0 == 1 && arg1 != -1) 
+	script303(arg1, arg2);
+return;

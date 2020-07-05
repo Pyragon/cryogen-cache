@@ -1,0 +1,15 @@
+//script4695(4695)(int arg0, int arg1)(void)
+int ivar2;
+ivar2 = clientclock();
+if (ivar2 >= calc(arg0 + 15) || arg0 == 0) {
+	if_settrans(arg1, if_gethash(500, 11));
+	arg0 = ivar2;
+	if (load_varc(1548) == 0) 
+		arg1 = 255;
+	else if (arg1 == 255) 
+		arg1 = 0;
+	else 
+		arg1 = 255;
+}
+instr6342(if_gethash(500, 11), 4695, "ii", arg0, arg1);
+return;

@@ -1,0 +1,5 @@
+//script4235(4235)()(void)
+if (load_varc(1494) > 100) 
+	store_varc(1494, 100)
+if_setsize(scale(load_varc(1494), 100, 16384), 16384, 2, 2, 31522831)
+return;

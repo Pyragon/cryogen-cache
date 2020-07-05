@@ -1,0 +1,17 @@
+{
+  "id": 78,
+  "name": "Tree Gnome Village",
+  "members": false,
+  "varValues": [
+    [
+      111,
+      1,
+      9
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

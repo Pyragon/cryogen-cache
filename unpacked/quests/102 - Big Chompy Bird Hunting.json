@@ -1,0 +1,17 @@
+{
+  "id": 102,
+  "name": "Big Chompy Bird Hunting",
+  "members": false,
+  "varValues": [
+    [
+      293,
+      5,
+      65
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

@@ -1,0 +1,18 @@
+{
+  "id": 181,
+  "name": "O Little Town of Daemonheim",
+  "sortName": "O Little Town of Daemonheim",
+  "members": false,
+  "varbitValues": [
+    [
+      8671,
+      1,
+      44
+    ]
+  ],
+  "type": "HOLIDAY",
+  "questpointRequirement": 0,
+  "questpointReward": 0,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

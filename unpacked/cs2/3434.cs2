@@ -1,0 +1,20 @@
+//script3434(3434)(int arg0)(void)
+if (load_varc(1280) == 1) 
+	return;
+if (load_varc(1278) != arg0) 
+	sound_synth(9439, 1, 0);
+store_varc(1278, arg0)
+if_setgraphic(1134, 3538960)
+if_setgraphic(1134, 3538961)
+if_setgraphic(1134, 3538962)
+if (load_varc(1278) == 1) 
+	if_setgraphic(1135, 3538960)
+else if (load_varc(1278) == 2) 
+	if_setgraphic(1135, 3538961)
+else if (load_varc(1278) == 3) 
+	if_setgraphic(1135, 3538962)
+else {
+	store_varc(1278, 1)
+	if_setgraphic(1135, 3538960)
+}
+return;

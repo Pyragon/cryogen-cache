@@ -1,0 +1,5 @@
+//script227(227)()(void)
+script231();
+script232();
+if_sethide(if_gethash(594, 150), 0)
+return;

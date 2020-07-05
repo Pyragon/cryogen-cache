@@ -1,0 +1,60 @@
+//script5691(5691)(int arg0)(void)
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+ivar1 = enum(arg0, 5420, 103, 105);
+ivar2 = -1;
+ivar3 = 5;
+ivar4 = -1;
+if_sethide(if_gethash(1218, 3), 1)
+if (instr6004(if_gethash(1218, 30)) == 1) {
+	switch (load_varc(1755)) {
+		case 1:
+			ivar2 = instr6771(2223);
+			break;
+		case 2:
+			ivar2 = instr6771(2221);
+			break;
+		case 3:
+			ivar2 = instr6771(2222);
+			break;
+		default:
+			ivar2 = instr6771(2224);
+	}
+}
+cc_deleteall(79822920)
+while (ivar2 != -1) {
+	if (cc_find(if_gethash(1218, 30), ivar2) == 1) {
+		ivar4 = enum(ivar2, ivar1, 74, 105);
+		if (load_varc(1754) <= 0 || struct_param(ivar4, 2220) == load_varc(1754) || load_varc(1754) == 1 && struct_param(ivar4, 2218) == 1) {
+			cc_setposition(0, 0, 0, 0);
+			instr6556(5692, "iiJ", ivar2, ivar3, ivar4);
+			cc_sethide(0);
+			ivar3 = calc(cc_getheight() + ivar3);
+		}
+		else 
+			cc_sethide(1);
+		switch (load_varc(1755)) {
+			case 1:
+				ivar2 = instr6771(2223);
+				break;
+			case 2:
+				ivar2 = instr6771(2221);
+				break;
+			case 3:
+				ivar2 = instr6771(2222);
+				break;
+			default:
+				ivar2 = instr6771(2224);
+		}
+	}
+	else 
+		ivar2 = -1;
+}
+instr6185(0, ivar3, 79822852)
+if_setscrollpos(0, 0, if_gethash(1218, 4));
+if_setsize(0, ivar3, 1, 0, 79822878)
+if_setsize(0, ivar3, 1, 0, 79822920)
+script31(79822853, 79822852, 5666, 5663, 5664, 5665, 5686, 5685);
+return;

@@ -1,0 +1,17 @@
+{
+  "id": 103,
+  "name": "Wanted!",
+  "members": false,
+  "varbitValues": [
+    [
+      1051,
+      1,
+      11
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

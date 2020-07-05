@@ -1,0 +1,21 @@
+//script2614(2614)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+ivar0 = 0;
+ivar1 = 0;
+ivar2 = 0;
+script2617();
+/* 
+	AT SwitchInstruction(cases=[-2147483648, 0, 7, 6, 5, 4, 3, 2, 1], targets=[LabelInstruction(labelId=0), LabelInstruction(labelId=1), LabelInstruction(labelId=2), LabelInstruction(labelId=3), LabelInstruction(labelId=4), LabelInstruction(labelId=5), LabelInstruction(labelId=6), LabelInstruction(labelId=7), LabelInstruction(labelId=8)], defaultIndex=0)
+	java.lang.RuntimeException: Stack underflow
+		at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:539)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

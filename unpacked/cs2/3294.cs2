@@ -1,0 +1,16 @@
+//script3294(3294)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int ivar5;
+int ivar6;
+ivar5 = 0;
+ivar6 = 0;
+if (cc_find(arg0, 1) == 1) {
+	if (cc_find(arg0, 2) == 1) 
+		cc_setposition(0, calc(arg3 + 16), 0, 0);
+	if (cc_find(arg0, 3) == 1) 
+		cc_setposition(0, calc(calc(5 - calc(arg3 + cc_getheight())) + 16), 0, 0);
+	ivar5 = calc(cc_getheight() - calc(32 - if_getheight(arg0)));
+	ivar6 = calc(if_getheight(arg1) - if_getscrollheight(arg1));
+	arg3 = calc(ivar5 / calc(ivar6 * arg3));
+	script3296(arg0, arg1, arg2, arg3, arg4);
+}
+return;

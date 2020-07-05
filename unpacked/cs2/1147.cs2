@@ -1,0 +1,109 @@
+//script1147(1147)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+int ivar6;
+int ivar7;
+ivar6 = -1;
+ivar7 = -1;
+if (arg1 == arg0) {
+	if_setsize(106, 27, 0, 0, arg3)
+	switch (arg0) {
+		case 0:
+			ivar6 = 3095;
+			break;
+		case 2:
+			switch (world_language()) {
+				default:
+					ivar6 = 3098;
+					break;
+				case 1:
+					ivar6 = 3104;
+					break;
+				case 2:
+					ivar6 = 3110;
+					break;
+				case 3:
+					ivar6 = 3098;
+			}
+			break;
+		case 1:
+			ivar6 = 3119;
+			break;
+		case 3:
+			ivar6 = 3122;
+	}
+	if_setgraphic(ivar6, arg4)
+	/* 
+		AT PrimitiveInstruction(opcode=968, value=0, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:148)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if_setsize(106, 27, 0, 0, arg3)
+switch (arg0) {
+	case 0:
+		switch (world_language()) {
+			default:
+				ivar6 = 3093;
+				ivar7 = 3094;
+				break;
+			case 1:
+				ivar6 = 3099;
+				ivar7 = 3100;
+				break;
+			case 2:
+				ivar6 = 3105;
+				ivar7 = 3106;
+				break;
+			case 3:
+				ivar6 = 3111;
+				ivar7 = 3112;
+		}
+		break;
+	case 2:
+		switch (world_language()) {
+			default:
+				ivar6 = 3096;
+				ivar7 = 3097;
+				break;
+			case 1:
+				ivar6 = 3102;
+				ivar7 = 3103;
+				break;
+			case 2:
+				ivar6 = 3108;
+				ivar7 = 3109;
+				break;
+			case 3:
+				ivar6 = 3096;
+				ivar7 = 3097;
+		}
+		break;
+	case 1:
+		ivar6 = 3117;
+		ivar7 = 3118;
+		break;
+	case 3:
+		ivar6 = 3120;
+		ivar7 = 3121;
+}
+if_setgraphic(ivar6, arg4)
+/* 
+	AT PrimitiveInstruction(opcode=968, value=0, type=int)
+	java.lang.RuntimeException: Stack underflow
+		at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:148)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

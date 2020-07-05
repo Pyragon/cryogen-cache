@@ -1,0 +1,44 @@
+//script682(682)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
+int ivar7;
+int ivar8;
+ivar7 = calc(2 / calc(164 - if_getwidth(arg0)));
+ivar8 = calc(ivar7 + calc(arg2 * calc(146 + ivar7)));
+cc_create(arg0, 3, calc(6 * arg2));
+cc_setsize(164, 146, 0, 0);
+cc_setposition(ivar7, ivar8, 0, 0);
+if (load_varpbit(4190) == arg1) 
+	cc_setcolor(8323072);
+else 
+	cc_setcolor(0);
+cc_settrans(200)
+cc_setfill(true);
+cc_setop(1, "Choose");
+cc_setopbase("<col=ff9040>" + enum(arg1, 1099, 115, 105) + "</col>");
+instr6687(687, "iIiIIII", arg1, arg0, -2147483643, arg3, arg4, arg5, arg6);
+cc_create(arg0, 6, calc(calc(6 * arg2) + 1));
+cc_setsize(164, 146, 0, 0);
+cc_setposition(ivar7, ivar8, 0, 0);
+script683(arg1);
+cc_create(arg0, 5, calc(calc(6 * arg2) + 2));
+cc_setsize(165, 32, 0, 0);
+cc_settiling(true);
+cc_setgraphic(1074)
+cc_setposition(ivar7, calc(17 - ivar8), 0, 0);
+cc_create(arg0, 5, calc(calc(6 * arg2) + 3));
+cc_setsize(165, 32, 0, 0);
+cc_settiling(true);
+cc_setvflip(1);
+cc_setgraphic(1074)
+cc_setposition(ivar7, calc(ivar8 + 130), 0, 0);
+cc_create(arg0, 5, calc(calc(6 * arg2) + 4));
+cc_setsize(32, 144, 0, 0);
+cc_settiling(true);
+cc_setgraphic(1075)
+cc_setposition(calc(14 - ivar7), calc(ivar8 + 1), 0, 0);
+cc_create(arg0, 5, calc(calc(6 * arg2) + 5));
+cc_setsize(32, 144, 0, 0);
+cc_settiling(true);
+cc_sethflip(1)
+cc_setgraphic(1075)
+cc_setposition(calc(ivar7 + 147), calc(ivar8 + 1), 0, 0);
+return;

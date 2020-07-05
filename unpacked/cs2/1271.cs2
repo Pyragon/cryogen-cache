@@ -1,0 +1,129 @@
+//script1271(1271)(int arg0)(void)
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+int ivar12;
+int stack_dump0;
+int stack_dump1;
+ivar1 = 1;
+ivar2 = 0;
+switch (load_varpbit(1010)) {
+	case 0:
+		if_settext(if_gethash(13, 28), "First click the FIRST digit.");
+		if_settext(if_gethash(13, 1), "?");
+		if_settext(if_gethash(13, 2), "?");
+		if_settext(if_gethash(13, 3), "?");
+		if_settext(if_gethash(13, 4), "?");
+		break;
+	case 1:
+		if_settext(if_gethash(13, 28), "Now click the SECOND digit.");
+		if_settext(if_gethash(13, 1), "*");
+		if_settext(if_gethash(13, 2), "?");
+		if_settext(if_gethash(13, 3), "?");
+		if_settext(if_gethash(13, 4), "?");
+		break;
+	case 2:
+		if_settext(if_gethash(13, 28), "Time for the THIRD digit.");
+		if_settext(if_gethash(13, 1), "*");
+		if_settext(if_gethash(13, 2), "*");
+		if_settext(if_gethash(13, 3), "?");
+		if_settext(if_gethash(13, 4), "?");
+		break;
+	case 3:
+		if_settext(if_gethash(13, 28), "Finally, the FOURTH digit.");
+		if_settext(if_gethash(13, 1), "*");
+		if_settext(if_gethash(13, 2), "*");
+		if_settext(if_gethash(13, 3), "*");
+		if_settext(if_gethash(13, 4), "?");
+		stack_dump0 = 0;
+		ivar2 = 1;
+		ivar1 = stack_dump0;
+		break;
+	default:
+		if_settext(if_gethash(13, 28), "Please wait...");
+		if_settext(if_gethash(13, 1), "*");
+		if_settext(if_gethash(13, 2), "*");
+		if_settext(if_gethash(13, 3), "*");
+		if_settext(if_gethash(13, 4), "*");
+		stack_dump0 = 1;
+		ivar2 = 1;
+		ivar1 = stack_dump0;
+}
+ivar3 = 0;
+if (arg0 == 0) {
+	while (ivar3 < 10) {
+		if_sethide(enum(ivar3, 3555, 73, 105), ivar1)
+		if_sethide(enum(ivar3, 3554, 73, 105), ivar2)
+		ivar3 = calc(ivar3 + 1);
+	}
+	return;
+}
+ivar4 = random(10);
+globalarray_0 = new int[10];
+globalarray_0[0] = ivar4;
+globalarray_0[1] = calc(10 % calc(ivar4 + 1));
+globalarray_0[2] = calc(10 % calc(ivar4 + 2));
+globalarray_0[3] = calc(10 % calc(ivar4 + 3));
+globalarray_0[4] = calc(10 % calc(ivar4 + 4));
+globalarray_0[5] = calc(10 % calc(ivar4 + 5));
+globalarray_0[6] = calc(10 % calc(ivar4 + 6));
+globalarray_0[7] = calc(10 % calc(ivar4 + 7));
+globalarray_0[8] = calc(10 % calc(ivar4 + 8));
+globalarray_0[9] = calc(10 % calc(ivar4 + 9));
+ivar5 = 0;
+if (ivar3 < 10) {
+	ivar5 = random(9);
+	ivar4 = globalarray_0[9];
+	globalarray_0[9] = globalarray_0[ivar5];
+	globalarray_0[ivar5] = ivar4;
+	stack_dump0 = 25;
+	stack_dump1 = 50;
+	/* 
+		AT PrimitiveInstruction(opcode=851, value=false, type=boolean)
+		com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=851, value=false, type=boolean)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+ivar6 = if_getwidth(if_gethash(13, 6));
+ivar7 = if_getheight(if_gethash(13, 6));
+ivar8 = calc(3 / calc(ivar6 - if_getwidth(if_gethash(13, 5))));
+ivar9 = calc(2 / calc(ivar7 - if_getheight(if_gethash(13, 5))));
+ivar10 = calc(2 * ivar8);
+ivar11 = calc(2 * ivar9);
+ivar12 = calc(3 * ivar8);
+if_setposition(0, 0, 0, 0, enum(globalarray_0[0], 3556, 73, 105))
+if_setposition(0, 0, 0, 0, enum(globalarray_0[0], 3555, 73, 105))
+if_setposition(ivar8, 0, 0, 0, enum(globalarray_0[1], 3556, 73, 105))
+if_setposition(ivar8, 0, 0, 0, enum(globalarray_0[1], 3555, 73, 105))
+if_setposition(ivar10, 0, 0, 0, enum(globalarray_0[2], 3556, 73, 105))
+if_setposition(ivar10, 0, 0, 0, enum(globalarray_0[2], 3555, 73, 105))
+if_setposition(ivar12, 0, 0, 0, enum(globalarray_0[3], 3556, 73, 105))
+if_setposition(ivar12, 0, 0, 0, enum(globalarray_0[3], 3555, 73, 105))
+if_setposition(0, ivar9, 0, 0, enum(globalarray_0[4], 3556, 73, 105))
+if_setposition(0, ivar9, 0, 0, enum(globalarray_0[4], 3555, 73, 105))
+if_setposition(ivar8, ivar9, 0, 0, enum(globalarray_0[5], 3556, 73, 105))
+if_setposition(ivar8, ivar9, 0, 0, enum(globalarray_0[5], 3555, 73, 105))
+if_setposition(ivar10, ivar9, 0, 0, enum(globalarray_0[6], 3556, 73, 105))
+if_setposition(ivar10, ivar9, 0, 0, enum(globalarray_0[6], 3555, 73, 105))
+if_setposition(0, ivar11, 0, 0, enum(globalarray_0[7], 3556, 73, 105))
+if_setposition(0, ivar11, 0, 0, enum(globalarray_0[7], 3555, 73, 105))
+if_setposition(ivar8, ivar11, 0, 0, enum(globalarray_0[8], 3556, 73, 105))
+if_setposition(ivar8, ivar11, 0, 0, enum(globalarray_0[8], 3555, 73, 105))
+if_setposition(ivar10, ivar11, 0, 0, enum(globalarray_0[9], 3556, 73, 105))
+if_setposition(ivar10, ivar11, 0, 0, enum(globalarray_0[9], 3555, 73, 105))
+return;

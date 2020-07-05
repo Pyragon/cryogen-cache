@@ -1,0 +1,45 @@
+//script6111(6111)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int stack_dump0;
+ivar0 = inv_getitem(load_varp(2561), load_varp(2563));
+ivar1 = item_wearpos(ivar0);
+if (ivar1 == -1) 
+	return;
+ivar2 = inv_getitem(94, ivar1);
+script6112(item_param(ivar0, 6), item_param(ivar2, 6), 82903152, 82903153);
+script6112(item_param(ivar0, 1), item_param(ivar2, 1), 82903147, 82903148);
+script6112(item_param(ivar0, 5), item_param(ivar2, 5), 82903158, 82903159);
+script6112(item_param(ivar0, 0), item_param(ivar2, 0), 82903155, 82903156);
+script6112(item_param(ivar0, 7), item_param(ivar2, 7), 82903164, 82903165);
+script6112(item_param(ivar0, 2), item_param(ivar2, 2), 82903161, 82903162);
+script6112(item_param(ivar0, 9), item_param(ivar2, 9), 82903170, 82903171);
+script6112(item_param(ivar0, 4), item_param(ivar2, 4), 82903167, 82903168);
+script6112(item_param(ivar0, 8), item_param(ivar2, 8), 82903176, 82903177);
+script6112(item_param(ivar0, 3), item_param(ivar2, 3), 82903173, 82903174);
+script6112(item_param(ivar0, 417), item_param(ivar2, 417), 82903179, 82903180);
+script6112(item_param(ivar0, 967), item_param(ivar2, 967), 82903191, 82903192);
+script6112(item_param(ivar0, 968), item_param(ivar2, 968), 82903194, 82903195);
+script6112(item_param(ivar0, 969), item_param(ivar2, 969), 82903197, 82903198);
+script6112(item_param(ivar0, 641), item_param(ivar2, 641), 82903182, 82903183);
+script6112(item_param(ivar0, 643), item_param(ivar2, 643), 82903185, 82903186);
+script6112(item_param(ivar0, 685), item_param(ivar2, 685), 82903188, 82903189);
+script6112(item_param(ivar0, 11), item_param(ivar2, 11), 82903200, 82903201);
+if (ivar1 == 3 && enum(ivar0, 3446, 49, 111) == 0) 
+	script6112(item_param(ivar0, 14), item_param(ivar2, 14), 82903205, 82903206);
+script2001(ivar0);
+stack_dump0 = 82903203;
+/* 
+	AT PrimitiveInstruction(opcode=724, value=0, type=int)
+	java.lang.RuntimeException: Stack underflow
+		at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:160)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

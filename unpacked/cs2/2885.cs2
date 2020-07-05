@@ -1,0 +1,11 @@
+//script2885(2885)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+if (arg5 != 2 && arg5 != 3 && arg5 != 4) 
+	return;
+script41(12255249);
+store_varc(1, 0)
+arg4 = calc(arg4 + clientclock());
+if (cc_find(arg0, arg1) == 1) {
+	cc_settrans(arg2)
+	instr6556(1621, "Iiii", arg0, arg1, arg3, arg4);
+}
+return;

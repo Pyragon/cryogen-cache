@@ -1,0 +1,11 @@
+//script677(677)(int arg0)(void)
+if (arg0 <= 9) {
+	instr6185(358, 225, 10223618)
+	if_sethide(if_gethash(156, 1), 1)
+}
+else {
+	if_sethide(if_gethash(156, 1), 0)
+	instr6185(358, calc(calc(20 * arg0) + 30), 10223618)
+	script72(10223617, 10223618, 0);
+}
+return;

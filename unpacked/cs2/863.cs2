@@ -1,0 +1,18 @@
+//script863(863)()(void)
+if (load_varpbit(7912) == 1 && load_varpbit(7921) == 0) {
+	if_setmodel(enum(load_varpbit(7919), 5079, 109, 105), if_gethash(986, 3));
+	if_sethide(if_gethash(986, 16), 1)
+	if (load_varpbit(7920) != 0) 
+		if_sethide(if_gethash(986, 5), 0)
+	if (load_varpbit(7920) == 1) 
+		if_setposition(30, 205, 0, 0, 64618501)
+	else if (load_varpbit(7920) == 2) 
+		if_setposition(112, 205, 0, 0, 64618501)
+	else if (load_varpbit(7920) == 3) 
+		if_setposition(196, 205, 0, 0, 64618501)
+	else 
+		if_sethide(if_gethash(986, 5), 1)
+}
+else 
+	if_setmodel(-1, if_gethash(986, 3));
+return;

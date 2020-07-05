@@ -1,0 +1,103 @@
+//script4697(4697)(int arg0)(void)
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+string svar0;
+string svar1;
+string svar2;
+string svar3;
+string svar4;
+string svar5;
+ivar1 = clientclock();
+svar0 = "";
+svar1 = "";
+svar2 = "";
+svar3 = "";
+svar4 = "";
+svar5 = "";
+ivar2 = 0;
+ivar3 = 0;
+ivar4 = 0;
+ivar5 = 1;
+if (ivar1 >= calc(arg0 + 200) || arg0 == 0) {
+	arg0 = ivar1;
+	if (load_varc(1540) < 1) 
+		svar0 = "Destroyed";
+	else if (load_varc(1540) < calc(2 / 5)) 
+		svar0 = "Under attack";
+	else if (load_varc(1540) < 5) 
+		svar0 = "Unlit ammo";
+	else 
+		svar0 = "Fine";
+	if (load_varc(1541) < 1) 
+		svar1 = "Empty";
+	else if (load_varc(1541) < calc(2 / 10)) 
+		svar1 = "Low";
+	else if (load_varc(1541) < 10) 
+		svar1 = "Almost full";
+	else 
+		svar1 = "Full";
+	if (load_varc(1542) == 1) 
+		svar2 = "1 broken";
+	else if (load_varc(1542) > 0) 
+		svar2 = to_string(load_varc(1542)) + " broken";
+	else 
+		svar2 = "Repaired";
+	if (load_varc(1543) == 1) 
+		svar3 = to_string(ivar5) + " broken";
+	else if (load_varc(1543) > 0) 
+		svar3 = to_string(load_varc(1543)) + " broken";
+	else 
+		svar3 = "Repaired";
+	ivar2 = calc(2 / load_varc(1545));
+	if_setsize(calc(100 / calc(16384 * ivar2)), if_getheight(if_gethash(500, 12)), 2, 0, 32768012)
+	if (ivar2 < 97) 
+		if_sethide(if_gethash(500, 13), 1)
+	svar4 = to_string(calc(10 * load_varc(1544)));
+	if_settext(if_gethash(500, 29), to_string(load_varc(1546)) + " min");
+	if (load_varc(1547) != 0) {
+		if_sethide(if_gethash(500, 10), 0)
+		if_setsize(if_getwidth(if_gethash(500, 2)), 253, 0, 0, 32768002)
+		switch (load_varc(1547)) {
+			case 1:
+				svar5 = "Clobbering Time!";
+				break;
+			case 2:
+				svar5 = "Slow-mo";
+				break;
+			case 3:
+				svar5 = "No Well";
+				break;
+			case 4:
+				svar5 = "Oil Spill";
+				break;
+			case 5:
+				svar5 = "Fire in the Hole!";
+				break;
+			case 6:
+				svar5 = "Armoured Trolls";
+		}
+	}
+	else {
+		if_sethide(if_gethash(500, 10), 1)
+		if_setsize(if_getwidth(if_gethash(500, 2)), 225, 0, 0, 32768002)
+	}
+	script4699(32768008, 32768021, 32768022, "Ballista", svar0);
+	/* 
+		AT PrimitiveInstruction(opcode=168, value=3, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:468)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+instr6342(if_gethash(500, 8), 4697, "i");
+return;

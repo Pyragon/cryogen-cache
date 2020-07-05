@@ -1,0 +1,43 @@
+//script4716(4716)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+int ivar12;
+int ivar13;
+int ivar14;
+int ivar15;
+int ivar16;
+int ivar17;
+int ivar18;
+string svar0;
+int stack_dump0;
+ivar6 = 48;
+ivar7 = 48;
+ivar8 = 0;
+ivar9 = 0;
+ivar10 = -1;
+ivar11 = -1;
+ivar12 = -1;
+svar0 = "";
+ivar13 = 1;
+ivar14 = 0;
+ivar15 = 0;
+ivar16 = 0;
+ivar17 = 0;
+ivar18 = 1;
+stack_dump0 = arg0;
+/* 
+	AT PrimitiveInstruction(opcode=496, value=false, type=boolean)
+	com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=496, value=false, type=boolean)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

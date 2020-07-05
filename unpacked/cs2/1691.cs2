@@ -1,0 +1,72 @@
+//script1691(1691)(int arg0, int arg1)(void)
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+cc_deleteall(arg0)
+ivar2 = 0;
+globalarray_0 = new int[105];
+ivar3 = 0;
+ivar4 = 0;
+ivar5 = -1;
+while (ivar4 == 0 && ivar2 < 105) {
+	ivar5 = enum(ivar2, 845, 74, 105);
+	if (ivar5 == 345) 
+		ivar4 = 1;
+	else {
+		cc_create(arg0, 3, ivar2);
+		script1694(ivar2);
+		/* 
+			AT JumpInstruction(target=LabelInstruction(labelId=5))
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:182)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	ivar2 = calc(ivar2 + 1);
+}
+script1693(0, 0, calc(1 - ivar3));
+ivar6 = 0;
+ivar7 = -1;
+ivar2 = 0;
+while (ivar2 < ivar3) {
+	if (cc_find(arg0, globalarray_0[ivar2]) == 1) {
+		script1692(arg0, ivar6, globalarray_0[ivar2]);
+		/* 
+			AT PrimitiveInstruction(opcode=168, value=7, type=int)
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:468)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	ivar2 = calc(ivar2 + 1);
+}
+if (ivar6 <= if_getheight(arg0)) {
+	instr6185(0, 0, arg0)
+	cc_deleteall(arg1)
+	if_sethide(arg1, 1)
+}
+else {
+	if (ivar7 != -1 && cc_find(arg0, ivar7) == 1) 
+		cc_delete()
+	instr6185(0, ivar6, arg0)
+	if_sethide(arg1, 0)
+	script31(arg1, arg0, 798, 795, 796, 797, 793, 794);
+}
+return;

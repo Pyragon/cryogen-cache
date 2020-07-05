@@ -1,0 +1,31 @@
+//script2142(2142)(int arg0, int arg1, int arg2, string arg3)(void)
+int ivar3;
+int ivar4;
+int stack_dump0;
+ivar3 = paramheight(390, 495, arg3);
+ivar4 = 15;
+cc_create(if_gethash(864, 6), 4, arg0);
+cc_setsize(390, calc(ivar4 * ivar3), 0, 0);
+cc_settext(arg3);
+cc_setposition(15, arg1, 0, 0);
+cc_settextalign(0, 0, 0);
+cc_setcolor(4600330);
+cc_settextfont(495);
+cc_settextshadow(0);
+cc_setop(1, "Teleport");
+instr6091(1356, "Iii", -2147483645, -2147483643, 6574120);
+instr6092(1356, "Iii", -2147483645, -2147483643, 4600330);
+stack_dump0 = calc(calc(ivar4 * ivar3) + 5);
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

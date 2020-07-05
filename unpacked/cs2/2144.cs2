@@ -1,0 +1,10 @@
+//script2144(2144)(int arg0)(void)
+int ivar1;
+ivar1 = 1093;
+if (gender() == 1) 
+	ivar1 = 3872;
+if (load_varp(1442) == 0) 
+	if_settext(arg0, "No Prefix");
+else 
+	if_settext(arg0, enum(load_varp(1442), ivar1, 115, 105));
+return;

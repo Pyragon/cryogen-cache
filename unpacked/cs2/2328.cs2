@@ -1,0 +1,52 @@
+//script2328(2328)(int arg0)(void)
+if (load_varc(766) == 1) {
+	if (if_gety(arg0) > 100) {
+		if_setposition(if_getx(arg0), calc(2 - if_gety(arg0)), 0, 0, arg0)
+		sound_synth(6422, 1, 0);
+		if (if_gety(arg0) < 170) {
+			switch (load_varc(765)) {
+				case 1:
+					if_setposition(if_getx(if_gethash(306, 6)), calc(2 - if_gety(if_gethash(306, 6))), 0, 0, 20054022)
+					break;
+				case 2:
+					if_setposition(if_getx(if_gethash(306, 7)), calc(2 - if_gety(if_gethash(306, 7))), 0, 0, 20054023)
+					break;
+				case 3:
+					if_setposition(if_getx(if_gethash(306, 8)), calc(2 - if_gety(if_gethash(306, 8))), 0, 0, 20054024)
+					break;
+				case 4:
+					if_setposition(if_getx(if_gethash(306, 9)), calc(2 - if_gety(if_gethash(306, 9))), 0, 0, 20054025)
+			}
+		}
+	}
+	else {
+		if_setposition(if_getx(arg0), 100, 0, 0, arg0)
+		store_varc(766, 2)
+		switch (load_varc(765)) {
+			case 1:
+				script1411();
+				break;
+			case 2:
+				script2056();
+				break;
+			case 3:
+				script2322();
+				break;
+			case 4:
+				script2324();
+		}
+	}
+}
+else {
+	if (load_varc(766) == 2) {
+		if (if_gety(arg0) < 200) 
+			if_setposition(if_getx(arg0), calc(if_gety(arg0) + 2), 0, 0, arg0)
+		else {
+			if_setposition(if_getx(arg0), 200, 0, 0, arg0)
+			store_varc(766, 0)
+			store_varc(765, 0)
+			instr6342(arg0, None, "");
+		}
+	}
+}
+return;

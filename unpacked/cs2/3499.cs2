@@ -1,0 +1,27 @@
+//script3499(3499)(int arg0, int arg1, int arg2)(void)
+int ivar3;
+ivar3 = 0;
+if (arg0 > 20000000) 
+	arg0 = 0;
+if (get_player_plane(get_player_pos()) > 6400 || get_player_plane(get_player_pos()) > get_player_plane(48238975)) {
+	if_setmodelangle(0, 0, 512, calc(2047 % calc(30 - instr6280(arg1))), 40, 275, arg1);
+	if_sethide(arg2, 1)
+}
+else {
+	script133(33556928, 869257279, get_player_pos());
+	/* 
+		AT JumpInstruction(target=LabelInstruction(labelId=4))
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:182)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+instr6342(arg1, 3499, "iII", calc(arg0 + 1), arg1, arg2);
+return;

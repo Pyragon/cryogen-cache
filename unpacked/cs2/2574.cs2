@@ -1,0 +1,38 @@
+//script2574(2574)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+ivar0 = 0;
+ivar1 = 0;
+ivar2 = scale(load_varpbit(6457), 1000, 100);
+if (ivar2 < 1) 
+	ivar2 = 1;
+if (ivar2 > 100) 
+	ivar2 = 100;
+ivar0 = enum(ivar2, 197, 105, 105);
+ivar1 = enum(ivar2, 198, 105, 105);
+if (load_varpbit(5095) == 1) {
+	if_setposition(481, ivar0, 0, 0, 51183662)
+	if_setsize(16, ivar1, 0, 0, 51183662)
+}
+else {
+	if (load_varpbit(5095) == 2) {
+		if_setposition(481, ivar0, 0, 0, 51183653)
+		if_setsize(16, ivar1, 0, 0, 51183653)
+	}
+}
+if (ivar2 < 25) {
+	if (load_varpbit(5095) == 1) 
+		if_setcolor(16750848, if_gethash(781, 46));
+	else {
+		if (load_varpbit(5095) == 2) 
+			if_setcolor(16750848, if_gethash(781, 37));
+	}
+}
+else if (load_varpbit(5095) == 1) 
+	if_setcolor(6710784, if_gethash(781, 46));
+else {
+	if (load_varpbit(5095) == 2) 
+		if_setcolor(2639365, if_gethash(781, 37));
+}
+return;

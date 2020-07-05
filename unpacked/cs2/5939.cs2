@@ -1,0 +1,42 @@
+//script5939(5939)(int arg0)(void)
+int ivar1;
+int stack_dump0;
+ivar1 = 0;
+if (arg0 == calc(1 - load_varpbit(11155))) 
+	ivar1 = 3;
+else {
+	switch (arg0) {
+		case 1:
+		case 3:
+		case 5:
+		case 7:
+		case 10:
+		case 12:
+			ivar1 = 0;
+			break;
+		case 2:
+		case 6:
+		case 9:
+		case 11:
+			ivar1 = 1;
+			break;
+		case 0:
+		case 4:
+		case 8:
+			ivar1 = 2;
+	}
+}
+stack_dump0 = ivar1;
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

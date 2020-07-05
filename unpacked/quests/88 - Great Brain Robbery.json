@@ -1,0 +1,17 @@
+{
+  "id": 88,
+  "name": "Great Brain Robbery",
+  "members": false,
+  "varValues": [
+    [
+      980,
+      10,
+      130
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

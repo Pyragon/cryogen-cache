@@ -1,0 +1,22 @@
+//script1919(1919)()(void)
+if (load_varc(583) > 0) 
+	if_setcolor(13150820, if_gethash(813, 99));
+else 
+	if_setcolor(3355443, if_gethash(813, 99));
+if (load_varc(584) > 0) 
+	if_setcolor(13150820, if_gethash(813, 101));
+else 
+	if_setcolor(3355443, if_gethash(813, 101));
+if (load_varc(585) > 0) 
+	if_setcolor(13150820, if_gethash(813, 103));
+else 
+	if_setcolor(3355443, if_gethash(813, 103));
+if (load_varc(586) > 0) 
+	if_setcolor(13150820, if_gethash(813, 105));
+else 
+	if_setcolor(3355443, if_gethash(813, 105));
+if (load_varc(587) > 0) 
+	if_setcolor(13150820, if_gethash(813, 107));
+else 
+	if_setcolor(3355443, if_gethash(813, 107));
+return;

@@ -1,0 +1,5 @@
+//script6483(6483)(int arg0, int arg1, int arg2)(void)
+instr6342(arg0, 6484, "I");
+instr6342(arg1, 6484, "I");
+instr6342(arg2, 6484, "I");
+return;

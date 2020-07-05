@@ -1,0 +1,17 @@
+{
+  "id": 65,
+  "name": "The Grand Tree",
+  "members": false,
+  "varValues": [
+    [
+      150,
+      5,
+      160
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 5,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

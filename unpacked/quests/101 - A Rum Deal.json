@@ -1,0 +1,17 @@
+{
+  "id": 101,
+  "name": "A Rum Deal",
+  "members": false,
+  "varValues": [
+    [
+      600,
+      1,
+      19
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

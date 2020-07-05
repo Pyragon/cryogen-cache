@@ -1,0 +1,17 @@
+{
+  "id": 32,
+  "name": "Grim Tales",
+  "members": false,
+  "varbitValues": [
+    [
+      2783,
+      1,
+      60
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

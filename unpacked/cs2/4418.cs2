@@ -1,0 +1,10 @@
+//script4418(4418)()(void)
+string svar0;
+svar0 = removetags(if_gettext(if_gethash(1107, 92)));
+if (friend_test(svar0) == 0) {
+	send_message("Attempting to add " + svar0 + " to your Friends List.");
+	friend_add(svar0);
+}
+else 
+	send_message("You've already added " + svar0 + " to your friends list.");
+return;

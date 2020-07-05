@@ -1,0 +1,18 @@
+{
+  "id": 189,
+  "name": "Holly",
+  "sortName": "Holly",
+  "members": false,
+  "varbitValues": [
+    [
+      9198,
+      1,
+      60
+    ]
+  ],
+  "type": "HOLIDAY",
+  "questpointRequirement": 0,
+  "questpointReward": 0,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

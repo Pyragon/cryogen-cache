@@ -1,0 +1,24 @@
+//script5981(5981)(int arg0)(void)
+int ivar1;
+if (arg0 == -1) 
+	return;
+cc_deleteall(arg0)
+ivar1 = if_getnextsubid(arg0);
+cc_create(arg0, 3, ivar1);
+cc_setposition(0, 0, 0, 0);
+cc_setsize(0, 0, 1, 1);
+cc_setcolor(0);
+cc_setfill(true);
+ivar1 = if_getnextsubid(arg0);
+cc_create(arg0, 3, ivar1);
+cc_setposition(2, 2, 0, 0);
+cc_setsize(4, 4, 1, 1);
+cc_setcolor(15650030);
+cc_setfill(false);
+ivar1 = if_getnextsubid(arg0);
+cc_create(arg0, 3, ivar1);
+cc_setposition(4, 4, 0, 0);
+cc_setsize(8, 8, 1, 1);
+cc_setcolor(3877157);
+cc_setfill(true);
+return;

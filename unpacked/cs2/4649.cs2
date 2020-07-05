@@ -1,0 +1,14 @@
+//script4649(4649)()(void)
+switch (load_varpbit(9367)) {
+	default:
+		return;
+	case 1:
+		script4650();
+		break;
+	case 2:
+		script4652();
+		break;
+	case 3:
+		script4651();
+}
+return;

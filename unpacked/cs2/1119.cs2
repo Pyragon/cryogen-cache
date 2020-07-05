@@ -1,0 +1,131 @@
+//script1119(1119)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+int ivar12;
+int ivar13;
+int stack_dump0;
+ivar0 = enum(load_varpbit(357), 2162, 74, 105);
+ivar1 = 0;
+globalarray_0 = new int[4];
+switch (load_varpbit(357)) {
+	case 0:
+		ivar1 = load_varpbit(5822);
+		globalarray_0[0] = load_varpbit(6459);
+		globalarray_0[1] = load_varpbit(6460);
+		globalarray_0[2] = load_varpbit(6461);
+		globalarray_0[3] = load_varpbit(6462);
+		break;
+	case 1:
+		ivar1 = load_varpbit(5823);
+		globalarray_0[0] = load_varpbit(6466);
+		globalarray_0[1] = 0;
+		globalarray_0[2] = 0;
+		globalarray_0[3] = load_varpbit(6467);
+		break;
+	case 2:
+		ivar1 = load_varpbit(5824);
+		globalarray_0[0] = load_varpbit(6463);
+		globalarray_0[1] = 0;
+		globalarray_0[2] = load_varpbit(6464);
+		globalarray_0[3] = load_varpbit(6465);
+		break;
+	case 3:
+		ivar1 = load_varpbit(7347);
+		globalarray_0[0] = load_varpbit(7348);
+		globalarray_0[1] = load_varpbit(7349);
+		globalarray_0[2] = load_varpbit(7350);
+		globalarray_0[3] = load_varpbit(7351);
+}
+ivar2 = enum(ivar1, struct_param(ivar0, 662), 103, 105);
+ivar3 = struct_param(ivar0, 654);
+ivar4 = struct_param(ivar0, 655);
+ivar5 = enum_getoutputcount(ivar2);
+ivar6 = 0;
+ivar7 = 0;
+ivar8 = -1;
+ivar9 = 0;
+ivar10 = 0;
+ivar11 = 0;
+ivar12 = -1;
+ivar13 = -1;
+while (ivar7 < ivar5) {
+	ivar8 = enum(ivar7, ivar2, 103, 105);
+	if (ivar8 != -1) {
+		ivar6 = enum_getoutputcount(ivar8);
+		ivar9 = 0;
+		ivar11 = 0;
+		while (ivar9 < ivar6) {
+			ivar12 = enum(ivar11, ivar8, 73, 105);
+			if (ivar12 != -1) {
+				ivar9 = calc(ivar9 + 1);
+				ivar13 = enum(ivar12, 727, 105, 73);
+				if (ivar13 == -1 || globalarray_0[ivar13] == 0 && (world_members() == 1 || enum(ivar12, 743, 105, 73) == 0)) {
+					ivar10 = calc(ivar10 + 1);
+					ivar4 = calc(ivar4 + calc(struct_param(ivar0, 657) + struct_param(ivar0, 658)));
+					if (calc(struct_param(ivar0, 660) % ivar10) == 0) {
+						ivar3 = calc(ivar3 + calc(struct_param(ivar0, 656) + struct_param(ivar0, 659)));
+						ivar4 = struct_param(ivar0, 655);
+					}
+				}
+			}
+			ivar11 = calc(ivar11 + 1);
+			if (ivar11 > 997) {
+				stack_dump0 = 1;
+				/* 
+					AT PrimitiveInstruction(opcode=184, value=0, type=int)
+					java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+						at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+						at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+						at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+						at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+						at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+						at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+					
+				 */
+			}
+		}
+	}
+	ivar7 = calc(ivar7 + 1);
+}
+if (calc(ivar3 + struct_param(ivar0, 656)) >= 229) {
+	stack_dump0 = 1;
+	/* 
+		AT PrimitiveInstruction(opcode=184, value=0, type=int)
+		java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+			at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+stack_dump0 = 0;
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

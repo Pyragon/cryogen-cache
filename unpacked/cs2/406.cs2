@@ -1,0 +1,6 @@
+//script406(406)(int arg0)(void)
+if (if_gettrans(arg0) > 0) 
+	if_settrans(max(calc(1 - if_gettrans(arg0)), 0), arg0);
+else 
+	instr6342(arg0, None, "");
+return;

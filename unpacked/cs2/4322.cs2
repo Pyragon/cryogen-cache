@@ -1,0 +1,61 @@
+//script4322(4322)(int arg0, int arg1, int arg2, int arg3)(void)
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+int ivar12;
+int ivar13;
+int ivar14;
+int ivar15;
+int stack_dump0;
+int stack_dump1;
+int stack_dump2;
+int stack_dump3;
+string stack_dump4;
+cc_deleteall(arg2)
+cc_deleteall(arg3)
+ivar4 = 0;
+ivar5 = 0;
+ivar6 = 8;
+ivar7 = 8;
+ivar8 = 50;
+ivar9 = 36;
+ivar10 = 0;
+ivar11 = 0;
+ivar12 = calc(calc(ivar6 + ivar8) / calc(calc(2 * ivar6) - if_getwidth(arg0)));
+ivar13 = enum_getoutputcount(3722);
+ivar14 = enum_getoutputcount(3721);
+ivar15 = min(ivar13, ivar14);
+if (ivar4 < ivar15) {
+	ivar10 = calc(ivar6 + calc(calc(calc(ivar12 * ivar5) - ivar4) * calc(ivar8 + ivar6)));
+	ivar11 = calc(ivar7 + calc(calc(ivar9 + ivar7) * ivar5));
+	cc_create(arg2, 5, ivar4);
+	cc_setsize(ivar8, ivar9, 0, 0);
+	cc_setposition(ivar10, ivar11, 0, 0);
+	cc_setgraphic(6036)
+	stack_dump0 = 4324;
+	stack_dump1 = ivar15;
+	stack_dump2 = 2149;
+	stack_dump3 = 1;
+	stack_dump4 = "iY";
+	/* 
+		AT PrimitiveInstruction(opcode=697, value=false, type=boolean)
+		com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=697, value=false, type=boolean)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if_setscrollpos(0, 0, arg0);
+instr6185(0, calc(ivar7 + calc(calc(ivar7 + ivar9) * calc(ivar5 + 1))), arg0)
+script31(arg1, arg0, 5666, 5663, 5664, 5665, 5686, 5685);
+return;

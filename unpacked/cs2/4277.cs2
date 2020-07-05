@@ -1,0 +1,18 @@
+//script4277(4277)()(void)
+int ivar0;
+string svar0;
+string svar1;
+ivar0 = calc(10 / calc(6 * load_varpbit(9186)));
+svar0 = to_string(calc(60 / ivar0));
+svar1 = to_string(calc(60 % ivar0));
+if (string_length(svar1) < 2) 
+	svar1 = append("0", svar1);
+if (load_varpbit(9187) == 0) {
+	if_settext(if_gethash(1088, 12), "Match Starts In:");
+	if_settext(if_gethash(1088, 13), svar0 + ":" + svar1);
+}
+else {
+	if_settext(if_gethash(1088, 12), "Time Remaining:");
+	if_settext(if_gethash(1088, 13), svar0 + ":" + svar1);
+}
+return;

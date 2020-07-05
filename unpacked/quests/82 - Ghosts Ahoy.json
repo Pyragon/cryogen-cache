@@ -1,0 +1,17 @@
+{
+  "id": 82,
+  "name": "Ghosts Ahoy",
+  "members": false,
+  "varbitValues": [
+    [
+      217,
+      1,
+      8
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

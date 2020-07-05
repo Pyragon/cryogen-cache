@@ -1,0 +1,17 @@
+{
+  "id": 110,
+  "name": "Roving Elves",
+  "members": false,
+  "varValues": [
+    [
+      402,
+      2,
+      6
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

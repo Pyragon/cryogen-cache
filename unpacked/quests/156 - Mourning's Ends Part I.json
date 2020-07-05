@@ -1,0 +1,17 @@
+{
+  "id": 156,
+  "name": "Mourning's Ends Part I",
+  "members": false,
+  "varValues": [
+    [
+      517,
+      1,
+      8
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

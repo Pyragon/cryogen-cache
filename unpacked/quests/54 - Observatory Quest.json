@@ -1,0 +1,17 @@
+{
+  "id": 54,
+  "name": "Observatory Quest",
+  "members": false,
+  "varValues": [
+    [
+      112,
+      1,
+      7
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

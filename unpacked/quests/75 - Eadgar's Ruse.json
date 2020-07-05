@@ -1,0 +1,17 @@
+{
+  "id": 75,
+  "name": "Eadgar's Ruse",
+  "members": false,
+  "varValues": [
+    [
+      335,
+      10,
+      110
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

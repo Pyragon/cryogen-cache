@@ -1,0 +1,17 @@
+{
+  "id": 29,
+  "name": "All Fired Up",
+  "members": false,
+  "varbitValues": [
+    [
+      5133,
+      5,
+      90
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

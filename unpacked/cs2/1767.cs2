@@ -1,0 +1,15 @@
+//script1767(1767)()(void)
+script71(5);
+if_setclickmask(0, 51314689);
+if_setclickmask(0, 51314690);
+if_setclickmask(0, 51314691);
+if_setclickmask(0, 51314692);
+if_setclickmask(0, 51314693);
+if_setclickmask(0, 51314694);
+if_setclickmask(0, 51314695);
+if_setclickmask(0, 51314696);
+if_setclickmask(0, 51314697);
+if_setclickmask(0, 51314698);
+if_setclickmask(0, 51314699);
+script1766();
+return;

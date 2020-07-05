@@ -1,0 +1,4 @@
+//script1276(1276)(int arg0)(void)
+store_varc(814, 0)
+if_settrans(255, arg0);
+return;

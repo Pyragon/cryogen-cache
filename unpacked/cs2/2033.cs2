@@ -1,0 +1,62 @@
+//script2033(2033)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int stack_dump0;
+int stack_dump1;
+int stack_dump2;
+ivar0 = inv_total(93, 2169);
+ivar1 = inv_total(93, 2162);
+ivar2 = inv_total(93, 2128);
+ivar3 = inv_total(93, 2152);
+ivar4 = inv_total(93, 1973);
+if (ivar3 >= 2 && ivar0 >= 1) 
+	if_setcolor(65280, if_gethash(437, 37));
+else 
+	if_setcolor(16711680, if_gethash(437, 37));
+if (ivar2 >= 2 && ivar0 >= 1) 
+	if_setcolor(65280, if_gethash(437, 38));
+else 
+	if_setcolor(16711680, if_gethash(437, 38));
+if (ivar2 >= 1 && ivar0 >= 1 && ivar1 >= 2) 
+	if_setcolor(65280, if_gethash(437, 39));
+else 
+	if_setcolor(16711680, if_gethash(437, 39));
+if (ivar4 >= 2 && ivar0 >= 1) 
+	if_setcolor(65280, if_gethash(437, 40));
+else 
+	if_setcolor(16711680, if_gethash(437, 40));
+if (inv_total(93, 2152) > 1) {
+	stack_dump0 = 2152;
+	stack_dump1 = 100;
+	stack_dump2 = 28639236;
+	/* 
+		AT PrimitiveInstruction(opcode=388, value=false, type=boolean)
+		com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=388, value=false, type=boolean)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+stack_dump0 = 9499;
+stack_dump1 = 100;
+stack_dump2 = 28639236;
+/* 
+	AT PrimitiveInstruction(opcode=388, value=false, type=boolean)
+	com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=388, value=false, type=boolean)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

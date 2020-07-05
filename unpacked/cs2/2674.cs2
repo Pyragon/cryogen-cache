@@ -1,0 +1,34 @@
+//script2674(2674)(int arg0)(void)
+if (arg0 != 0) 
+	if_setgraphic(2034, 57671687)
+else 
+	if_setgraphic(2035, 57671687)
+if (arg0 != 1) 
+	if_setgraphic(2034, 57671689)
+else 
+	if_setgraphic(2035, 57671689)
+if (arg0 != 2) 
+	if_setgraphic(2034, 57671691)
+else 
+	if_setgraphic(2035, 57671691)
+if (arg0 != 3) 
+	if_setgraphic(2034, 57671693)
+else 
+	if_setgraphic(2035, 57671693)
+if (arg0 != 4) 
+	if_setgraphic(2034, 57671695)
+else 
+	if_setgraphic(2035, 57671695)
+if (arg0 != 5) 
+	if_setgraphic(2034, 57671697)
+else 
+	if_setgraphic(2035, 57671697)
+if (arg0 != 6) 
+	if_setgraphic(2034, 57671699)
+else 
+	if_setgraphic(2035, 57671699)
+if (arg0 != 7) 
+	if_setgraphic(2034, 57671705)
+else 
+	if_setgraphic(2035, 57671705)
+return;

@@ -1,0 +1,44 @@
+//script3680(3680)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+string svar0;
+script41(12255249);
+store_varc(1, 0)
+instr6342(if_gethash(187, 18), None, "");
+ivar0 = -1;
+if (instr6004(if_gethash(187, 4)) == 1) 
+	ivar0 = instr6771(1133);
+ivar1 = 0;
+ivar2 = 0;
+svar0 = "";
+ivar3 = string_length(load_varc_string(196));
+if (ivar3 <= 0 && load_varc(5) != 14) 
+	if_setgraphic(3245, 12255250)
+ivar4 = 5;
+while (ivar0 != -1) {
+	if (cc_find(if_gethash(187, 1), calc(2 * ivar0)) == 1 && cc_find(if_gethash(187, 1), calc(calc(2 * ivar0) + 1)) == 1) 
+		/* 
+			AT PrimitiveInstruction(opcode=611, value=false, type=boolean)
+			com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=611, value=false, type=boolean)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	ivar0 = -1;
+}
+instr6185(167, calc(5 + ivar4), 12255233)
+script72(12255234, 12255233, load_varc(88));
+if_settext(if_gethash(187, 5), "Unlocked:" + "<br>" + to_string(ivar1) + " / " + to_string(ivar2));
+if (ivar4 == 5) 
+	if_sethide(if_gethash(187, 19), 0)
+else 
+	if_sethide(if_gethash(187, 19), 1)
+return;

@@ -1,0 +1,10 @@
+//script1834(1834)(int arg0)(void)
+if (arg0 != 1) 
+	return;
+if (load_varc(250) == 1 && load_varc(252) >= 2 && load_varc(251) == 1 && (world_members() == 0 || load_varc(253) == 1)) 
+	return;
+if (load_varc(258) == 0) {
+	store_varc(258, 1)
+	script1782();
+}
+return;

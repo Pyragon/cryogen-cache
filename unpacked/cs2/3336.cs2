@@ -1,0 +1,84 @@
+//script3336(3336)(int arg0, int arg1, int arg2, int arg3)(void)
+int ivar4;
+int ivar5;
+int ivar6;
+ivar4 = if_get2dangle(if_gethash(1216, 9));
+ivar4 = calc(800 - ivar4);
+if (ivar4 < 0) 
+	ivar4 = 65000;
+if_set2dangle(ivar4, if_gethash(1216, 9));
+ivar5 = max(1, calc(arg0 - arg1));
+ivar6 = calc(calc(ivar5 / 255) + 1);
+if (if_gethide(if_gethash(1216, 1)) == 1) 
+	/* 
+		AT PrimitiveInstruction(opcode=725, value=false, type=boolean)
+		com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=725, value=false, type=boolean)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+if (if_gethide(if_gethash(1216, 17)) == 1) 
+	/* 
+		AT PrimitiveInstruction(opcode=725, value=false, type=boolean)
+		com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=725, value=false, type=boolean)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+if (clientclock() < arg1 && clientclock() > arg0) {
+	if_settrans(min(175, calc(if_gettrans(if_gethash(1216, 15)) + ivar6)), if_gethash(1216, 15));
+	if_settrans(max(0, calc(ivar6 - if_gettrans(if_gethash(1216, 12)))), if_gethash(1216, 12));
+	if_settrans(max(0, calc(ivar6 - if_gettrans(if_gethash(1216, 12)))), if_gethash(1216, 14));
+	if_settrans(max(0, calc(ivar6 - if_gettrans(if_gethash(1216, 12)))), if_gethash(1216, 13));
+	return;
+}
+if (clientclock() < arg2 && clientclock() >= arg1) {
+	if (clientclock() >= calc(arg1 + 25)) {
+		if_sethide(if_gethash(1216, 1), 1)
+		if_sethide(if_gethash(1216, 2), 1)
+		if_sethide(if_gethash(1216, 17), 1)
+	}
+	if (clientclock() == arg1) 
+		script3337(arg3, calc(arg1 - arg2));
+}
+else {
+	if (clientclock() >= arg2) {
+		if (if_gethide(if_gethash(1216, 1)) == 0) 
+			if_sethide(if_gethash(1216, 1), 1)
+		if (if_gethide(if_gethash(1216, 2)) == 0) 
+			if_sethide(if_gethash(1216, 2), 1)
+		if (if_gethide(if_gethash(1216, 17)) == 0) 
+			if_sethide(if_gethash(1216, 17), 1)
+		if (if_gettrans(if_gethash(1216, 8)) < 255) {
+			if_settrans(min(255, calc(if_gettrans(if_gethash(1216, 15)) + 10)), if_gethash(1216, 15));
+			if_settrans(min(255, calc(if_gettrans(if_gethash(1216, 8)) + 10)), if_gethash(1216, 5));
+			if_settrans(min(255, calc(if_gettrans(if_gethash(1216, 8)) + 10)), if_gethash(1216, 6));
+			if_settrans(min(255, calc(if_gettrans(if_gethash(1216, 8)) + 10)), if_gethash(1216, 4));
+			if_settrans(min(255, calc(if_gettrans(if_gethash(1216, 8)) + 10)), if_gethash(1216, 7));
+			if_settrans(min(255, calc(if_gettrans(if_gethash(1216, 8)) + 10)), if_gethash(1216, 12));
+			if_settrans(min(255, calc(if_gettrans(if_gethash(1216, 8)) + 10)), if_gethash(1216, 14));
+			if_settrans(min(255, calc(if_gettrans(if_gethash(1216, 8)) + 10)), if_gethash(1216, 13));
+			if_settrans(min(255, calc(if_gettrans(if_gethash(1216, 8)) + 10)), if_gethash(1216, 9));
+			if_settrans(min(255, calc(if_gettrans(if_gethash(1216, 8)) + 10)), if_gethash(1216, 8));
+		}
+		else {
+			cc_deleteall(79691779)
+			cc_deleteall(79691776)
+			instr6342(if_gethash(1216, 16), None, "");
+			if_sethide(if_gethash(1216, 11), 1)
+			if (load_varpbit(10443) == 0) 
+				if_sethide(if_gethash(1213, 2), 0)
+		}
+	}
+}
+return;

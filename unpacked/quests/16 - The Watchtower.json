@@ -1,0 +1,17 @@
+{
+  "id": 16,
+  "name": "The Watchtower",
+  "members": false,
+  "varValues": [
+    [
+      212,
+      1,
+      13
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 4,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

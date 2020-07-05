@@ -1,0 +1,16 @@
+//script5689(5689)()(void)
+switch (world_language()) {
+	case 1:
+		if_setgraphic(9212, 79823030)
+		break;
+	case 2:
+		if_setgraphic(9211, 79823030)
+		break;
+	case 3:
+		if_setgraphic(9213, 79823030)
+		break;
+	default:
+		if_setgraphic(9210, 79823030)
+}
+script5690();
+return;

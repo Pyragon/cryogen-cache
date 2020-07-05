@@ -1,0 +1,50 @@
+//script1051(1051)(int arg0, string arg1)(void)
+int stack_dump0;
+int stack_dump1;
+store_varc(126, arg0)
+store_varc(27, arg1)
+store_varc(127, 1)
+if (instr6644() >= 2) {
+	if_setgraphic(8489, 49283073)
+	stack_dump0 = 0;
+	stack_dump1 = 49283073;
+	/* 
+		AT PrimitiveInstruction(opcode=368, value=false, type=boolean)
+		com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=368, value=false, type=boolean)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if_sethide(if_gethash(137, 50), 1)
+instr6248(if_gethash(137, 55), None, "");
+if_sethide(if_gethash(137, 0), 0)
+if_sethide(if_gethash(137, 7), 1)
+if_sethide(if_gethash(137, 9), 1)
+if_sethide(if_gethash(137, 13), 1)
+if_sethide(if_gethash(137, 17), 0)
+if_sethide(if_gethash(137, 1), 0)
+if_sethide(if_gethash(137, 3), 1)
+if_setscrollpos(0, 0, if_gethash(137, 17));
+stack_dump0 = 8978433;
+stack_dump1 = 0;
+script1036();
+/* 
+	AT PrimitiveInstruction(opcode=902, value=1062, type=int)
+	java.lang.RuntimeException: Stack underflow
+		at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.analyzeCall(CS2FlowGenerator.java:590)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:497)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

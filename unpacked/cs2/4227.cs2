@@ -1,0 +1,73 @@
+//script4227(4227)(int arg0, int arg1)(void)
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+string svar0;
+string svar1;
+int stack_dump0;
+cc_deleteall(arg0)
+ivar2 = 0;
+ivar3 = calc(2 / calc(calc(3 * 125) - if_getwidth(arg0)));
+ivar4 = enum_getoutputcount(828);
+ivar5 = 0;
+ivar6 = 0;
+while (ivar2 < ivar4) {
+	cc_create(arg0, 5, ivar2);
+	cc_setsize(calc(4 - 125), calc(4 - 125), 0, 0);
+	if (ivar5 == 0) {
+		cc_setposition(2, calc(ivar6 + 2), 0, 0);
+		ivar5 = 1;
+	}
+	else if (ivar5 == 1) {
+		cc_setposition(0, calc(ivar6 + 2), 1, 0);
+		ivar5 = 2;
+	}
+	else {
+		cc_setposition(2, calc(ivar6 + 2), 2, 0);
+		ivar5 = 0;
+		ivar6 = calc(calc(ivar6 + 125) + ivar3);
+	}
+	cc_setgraphic(297)
+	cc_settiling(true);
+	ivar2 = calc(ivar2 + 1);
+}
+if (ivar5 == 0) 
+	ivar6 = max(calc(ivar3 - ivar6), 0);
+instr6185(0, ivar6, arg0)
+script31(arg1, arg0, 792, 789, 790, 791, 773, 788);
+ivar7 = -1;
+svar0 = "";
+svar1 = "";
+ivar8 = 0;
+ivar9 = 0;
+ivar10 = calc(18 - 125);
+ivar2 = 0;
+while (ivar2 < ivar4) {
+	ivar7 = enum(ivar2, 828, 111, 105);
+	if (ivar7 != -1 && cc_find(arg0, ivar2) == 1) {
+		stack_dump0 = item_param(ivar7, 1367);
+		svar1 = item_param(ivar7, 1368);
+		stack_dump0 = stack_dump0;
+		/* 
+			AT PrimitiveInstruction(opcode=356, value=0, type=int)
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:468)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	ivar2 = calc(ivar2 + 1);
+}
+return;

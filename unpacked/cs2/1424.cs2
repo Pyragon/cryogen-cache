@@ -1,0 +1,10 @@
+//script1424(1424)()(void)
+if (load_varpbit(4456) == 0) {
+	if_setcolor(8960, if_gethash(5, 3));
+	if_setcolor(16711680, if_gethash(5, 2));
+}
+else {
+	if_setcolor(65280, if_gethash(5, 3));
+	if_setcolor(2293760, if_gethash(5, 2));
+}
+return;

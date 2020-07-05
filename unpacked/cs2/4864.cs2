@@ -1,0 +1,121 @@
+//script4864(4864)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+int ivar12;
+int ivar13;
+int ivar14;
+int ivar15;
+int ivar16;
+int ivar17;
+int ivar18;
+int ivar19;
+int ivar20;
+int ivar21;
+int ivar22;
+int ivar23;
+int ivar24;
+int ivar25;
+int ivar26;
+int ivar27;
+int ivar28;
+int ivar29;
+int ivar30;
+int ivar31;
+int ivar32;
+int ivar33;
+int ivar34;
+int ivar35;
+int ivar36;
+int ivar37;
+int ivar38;
+int ivar39;
+int ivar40;
+int ivar41;
+int ivar42;
+int ivar43;
+int ivar44;
+string svar0;
+string svar1;
+string svar2;
+string svar3;
+string svar4;
+string svar5;
+ivar0 = 0;
+ivar1 = 0;
+ivar2 = 0;
+ivar3 = 1;
+ivar4 = 0;
+ivar5 = 0;
+ivar6 = 0;
+ivar7 = 0;
+ivar8 = 0;
+ivar9 = 0;
+ivar10 = 0;
+ivar11 = 0;
+ivar12 = 0;
+ivar13 = 0;
+ivar14 = 0;
+ivar15 = 0;
+ivar16 = 0;
+ivar17 = 0;
+ivar18 = 0;
+ivar19 = 0;
+ivar20 = 0;
+ivar21 = 0;
+ivar22 = 0;
+ivar23 = 0;
+ivar24 = 0;
+ivar25 = 0;
+ivar26 = 0;
+ivar27 = 0;
+ivar28 = 0;
+ivar29 = 0;
+ivar30 = 0;
+ivar31 = 0;
+ivar32 = -1;
+svar0 = "";
+ivar33 = 0;
+ivar34 = 0;
+ivar35 = 0;
+ivar36 = 0;
+ivar37 = 0;
+ivar38 = 0;
+ivar39 = 0;
+ivar40 = 0;
+svar1 = "";
+svar2 = "You do not have permission from your clan to set the primary resource target.";
+svar3 = "Toggle whether this resource is the primary resource target.";
+svar4 = "You do not have permission from your clan to set resource target amounts.";
+svar5 = "Set a target amount of this resource to be collected.";
+ivar41 = -1;
+globalarray_0 = new int[10];
+ivar42 = 0;
+ivar43 = 0;
+ivar44 = 0;
+if (clan_vars_enabled() == 1) {
+	script4797();
+	/* 
+		AT PrimitiveInstruction(opcode=168, value=15, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:468)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+return;

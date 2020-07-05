@@ -1,0 +1,49 @@
+//script2521(2521)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+ivar0 = 0;
+ivar1 = 0;
+ivar2 = 0;
+ivar3 = 0;
+ivar4 = -1;
+ivar5 = -1;
+ivar1 = calc(4 / calc(180 - if_getwidth(if_gethash(848, 2))));
+ivar2 = calc(3 / calc(128 - if_getheight(if_gethash(848, 2))));
+while (ivar0 < 5 && enum(ivar0, load_varc(875), 111, 105) != 11760) {
+	ivar5 = enum(ivar0, load_varc(875), 111, 105);
+	switch (ivar0) {
+		case 0:
+			if_settext(if_gethash(848, 19), item_name(item_uncert(ivar5)));
+			ivar3 = load_varc(876);
+			break;
+		case 1:
+			if_settext(if_gethash(848, 20), item_name(item_uncert(ivar5)));
+			ivar3 = load_varc(877);
+			break;
+		case 2:
+			if_settext(if_gethash(848, 21), item_name(item_uncert(ivar5)));
+			ivar3 = load_varc(878);
+			break;
+		case 3:
+			if_settext(if_gethash(848, 22), item_name(item_uncert(ivar5)));
+			ivar3 = load_varc(879);
+			break;
+		case 4:
+			if_settext(if_gethash(848, 23), item_name(item_uncert(ivar5)));
+			ivar3 = load_varc(880);
+	}
+	cc_create(if_gethash(848, 2), 5, ivar0);
+	cc_setsize(36, 32, 0, 0);
+	cc_setposition(calc(calc(5 % ivar0) * calc(36 + ivar1)), calc(calc(32 + ivar2) * calc(5 / ivar0)), 0, 0);
+	cc_setitem(item_uncert(ivar5), ivar3);
+	cc_setopbase("<col=ff981f>" + item_name(item_uncert(ivar5)));
+	cc_setop(1, "Select");
+	cc_setop(2, "Examine");
+	cc_setgraphicshadow(colour_gethashedhsv(51, 51, 51));
+	ivar0 = calc(ivar0 + 1);
+}
+return;

@@ -1,0 +1,109 @@
+//script2452(2452)(int arg0)(void)
+string svar0;
+string stack_dump0;
+svar0 = "";
+switch (arg0) {
+	case 0:
+		svar0 = load_varc_string(149);
+		break;
+	case 1:
+		svar0 = load_varc_string(150);
+		break;
+	case 2:
+		svar0 = load_varc_string(151);
+		break;
+	case 3:
+		svar0 = load_varc_string(152);
+		break;
+	case 4:
+		svar0 = load_varc_string(153);
+		break;
+	case 5:
+		svar0 = load_varc_string(154);
+		break;
+	case 6:
+		svar0 = load_varc_string(155);
+		break;
+	case 7:
+		svar0 = load_varc_string(156);
+		break;
+	case 8:
+		svar0 = load_varc_string(157);
+		break;
+	case 9:
+		svar0 = load_varc_string(158);
+		break;
+	case 10:
+		svar0 = load_varc_string(159);
+		break;
+	case 11:
+		svar0 = load_varc_string(160);
+		break;
+	case 12:
+		svar0 = load_varc_string(161);
+		break;
+	case 13:
+		svar0 = load_varc_string(162);
+		break;
+	case 14:
+		svar0 = load_varc_string(163);
+		break;
+	case 15:
+		svar0 = load_varc_string(164);
+		break;
+	case 16:
+		svar0 = load_varc_string(165);
+		break;
+	case 17:
+		svar0 = load_varc_string(166);
+		break;
+	case 18:
+		svar0 = load_varc_string(167);
+		break;
+	case 19:
+		svar0 = load_varc_string(168);
+		break;
+	case 20:
+		svar0 = load_varc_string(169);
+		break;
+	case 21:
+		svar0 = load_varc_string(170);
+		break;
+	case 22:
+		svar0 = load_varc_string(171);
+		break;
+	case 23:
+		svar0 = load_varc_string(172);
+		break;
+	case 24:
+		svar0 = load_varc_string(173);
+		break;
+	case 25:
+		svar0 = load_varc_string(174);
+		break;
+	case 26:
+		svar0 = load_varc_string(175);
+		break;
+	case 27:
+		svar0 = load_varc_string(176);
+		break;
+	case 28:
+		svar0 = load_varc_string(177);
+		break;
+	case 29:
+		svar0 = load_varc_string(178);
+}
+stack_dump0 = svar0;
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, 0, -1, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

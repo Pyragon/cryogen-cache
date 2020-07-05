@@ -1,0 +1,18 @@
+//script1457(1457)(int arg0, int arg1)(void)
+int ivar2;
+int ivar3;
+ivar2 = 0;
+ivar3 = arg0;
+while (ivar3 < arg1) {
+	if (cc_find(if_gethash(762, 95), ivar3) == 1) {
+		cc_setposition(calc(calc(calc(10 % ivar2) * 44) + 8), calc(calc(44 * calc(10 / ivar2)) + 5), 0, 0);
+		cc_sethide(0);
+		ivar2 = calc(ivar2 + 1);
+	}
+	ivar3 = calc(ivar3 + 1);
+}
+script1464();
+if_sethide(if_gethash(762, 86), 0)
+if_setposition(calc(2 - 8), calc(2 - 5), 0, 0, 49938518)
+script1458(ivar2);
+return;

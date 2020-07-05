@@ -1,0 +1,19 @@
+//script5616(5616)()(void)
+if (load_varpbit(10418) == 0) 
+	if_setsize(0, if_getheight(if_gethash(1198, 3)), 0, 0, 78512131)
+else {
+	switch (load_varpbit(10418)) {
+		case 1:
+			instr6342(if_gethash(1198, 10), 5617, "i");
+			break;
+		case 2:
+			instr6342(if_gethash(1198, 10), 5617, "i");
+			break;
+		case 3:
+			instr6342(if_gethash(1198, 10), 5617, "i");
+			break;
+		case 4:
+			instr6342(if_gethash(1198, 10), 5617, "i");
+	}
+}
+return;

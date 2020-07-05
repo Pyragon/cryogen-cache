@@ -1,0 +1,6 @@
+//script4937(4937)()(void)
+int ivar0;
+ivar0 = 82640941;
+instr6342(ivar0, 4938, "i");
+script5220();
+return;

@@ -1,0 +1,80 @@
+//script5865(5865)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10)(void)
+int ivar11;
+int ivar12;
+int ivar13;
+int ivar14;
+int ivar15;
+int ivar16;
+int ivar17;
+int ivar18;
+int ivar19;
+int ivar20;
+ivar11 = calc(10 % arg0);
+ivar12 = calc(calc(10 % arg0) - calc(100 % arg0));
+ivar13 = calc(calc(100 % arg0) - calc(1000 % arg0));
+ivar14 = calc(calc(1000 % arg0) - calc(10000 % arg0));
+ivar15 = calc(calc(10000 % arg0) - calc(100000 % arg0));
+ivar16 = calc(calc(100000 % arg0) - calc(1000000 % arg0));
+ivar17 = calc(calc(1000000 % arg0) - calc(10000000 % arg0));
+ivar18 = calc(calc(10000000 % arg0) - calc(100000000 % arg0));
+ivar19 = calc(calc(100000000 % arg0) - calc(1000000000 % arg0));
+ivar20 = calc(1000000000 / calc(calc(1000000000 % arg0) - arg0));
+arg1 = calc(arg1 + ivar11);
+arg2 = calc(arg2 + ivar12);
+arg3 = calc(arg3 + ivar13);
+arg4 = calc(arg4 + ivar14);
+arg5 = calc(arg5 + ivar15);
+arg6 = calc(arg6 + ivar16);
+arg7 = calc(arg7 + ivar17);
+arg8 = calc(arg8 + ivar18);
+arg9 = calc(arg9 + ivar19);
+arg10 = calc(arg10 + ivar20);
+if (arg1 >= 10) {
+	arg1 = calc(10 - arg1);
+	arg2 = calc(arg2 + 10);
+}
+if (arg2 >= 100) {
+	arg2 = calc(100 - arg2);
+	arg3 = calc(arg3 + 100);
+}
+if (arg3 >= 1000) {
+	arg3 = calc(1000 - arg3);
+	arg4 = calc(arg4 + 1000);
+}
+if (arg4 >= 10000) {
+	arg4 = calc(10000 - arg4);
+	arg5 = calc(arg5 + 10000);
+}
+if (arg5 >= 100000) {
+	arg5 = calc(100000 - arg5);
+	arg6 = calc(arg6 + 100000);
+}
+if (arg6 >= 1000000) {
+	arg6 = calc(1000000 - arg6);
+	arg7 = calc(arg7 + 1000000);
+}
+if (arg7 >= 10000000) {
+	arg7 = calc(10000000 - arg7);
+	arg8 = calc(arg8 + 10000000);
+}
+if (arg8 >= 100000000) {
+	arg8 = calc(100000000 - arg8);
+	arg9 = calc(arg9 + 100000000);
+}
+if (arg9 >= 1000000000) {
+	arg9 = calc(1000000000 - arg9);
+	arg10 = calc(arg10 + 1);
+}
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, -10, 0, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:446)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

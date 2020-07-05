@@ -1,0 +1,17 @@
+{
+  "id": 91,
+  "name": "Land of the Goblins",
+  "members": false,
+  "varbitValues": [
+    [
+      4105,
+      1,
+      18
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

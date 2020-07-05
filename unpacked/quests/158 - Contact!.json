@@ -1,0 +1,17 @@
+{
+  "id": 158,
+  "name": "Contact!",
+  "members": false,
+  "varbitValues": [
+    [
+      3274,
+      10,
+      130
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

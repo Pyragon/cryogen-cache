@@ -1,0 +1,35 @@
+//script3200(3200)(int arg0)(void)
+int stack_dump0;
+int stack_dump1;
+int stack_dump2;
+string stack_dump3;
+if (string_length(load_varc_string(279)) > 0) {
+	stack_dump0 = arg0;
+	stack_dump1 = load_varc(6);
+	stack_dump2 = load_varc_string(279);
+	stack_dump3 = "";
+	/* 
+		AT PrimitiveInstruction(opcode=257, value=false, type=boolean)
+		com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=257, value=false, type=boolean)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+script3194();
+if (string_length(load_varc_string(279)) > 0 && ignore_test(load_varc_string(279)) == 0 && compare(load_varc_string(279), chat_playername()) != 0) {
+	if (arg0 == 5) 
+		store_varc(1094, 1)
+	script3203();
+}
+else {
+	store_varc(1094, 0)
+	if (arg0 == 5) 
+		script2190(0, 6, 1, "", "Open a bug report form?" + "<br>" + "(opens a new window)", "", "");
+}
+return;

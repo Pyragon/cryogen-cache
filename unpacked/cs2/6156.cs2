@@ -1,0 +1,6 @@
+//script6156(6156)(int arg0)(void)
+if (arg0 == 0) 
+	if_setgraphic(8279, 10027097)
+else 
+	if_setgraphic(8278, 10027097)
+return;

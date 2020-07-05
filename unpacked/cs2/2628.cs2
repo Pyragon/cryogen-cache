@@ -1,0 +1,65 @@
+//script2628(2628)()(void)
+if (load_varc(906) == 0) {
+	if_setgraphic(1868, 56295449)
+	if_settext(if_gethash(859, 11), "Idle");
+}
+else {
+	if (load_varc(906) == 2) {
+		if_setgraphic(1867, 56295449)
+		switch (load_varc(907)) {
+			case 0:
+				store_varc(906, 0)
+				if_setgraphic(1868, 56295449)
+				if_settext(if_gethash(859, 11), "Idle");
+				break;
+			case 1:
+			case 2:
+				if_settext(if_gethash(859, 11), "Exploring");
+				break;
+			case 3:
+			case 4:
+				if_settext(if_gethash(859, 11), "Attacking wall");
+				break;
+			case 5:
+			case 6:
+			case 7:
+				if_settext(if_gethash(859, 11), "Rescuing TzHaar");
+				break;
+			case 8:
+			case 9:
+				if_settext(if_gethash(859, 11), "Collecting gold");
+				break;
+			case 10:
+			case 11:
+			case 12:
+				if_settext(if_gethash(859, 11), "Stealing TzHaar");
+				break;
+			case 13:
+			case 14:
+			case 15:
+				if_settext(if_gethash(859, 11), "Collecting parts");
+				break;
+			case 16:
+			case 17:
+			case 18:
+				if_settext(if_gethash(859, 11), "Collecting Rocks");
+				break;
+			case 19:
+			case 20:
+				if_settext(if_gethash(859, 11), "Attacking catapult");
+				break;
+			case 21:
+				if_settext(if_gethash(859, 11), "Retaliating");
+				break;
+			case 22:
+				if_settext(if_gethash(859, 11), "Moving to destination");
+				break;
+			case 23:
+				if_settext(if_gethash(859, 11), "Attacking");
+				break;
+			default:
+				if_settext(if_gethash(859, 11), "Busy");
+		}
+	}
+}
+return;

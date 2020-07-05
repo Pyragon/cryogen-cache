@@ -1,0 +1,98 @@
+//script5541(5541)()(void)
+int ivar0;
+int stack_dump0;
+ivar0 = 0;
+if (world_members() == 1) {
+	if (load_varpbit(10264) == 1) 
+		ivar0 = calc(ivar0 + 1);
+	if (load_varpbit(10265) == 1) 
+		ivar0 = calc(ivar0 + 1);
+	if (load_varpbit(10266) == 1) 
+		ivar0 = calc(ivar0 + 1);
+	if (load_varpbit(10267) == 1) 
+		ivar0 = calc(ivar0 + 1);
+	if (load_varpbit(10268) == 1) 
+		ivar0 = calc(ivar0 + 1);
+	if (load_varpbit(10269) == 1) 
+		ivar0 = calc(ivar0 + 1);
+	if (load_varpbit(10270) == 1) 
+		ivar0 = calc(ivar0 + 1);
+	if (load_varpbit(10271) == 1) 
+		ivar0 = calc(ivar0 + 1);
+	if (load_varpbit(10272) == 1) 
+		ivar0 = calc(ivar0 + 1);
+	if (load_varpbit(10273) == 1) 
+		ivar0 = calc(ivar0 + 1);
+	if (load_varpbit(10274) == 1) 
+		ivar0 = calc(ivar0 + 1);
+	if (load_varpbit(10277) == 1) 
+		ivar0 = calc(ivar0 + 1);
+	if (load_varpbit(10275) == 1) 
+		ivar0 = calc(ivar0 + 1);
+	if (load_varpbit(10278) == 1) 
+		ivar0 = calc(ivar0 + 1);
+	if (load_varpbit(10279) == 1) 
+		ivar0 = calc(ivar0 + 1);
+	if (load_varpbit(10280) == 1) 
+		ivar0 = calc(ivar0 + 1);
+	if (load_varpbit(10281) == 1) 
+		ivar0 = calc(ivar0 + 1);
+	if (load_varpbit(10282) == 1) 
+		ivar0 = calc(ivar0 + 1);
+	if (load_varpbit(10283) == 1) 
+		ivar0 = calc(ivar0 + 1);
+}
+if (load_varpbit(10259) == 1) 
+	ivar0 = calc(ivar0 + 1);
+if (load_varpbit(10261) == 1) 
+	ivar0 = calc(ivar0 + 1);
+if (load_varpbit(10244) == 1) 
+	ivar0 = calc(ivar0 + 1);
+if (load_varpbit(10245) == 1) 
+	ivar0 = calc(ivar0 + 1);
+if (load_varpbit(10246) == 1) 
+	ivar0 = calc(ivar0 + 1);
+if (load_varpbit(10247) == 1) 
+	ivar0 = calc(ivar0 + 1);
+if (load_varpbit(10248) == 1) 
+	ivar0 = calc(ivar0 + 1);
+if (load_varpbit(10249) == 1) 
+	ivar0 = calc(ivar0 + 1);
+if (load_varpbit(10250) == 1) 
+	ivar0 = calc(ivar0 + 1);
+if (load_varpbit(10251) == 1) 
+	ivar0 = calc(ivar0 + 1);
+if (load_varpbit(10252) == 1) 
+	ivar0 = calc(ivar0 + 1);
+if (load_varpbit(10253) == 1) 
+	ivar0 = calc(ivar0 + 1);
+if (load_varpbit(10254) == 1) 
+	ivar0 = calc(ivar0 + 1);
+if (load_varpbit(10255) == 1) 
+	ivar0 = calc(ivar0 + 1);
+if (load_varpbit(10256) == 1) 
+	ivar0 = calc(ivar0 + 1);
+if (load_varpbit(10257) == 1) 
+	ivar0 = calc(ivar0 + 1);
+if (load_varpbit(10258) == 1) 
+	ivar0 = calc(ivar0 + 1);
+if (load_varpbit(10260) == 1) 
+	ivar0 = calc(ivar0 + 1);
+if (load_varpbit(10262) == 1) 
+	ivar0 = calc(ivar0 + 1);
+if (load_varpbit(10276) == 1) 
+	ivar0 = calc(ivar0 + 1);
+stack_dump0 = ivar0;
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

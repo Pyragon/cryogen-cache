@@ -1,0 +1,106 @@
+//script5675(5675)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int ivar3;
+ivar0 = 0;
+switch (load_varp(2478)) {
+	default:
+		ivar0 = load_varpbit(10440);
+		break;
+	case 2:
+		ivar0 = load_varpbit(10441);
+		break;
+	case 3:
+		ivar0 = load_varpbit(10442);
+}
+ivar1 = -1;
+switch (ivar0) {
+	default:
+		ivar1 = 79560735;
+		break;
+	case 2:
+		ivar1 = 79560736;
+		break;
+	case 5:
+		ivar1 = 79560737;
+		break;
+	case 6:
+		ivar1 = 79560740;
+		break;
+	case 3:
+		ivar1 = 79560738;
+		break;
+	case 4:
+		ivar1 = 79560739;
+		break;
+	case 7:
+		ivar1 = 79560741;
+		break;
+	case 12:
+		ivar1 = 79560753;
+		break;
+	case 11:
+		ivar1 = 79560745;
+		break;
+	case 13:
+		ivar1 = 79560747;
+		break;
+	case 14:
+		ivar1 = 79560748;
+		break;
+	case 15:
+		ivar1 = 79560749;
+		break;
+	case 16:
+		ivar1 = 79560750;
+		break;
+	case 17:
+		ivar1 = 79560751;
+		break;
+	case 18:
+		ivar1 = 79560752;
+		break;
+	case 8:
+		ivar1 = 79560742;
+		break;
+	case 9:
+		ivar1 = 79560743;
+		break;
+	case 10:
+		ivar1 = 79560744;
+		break;
+	case 19:
+		ivar1 = 79560746;
+		break;
+	case 20:
+		ivar1 = 79560754;
+		break;
+	case 21:
+		ivar1 = 79560755;
+		break;
+	case 22:
+		ivar1 = 79560756;
+		break;
+	case 23:
+		ivar1 = 79560757;
+		break;
+	case 24:
+		ivar1 = 79560758;
+		break;
+	case 25:
+		ivar1 = 79560759;
+		break;
+	case 30:
+		ivar1 = 79560760;
+		break;
+	case 31:
+		ivar1 = 79560761;
+}
+ivar2 = calc(1 - if_getx(ivar1));
+ivar3 = calc(1 - if_gety(ivar1));
+if_setposition(ivar2, ivar3, 0, 0, 79560762)
+if_setposition(ivar2, ivar3, 0, 0, 79560734)
+if_sethide(if_gethash(1214, 58), 0)
+if_sethide(if_gethash(1214, 30), 0)
+return;

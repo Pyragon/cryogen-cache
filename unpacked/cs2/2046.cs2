@@ -1,0 +1,11 @@
+//script2046(2046)(int arg0)(void)
+instr6342(arg0, 2045, "IIiii", arg0, 49479708, 0, 0, 0);
+cc_deleteall(arg0)
+cc_deleteall(49479716)
+cc_deleteall(49479717)
+cc_deleteall(49479718)
+cc_deleteall(49479719)
+cc_deleteall(49479720)
+cc_deleteall(49479721)
+cc_deleteall(49479722)
+return;

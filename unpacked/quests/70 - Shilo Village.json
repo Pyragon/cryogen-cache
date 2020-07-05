@@ -1,0 +1,17 @@
+{
+  "id": 70,
+  "name": "Shilo Village",
+  "members": false,
+  "varValues": [
+    [
+      116,
+      1,
+      15
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

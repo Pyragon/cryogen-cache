@@ -1,0 +1,8 @@
+//script738(738)()(void)
+string svar0;
+string svar1;
+svar0 = to_string(calc(10 / load_varc(105)));
+svar1 = to_string(calc(10 % load_varc(105)));
+if_settext(if_gethash(269, 48), svar0);
+if_settext(if_gethash(269, 49), svar1);
+return;

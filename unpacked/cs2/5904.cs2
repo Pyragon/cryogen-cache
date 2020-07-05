@@ -1,0 +1,4 @@
+//script5904(5904)(int arg0)(void)
+int ivar1;
+instr6342(arg0, None, "");
+return;

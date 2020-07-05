@@ -1,0 +1,28 @@
+//script1033(1033)(string arg0)(void)
+int ivar0;
+int ivar1;
+int ivar2;
+string svar1;
+svar1 = "";
+ivar0 = 0;
+ivar0 = string_indexof_string(0, arg0, "|");
+if (ivar0 != -1) 
+	svar1 = substring(calc(ivar0 + 1), string_length(arg0), arg0);
+else 
+	svar1 = arg0;
+if_settext(if_gethash(157, 14), substring(0, ivar0, arg0));
+ivar1 = 0;
+ivar2 = 0;
+ivar1 = calc(12 * paramheight(400, 495, svar1));
+ivar2 = if_getheight(if_gethash(157, 25));
+ivar2 = calc(calc(2 / ivar1) - calc(2 / if_getheight(if_gethash(157, 25))));
+script1034(0, 35, ivar2, 400, 100, 16777215, svar1);
+cc_create(if_gethash(157, 25), 5, 1);
+cc_setgraphic(1074)
+cc_setposition(35, calc(25 - ivar2), 0, 0);
+cc_setsize(400, 32, 0, 0);
+cc_create(if_gethash(157, 25), 5, 2);
+cc_setgraphic(1074)
+cc_setposition(35, calc(ivar2 + ivar1), 0, 0);
+cc_setsize(400, 32, 0, 0);
+return;

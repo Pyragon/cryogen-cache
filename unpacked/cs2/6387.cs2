@@ -1,0 +1,77 @@
+//script6387(6387)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+string svar0;
+int stack_dump0;
+int stack_dump1;
+int stack_dump2;
+int stack_dump3;
+int stack_dump4;
+int stack_dump5;
+int stack_dump6;
+string stack_dump7;
+ivar0 = 0;
+ivar1 = 11756;
+svar0 = "";
+cc_deleteall(25952262)
+cc_deleteall(25952263)
+while (ivar0 < 18) {
+	if (ivar0 != load_varpbit(11465) && ivar0 != load_varpbit(11466) && ivar0 != load_varpbit(11467) && ivar0 != load_varpbit(11468)) {
+		script6388(calc(11 + calc(46 * calc(3 % ivar0))), calc(10 + calc(40 * calc(3 / ivar0))), ivar0, enum(ivar0, 5933, 111, 105), 25952262, 25952263);
+		cc_setop(1, "Add");
+		instr6092(735, "IIid", 25952270, 25952262, ivar0, ivar1);
+		stack_dump0 = 5334;
+		stack_dump1 = 25952263;
+		stack_dump2 = ivar0;
+		stack_dump3 = 25952270;
+		stack_dump4 = 25;
+		stack_dump5 = 180;
+		stack_dump6 = item_name(enum(ivar0, 5933, 111, 105));
+		stack_dump7 = "IiIsii";
+		/* 
+			AT PrimitiveInstruction(opcode=207, value=false, type=boolean)
+			com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=207, value=false, type=boolean)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	script6388(calc(11 + calc(46 * calc(3 % ivar0))), calc(10 + calc(40 * calc(3 / ivar0))), ivar0, -1, 25952262, 25952263);
+	ivar0 = calc(ivar0 + 1);
+}
+ivar2 = 2;
+ivar3 = 40;
+ivar4 = 56;
+if (stat_base(7) > 39) {
+	ivar2 = 4;
+	ivar3 = 25;
+	ivar4 = 26;
+}
+else {
+	if (stat_base(7) > 19) {
+		ivar2 = 3;
+		ivar3 = 25;
+	}
+}
+script6388(26, ivar3, 0, enum(load_varpbit(11465), 5933, 111, 105), 25952265, 25952266);
+cc_setop(1, "Remove");
+script6388(86, ivar3, 1, enum(load_varpbit(11466), 5933, 111, 105), 25952265, 25952266);
+cc_setop(1, "Remove");
+if (ivar2 > 2) {
+	script6388(ivar4, calc(ivar3 + 50), 2, enum(load_varpbit(11467), 5933, 111, 105), 25952265, 25952266);
+	cc_setop(1, "Remove");
+}
+if (ivar2 > 3) {
+	script6388(86, calc(ivar3 + 50), 3, enum(load_varpbit(11468), 5933, 111, 105), 25952265, 25952266);
+	cc_setop(1, "Remove");
+}
+script6389(load_varpbit(11465), load_varpbit(11466), load_varpbit(11467), load_varpbit(11468));
+return;

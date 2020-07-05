@@ -1,0 +1,12 @@
+//script362(362)(int arg0, int arg1, string arg2)(void)
+cc_deleteall(arg0)
+if_setsize(arg1, if_getheight(arg0), 0, 0, arg0)
+cc_create(arg0, 4, if_getnextsubid(arg0));
+cc_setsize(0, 0, 1, 1);
+cc_setposition(0, 0, 1, 1);
+cc_settextfont(468);
+cc_setcolor(2366226);
+cc_settextalign(1, 1, 0);
+cc_settextshadow(0);
+cc_settext(arg2);
+return;

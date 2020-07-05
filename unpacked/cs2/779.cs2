@@ -1,0 +1,51 @@
+//script779(779)(int arg0, int arg1, int arg2, int arg3, string arg4)(void)
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+cc_deleteall(arg1)
+if (compare(arg4, "Call familiar") == 0 && enum(load_varp(448), 1283, 111, 111) == 526) 
+	arg4 = "Call pet";
+if (compare(arg4, "Dismiss familiar") == 0 && enum(load_varp(448), 1283, 111, 111) == 526) 
+	arg4 = "Dismiss pet";
+ivar4 = calc(2 + calc(paramheight(125, 495, arg4) * 13));
+ivar5 = calc(calc(calc(calc(2 + ivar4) + 32) + 14) + 2);
+ivar6 = 5;
+ivar7 = 5;
+ivar8 = 1;
+ivar9 = 1;
+ivar5 = calc(14 - calc(32 - ivar5));
+ivar6 = if_gety(arg0);
+if (ivar6 == 225 && if_getx(arg0) == 83) 
+	ivar6 = 180;
+ivar7 = calc(60 - if_getx(arg0));
+if (ivar7 < 0) 
+	ivar7 = 5;
+if (ivar7 > 70) 
+	ivar7 = 65;
+cc_create(arg1, 3, 0);
+cc_setposition(ivar7, ivar6, 0, 0);
+cc_setsize(128, ivar5, 0, 0);
+cc_setfill(true);
+cc_setcolor(921102);
+cc_create(arg1, 3, 1);
+cc_setposition(calc(ivar7 + 1), calc(ivar6 + 1), 0, 0);
+cc_setsize(127, calc(1 - ivar5), 0, 0);
+cc_setfill(false);
+cc_setcolor(15461606);
+cc_create(arg1, 3, 2);
+cc_setposition(ivar7, ivar6, 0, 0);
+cc_setsize(127, calc(1 - ivar5), 0, 0);
+cc_setfill(false);
+cc_setcolor(15461606);
+cc_create(arg1, 4, 3);
+cc_setposition(calc(ivar7 + 2), calc(ivar6 + 2), 0, 0);
+cc_setsize(125, ivar4, 0, 0);
+cc_settextalign(1, 1, 0);
+cc_settextfont(495);
+cc_setcolor(16101953);
+cc_settextshadow(0);
+cc_settext(arg4);
+return;

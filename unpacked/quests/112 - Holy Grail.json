@@ -1,0 +1,17 @@
+{
+  "id": 112,
+  "name": "Holy Grail",
+  "members": false,
+  "varValues": [
+    [
+      5,
+      2,
+      10
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

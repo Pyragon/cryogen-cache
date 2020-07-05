@@ -1,0 +1,8 @@
+//script2050(2050)(int arg0, int arg1)(void)
+if (cc_find(arg0, arg1) == 1) 
+	cc_sethide(1);
+else {
+	cc_create(arg0, 5, arg1);
+	cc_sethide(1);
+}
+return;

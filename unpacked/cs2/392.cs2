@@ -1,0 +1,13 @@
+//script392(392)(int arg0, int arg1)(void)
+if (arg0 == -1) 
+	arg0 = 1112;
+if_setmodel(struct_param(arg0, 1166), if_gethash(1028, 134));
+if (arg1 == 1) {
+	if_setmodelanim(struct_param(arg0, 1165), if_gethash(1028, 133));
+	if_setmodelanim(struct_param(arg0, 1168), if_gethash(1028, 134));
+}
+else {
+	if_setmodelanim(struct_param(arg0, 1164), if_gethash(1028, 133));
+	if_setmodelanim(struct_param(arg0, 1167), if_gethash(1028, 134));
+}
+return;

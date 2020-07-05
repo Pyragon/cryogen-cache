@@ -1,0 +1,68 @@
+//script765(765)(int arg0, int arg1, int arg2, int arg3, int arg4, string arg5, string arg6, string arg7, string arg8, string arg9)(void)
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+int ivar12;
+int ivar13;
+int ivar14;
+int ivar15;
+int ivar16;
+int ivar17;
+int ivar18;
+string svar5;
+int stack_dump0;
+int stack_dump1;
+int stack_dump2;
+int stack_dump3;
+string stack_dump4;
+cc_deleteall(arg0)
+ivar5 = 0;
+ivar6 = 0;
+instr6185(0, calc(57 * calc(calc(arg1 / calc(arg3 - arg4)) + 1)), arg0)
+ivar7 = 0;
+ivar8 = arg3;
+ivar9 = 0;
+ivar10 = arg4;
+ivar11 = 0;
+ivar12 = -1;
+ivar13 = -1;
+ivar14 = -1;
+svar5 = "hello";
+ivar15 = 0;
+ivar16 = 0;
+ivar17 = 9722;
+ivar18 = 2205;
+while (ivar7 <= calc(arg3 - arg4)) {
+	if (load_varpbit(8701) == 0 || inv_total(93, enum(ivar8, 1182, 111, 105)) > 0) {
+		ivar5 = calc(calc(16 + calc(48 * calc(arg1 % ivar9))) + calc(5 * calc(arg1 % ivar9)));
+		ivar6 = calc(calc(52 * calc(arg1 / ivar9)) + calc(5 * calc(arg1 / ivar9)));
+		cc_create(arg0, 5, ivar16);
+		cc_setsize(48, 52, 0, 0);
+		cc_setposition(ivar5, ivar6, 0, 0);
+		cc_setgraphic(2205)
+		stack_dump0 = 5336;
+		stack_dump1 = -2147483645;
+		stack_dump2 = ivar16;
+		stack_dump3 = ivar17;
+		stack_dump4 = "Iid";
+		/* 
+			AT PrimitiveInstruction(opcode=207, value=false, type=boolean)
+			com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=207, value=false, type=boolean)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	ivar7 = calc(ivar7 + 1);
+	ivar8 = calc(ivar8 + 1);
+}
+return;

@@ -1,0 +1,22 @@
+//script3170(3170)(int arg0, string arg1)(void)
+int ivar1;
+int ivar2;
+ivar1 = -1;
+ivar2 = -1;
+switch (arg0) {
+	case 6:
+		friend_add(removetags(arg1));
+		break;
+	case 7:
+		ignore_add(removetags(arg1));
+		break;
+	case 8:
+		friend_del(removetags(arg1));
+		break;
+	case 9:
+		ignore_del(removetags(arg1));
+		break;
+	case 10:
+		script4465(arg1);
+}
+return;

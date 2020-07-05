@@ -1,0 +1,8 @@
+//script4888(4888)(int arg0)(void)
+script4944();
+script4899(2);
+if_sethide(if_gethash(1258, 122), 0)
+if_sethide(if_gethash(1258, 107), 0)
+store_varc(9558, arg0)
+script4849();
+return;

@@ -1,0 +1,12 @@
+//script6454(6454)()(void)
+int ivar0;
+int ivar1;
+string svar0;
+ivar0 = 1093;
+if (gender() == 1) 
+	ivar0 = 3872;
+svar0 = chat_playername();
+ivar1 = calc(stringwidth(svar0, 4040) + 40);
+if_settext(if_gethash(1311, 67), svar0);
+if_setsize(ivar1, 34, 0, 0, 85917731)
+return;

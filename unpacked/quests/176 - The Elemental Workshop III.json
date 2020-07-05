@@ -1,0 +1,26 @@
+{
+  "id": 176,
+  "name": "The Elemental Workshop III",
+  "members": false,
+  "varbitValues": [
+    [
+      7871,
+      1,
+      5
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "params": {
+    "691": -1,
+    "948": "Search the bookcase in Seers' Village chapel.",
+    "949": "Any pickaxe, some coal, a hammer.",
+    "694": 1,
+    "950": "None",
+    "951": "1 Quest Point, 8,500 Defence XP, 8,500 Smithing XP and 50 pieces of coal.",
+    "952": 3138
+  },
+  "graphicId": 3135
+}

@@ -1,0 +1,17 @@
+{
+  "id": 17,
+  "name": "Romeo and Juliet",
+  "members": false,
+  "varValues": [
+    [
+      144,
+      10,
+      100
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 0,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

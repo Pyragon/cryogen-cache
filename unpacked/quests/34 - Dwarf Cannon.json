@@ -1,0 +1,17 @@
+{
+  "id": 34,
+  "name": "Dwarf Cannon",
+  "members": false,
+  "varValues": [
+    [
+      0,
+      1,
+      11
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

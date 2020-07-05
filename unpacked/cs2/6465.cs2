@@ -1,0 +1,73 @@
+//script6465(6465)(int arg0, int arg1)(void)
+int ivar2;
+int ivar3;
+int ivar4;
+string svar0;
+int stack_dump0;
+ivar2 = enum(arg1, 5960, 73, 105);
+ivar3 = enum(arg1, 5961, 73, 105);
+if (ivar2 == -1) 
+	return;
+if_setsize(0, 34, 1, 0, ivar2)
+cc_create(ivar2, 5, 0);
+if (if_gethide(ivar3) == 1) 
+	cc_setgraphic(11863)
+else 
+	cc_setgraphic(11866)
+cc_setsize(17, 0, 0, 1);
+cc_setposition(1, 0, 0, 0);
+cc_create(ivar2, 5, 1);
+if (if_gethide(ivar3) == 1) 
+	cc_setgraphic(11864)
+else 
+	cc_setgraphic(11867)
+cc_setsize(calc(calc(2 * 17) + 2), 0, 1, 1);
+cc_setposition(0, 0, 1, 0);
+cc_create(ivar2, 5, 2);
+if (if_gethide(ivar3) == 1) 
+	cc_setgraphic(11865)
+else 
+	cc_setgraphic(11868)
+cc_setsize(17, 0, 0, 1);
+cc_setposition(1, 0, 2, 0);
+ivar4 = enum(arg0, 5959, 103, 105);
+svar0 = enum(arg1, ivar4, 115, 105);
+cc_create(ivar2, 4, 3);
+cc_settext(svar0);
+cc_settextfont(4040);
+cc_setcolor(15052881);
+cc_setsize(calc(stringwidth(svar0, 4040) + 20), 0, 0, 1);
+cc_setposition(4, 0, 0, 0);
+cc_settextalign(1, 1, 13);
+cc_create(ivar2, 5, 4);
+cc_setsize(12, 19, 0, 0);
+if (if_gethide(ivar3) == 1) {
+	cc_setgraphic(11808)
+	stack_dump0 = 0;
+	/* 
+		AT PrimitiveInstruction(opcode=196, value=false, type=boolean)
+		com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=196, value=false, type=boolean)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+cc_setgraphic(11808)
+stack_dump0 = 49152;
+/* 
+	AT PrimitiveInstruction(opcode=196, value=false, type=boolean)
+	com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=196, value=false, type=boolean)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

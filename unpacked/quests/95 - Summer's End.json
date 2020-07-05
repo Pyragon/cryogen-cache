@@ -1,0 +1,17 @@
+{
+  "id": 95,
+  "name": "Summer's End",
+  "members": false,
+  "varbitValues": [
+    [
+      5331,
+      5,
+      35
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

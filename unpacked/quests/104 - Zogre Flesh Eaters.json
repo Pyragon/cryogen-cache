@@ -1,0 +1,17 @@
+{
+  "id": 104,
+  "name": "Zogre Flesh Eaters",
+  "members": false,
+  "varbitValues": [
+    [
+      487,
+      1,
+      14
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

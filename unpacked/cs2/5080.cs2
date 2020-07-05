@@ -1,0 +1,62 @@
+//script5080(5080)(int arg0)(void)
+int ivar1;
+int ivar2;
+int ivar3;
+int stack_dump0;
+int stack_dump1;
+int stack_dump2;
+ivar1 = 0;
+ivar2 = enum_getoutputcount(3921);
+ivar3 = -1;
+while (ivar1 < ivar2) {
+	ivar3 = enum(ivar1, 3921, 103, 105);
+	if (ivar3 != -1 && cc_find(arg0, calc(calc(10 * ivar1) + 9)) == 1) {
+		stack_dump0 = 105;
+		stack_dump1 = 115;
+		stack_dump2 = ivar3;
+		script5089(ivar3);
+		/* 
+			AT PrimitiveInstruction(opcode=540, value=0, type=int)
+			java.lang.ClassCastException: com.cryo.cache.loaders.cs2.nodes.CS2VariableLoad cannot be cast to com.cryo.cache.loaders.cs2.nodes.CS2PrimitiveExpression
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:262)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	ivar1 = calc(ivar1 + 1);
+}
+switch (load_varpbit(9539)) {
+	case 1:
+		if (load_varc(1095) == 1) 
+			if_settext(if_gethash(1114, 8), "Press 'Confirm' when you've made your choices.");
+		else 
+			if_settext(if_gethash(1114, 8), "Waiting for the battle's initiator to choose the rules...");
+		break;
+	case 2:
+		if (load_varc(1095) == 1) 
+			if_settext(if_gethash(1114, 8), "Press 'Confirm' when you've made your choices.");
+		else 
+			if_settext(if_gethash(1114, 8), "Waiting for " + load_varc_string(129) + " to choose the rules...");
+		break;
+	case 3:
+		if_settext(if_gethash(1114, 8), "Loading elements...");
+		break;
+	case 4:
+		if_settext(if_gethash(1114, 8), "Building elements...");
+		break;
+	case 5:
+		if_settext(if_gethash(1114, 8), "Failed to build battlefield.");
+		break;
+	case 6:
+		if_settext(if_gethash(1114, 8), "Initialising build mode.");
+		break;
+	default:
+		if_settext(if_gethash(1114, 8), "Loading...");
+}
+script5085(arg0);
+return;

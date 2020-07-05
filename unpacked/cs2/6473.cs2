@@ -1,0 +1,13 @@
+//script6473(6473)()(void)
+int ivar0;
+int ivar1;
+ivar0 = 0;
+ivar1 = -1;
+while (ivar0 < enum_getoutputcount(5960)) {
+	ivar1 = enum(ivar0, 5960, 73, 105);
+	cc_deleteall(ivar1)
+	ivar1 = enum(ivar0, 5961, 73, 105);
+	cc_deleteall(ivar1)
+	ivar0 = calc(ivar0 + 1);
+}
+return;

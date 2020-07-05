@@ -1,0 +1,11 @@
+//script1772(1772)()(void)
+if (load_varc(248) == 0) {
+	if_setgraphic(699, 51839081)
+	if_setgraphic(697, 51839084)
+}
+else {
+	if_setgraphic(697, 51839081)
+	if_setgraphic(699, 51839084)
+}
+script1784();
+return;

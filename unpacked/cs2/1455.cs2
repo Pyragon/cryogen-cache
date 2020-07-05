@@ -1,0 +1,11 @@
+//script1455(1455)()(void)
+int ivar0;
+ivar0 = 0;
+while (ivar0 < inv_size(95)) {
+	if (cc_find(if_gethash(762, 95), ivar0) == 1) {
+		cc_sethide(1);
+		cc_setposition(0, 0, 0, 0);
+	}
+	ivar0 = calc(ivar0 + 1);
+}
+return;

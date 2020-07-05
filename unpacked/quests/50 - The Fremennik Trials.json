@@ -1,0 +1,17 @@
+{
+  "id": 50,
+  "name": "The Fremennik Trials",
+  "members": false,
+  "varValues": [
+    [
+      347,
+      1,
+      10
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 3,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

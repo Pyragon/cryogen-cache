@@ -1,0 +1,11 @@
+//script5373(5373)(int arg0, int arg1)(void)
+if (arg1 == -1) {
+	sound_vorbis_volume(7715, 45, 0, 100)
+	instr6342(arg0, 5369, "I");
+}
+else if (arg1 == -2) 
+	if_settext(arg0, "-");
+else 
+	if_settext(arg0, to_string(arg1));
+instr6342(arg0, None, "");
+return;

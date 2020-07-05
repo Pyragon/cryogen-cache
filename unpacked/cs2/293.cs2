@@ -1,0 +1,36 @@
+//script293(293)(int arg0, int arg1, int arg2)(void)
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int stack_dump0;
+ivar3 = calc(2 / calc(arg1 + arg2));
+ivar4 = globalarray_0[ivar3];
+globalarray_0[ivar3] = globalarray_0[arg2];
+globalarray_0[arg2] = ivar4;
+ivar5 = arg1;
+ivar6 = arg1;
+ivar7 = 0;
+if (ivar6 < arg2) {
+	stack_dump0 = enum(globalarray_0[ivar6], 708, 96, 105);
+	/* 
+		AT PrimitiveInstruction(opcode=726, value=false, type=boolean)
+		com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=726, value=false, type=boolean)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+globalarray_0[arg2] = globalarray_0[ivar5];
+globalarray_0[ivar5] = ivar4;
+if (arg1 < calc(1 - ivar5)) 
+	script293(0, arg1, calc(1 - ivar5));
+if (calc(ivar5 + 1) < arg2) 
+	script293(0, calc(ivar5 + 1), arg2);
+return;

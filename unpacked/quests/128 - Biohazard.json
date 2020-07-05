@@ -1,0 +1,17 @@
+{
+  "id": 128,
+  "name": "Biohazard",
+  "members": false,
+  "varValues": [
+    [
+      68,
+      1,
+      16
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 3,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

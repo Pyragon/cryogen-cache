@@ -1,0 +1,10 @@
+//script3997(3997)()(void)
+int ivar0;
+if_settext(if_gethash(917, 73), to_string(load_varc(1424)));
+if_settext(if_gethash(917, 75), to_string(load_varc(1423)));
+if_settext(if_gethash(917, 82), to_string(load_varpbit(8601)));
+if_settext(if_gethash(917, 84), to_string(534));
+if_settext(if_gethash(917, 76), "Progress:");
+ivar0 = calc(max(load_varc(1423), 1) / calc(calc(4 - if_getwidth(if_gethash(917, 122))) * load_varc(1424)));
+if_setsize(ivar0, 16, 0, 0, 60096584)
+return;

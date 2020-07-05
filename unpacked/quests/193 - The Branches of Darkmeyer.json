@@ -1,0 +1,17 @@
+{
+  "id": 193,
+  "name": "The Branches of Darkmeyer",
+  "members": false,
+  "varbitValues": [
+    [
+      9757,
+      1,
+      170
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 7693
+}

@@ -1,0 +1,174 @@
+//script1402(1402)()(void)
+if (load_varp(106) == -1) 
+	return;
+if (load_varp(106) == 0) {
+	if_setmodel(3062, if_gethash(270, 4));
+	if_setmodelanim(646, if_gethash(270, 4));
+}
+else if (load_varp(106) == 1) {
+	if_setmodel(3062, if_gethash(270, 5));
+	if_setmodelanim(646, if_gethash(270, 5));
+}
+else if (load_varp(106) == 2) {
+	if_setmodel(3062, if_gethash(270, 6));
+	if_setmodelanim(646, if_gethash(270, 6));
+}
+else if (load_varp(106) == 3) {
+	if_setmodel(3062, if_gethash(270, 7));
+	if_setmodelanim(646, if_gethash(270, 7));
+}
+else if (load_varp(106) == 4) {
+	if_setmodel(3062, if_gethash(270, 8));
+	if_setmodelanim(646, if_gethash(270, 8));
+}
+else if (load_varp(106) == 5) {
+	if_setmodel(3062, if_gethash(270, 9));
+	if_setmodelanim(646, if_gethash(270, 9));
+}
+else if (load_varp(106) == 6) {
+	if_setmodel(3062, if_gethash(270, 10));
+	if_setmodelanim(646, if_gethash(270, 10));
+}
+else if (load_varp(106) == 7) {
+	if_setmodel(3062, if_gethash(270, 11));
+	if_setmodelanim(646, if_gethash(270, 11));
+}
+else if (load_varp(106) == 8) {
+	if_setmodel(3062, if_gethash(270, 12));
+	if_setmodelanim(646, if_gethash(270, 12));
+}
+else if (load_varp(106) == 9) {
+	if_setmodel(3062, if_gethash(270, 13));
+	if_setmodelanim(646, if_gethash(270, 13));
+}
+else if (load_varp(106) == 10) {
+	if_setmodel(3062, if_gethash(270, 14));
+	if_setmodelanim(646, if_gethash(270, 14));
+}
+else if (load_varp(106) == 11) {
+	if_setmodel(3062, if_gethash(270, 15));
+	if_setmodelanim(646, if_gethash(270, 15));
+}
+else if (load_varp(106) == 12) {
+	if_setmodel(3062, if_gethash(270, 16));
+	if_setmodelanim(646, if_gethash(270, 16));
+}
+else if (load_varp(106) == 13) {
+	if_setmodel(3062, if_gethash(270, 17));
+	if_setmodelanim(646, if_gethash(270, 17));
+}
+else if (load_varp(106) == 14) {
+	if_setmodel(3062, if_gethash(270, 18));
+	if_setmodelanim(646, if_gethash(270, 18));
+}
+else if (load_varp(106) == 15) {
+	if_setmodel(3062, if_gethash(270, 19));
+	if_setmodelanim(646, if_gethash(270, 19));
+}
+else if (load_varp(106) == 16) {
+	if_setmodel(3062, if_gethash(270, 20));
+	if_setmodelanim(646, if_gethash(270, 20));
+}
+else if (load_varp(106) == 17) {
+	if_setmodel(3062, if_gethash(270, 21));
+	if_setmodelanim(646, if_gethash(270, 21));
+}
+else if (load_varp(106) == 18) {
+	if_setmodel(3062, if_gethash(270, 22));
+	if_setmodelanim(646, if_gethash(270, 22));
+}
+else if (load_varp(106) == 19) {
+	if_setmodel(3062, if_gethash(270, 23));
+	if_setmodelanim(646, if_gethash(270, 23));
+}
+else if (load_varp(106) == 20) {
+	if_setmodel(3062, if_gethash(270, 24));
+	if_setmodelanim(646, if_gethash(270, 24));
+}
+else if (load_varp(106) == 21) {
+	if_setmodel(3062, if_gethash(270, 25));
+	if_setmodelanim(646, if_gethash(270, 25));
+}
+else if (load_varp(106) == 22) {
+	if_setmodel(3062, if_gethash(270, 26));
+	if_setmodelanim(646, if_gethash(270, 26));
+}
+else if (load_varp(106) == 23) {
+	if_setmodel(3062, if_gethash(270, 27));
+	if_setmodelanim(646, if_gethash(270, 27));
+}
+else if (load_varp(106) == 24) {
+	if_setmodel(3062, if_gethash(270, 28));
+	if_setmodelanim(646, if_gethash(270, 28));
+}
+else if (load_varp(106) == 25) {
+	if_setmodel(3062, if_gethash(270, 29));
+	if_setmodelanim(646, if_gethash(270, 29));
+}
+else if (load_varp(106) == 26) {
+	if_setmodel(3062, if_gethash(270, 30));
+	if_setmodelanim(646, if_gethash(270, 30));
+}
+else if (load_varp(106) == 27) {
+	if_setmodel(3062, if_gethash(270, 31));
+	if_setmodelanim(646, if_gethash(270, 31));
+}
+else if (load_varp(106) == 28) {
+	if_setmodel(3062, if_gethash(270, 32));
+	if_setmodelanim(646, if_gethash(270, 32));
+}
+else if (load_varp(106) == 29) {
+	if_setmodel(3062, if_gethash(270, 33));
+	if_setmodelanim(646, if_gethash(270, 33));
+}
+else if (load_varp(106) == 30) {
+	if_setmodel(3062, if_gethash(270, 34));
+	if_setmodelanim(646, if_gethash(270, 34));
+}
+else if (load_varp(106) == 31) {
+	if_setmodel(3062, if_gethash(270, 35));
+	if_setmodelanim(646, if_gethash(270, 35));
+}
+else if (load_varp(106) == 32) {
+	if_setmodel(3062, if_gethash(270, 36));
+	if_setmodelanim(646, if_gethash(270, 36));
+}
+else if (load_varp(106) == 33) {
+	if_setmodel(3062, if_gethash(270, 37));
+	if_setmodelanim(646, if_gethash(270, 37));
+}
+else if (load_varp(106) == 34) {
+	if_setmodel(3062, if_gethash(270, 38));
+	if_setmodelanim(646, if_gethash(270, 38));
+}
+else if (load_varp(106) == 35) {
+	if_setmodel(3062, if_gethash(270, 39));
+	if_setmodelanim(646, if_gethash(270, 39));
+}
+else if (load_varp(106) == 36) {
+	if_setmodel(3062, if_gethash(270, 40));
+	if_setmodelanim(646, if_gethash(270, 40));
+}
+else if (load_varp(106) == 37) {
+	if_setmodel(3062, if_gethash(270, 41));
+	if_setmodelanim(646, if_gethash(270, 41));
+}
+else if (load_varp(106) == 38) {
+	if_setmodel(3062, if_gethash(270, 42));
+	if_setmodelanim(646, if_gethash(270, 42));
+}
+else if (load_varp(106) == 39) {
+	if_setmodel(3062, if_gethash(270, 43));
+	if_setmodelanim(646, if_gethash(270, 43));
+}
+else if (load_varp(106) == 40) {
+	if_setmodel(3062, if_gethash(270, 44));
+	if_setmodelanim(646, if_gethash(270, 44));
+}
+else {
+	if (load_varp(106) == 41) {
+		if_setmodel(3062, if_gethash(270, 45));
+		if_setmodelanim(646, if_gethash(270, 45));
+	}
+}
+return;

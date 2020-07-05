@@ -1,0 +1,274 @@
+//script2725(2725)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+ivar0 = 0;
+ivar1 = 61931540;
+ivar2 = -1;
+cc_deleteall(ivar1)
+script41(61931553);
+if (load_varc(1812) == 1) {
+	script2726(ivar1, 1, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1813) == 1) {
+	script2726(ivar1, 2, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1814) == 1) {
+	script2726(ivar1, 3, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1815) == 1) {
+	script2726(ivar1, 4, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1816) == 1) {
+	script2726(ivar1, 5, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1817) == 1) {
+	script2726(ivar1, 6, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1818) == 1) {
+	script2726(ivar1, 7, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1819) == 1) {
+	script2726(ivar1, 8, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1820) == 1) {
+	script2726(ivar1, 9, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1821) == 1) {
+	script2726(ivar1, 10, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1822) == 1) {
+	script2726(ivar1, 11, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1823) == 1) {
+	script2726(ivar1, 12, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1824) == 1) {
+	script2726(ivar1, 13, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1825) == 1) {
+	script2726(ivar1, 14, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1826) == 1) {
+	script2726(ivar1, 15, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1827) == 1) {
+	script2726(ivar1, 16, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1828) == 1) {
+	script2726(ivar1, 17, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1829) == 1) {
+	script2726(ivar1, 18, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1830) == 1) {
+	script2726(ivar1, 19, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1831) == 1) {
+	script2726(ivar1, 20, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1832) == 1) {
+	script2726(ivar1, 21, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1833) == 1) {
+	script2726(ivar1, 22, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1834) == 1) {
+	script2726(ivar1, 23, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1835) == 1) {
+	script2726(ivar1, 24, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1836) == 1) {
+	script2726(ivar1, 25, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1837) == 1) {
+	script2726(ivar1, 26, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1838) == 1) {
+	script2726(ivar1, 27, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1839) == 1) {
+	script2726(ivar1, 28, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1840) == 1) {
+	script2726(ivar1, 29, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1841) == 1) {
+	script2726(ivar1, 30, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1842) == 1) {
+	script2726(ivar1, 31, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1843) == 1) {
+	script2726(ivar1, 32, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1844) == 1) {
+	script2726(ivar1, 33, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1845) == 1) {
+	script2726(ivar1, 34, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1846) == 1) {
+	script2726(ivar1, 35, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1847) == 1) {
+	script2726(ivar1, 36, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1848) == 1) {
+	script2726(ivar1, 37, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1849) == 1) {
+	script2726(ivar1, 38, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1850) == 1) {
+	script2726(ivar1, 39, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1851) == 1) {
+	script2726(ivar1, 40, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1852) == 1) {
+	script2726(ivar1, 41, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1853) == 1) {
+	script2726(ivar1, 42, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1854) == 1) {
+	script2726(ivar1, 43, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1855) == 1) {
+	script2726(ivar1, 44, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1856) == 1) {
+	script2726(ivar1, 45, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1857) == 1) {
+	script2726(ivar1, 46, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1858) == 1) {
+	script2726(ivar1, 47, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1859) == 1) {
+	script2726(ivar1, 48, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1860) == 1) {
+	script2726(ivar1, 49, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1861) == 1) {
+	script2726(ivar1, 50, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1862) == 1) {
+	script2726(ivar1, 51, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1863) == 1) {
+	script2726(ivar1, 52, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1864) == 1) {
+	script2726(ivar1, 53, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1865) == 1) {
+	script2726(ivar1, 54, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1866) == 1) {
+	script2726(ivar1, 55, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1867) == 1) {
+	script2726(ivar1, 56, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1868) == 1) {
+	script2726(ivar1, 57, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1869) == 1) {
+	script2726(ivar1, 58, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1870) == 1) {
+	script2726(ivar1, 59, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1871) == 1) {
+	script2726(ivar1, 60, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1872) == 1) {
+	script2726(ivar1, 61, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1873) == 1) {
+	script2726(ivar1, 62, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1874) == 1) {
+	script2726(ivar1, 63, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (load_varc(1875) == 1) {
+	script2726(ivar1, 64, ivar0);
+	ivar0 = calc(ivar0 + 1);
+}
+if (ivar0 == 0) {
+	if_sethide(if_gethash(945, 22), 1)
+	if_sethide(if_gethash(945, 23), 0)
+}
+else {
+	if_sethide(if_gethash(945, 22), 0)
+	if_sethide(if_gethash(945, 23), 1)
+}
+return;

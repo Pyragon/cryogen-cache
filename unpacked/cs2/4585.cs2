@@ -1,0 +1,9 @@
+//script4585(4585)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7)(void)
+if (arg0 != 1) 
+	return;
+if (load_varpbit(9191) == arg1) 
+	return;
+store_varc(9191, arg1)
+sound_synth(2266, 1, 0);
+script2735(arg2, arg3, arg4, arg5, arg6, arg7);
+return;

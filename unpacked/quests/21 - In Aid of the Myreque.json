@@ -1,0 +1,17 @@
+{
+  "id": 21,
+  "name": "In Aid of the Myreque",
+  "members": false,
+  "varbitValues": [
+    [
+      1990,
+      20,
+      430
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

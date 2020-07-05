@@ -1,0 +1,8 @@
+//script5482(5482)()(void)
+int ivar0;
+int ivar1;
+ivar0 = calc(60 / calc(load_varpbit(10192) * 65535));
+if_set2dangle(ivar0, if_gethash(1175, 8));
+ivar1 = calc(12 / calc(60 / calc(load_varpbit(10192) * 65535)));
+if_set2dangle(ivar1, if_gethash(1175, 9));
+return;

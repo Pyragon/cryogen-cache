@@ -1,0 +1,68 @@
+//script6199(6199)(int arg0, int arg1, string arg2)(void)
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+string svar1;
+ivar2 = 0;
+ivar3 = 0;
+ivar4 = string_length(arg2);
+svar1 = "";
+ivar5 = 0;
+ivar6 = -1;
+if (load_varc(1920) == 1) {
+	ivar6 = 59375976;
+	script1551(load_varc(1921), 3793, calc(if_getx(ivar6) + 4), arg2);
+	/* 
+		AT PrimitiveInstruction(opcode=937, value=0, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:457)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if (load_varc(1920) == 2) {
+	ivar6 = 59375983;
+	script1551(load_varc(1922), 3793, calc(if_getx(ivar6) + 4), arg2);
+	/* 
+		AT PrimitiveInstruction(opcode=937, value=0, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:457)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+ivar7 = calc(6 - if_getwidth(ivar6));
+ivar5 = calc(ivar7 - stringwidth(svar1, 3793));
+if_setposition(4, 0, 0, 1, arg0)
+if_setsize(max(stringwidth(arg2, 3793), ivar7), if_getheight(arg0), 0, 0, arg0)
+if (ivar5 > 0) {
+	if_setposition(calc(ivar5 - if_getx(arg0)), if_gety(arg0), 0, 0, arg0)
+	if_setposition(min(calc(ivar5 - if_getx(arg1)), calc(1 - ivar7)), if_gety(arg1), 0, 0, arg1)
+}
+/* 
+	AT PrimitiveInstruction(opcode=781, value=false, type=boolean)
+	com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=781, value=false, type=boolean)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

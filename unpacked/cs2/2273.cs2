@@ -1,0 +1,19 @@
+//script2273(2273)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12)(void)
+if (stat(6) < arg3 && (arg4 == 0 || stat_base(6) < arg3)) {
+	if (load_varpbit(4089) == 1) {
+		if (load_varp(1092) < arg3 || enum(arg0, 1061, 105, 73) == 0) {
+			if_setgraphic(arg2, arg0)
+			return;
+		}
+	}
+	else {
+		if_setgraphic(arg2, arg0)
+		return;
+	}
+}
+if (load_varp(1795) == -1) {
+	if_setgraphic(arg2, arg0)
+	return;
+}
+if_setgraphic(arg1, arg0)
+return;

@@ -1,0 +1,6 @@
+//script3683(3683)()(void)
+script1548(14);
+store_varc(196, "")
+instr6342(if_gethash(187, 18), 832, "");
+if_setgraphic(3245, 12255250)
+return;

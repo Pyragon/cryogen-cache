@@ -1,0 +1,52 @@
+//script1394(1394)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+string svar0;
+svar0 = "";
+ivar0 = 0;
+ivar1 = 0;
+if (load_varpbit(457) == 1) {
+	svar0 = append(svar0, "Ahrim" + "<br>");
+	ivar0 = calc(ivar0 + 1);
+	ivar1 = calc(ivar1 + 1);
+}
+if (load_varpbit(458) == 1) {
+	svar0 = append(svar0, "Dharok" + "<br>");
+	ivar0 = calc(ivar0 + 1);
+	ivar1 = calc(ivar1 + 1);
+}
+if (load_varpbit(459) == 1) {
+	svar0 = append(svar0, "Guthan" + "<br>");
+	ivar0 = calc(ivar0 + 1);
+	ivar1 = calc(ivar1 + 1);
+}
+if (load_varpbit(460) == 1) {
+	svar0 = append(svar0, "Karil" + "<br>");
+	ivar0 = calc(ivar0 + 1);
+	ivar1 = calc(ivar1 + 1);
+}
+if (load_varpbit(461) == 1) {
+	svar0 = append(svar0, "Torag" + "<br>");
+	ivar0 = calc(ivar0 + 1);
+	ivar1 = calc(ivar1 + 1);
+}
+if (load_varpbit(462) == 1) {
+	svar0 = append(svar0, "Verac" + "<br>");
+	ivar0 = calc(ivar0 + 1);
+	ivar1 = calc(ivar1 + 1);
+}
+if (load_varpbit(9873) == 1) {
+	svar0 = append(svar0, "Akrisae" + "<br>");
+	ivar0 = calc(ivar0 + 1);
+	ivar1 = calc(ivar1 + 1);
+}
+if (compare(svar0, "") == 0) {
+	svar0 = "None";
+	ivar0 = 1;
+}
+ivar2 = calc(52 + calc(12 * ivar0));
+if_setsize(if_getwidth(if_gethash(24, 1)), ivar2, 0, 0, 1572865)
+if_settext(if_gethash(24, 3), svar0);
+if_settext(if_gethash(24, 6), to_string(max(0, calc(ivar1 - load_varpbit(464)))));
+return;

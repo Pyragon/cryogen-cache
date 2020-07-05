@@ -1,0 +1,17 @@
+{
+  "id": 46,
+  "name": "Spirits of the Elid",
+  "members": false,
+  "varbitValues": [
+    [
+      1444,
+      10,
+      60
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

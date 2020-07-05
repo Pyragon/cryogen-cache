@@ -1,0 +1,17 @@
+{
+  "id": 124,
+  "name": "Making History",
+  "members": false,
+  "varbitValues": [
+    [
+      1383,
+      1,
+      4
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 3,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

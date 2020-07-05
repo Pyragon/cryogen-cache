@@ -1,0 +1,17 @@
+{
+  "id": 72,
+  "name": "Imp Catcher",
+  "members": false,
+  "varValues": [
+    [
+      160,
+      1,
+      2
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

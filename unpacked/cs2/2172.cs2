@@ -1,0 +1,18 @@
+//script2172(2172)(int arg0)(void)
+int ivar1;
+int ivar2;
+ivar1 = load_varc(692);
+ivar2 = load_varc(1103);
+script41(12451863);
+if (arg0 == 0) {
+	if (load_varc(692) == 1) 
+		ivar1 = 0;
+	else 
+		ivar1 = 1;
+}
+else if (load_varc(1103) == 1) 
+	ivar2 = 0;
+else 
+	ivar2 = 1;
+script2162(1, load_varc(693), load_varc(694), ivar1, ivar2);
+return;

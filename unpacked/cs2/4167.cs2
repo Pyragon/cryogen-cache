@@ -1,0 +1,5 @@
+//script4167(4167)(int arg0, int arg1, int arg2)(void)
+if (cc_find(arg0, arg1) == 1) 
+	cc_setcolor(16750623);
+script41(arg2);
+return;

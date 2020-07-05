@@ -1,0 +1,61 @@
+//script1540(1540)(int arg0)(void)
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+string svar0;
+string svar1;
+int stack_dump0;
+string stack_dump1;
+cc_deleteall(arg0)
+ivar1 = 0;
+ivar2 = 0;
+ivar1 = calc(3 / calc(calc(4 * 36) - if_getwidth(arg0)));
+ivar2 = calc(6 / calc(calc(7 * 32) - if_getheight(arg0)));
+ivar3 = 0;
+ivar4 = inv_size(93);
+ivar5 = -1;
+ivar6 = 0;
+svar0 = "";
+svar1 = "";
+while (ivar3 < ivar4) {
+	cc_create(arg0, 5, ivar3);
+	cc_setsize(36, 32, 0, 0);
+	cc_setposition(calc(calc(4 % ivar3) * calc(36 + ivar1)), calc(calc(32 + ivar2) * calc(4 / ivar3)), 0, 0);
+	ivar5 = inv_getitem(93, ivar3);
+	if (ivar5 != -1) {
+		ivar6 = inv_total(93, ivar5);
+		stack_dump0 = item_param(ivar5, 1264);
+		svar1 = item_param(ivar5, 1265);
+		stack_dump0 = stack_dump0;
+		/* 
+			AT PrimitiveInstruction(opcode=356, value=0, type=int)
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:468)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	stack_dump0 = 0;
+	stack_dump1 = "";
+	svar1 = "";
+	stack_dump0 = stack_dump0;
+	svar0 = stack_dump1;
+	ivar6 = stack_dump0;
+	if (ivar6 > 5) 
+		script154(93, ivar3, arg0, ivar3, 1, -1, "Deposit-1", "Deposit-5", "Deposit-10", "Deposit-" + to_string(load_varp(1249)), "Deposit-X", "Deposit-All", "", svar0, svar1);
+	else if (ivar6 > 1) 
+		script154(93, ivar3, arg0, ivar3, 1, -1, "Deposit-1", "Deposit-5", "", "Deposit-" + to_string(load_varp(1249)), "Deposit-X", "Deposit-All", "", svar0, svar1);
+	else 
+		script154(93, ivar3, arg0, ivar3, 1, -1, "Deposit", "", "", "", "", "", "", svar0, svar1);
+	ivar3 = calc(ivar3 + 1);
+}
+return;

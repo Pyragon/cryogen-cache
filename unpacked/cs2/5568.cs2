@@ -1,0 +1,15 @@
+//script5568(5568)(int arg0)(void)
+switch (load_varc(1727)) {
+	default:
+		if_setgraphic(-1, arg0)
+		break;
+	case 1:
+		if_setgraphic(8962, arg0)
+		break;
+	case 2:
+		if_setgraphic(8963, arg0)
+		break;
+	case 3:
+		if_setgraphic(8964, arg0)
+}
+return;

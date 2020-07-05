@@ -1,0 +1,7 @@
+//script1868(1868)(int arg0)(void)
+if (calc(50 % clientclock()) == 0 && get_system_update_timer() > 0) {
+	if_setposition(0, -8, 1, 1, 59375648)
+	script1870(59375665);
+	instr6342(arg0, 1869, "I");
+}
+return;

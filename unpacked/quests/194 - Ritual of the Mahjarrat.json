@@ -1,0 +1,17 @@
+{
+  "id": 194,
+  "name": "Ritual of the Mahjarrat",
+  "members": false,
+  "varbitValues": [
+    [
+      9829,
+      10,
+      400
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 3,
+  "difficulty": "NOVICE",
+  "graphicId": 6277
+}

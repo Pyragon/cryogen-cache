@@ -1,0 +1,10 @@
+//script833(833)(int arg0)(void)
+int ivar1;
+if (arg0 < 80) 
+	arg0 = 80;
+ivar1 = calc(2 / arg0);
+if (ivar1 < 40) 
+	ivar1 = 40;
+if_settrans(arg0, if_gethash(1202, 0));
+if_settrans(ivar1, if_gethash(1202, 2));
+return;

@@ -1,0 +1,17 @@
+{
+  "id": 24,
+  "name": "Lunar Diplomacy",
+  "members": false,
+  "varbitValues": [
+    [
+      2448,
+      10,
+      190
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

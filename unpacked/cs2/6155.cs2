@@ -1,0 +1,24 @@
+//script6155(6155)(int arg0)(void)
+if (arg0 == 0) {
+	if_setgraphic(5883, 10027061)
+	if_setgraphic(5884, 10027063)
+	if_setgraphic(5883, 10027067)
+	if_setgraphic(5873, 10027062)
+	if_setgraphic(5873, 10027068)
+	if_setgraphic(5874, 10027065)
+	if_setgraphic(5893, 10027066)
+	if_setgraphic(5893, 10027069)
+	if_setgraphic(5894, 10027064)
+}
+else {
+	if_setgraphic(5881, 10027061)
+	if_setgraphic(5882, 10027063)
+	if_setgraphic(5881, 10027067)
+	if_setgraphic(5871, 10027062)
+	if_setgraphic(5871, 10027068)
+	if_setgraphic(5872, 10027065)
+	if_setgraphic(5891, 10027066)
+	if_setgraphic(5891, 10027069)
+	if_setgraphic(5892, 10027064)
+}
+return;

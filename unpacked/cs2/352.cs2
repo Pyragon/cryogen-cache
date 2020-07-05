@@ -1,0 +1,24 @@
+//script352(352)(int arg0, int arg1)(void)
+int ivar2;
+int ivar3;
+int ivar4;
+if (arg1 == load_varc(86) || arg0 != 1) 
+	return;
+sound_synth(9819, 1, 0);
+ivar2 = enum(calc(1 - load_varc(197)), 3278, 74, 105);
+if (ivar2 == -1) 
+	return;
+script734(gender());
+/* 
+	AT PrimitiveInstruction(opcode=168, value=3, type=int)
+	java.lang.RuntimeException: Stack underflow
+		at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:468)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

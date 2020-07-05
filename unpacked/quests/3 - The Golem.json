@@ -1,0 +1,17 @@
+{
+  "id": 3,
+  "name": "The Golem",
+  "members": false,
+  "varbitValues": [
+    [
+      346,
+      1,
+      10
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

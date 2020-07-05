@@ -1,0 +1,17 @@
+{
+  "id": 71,
+  "name": "Shadow of the Storm",
+  "members": false,
+  "varbitValues": [
+    [
+      1372,
+      10,
+      125
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

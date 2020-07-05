@@ -1,0 +1,123 @@
+//script5782(5782)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+int ivar12;
+string svar0;
+ivar0 = -1;
+ivar1 = 0;
+ivar2 = 0;
+ivar3 = -1;
+ivar4 = -1;
+ivar5 = 0;
+ivar6 = -1;
+ivar7 = -1;
+ivar8 = -1;
+ivar9 = -1;
+ivar10 = -1;
+ivar11 = -1;
+ivar12 = 0;
+svar0 = "null";
+if_setgraphic(enum(load_varpbit(8575), 3491, 100, 105), 69206124)
+if (load_varpbit(9030) == 1) 
+	if_setgraphic(8698, 69206124)
+if (ivar2 < 6) {
+	switch (ivar2) {
+		case 0:
+			ivar1 = load_varpbit(8587);
+			ivar0 = enum(load_varpbit(8587), 3483, 74, 105);
+			ivar4 = 69206077;
+			ivar9 = 69206114;
+			ivar7 = 69206113;
+			ivar10 = 69206112;
+			instr6239(ivar10, 3976, "iii", load_varpbit(8587), 1, -2147483644);
+			break;
+		case 1:
+			ivar1 = load_varpbit(8588);
+			ivar0 = enum(load_varpbit(8588), 3483, 74, 105);
+			ivar4 = 69206155;
+			ivar9 = 69206157;
+			ivar7 = 69206156;
+			ivar10 = 69206153;
+			instr6239(ivar10, 3976, "iii", load_varpbit(8588), 2, -2147483644);
+			break;
+		case 2:
+			ivar1 = load_varpbit(8589);
+			ivar0 = enum(load_varpbit(8589), 3483, 74, 105);
+			ivar4 = 69206160;
+			ivar9 = 69206162;
+			ivar7 = 69206161;
+			ivar10 = 69206158;
+			instr6239(ivar10, 3976, "iii", load_varpbit(8589), 3, -2147483644);
+			break;
+		case 3:
+			ivar1 = load_varpbit(8590);
+			ivar0 = enum(load_varpbit(8590), 3483, 74, 105);
+			ivar4 = 69206165;
+			ivar9 = 69206167;
+			ivar7 = 69206166;
+			ivar10 = 69206163;
+			instr6239(ivar10, 3976, "iii", load_varpbit(8590), 4, -2147483644);
+			break;
+		case 4:
+			ivar1 = load_varpbit(8591);
+			ivar0 = enum(load_varpbit(8591), 3483, 74, 105);
+			ivar4 = 69206170;
+			ivar9 = 69206172;
+			ivar7 = 69206171;
+			ivar10 = 69206168;
+			instr6239(ivar10, 3976, "iii", load_varpbit(8591), 5, -2147483644);
+			break;
+		case 5:
+			ivar1 = load_varpbit(8592);
+			ivar0 = enum(load_varpbit(8592), 3483, 74, 105);
+			ivar4 = 69206176;
+			ivar9 = 69206178;
+			ivar7 = 69206177;
+			ivar10 = 69206173;
+			instr6239(ivar10, 3976, "iii", load_varpbit(8592), 6, -2147483644);
+	}
+	if (load_varpbit(8577) == calc(ivar2 + 1)) {
+		script3999(load_varpbit(8576));
+		/* 
+			AT JumpInstruction(target=LabelInstruction(labelId=12))
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:182)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	script5795(struct_param(ivar0, 1268));
+	/* 
+		AT PrimitiveInstruction(opcode=168, value=0, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:468)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if_sethide(if_gethash(1056, 107), 0)
+if_sethide(if_gethash(1056, 108), 0)
+script3975();
+return;

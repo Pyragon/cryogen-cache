@@ -1,0 +1,17 @@
+{
+  "id": 152,
+  "name": "The Knight's Sword",
+  "members": false,
+  "varValues": [
+    [
+      122,
+      1,
+      7
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

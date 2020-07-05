@@ -1,0 +1,236 @@
+//script973(973)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+int ivar12;
+int ivar13;
+int ivar14;
+int ivar15;
+int ivar16;
+string svar0;
+string svar1;
+string svar2;
+ivar0 = load_varpbit(4729);
+if (load_varpbit(4729) < 1 || load_varpbit(4729) > 25) 
+	return;
+svar0 = enum_string(1477, ivar0);
+ivar1 = enum(ivar0, 681, 83, 105);
+ivar2 = enum(ivar0, 1478, 100, 105);
+ivar3 = 1;
+ivar4 = 1;
+switch (ivar0) {
+	case 1:
+		ivar4 = load_varc(1469);
+		break;
+	case 2:
+		ivar4 = load_varc(1470);
+		break;
+	case 5:
+		ivar4 = load_varc(1471);
+		break;
+	case 3:
+		ivar4 = load_varc(1472);
+		break;
+	case 7:
+		ivar4 = load_varc(1473);
+		break;
+	case 4:
+		ivar4 = load_varc(1474);
+		break;
+	case 6:
+		ivar4 = load_varc(1475);
+		break;
+	case 8:
+		ivar4 = load_varc(1476);
+		break;
+	case 9:
+		ivar4 = load_varc(1477);
+		break;
+	case 10:
+		ivar4 = load_varc(1478);
+		break;
+	case 11:
+		ivar4 = load_varc(1479);
+		break;
+	case 19:
+		ivar4 = load_varc(1480);
+		break;
+	case 13:
+		ivar4 = load_varc(1481);
+		break;
+	case 14:
+		ivar4 = load_varc(1482);
+		break;
+	case 15:
+		ivar4 = load_varc(1483);
+		break;
+	case 16:
+		ivar4 = load_varc(1484);
+		break;
+	case 17:
+		ivar4 = load_varc(1485);
+		break;
+	case 18:
+		ivar4 = load_varc(1486);
+		break;
+	case 12:
+		ivar4 = load_varc(1487);
+		break;
+	case 20:
+		ivar4 = load_varc(1488);
+		break;
+	case 21:
+		ivar4 = load_varc(1489);
+		break;
+	case 22:
+		ivar4 = load_varc(1490);
+		break;
+	case 23:
+		ivar4 = load_varc(1491);
+		break;
+	case 24:
+		ivar4 = load_varc(1492);
+		break;
+	case 25:
+		ivar4 = load_varc(1493);
+}
+if (calc(ivar4 + 1) != stat_base(ivar1)) 
+	svar0 = enum_string(3644, ivar0) + to_string(calc(ivar4 - stat_base(ivar1))) + enum_string(3645, ivar0);
+if_settext(if_gethash(741, 3), svar0);
+if_settext(if_gethash(741, 5), "You have now reached level " + to_string(stat_base(ivar1)) + ".");
+if_setgraphic(ivar2, 48562182)
+ivar5 = 0;
+ivar6 = 0;
+ivar7 = 0;
+svar1 = "";
+ivar8 = 0;
+ivar9 = -1;
+ivar10 = 2287;
+ivar11 = ivar10;
+ivar12 = 0;
+cc_deleteall(48562177)
+cc_deleteall(48562178)
+if (load_varp(281) < 1000 && stat_base(ivar1) == 3) {
+	svar1 = "<col=000080>" + "You've now reached the highest skill level that you can achieve during the tutorial. Once you finish the tutorial, you can advance this skill even further!";
+	script974(ivar5, ivar6, 7620, ivar10, 0, 0, svar1);
+	/* 
+		AT PrimitiveInstruction(opcode=168, value=7, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:468)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if (load_varpbit(4730) == 1) {
+	svar1 = "<col=800000>" + "Well done! You've reached the total level " + to_string(enum(load_varpbit(4728), 1475, 105, 105)) + " milestone!";
+	script974(ivar5, ivar6, 7620, ivar10, 0, 0, svar1);
+	/* 
+		AT PrimitiveInstruction(opcode=168, value=7, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:468)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+ivar8 = 0;
+svar1 = "null";
+ivar9 = 7620;
+if (ivar0 == 1 || ivar0 == 2 || ivar0 == 5 || ivar0 == 3 || ivar0 == 7 || ivar0 == 4 || ivar0 == 6 || ivar0 == 24) {
+	if (load_varpbit(4731) == 1) {
+		svar1 = "<col=800000>" + "Well done! You've reached the Combat level " + to_string(enum(load_varpbit(4727), 1473, 105, 105)) + " milestone!";
+		script974(ivar5, ivar6, 7620, ivar10, 0, 0, svar1);
+		/* 
+			AT PrimitiveInstruction(opcode=168, value=7, type=int)
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:468)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	if (load_varpbit(5395) == 1 && ivar9 != -1) {
+		script976(ivar8);
+		/* 
+			AT PrimitiveInstruction(opcode=356, value=1, type=int)
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:468)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+}
+svar1 = "";
+ivar9 = 7620;
+ivar13 = 0;
+ivar8 = 0;
+if (ivar13 != -1) {
+	ivar13 = 0;
+	script1023(ivar1, ivar8);
+	/* 
+		AT PrimitiveInstruction(opcode=168, value=13, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:468)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+ivar11 = ivar10;
+ivar9 = 7620;
+svar1 = "";
+ivar8 = 0;
+ivar14 = 0;
+ivar15 = 0;
+ivar16 = 0;
+svar2 = "";
+script12(ivar0);
+/* 
+	AT PrimitiveInstruction(opcode=168, value=14, type=int)
+	java.lang.RuntimeException: Stack underflow
+		at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:468)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

@@ -1,0 +1,28 @@
+//script6181(6181)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+ivar0 = -1;
+ivar1 = 0;
+ivar2 = -1;
+while (ivar1 < enum_getoutputcount(5840)) {
+	ivar2 = enum(ivar1, 5840, 73, 105);
+	if (ivar2 != -1) {
+		cc_create(ivar2, 3, 0);
+		cc_setposition(2, 2, 0, 0);
+		cc_setsize(2, 2, 1, 1);
+		ivar0 = enum(ivar2, 5839, 74, 73);
+		if (ivar0 != -1) {
+			cc_setcolor(struct_param(ivar0, 2395));
+			ivar0 = -1;
+		}
+		cc_setfill(true);
+		cc_create(ivar2, 5, 1);
+		cc_setposition(0, 0, 0, 0);
+		cc_setsize(20, 20, 0, 0);
+		cc_setgraphic(2288)
+		ivar2 = -1;
+	}
+	ivar1 = calc(ivar1 + 1);
+}
+return;

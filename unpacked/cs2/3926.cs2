@@ -1,0 +1,5 @@
+//script3926(3926)()(void)
+if_setgraphic(4032, 20381732)
+if_setgraphic(4032, 20381734)
+if_setgraphic(4038, 20381733)
+return;

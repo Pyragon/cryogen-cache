@@ -1,0 +1,87 @@
+//script2599(2599)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+string stack_dump0;
+int stack_dump1;
+ivar0 = 0;
+ivar1 = 0;
+ivar2 = 0;
+ivar3 = -1;
+globalarray_0 = new obj[10];
+globalarray_1 = new int[10];
+globalarray_2 = new int[10];
+ivar4 = 0;
+while (ivar1 < 28 && ivar2 < 10) {
+	ivar3 = inv_getitem(93, ivar1);
+	if (ivar3 != -1 && (item_param(ivar3, 802) == 1 || item_param(ivar3, 803) == 1)) {
+		globalarray_0[ivar2] = ivar3;
+		ivar2 = calc(ivar2 + 1);
+	}
+	ivar1 = calc(ivar1 + 1);
+}
+ivar3 = -1;
+globalarray_0[0] = load_varpbit(6405);
+globalarray_0[1] = load_varpbit(6406);
+globalarray_0[2] = load_varpbit(6407);
+globalarray_0[3] = load_varpbit(6408);
+globalarray_0[4] = load_varpbit(6409);
+globalarray_0[5] = load_varpbit(6410);
+globalarray_0[6] = load_varpbit(6411);
+globalarray_0[7] = load_varpbit(6412);
+globalarray_0[8] = load_varpbit(6413);
+globalarray_0[9] = load_varpbit(6414);
+ivar1 = 0;
+while (ivar1 < 10) {
+	if (globalarray_0[ivar1] != -1) {
+		if (item_param(ivar3, 803) == 1) 
+			globalarray_0[ivar1] = calc(50 * load_varpbit(6405));
+		if (item_param(globalarray_0[ivar1], 803) == 1 && globalarray_1[ivar1] == 1) {
+			globalarray_0[ivar1] = 50;
+			ivar4 = calc(ivar4 + globalarray_2[ivar1]);
+		}
+		if_settext(enum(ivar1, 2424, 73, 105), "Cost: " + to_string(globalarray_2[ivar1]));
+	}
+	ivar1 = calc(ivar1 + 1);
+}
+if_settext(if_gethash(292, 101), to_string(globalarray_2[load_varc(929)]));
+store_varc(928, ivar4)
+if_settext(if_gethash(292, 126), to_string(load_varc(928)));
+if_settext(if_gethash(292, 128), "Remaining investment credits: " + to_string(calc(load_varc(928) - load_varpbit(6351))));
+if (load_varc(928) <= load_varpbit(6351)) {
+	if_setgraphic(1870, 19136635)
+	instr6239(if_gethash(292, 122), 2605, "");
+	stack_dump0 = "Apply changes";
+	stack_dump1 = instr6213(1, if_gethash(292, 122));
+	/* 
+		AT PrimitiveInstruction(opcode=968, value=0, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:148)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if_setgraphic(1871, 19136635)
+instr6239(if_gethash(292, 122), None, "");
+instr6220(if_gethash(292, 122));
+/* 
+	AT PrimitiveInstruction(opcode=968, value=0, type=int)
+	java.lang.RuntimeException: Stack underflow
+		at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:148)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

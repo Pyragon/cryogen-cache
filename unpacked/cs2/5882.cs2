@@ -1,0 +1,9 @@
+//script5882(5882)()(void)
+if (load_varc(1784) == 1) 
+	return;
+if (load_varpbit(10861) > 0) 
+	return;
+sound_vorbis_volume(15764, 1, 0, 255)
+store_varc(1784, 1)
+script5916();
+return;

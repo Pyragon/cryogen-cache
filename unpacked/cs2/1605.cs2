@@ -1,0 +1,3 @@
+//script1605(1605)()(void)
+if_setcolor(16776960, if_gethash(549, 127));
+return;

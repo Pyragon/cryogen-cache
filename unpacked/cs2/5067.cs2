@@ -1,0 +1,74 @@
+//script5067(5067)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+string svar0;
+int stack_dump0;
+int stack_dump1;
+int stack_dump2;
+ivar0 = 0;
+ivar1 = enum_getoutputcount(3943);
+ivar2 = 0;
+if (ivar0 < ivar1) {
+	if (load_varpbit(9516) == ivar0) 
+		ivar2 = 1;
+	else 
+		ivar2 = 0;
+	stack_dump0 = 105;
+	stack_dump1 = 3944;
+	stack_dump2 = ivar0;
+	/* 
+		AT PrimitiveInstruction(opcode=60, value=false, type=boolean)
+		com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=60, value=false, type=boolean)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+cc_deleteall(72810523)
+cc_deleteall(72810524)
+cc_deleteall(72810525)
+cc_deleteall(72810526)
+ivar3 = 0;
+ivar4 = enum(load_varpbit(9516), 3943, 74, 105);
+svar0 = "";
+ivar5 = -1;
+if (ivar4 != -1) {
+	if_settext(if_gethash(1111, 26), struct_param(ivar4, 1463));
+	if_setgraphic(struct_param(ivar4, 1465), 72810520)
+	svar0 = struct_param(ivar4, 1464);
+	if (struct_param(ivar4, 1466) == 1 && ivar4 != 1918) 
+		svar0 = append(svar0, "<br>" + "<br>" + "Drag your mouse over the grid to fill an area with this element.");
+	stack_dump0 = ivar3;
+	script5068(ivar3, svar0);
+	/* 
+		AT PrimitiveInstruction(opcode=279, value=0, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:160)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if_settext(if_gethash(1111, 26), "");
+if_setgraphic(-1, 72810520)
+if (ivar3 > if_getheight(if_gethash(1111, 27))) 
+	instr6185(0, ivar3, 72810523)
+else 
+	instr6185(0, 0, 72810523)
+if_setscrollpos(0, min(if_getscrolly(72810523), ivar3), if_gethash(1111, 27));
+script31(72810527, 72810523, 6507, 6504, 6505, 6506, 6499, 6498);
+return;

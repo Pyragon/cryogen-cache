@@ -1,0 +1,10 @@
+//script2680(2680)()(void)
+if (load_varpbit(2176) == 1) {
+	if_setgraphic(179, 26083343)
+	if_setgraphic(170, 26083329)
+}
+else {
+	if_setgraphic(170, 26083343)
+	if_setgraphic(179, 26083329)
+}
+return;

@@ -1,0 +1,17 @@
+{
+  "id": 49,
+  "name": "Back to my Roots",
+  "members": false,
+  "varbitValues": [
+    [
+      4055,
+      1,
+      65
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

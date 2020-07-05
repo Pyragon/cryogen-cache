@@ -1,0 +1,51 @@
+//script4462(4462)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+string svar0;
+ivar0 = 0;
+ivar1 = 0;
+ivar2 = 19;
+svar0 = "";
+ivar3 = 72744971;
+ivar4 = 72745002;
+ivar5 = 72745001;
+ivar6 = 72744970;
+ivar7 = calc(19 / if_getheight(ivar4));
+ivar8 = 0;
+cc_deleteall(ivar3)
+cc_deleteall(ivar6)
+if (activeclansettings_find_affined() == 1) {
+	if_settext(if_gethash(1110, 72), "");
+	if_sethide(if_gethash(1110, 43), 1)
+	/* 
+		AT PrimitiveInstruction(opcode=411, value=false, type=boolean)
+		com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=411, value=false, type=boolean)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if_sethide(if_gethash(1110, 43), 0)
+if_settext(if_gethash(1110, 72), "You must be part of a clan to" + "<br>" + "view the ban list.");
+cc_deleteall(ivar3)
+cc_deleteall(ivar6)
+if_sethide(ivar5, 0)
+ivar9 = if_getscrolly(72745002);
+instr6185(if_getwidth(if_gethash(1110, 42)), calc(max(ivar1, ivar7) * ivar2), 72745002)
+ivar9 = min(ivar9, if_getscrollheight(72745002));
+if_setscrollpos(0, ivar9, if_gethash(1110, 42));
+script31(72745001, 72745002, 5666, 5663, 5664, 5665, 5686, 5685);
+return;

@@ -1,0 +1,55 @@
+//script3152(3152)(int arg0, int arg1, int arg2, int arg3, int arg4, string arg5)(void)
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int stack_dump0;
+string stack_dump1;
+ivar5 = 0;
+ivar6 = 0;
+ivar7 = 0;
+ivar8 = arg0;
+if (clientclock() > arg2) {
+	if_settext(if_gethash(910, 17), arg5);
+	if_setsize(calc(calc(2 * if_getx(if_gethash(910, 17))) + stringwidth(arg5, 495)), if_getheight(if_gethash(910, 14)), 0, 0, 59637774)
+	while (ivar7 == 0) {
+		if (ivar8 == 59637773) 
+			ivar7 = 1;
+		ivar5 = calc(ivar5 + if_getx(ivar8));
+		ivar6 = calc(ivar6 + if_gety(ivar8));
+		ivar8 = if_getlayer(ivar8);
+	}
+	if (arg1 > -1 && cc_find(arg0, arg1) == 1) {
+		ivar5 = calc(ivar5 + cc_getx());
+		ivar6 = calc(ivar6 + cc_gety());
+	}
+	ivar5 = calc(calc(ivar5 + arg3) + 3);
+	ivar6 = calc(if_getheight(if_gethash(910, 14)) - calc(3 - calc(ivar6 + arg4)));
+	if (calc(ivar5 + if_getwidth(if_gethash(910, 14))) > if_getwidth(if_gethash(910, 0))) 
+		ivar5 = calc(if_getwidth(if_gethash(910, 14)) - if_getwidth(if_gethash(910, 0)));
+	if (ivar6 < 0) 
+		ivar6 = 0;
+	if_setposition(ivar5, ivar6, 0, 0, 59637774)
+	if_sethide(if_gethash(910, 14), 0)
+	if (arg1 < 0) 
+		if_setonmouseover(arg0, None, "");
+	else {
+		if (cc_find(arg0, arg1) == 1) {
+			stack_dump0 = -1;
+			stack_dump1 = "";
+			/* 
+				AT PrimitiveInstruction(opcode=207, value=false, type=boolean)
+				com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=207, value=false, type=boolean)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+	}
+}
+return;

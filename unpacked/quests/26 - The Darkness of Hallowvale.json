@@ -1,0 +1,17 @@
+{
+  "id": 26,
+  "name": "The Darkness of Hallowvale",
+  "members": false,
+  "varbitValues": [
+    [
+      2573,
+      10,
+      320
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

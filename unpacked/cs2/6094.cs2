@@ -1,0 +1,28 @@
+//script6094(6094)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+ivar0 = 82903060;
+ivar1 = 10448;
+if (load_varpbit(11055) == 1) 
+	ivar1 = 10453;
+ivar2 = 0;
+while (ivar2 < 40) {
+	if (cc_find(ivar0, ivar2) == 1) {
+		cc_setgraphic(ivar1)
+		instr6091(6100, "iiiIi", load_varpbit(11055), 0, 1, -2147483645, -2147483643);
+		instr6092(6100, "iiiIi", load_varpbit(11055), 0, 0, -2147483645, -2147483643);
+	}
+	ivar2 = calc(ivar2 + 1);
+}
+ivar2 = 0;
+ivar0 = 82903061;
+while (ivar2 < 40) {
+	if (cc_find(ivar0, ivar2) == 1) {
+		cc_setgraphic(ivar1)
+		instr6091(6100, "iiiIi", load_varpbit(11055), 0, 1, -2147483645, -2147483643);
+		instr6092(6100, "iiiIi", load_varpbit(11055), 0, 0, -2147483645, -2147483643);
+	}
+	ivar2 = calc(ivar2 + 1);
+}
+return;

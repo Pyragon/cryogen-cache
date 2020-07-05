@@ -1,0 +1,4 @@
+//script5044(5044)(int arg0, int arg1, int arg2)(void)
+script5045(arg0, arg1, arg2);
+script5048();
+return;

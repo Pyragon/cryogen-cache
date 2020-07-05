@@ -1,0 +1,10 @@
+//script3121(3121)(int arg0)(void)
+if (cc_find(arg0, 1) == 1) {
+	cc_sethide(0);
+	cc_setcolor(4210752);
+}
+if (cc_find(arg0, 2) == 1) {
+	cc_sethide(0);
+	cc_setcolor(6316128);
+}
+return;

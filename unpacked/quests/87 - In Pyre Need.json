@@ -1,0 +1,17 @@
+{
+  "id": 87,
+  "name": "In Pyre Need",
+  "members": false,
+  "varbitValues": [
+    [
+      5761,
+      10,
+      30
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

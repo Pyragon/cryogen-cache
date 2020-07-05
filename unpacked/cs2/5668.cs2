@@ -1,0 +1,23 @@
+//script5668(5668)()(void)
+if_setcolor(15458492, if_gethash(1214, 22));
+if_settext(if_gethash(1214, 22), "<u=ebe0bc>" + removetags(if_gettext(if_gethash(1214, 22))));
+if_setcolor(15458492, if_gethash(1214, 23));
+if_settext(if_gethash(1214, 23), "<u=ebe0bc>" + removetags(if_gettext(if_gethash(1214, 23))));
+if_setcolor(15458492, if_gethash(1214, 24));
+if_settext(if_gethash(1214, 24), "<u=ebe0bc>" + removetags(if_gettext(if_gethash(1214, 24))));
+switch (load_varp(2478)) {
+	default:
+		if_setcolor(14182671, if_gethash(1214, 22));
+		if_settext(if_gethash(1214, 22), "<u=d8690f>" + removetags(if_gettext(if_gethash(1214, 22))));
+		break;
+	case 2:
+		if_setcolor(14182671, if_gethash(1214, 23));
+		if_settext(if_gethash(1214, 23), "<u=d8690f>" + removetags(if_gettext(if_gethash(1214, 23))));
+		break;
+	case 3:
+		if_setcolor(14182671, if_gethash(1214, 24));
+		if_settext(if_gethash(1214, 24), "<u=d8690f>" + removetags(if_gettext(if_gethash(1214, 24))));
+}
+script5666();
+script5675();
+return;

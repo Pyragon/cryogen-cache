@@ -1,0 +1,38 @@
+//script558(558)(int arg0)(void)
+if (arg0 == 1) {
+	if_setgraphic(181, 40960069)
+	if_setmodel(29248, if_gethash(625, 39));
+}
+else 
+	if_setgraphic(180, 40960069)
+if (arg0 == 2) {
+	if_setgraphic(181, 40960072)
+	if_setmodel(29242, if_gethash(625, 39));
+}
+else 
+	if_setgraphic(180, 40960072)
+if (arg0 == 3) {
+	if_setgraphic(181, 40960075)
+	if_setmodel(29237, if_gethash(625, 39));
+}
+else 
+	if_setgraphic(180, 40960075)
+if (arg0 == 4) {
+	if_setgraphic(181, 40960078)
+	if_setmodel(29245, if_gethash(625, 39));
+}
+else 
+	if_setgraphic(180, 40960078)
+if (arg0 == 5) {
+	if_setgraphic(181, 40960081)
+	if_setmodel(29246, if_gethash(625, 39));
+}
+else 
+	if_setgraphic(180, 40960081)
+if (arg0 == 6) {
+	if_setgraphic(181, 40960084)
+	if_setmodel(29241, if_gethash(625, 39));
+}
+else 
+	if_setgraphic(180, 40960084)
+return;

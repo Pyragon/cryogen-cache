@@ -1,0 +1,10 @@
+//script3226(3226)(int arg0, int arg1, string arg2)(void)
+if (arg1 == 1) {
+	if_setcolor(4442112, arg0);
+	if_settext(arg0, "<u=43c800>" + arg2 + "</u>");
+}
+else {
+	if_setcolor(3381504, arg0);
+	if_settext(arg0, "<u=339900>" + arg2 + "</u>");
+}
+return;

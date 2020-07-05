@@ -1,0 +1,123 @@
+//script429(429)(int arg0)(void)
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+ivar1 = 0;
+ivar2 = 0;
+ivar3 = -1;
+ivar4 = -1;
+ivar5 = -1;
+ivar6 = -1;
+ivar7 = 0;
+ivar8 = -1;
+switch (arg0) {
+	default:
+		return;
+	case 67108940:
+	case 67108942:
+		if (load_varc(1388) == 1) 
+			ivar1 = 1;
+		else 
+			ivar1 = load_varpbit(7539);
+		ivar3 = 67108941;
+		ivar4 = 67108943;
+		ivar5 = 67108939;
+		ivar6 = 67108940;
+		ivar8 = 67108942;
+		break;
+	case 67108923:
+	case 67108925:
+		if (load_varc(1388) == 1) 
+			ivar1 = 3;
+		else 
+			ivar1 = load_varpbit(7540);
+		ivar3 = 67108924;
+		ivar4 = 67108926;
+		ivar5 = 67108922;
+		ivar6 = 67108923;
+		ivar8 = 67108925;
+		break;
+	case 67108906:
+	case 67108908:
+		if (load_varc(1388) == 1) 
+			ivar1 = 5;
+		else 
+			ivar1 = load_varpbit(7541);
+		ivar3 = 67108907;
+		ivar4 = 67108909;
+		ivar5 = 67108905;
+		ivar6 = 67108906;
+		ivar8 = 67108908;
+		break;
+	case 67108889:
+	case 67108891:
+		if (load_varc(1388) == 1) 
+			ivar1 = 6;
+		else 
+			ivar1 = load_varpbit(7542);
+		ivar3 = 67108890;
+		ivar4 = 67108892;
+		ivar5 = 67108888;
+		ivar6 = 67108889;
+		ivar8 = 67108891;
+}
+switch (ivar1) {
+	default:
+		return;
+	case 1:
+		ivar2 = load_varc(1378);
+		ivar7 = struct_param(293, 1154);
+		break;
+	case 2:
+		ivar2 = load_varc(1379);
+		ivar7 = struct_param(299, 1154);
+		break;
+	case 3:
+		ivar2 = load_varc(1380);
+		ivar7 = struct_param(300, 1154);
+		break;
+	case 4:
+		ivar2 = load_varc(1386);
+		ivar7 = struct_param(301, 1154);
+		break;
+	case 5:
+		ivar2 = load_varc(1381);
+		ivar7 = struct_param(305, 1154);
+		break;
+	case 6:
+		ivar2 = load_varc(1383);
+		ivar7 = struct_param(1044, 1154);
+		break;
+	case 7:
+		ivar2 = load_varc(1384);
+		ivar7 = struct_param(1045, 1154);
+		break;
+	case 8:
+		ivar2 = load_varc(1385);
+		ivar7 = struct_param(1046, 1154);
+		break;
+	case 9:
+		ivar2 = load_varc(1382);
+		ivar7 = struct_param(1047, 1154);
+}
+if (ivar2 > 0 || load_varpbit(7514) < ivar7) {
+	if (ivar2 > 0) 
+		if_settext(ivar8, to_string(ivar2));
+	if_setcolor(2631720, ivar3);
+	if_sethide(ivar4, 0)
+	if_setcolor(8224125, ivar5);
+	if_setcolor(8224125, ivar6);
+}
+else {
+	if_settext(ivar8, "");
+	if_setcolor(0, ivar3);
+	if_sethide(ivar4, 1)
+	if_setcolor(16750623, ivar5);
+	if_setcolor(16750623, ivar6);
+}
+return;

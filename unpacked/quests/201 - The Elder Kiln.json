@@ -1,0 +1,17 @@
+{
+  "id": 201,
+  "name": "The Elder Kiln",
+  "members": false,
+  "varbitValues": [
+    [
+      10809,
+      5,
+      170
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 9129
+}

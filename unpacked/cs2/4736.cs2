@@ -1,0 +1,22 @@
+//script4736(4736)(int arg0, int arg1)(void)
+int ivar2;
+int ivar3;
+int ivar4;
+ivar2 = 556;
+ivar3 = -1;
+if (load_varpbit(9903) > 0) {
+	ivar3 = enum(load_varpbit(9903), 3879, 118, 105);
+	if (ivar3 != -1) 
+		ivar2 = inv_size(ivar3);
+}
+if_setscrollpos(0, 0, arg0);
+cc_deleteall(arg0)
+ivar4 = 0;
+while (ivar4 < ivar2) {
+	cc_create(arg0, 5, ivar4);
+	cc_setsize(0, 0, 0, 0);
+	cc_setposition(0, 0, 0, 0);
+	cc_sethide(1);
+	ivar4 = calc(ivar4 + 1);
+}
+return;

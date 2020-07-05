@@ -1,0 +1,89 @@
+//script563(563)()(void)
+int ivar0;
+int ivar1;
+ivar0 = 50;
+ivar1 = 45;
+if_settext(if_gethash(641, 4), to_string(load_varpbit(4143)));
+if (load_varpbit(4144) == 0) {
+	if_setgraphic(223, 42008603)
+	if_setposition(ivar0, ivar1, 0, 0, 42008603)
+	if_sethide(if_gethash(641, 12), 0)
+	ivar1 = calc(ivar1 + 29);
+}
+else 
+	if_sethide(if_gethash(641, 12), 1)
+if (load_varpbit(4145) == 0) {
+	if_setgraphic(225, 42008604)
+	if_setposition(ivar0, ivar1, 0, 0, 42008604)
+	if_sethide(if_gethash(641, 13), 0)
+	ivar1 = calc(ivar1 + 29);
+}
+else 
+	if_sethide(if_gethash(641, 13), 1)
+if (load_varpbit(4146) == 0) {
+	if_setgraphic(201, 42008605)
+	if_setposition(ivar0, ivar1, 0, 0, 42008605)
+	if_sethide(if_gethash(641, 14), 0)
+	ivar1 = calc(ivar1 + 29);
+}
+else 
+	if_sethide(if_gethash(641, 14), 1)
+if (load_varpbit(4147) == 0) {
+	if_setgraphic(226, 42008606)
+	if_setposition(ivar0, ivar1, 0, 0, 42008606)
+	if_sethide(if_gethash(641, 15), 0)
+	ivar1 = calc(ivar1 + 29);
+}
+else 
+	if_sethide(if_gethash(641, 15), 1)
+if (load_varpbit(4151) == 0) {
+	if_setgraphic(203, 42008608)
+	if_setposition(ivar0, ivar1, 0, 0, 42008608)
+	if_sethide(if_gethash(641, 17), 0)
+	ivar1 = calc(ivar1 + 29);
+}
+else 
+	if_sethide(if_gethash(641, 17), 1)
+if (load_varpbit(4152) == 1) {
+	if_setgraphic(227, 42008609)
+	if_setposition(ivar0, ivar1, 0, 0, 42008609)
+	if_sethide(if_gethash(641, 18), 0)
+	ivar1 = calc(ivar1 + 29);
+}
+else 
+	if_sethide(if_gethash(641, 18), 1)
+if (load_varpbit(4276) == 1) {
+	if_setgraphic(222, 42008607)
+	if_setposition(ivar0, ivar1, 0, 0, 42008607)
+	if_sethide(if_gethash(641, 16), 0)
+	ivar1 = calc(ivar1 + 29);
+}
+else 
+	if_sethide(if_gethash(641, 16), 1)
+ivar0 = 8;
+ivar1 = 45;
+if (load_varpbit(4148) == 0) {
+	if_setgraphic(200, 42008610)
+	if_setposition(ivar0, ivar1, 0, 0, 42008610)
+	if_sethide(if_gethash(641, 19), 0)
+	ivar1 = calc(ivar1 + 29);
+}
+else 
+	if_sethide(if_gethash(641, 19), 1)
+if (load_varpbit(4149) == 0) {
+	if_setgraphic(197, 42008611)
+	if_setposition(ivar0, ivar1, 0, 0, 42008611)
+	if_sethide(if_gethash(641, 20), 0)
+	ivar1 = calc(ivar1 + 29);
+}
+else 
+	if_sethide(if_gethash(641, 20), 1)
+if (load_varpbit(4150) == 0) {
+	if_setgraphic(202, 42008612)
+	if_setposition(ivar0, ivar1, 0, 0, 42008612)
+	if_sethide(if_gethash(641, 21), 0)
+	ivar1 = calc(ivar1 + 29);
+}
+else 
+	if_sethide(if_gethash(641, 21), 1)
+return;

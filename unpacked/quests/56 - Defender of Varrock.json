@@ -1,0 +1,17 @@
+{
+  "id": 56,
+  "name": "Defender of Varrock",
+  "members": false,
+  "varbitValues": [
+    [
+      5387,
+      10,
+      250
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

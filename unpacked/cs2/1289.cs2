@@ -1,0 +1,184 @@
+//script1289(1289)()(void)
+if_settext(if_gethash(129, 52), to_string(load_varpbit(861)));
+if_settext(if_gethash(129, 53), to_string(load_varpbit(862)));
+if (load_varpbit(842) == 2) {
+	if_setmodel(8448, if_gethash(129, 0));
+	if_setmodel(8449, if_gethash(129, 1));
+	if_setmodel(8496, if_gethash(129, 26));
+}
+else if (load_varpbit(842) == 1) {
+	if_setmodel(8447, if_gethash(129, 0));
+	if_setmodel(8450, if_gethash(129, 1));
+	if_setmodel(8495, if_gethash(129, 26));
+}
+else {
+	if_setmodel(-1, if_gethash(129, 26));
+	if_setmodel(8448, if_gethash(129, 0));
+	if_setmodel(8450, if_gethash(129, 1));
+}
+if (load_varpbit(843) == 2) {
+	if_setmodel(8452, if_gethash(129, 2));
+	if_setmodel(8453, if_gethash(129, 3));
+	if_setmodel(8498, if_gethash(129, 27));
+}
+else if (load_varpbit(843) == 1) {
+	if_setmodel(8451, if_gethash(129, 2));
+	if_setmodel(8454, if_gethash(129, 3));
+	if_setmodel(8497, if_gethash(129, 27));
+}
+else {
+	if_setmodel(-1, if_gethash(129, 27));
+	if_setmodel(8452, if_gethash(129, 2));
+	if_setmodel(8454, if_gethash(129, 3));
+}
+if (load_varpbit(844) == 2) {
+	if_setmodel(8456, if_gethash(129, 4));
+	if_setmodel(8457, if_gethash(129, 5));
+	if_setmodel(8500, if_gethash(129, 28));
+}
+else if (load_varpbit(844) == 1) {
+	if_setmodel(8455, if_gethash(129, 4));
+	if_setmodel(8458, if_gethash(129, 5));
+	if_setmodel(8499, if_gethash(129, 28));
+}
+else {
+	if_setmodel(-1, if_gethash(129, 28));
+	if_setmodel(8456, if_gethash(129, 4));
+	if_setmodel(8458, if_gethash(129, 5));
+}
+if (load_varpbit(845) == 2) {
+	if_setmodel(8460, if_gethash(129, 6));
+	if_setmodel(8461, if_gethash(129, 7));
+	if_setmodel(8502, if_gethash(129, 29));
+}
+else if (load_varpbit(845) == 1) {
+	if_setmodel(8459, if_gethash(129, 6));
+	if_setmodel(8462, if_gethash(129, 7));
+	if_setmodel(8501, if_gethash(129, 29));
+}
+else {
+	if_setmodel(-1, if_gethash(129, 29));
+	if_setmodel(8460, if_gethash(129, 6));
+	if_setmodel(8462, if_gethash(129, 7));
+}
+if (load_varpbit(846) == 2) {
+	if_setmodel(8464, if_gethash(129, 8));
+	if_setmodel(8465, if_gethash(129, 9));
+	if_setmodel(8504, if_gethash(129, 30));
+}
+else if (load_varpbit(846) == 1) {
+	if_setmodel(8463, if_gethash(129, 8));
+	if_setmodel(8466, if_gethash(129, 9));
+	if_setmodel(8503, if_gethash(129, 30));
+}
+else {
+	if_setmodel(-1, if_gethash(129, 30));
+	if_setmodel(8464, if_gethash(129, 8));
+	if_setmodel(8466, if_gethash(129, 9));
+}
+if (load_varpbit(847) == 2) {
+	if_setmodel(8468, if_gethash(129, 10));
+	if_setmodel(8469, if_gethash(129, 11));
+	if_setmodel(8506, if_gethash(129, 31));
+}
+else if (load_varpbit(847) == 1) {
+	if_setmodel(8467, if_gethash(129, 10));
+	if_setmodel(8470, if_gethash(129, 11));
+	if_setmodel(8505, if_gethash(129, 31));
+}
+else {
+	if_setmodel(-1, if_gethash(129, 31));
+	if_setmodel(8468, if_gethash(129, 10));
+	if_setmodel(8470, if_gethash(129, 11));
+}
+if (load_varpbit(848) == 2) {
+	if_setmodel(8472, if_gethash(129, 12));
+	if_setmodel(8473, if_gethash(129, 13));
+	if_setmodel(8508, if_gethash(129, 32));
+}
+else if (load_varpbit(848) == 1) {
+	if_setmodel(8471, if_gethash(129, 12));
+	if_setmodel(8474, if_gethash(129, 13));
+	if_setmodel(8507, if_gethash(129, 32));
+}
+else {
+	if_setmodel(-1, if_gethash(129, 32));
+	if_setmodel(8472, if_gethash(129, 12));
+	if_setmodel(8474, if_gethash(129, 13));
+}
+if (load_varpbit(849) == 2) {
+	if_setmodel(8476, if_gethash(129, 14));
+	if_setmodel(8477, if_gethash(129, 15));
+	if_setmodel(8510, if_gethash(129, 33));
+}
+else if (load_varpbit(849) == 1) {
+	if_setmodel(8475, if_gethash(129, 14));
+	if_setmodel(8478, if_gethash(129, 15));
+	if_setmodel(8509, if_gethash(129, 33));
+}
+else {
+	if_setmodel(-1, if_gethash(129, 33));
+	if_setmodel(8476, if_gethash(129, 14));
+	if_setmodel(8478, if_gethash(129, 15));
+}
+if (load_varpbit(850) == 2) {
+	if_setmodel(8480, if_gethash(129, 16));
+	if_setmodel(8481, if_gethash(129, 17));
+	if_setmodel(8512, if_gethash(129, 34));
+}
+else if (load_varpbit(850) == 1) {
+	if_setmodel(8479, if_gethash(129, 16));
+	if_setmodel(8482, if_gethash(129, 17));
+	if_setmodel(8511, if_gethash(129, 34));
+}
+else {
+	if_setmodel(-1, if_gethash(129, 34));
+	if_setmodel(8480, if_gethash(129, 16));
+	if_setmodel(8482, if_gethash(129, 17));
+}
+if (load_varpbit(851) == 2) {
+	if_setmodel(8484, if_gethash(129, 18));
+	if_setmodel(8485, if_gethash(129, 19));
+	if_setmodel(8514, if_gethash(129, 35));
+}
+else if (load_varpbit(851) == 1) {
+	if_setmodel(8483, if_gethash(129, 18));
+	if_setmodel(8486, if_gethash(129, 19));
+	if_setmodel(8513, if_gethash(129, 35));
+}
+else {
+	if_setmodel(-1, if_gethash(129, 35));
+	if_setmodel(8484, if_gethash(129, 18));
+	if_setmodel(8486, if_gethash(129, 19));
+}
+if (load_varpbit(852) == 2) {
+	if_setmodel(8488, if_gethash(129, 20));
+	if_setmodel(8489, if_gethash(129, 21));
+	if_setmodel(8516, if_gethash(129, 36));
+}
+else if (load_varpbit(852) == 1) {
+	if_setmodel(8487, if_gethash(129, 20));
+	if_setmodel(8490, if_gethash(129, 21));
+	if_setmodel(8515, if_gethash(129, 36));
+}
+else {
+	if_setmodel(-1, if_gethash(129, 36));
+	if_setmodel(8488, if_gethash(129, 20));
+	if_setmodel(8490, if_gethash(129, 21));
+}
+if (load_varpbit(853) == 2) {
+	if_setmodel(8492, if_gethash(129, 22));
+	if_setmodel(8493, if_gethash(129, 23));
+	if_setmodel(8518, if_gethash(129, 37));
+}
+else if (load_varpbit(853) == 1) {
+	if_setmodel(8491, if_gethash(129, 22));
+	if_setmodel(8494, if_gethash(129, 23));
+	if_setmodel(8517, if_gethash(129, 37));
+}
+else {
+	if_setmodel(-1, if_gethash(129, 37));
+	if_setmodel(8492, if_gethash(129, 22));
+	if_setmodel(8494, if_gethash(129, 23));
+}
+return;

@@ -1,0 +1,116 @@
+//script5065(5065)(int arg0)(void)
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int stack_dump0;
+int stack_dump1;
+ivar1 = if_getheight(if_gethash(1111, 65));
+if_setsize(0, ivar1, 1, 0, 72810562)
+if_setsize(0, ivar1, 1, 0, 72810563)
+if_setsize(0, ivar1, 1, 0, 72810564)
+ivar2 = if_getheight(if_gethash(1111, 52));
+ivar3 = 0;
+ivar4 = 0;
+ivar5 = 0;
+switch (load_varc(768)) {
+	default:
+		store_varc(768, 1)
+		ivar3 = calc(calc(3 * ivar1) - ivar2);
+		ivar4 = calc(calc(2 * ivar1) - ivar2);
+		ivar5 = calc(ivar1 - ivar2);
+		script5056(72810561, 1);
+		script5056(72810562, 0);
+		script5056(72810563, 0);
+		script5056(72810564, 0);
+		break;
+	case 2:
+		ivar3 = ivar1;
+		ivar4 = calc(calc(2 * ivar1) - ivar2);
+		ivar5 = calc(ivar1 - ivar2);
+		script5056(72810561, 0);
+		script5056(72810562, 1);
+		script5056(72810563, 0);
+		script5056(72810564, 0);
+		break;
+	case 3:
+		ivar3 = ivar1;
+		ivar4 = calc(2 * ivar1);
+		ivar5 = calc(ivar1 - ivar2);
+		script5056(72810561, 0);
+		script5056(72810562, 0);
+		script5056(72810563, 1);
+		script5056(72810564, 0);
+		break;
+	case 4:
+		ivar3 = ivar1;
+		ivar4 = calc(2 * ivar1);
+		ivar5 = calc(3 * ivar1);
+		script5056(72810561, 0);
+		script5056(72810562, 0);
+		script5056(72810563, 0);
+		script5056(72810564, 1);
+}
+ivar6 = 0;
+ivar7 = 0;
+ivar8 = 0;
+ivar9 = 0;
+ivar10 = 0;
+if (arg0 == 1) {
+	stack_dump0 = ivar3;
+	stack_dump1 = ivar4;
+	ivar8 = ivar5;
+	stack_dump0 = stack_dump0;
+	ivar7 = stack_dump1;
+	ivar6 = stack_dump0;
+}
+else {
+	ivar9 = if_gety(if_gethash(1111, 66));
+	if (ivar9 != ivar3) {
+		ivar6 = calc(ivar9 + max(min(calc(ivar9 - ivar3), 3), -3));
+		ivar10 = 1;
+	}
+	else 
+		ivar6 = ivar3;
+	ivar9 = if_gety(if_gethash(1111, 67));
+	if (ivar9 != ivar4) {
+		ivar7 = calc(ivar9 + max(min(calc(ivar9 - ivar4), 3), -3));
+		ivar10 = 1;
+	}
+	else 
+		ivar7 = ivar4;
+	ivar9 = if_gety(if_gethash(1111, 68));
+	if (ivar9 != ivar5) {
+		ivar8 = calc(ivar9 + max(min(calc(ivar9 - ivar5), 3), -3));
+		ivar10 = 1;
+	}
+	else 
+		ivar8 = ivar5;
+}
+if_setposition(0, 0, 1, 0, 72810561)
+if_setposition(0, ivar6, 1, 0, 72810562)
+if_setposition(0, ivar7, 1, 0, 72810563)
+if_setposition(0, ivar8, 1, 0, 72810564)
+if_setposition(0, ivar1, 1, 0, 72810549)
+if_setposition(0, calc(ivar6 + ivar1), 1, 0, 72810552)
+if_setposition(0, calc(ivar7 + ivar1), 1, 0, 72810555)
+if_setposition(0, calc(ivar8 + ivar1), 1, 0, 72810558)
+if_setsize(0, calc(ivar1 - ivar6), 1, 0, 72810549)
+if_setsize(0, calc(calc(ivar6 + ivar1) - ivar7), 1, 0, 72810552)
+if_setsize(0, calc(calc(ivar7 + ivar1) - ivar8), 1, 0, 72810555)
+if_setsize(0, calc(ivar8 + ivar1), 1, 1, 72810558)
+script72(72810551, 72810550, if_getscrolly(72810550));
+script72(72810554, 72810553, if_getscrolly(72810553));
+script72(72810557, 72810556, if_getscrolly(72810556));
+script72(72810560, 72810559, if_getscrolly(72810559));
+if (ivar10 == 1) 
+	instr6342(if_gethash(1111, 52), 5064, "i");
+else 
+	instr6342(if_gethash(1111, 52), None, "");
+return;

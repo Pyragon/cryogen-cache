@@ -1,0 +1,49 @@
+//script5328(5328)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+ivar0 = 0;
+ivar1 = 1;
+ivar2 = calc(8 / calc(calc(ivar1 * calc(1 - 8)) - if_getwidth(if_gethash(951, 24))));
+ivar3 = calc(ivar1 - calc(8 * calc(ivar2 + ivar1)));
+if_setsize(calc(ivar3 + 12), if_getheight(if_gethash(951, 2)), 0, 0, 62324738)
+cc_deleteall(62324760)
+ivar4 = 0;
+while (ivar0 < 8) {
+	cc_create(if_gethash(951, 24), 5, calc(6 * ivar0));
+	cc_setgraphic(5610)
+	cc_setsize(6, 0, 0, 1);
+	cc_setposition(ivar4, 0, 0, 0);
+	cc_setcolor(5460819);
+	cc_create(if_gethash(951, 24), 5, calc(calc(6 * ivar0) + 1));
+	cc_setgraphic(5611)
+	cc_setsize(calc(12 - ivar2), 0, 0, 1);
+	cc_setposition(calc(ivar4 + 6), 0, 0, 0);
+	cc_sethide(0);
+	cc_setcolor(5460819);
+	cc_create(if_gethash(951, 24), 5, calc(calc(6 * ivar0) + 2));
+	cc_setgraphic(5612)
+	cc_setsize(6, 0, 0, 1);
+	cc_setposition(calc(6 - calc(ivar4 + ivar2)), 0, 0, 0);
+	cc_setcolor(5460819);
+	cc_create(if_gethash(951, 24), 5, calc(calc(6 * ivar0) + 3));
+	cc_setgraphic(5610)
+	cc_setsize(6, 0, 0, 1);
+	cc_setposition(ivar4, 0, 0, 0);
+	cc_create(if_gethash(951, 24), 5, calc(calc(6 * ivar0) + 4));
+	cc_setgraphic(5611)
+	cc_setsize(calc(12 - ivar2), 0, 0, 1);
+	cc_setposition(calc(ivar4 + 6), 0, 0, 0);
+	cc_sethide(0);
+	cc_create(if_gethash(951, 24), 5, calc(calc(6 * ivar0) + 5));
+	cc_setgraphic(5612)
+	cc_setsize(6, 0, 0, 1);
+	cc_setposition(calc(6 - calc(ivar4 + ivar2)), 0, 0, 0);
+	ivar4 = calc(calc(ivar4 + ivar1) + ivar2);
+	ivar0 = calc(ivar0 + 1);
+}
+store_varc(1657, -1)
+store_varc(1658, 0)
+return;

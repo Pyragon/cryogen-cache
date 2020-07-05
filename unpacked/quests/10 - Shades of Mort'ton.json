@@ -1,0 +1,17 @@
+{
+  "id": 10,
+  "name": "Shades of Mort'ton",
+  "members": false,
+  "varValues": [
+    [
+      339,
+      5,
+      85
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 3,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

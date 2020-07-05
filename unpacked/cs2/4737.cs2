@@ -1,0 +1,6 @@
+//script4737(4737)(int arg0)(void)
+if (cc_find(if_gethash(1144, 0), 0) == 1) 
+	script4738(74973184, 74973185);
+if_sethide(if_gethash(1144, 39), 1)
+if_sethide(if_gethash(1144, 9), 1)
+return;

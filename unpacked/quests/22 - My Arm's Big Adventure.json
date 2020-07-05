@@ -1,0 +1,17 @@
+{
+  "id": 22,
+  "name": "My Arm's Big Adventure",
+  "members": false,
+  "varbitValues": [
+    [
+      2790,
+      10,
+      320
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

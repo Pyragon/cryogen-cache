@@ -1,0 +1,388 @@
+//script5355(5355)(int arg0, int arg1)(void)
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+string svar0;
+string stack_dump0;
+int stack_dump1;
+flow_0:
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = 0;
+	ivar6 = 0;
+	ivar7 = 0;
+	ivar8 = 0;
+	ivar9 = 0;
+	ivar10 = 0;
+	ivar11 = -1;
+	svar0 = struct_param(arg0, 1930);
+	IF (struct_param(arg0, 1937) == 4) 
+		GOTO	flow_1
+	GOTO	flow_9
+flow_1:
+	IF (ivar9 < enum_getoutputcount(5184) && ivar10 == 0) 
+		GOTO	flow_3
+	GOTO	flow_9
+flow_3:
+	if (enum(ivar9, 5184, 74, 105) == arg0) {
+		if (gender() == 1) 
+			svar0 = enum(ivar9, 5187, 115, 105);
+		else 
+			svar0 = enum(ivar9, 5186, 115, 105);
+		ivar10 = 1;
+	}
+	ivar9 = calc(ivar9 + 1);
+	GOTO	flow_1
+flow_9:
+	if_settext(if_gethash(1143, 45), svar0);
+	IF (arg1 == 1) 
+		GOTO	flow_10
+	GOTO	flow_11
+flow_10:
+	if_sethide(if_gethash(1143, 46), 1)
+	if_sethide(if_gethash(1143, 47), 1)
+	if_sethide(if_gethash(1143, 39), 1)
+	if_setposition(0, 186, 1, 0, 74907696)
+	if_setposition(0, 228, 1, 0, 74907700)
+	if_settext(if_gethash(1143, 139), "Reclaim");
+	stack_dump0 = "Reclaim";
+	stack_dump1 = instr6213(1, if_gethash(1143, 139));
+	GOTO	flow_14
+flow_11:
+	if_sethide(if_gethash(1143, 46), 0)
+	if_sethide(if_gethash(1143, 47), 0)
+	if_sethide(if_gethash(1143, 39), 0)
+	if_setposition(0, 239, 1, 0, 74907696)
+	if_setposition(0, 266, 1, 0, 74907700)
+	if_settext(if_gethash(1143, 139), "Buy");
+	if_settext(if_gethash(1143, 46), append("My Points: ", tostring_localized(load_varc(1648), 1)));
+	stack_dump0 = "Buy";
+	stack_dump1 = instr6213(1, if_gethash(1143, 139));
+	IF (struct_param(arg0, 1933) > 0) 
+		GOTO	flow_12
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	GOTO	flow_13
+flow_12:
+	if_settext(if_gethash(1143, 47), append("Item Cost: ", tostring_localized(struct_param(arg0, 1933), 1)));
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	GOTO	flow_14
+flow_13:
+	if_settext(if_gethash(1143, 47), append("Item Cost: ", tostring_localized(struct_param(arg0, 1932), 1)));
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+flow_14:
+	if_sethide(if_gethash(1143, 48), 0)
+	if_sethide(if_gethash(1143, 49), 0)
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	IF (struct_param(arg0, 1950) != -1) 
+		GOTO	flow_15
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	GOTO	flow_16
+flow_15:
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	ivar2 = 5;
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	GOTO	flow_23
+flow_16:
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	IF (struct_param(arg0, 1949) != -1) 
+		GOTO	flow_17
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	GOTO	flow_18
+flow_17:
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	ivar2 = 4;
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	GOTO	flow_23
+flow_18:
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	IF (struct_param(arg0, 1948) != -1) 
+		GOTO	flow_19
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	GOTO	flow_20
+flow_19:
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	ivar2 = 3;
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	GOTO	flow_23
+flow_20:
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	IF (struct_param(arg0, 1947) != -1) 
+		GOTO	flow_21
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	GOTO	flow_22
+flow_21:
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	ivar2 = 2;
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	GOTO	flow_23
+flow_22:
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	ivar2 = 1;
+	if_sethide(if_gethash(1143, 48), 1)
+	if_sethide(if_gethash(1143, 49), 1)
+	if_setposition(0, 260, 1, 0, 74907700)
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+flow_23:
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	ivar6 = 63;
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	ivar7 = 57;
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	ivar5 = calc(calc(ivar2 + 1) / calc(calc(ivar6 * ivar2) - if_getwidth(if_gethash(1143, 52))));
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	ivar8 = ivar5;
+	cc_deleteall(74907700)
+	cc_deleteall(74907688)
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	ivar9 = 0;
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	while (1) {
+		flow_24:
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			IF (ivar9 < ivar2) 
+				GOTO	flow_25
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			break;
+		flow_25:
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			switch (ivar9) {
+				default:
+					stack_dump1 = stack_dump1;
+					stack_dump0 = stack_dump0;
+					break;
+				case 0:
+					stack_dump1 = stack_dump1;
+					stack_dump0 = stack_dump0;
+					ivar11 = arg0;
+					stack_dump1 = stack_dump1;
+					stack_dump0 = stack_dump0;
+					break;
+				case 1:
+					stack_dump1 = stack_dump1;
+					stack_dump0 = stack_dump0;
+					ivar11 = struct_param(arg0, 1947);
+					stack_dump1 = stack_dump1;
+					stack_dump0 = stack_dump0;
+					break;
+				case 2:
+					stack_dump1 = stack_dump1;
+					stack_dump0 = stack_dump0;
+					ivar11 = struct_param(arg0, 1948);
+					stack_dump1 = stack_dump1;
+					stack_dump0 = stack_dump0;
+					break;
+				case 3:
+					stack_dump1 = stack_dump1;
+					stack_dump0 = stack_dump0;
+					ivar11 = struct_param(arg0, 1949);
+					stack_dump1 = stack_dump1;
+					stack_dump0 = stack_dump0;
+					break;
+				case 4:
+					stack_dump1 = stack_dump1;
+					stack_dump0 = stack_dump0;
+					ivar11 = struct_param(arg0, 1950);
+					stack_dump1 = stack_dump1;
+					stack_dump0 = stack_dump0;
+			}
+			cc_create(if_gethash(1143, 52), 3, ivar3);
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			ivar3 = calc(ivar3 + 1);
+			cc_setcolor(0);
+			cc_setsize(ivar6, ivar7, 0, 0);
+			cc_setposition(ivar8, 0, 0, 0);
+			cc_settrans(100)
+			cc_setfill(true);
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			IF (ivar2 > 1) 
+				GOTO	flow_33
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			GOTO	flow_34
+		flow_33:
+			cc_create(if_gethash(1143, 40), 4, ivar4);
+			cc_setsize(ivar6, ivar7, 0, 0);
+			cc_setposition(ivar8, 0, 0, 0);
+			cc_setop(1, "Select");
+			instr6687(5358, "iI", ivar4, 74907700);
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			ivar4 = calc(ivar4 + 1);
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+		flow_34:
+			cc_create(if_gethash(1143, 52), 5, ivar3);
+			cc_setgraphic(7766)
+			cc_setsize(ivar6, ivar7, 0, 0);
+			cc_setposition(ivar8, 0, 0, 0);
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			IF (ivar2 > 1) 
+				GOTO	flow_35
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			GOTO	flow_36
+		flow_35:
+			instr6091(5356, "iIJ", ivar3, 74907700, ivar11);
+			instr6092(5357, "iI", ivar3, 74907700);
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+		flow_36:
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			ivar3 = calc(ivar3 + 1);
+			cc_create(if_gethash(1143, 52), 5, ivar3);
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			ivar3 = calc(ivar3 + 1);
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			IF (struct_param(ivar11, 1937) == 1) 
+				GOTO	flow_37
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			GOTO	flow_38
+		flow_37:
+			cc_setsize(36, 32, 0, 0);
+			cc_setposition(calc(calc(ivar8 + calc(2 / calc(cc_getwidth() - ivar6))) + 2), calc(calc(2 / calc(cc_getheight() - ivar7)) + 1), 0, 0);
+			cc_setitem(struct_param(ivar11, 1935), -1);
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			GOTO	flow_48
+		flow_38:
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			IF (struct_param(ivar11, 1937) == 9) 
+				GOTO	flow_39
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			GOTO	flow_40
+		flow_39:
+			cc_setsize(36, 32, 0, 0);
+			cc_setposition(calc(calc(ivar8 + calc(2 / calc(cc_getwidth() - ivar6))) + 2), calc(calc(2 / calc(cc_getheight() - ivar7)) + 1), 0, 0);
+			cc_setitem(struct_param(ivar11, 1935), -1);
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			GOTO	flow_48
+		flow_40:
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			IF (struct_param(ivar11, 1937) == 2) 
+				GOTO	flow_41
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			GOTO	flow_42
+		flow_41:
+			cc_setgraphic(struct_param(ivar11, 1420))
+			cc_setsize(48, 48, 0, 0);
+			cc_setposition(calc(ivar8 + calc(2 / calc(cc_getwidth() - ivar6))), calc(2 / calc(cc_getheight() - ivar7)), 0, 0);
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			GOTO	flow_48
+		flow_42:
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			IF (struct_param(ivar11, 1937) == 3) 
+				GOTO	flow_43
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			GOTO	flow_44
+		flow_43:
+			cc_setgraphic(struct_param(ivar11, 1441))
+			cc_setsize(40, 50, 0, 0);
+			cc_setposition(calc(ivar8 + calc(2 / calc(cc_getwidth() - ivar6))), calc(2 / calc(cc_getheight() - ivar7)), 0, 0);
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			GOTO	flow_48
+		flow_44:
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			IF (struct_param(ivar11, 1937) == 4) 
+				GOTO	flow_45
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			GOTO	flow_46
+		flow_45:
+			cc_setgraphic(7883)
+			cc_setsize(42, 42, 0, 0);
+			cc_setposition(calc(calc(ivar8 + calc(2 / calc(cc_getwidth() - ivar6))) + 1), calc(calc(2 / calc(cc_getheight() - ivar7)) + 1), 0, 0);
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			GOTO	flow_48
+		flow_46:
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			IF (struct_param(ivar11, 1937) == 5) 
+				GOTO	flow_47
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			GOTO	flow_48
+		flow_47:
+			cc_setsize(36, 32, 0, 0);
+			cc_setposition(calc(ivar8 + calc(2 / calc(cc_getwidth() - ivar6))), calc(2 / calc(cc_getheight() - ivar7)), 0, 0);
+			cc_setitem(struct_param(ivar11, 1935), -1);
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+		flow_48:
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			ivar8 = calc(calc(ivar8 + ivar6) + ivar5);
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+			ivar9 = calc(ivar9 + 1);
+			stack_dump1 = stack_dump1;
+			stack_dump0 = stack_dump0;
+	}
+	/* 
+		AT PrimitiveInstruction(opcode=184, value=0, type=int)
+		java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, -1, 0, true
+			at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:446)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */

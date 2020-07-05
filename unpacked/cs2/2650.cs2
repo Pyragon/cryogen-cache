@@ -1,0 +1,7 @@
+//script2650(2650)()(void)
+int ivar0;
+ivar0 = 1093;
+if (gender() == 1) 
+	ivar0 = 3872;
+if_setsize(stringwidth(enum(load_varp(1442), ivar0, 115, 105) + chat_playername() + "<img=3>" + ":", 495), if_getheight(if_gethash(137, 53)), 0, 0, 8978485)
+return;

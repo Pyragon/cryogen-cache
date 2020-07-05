@@ -1,0 +1,3 @@
+//script2320(2320)()(void)
+if_setmodelanim(1378, if_gethash(305, 2));
+return;

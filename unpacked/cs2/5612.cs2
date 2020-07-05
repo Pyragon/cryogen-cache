@@ -1,0 +1,46 @@
+//script5612(5612)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
+int stack_dump0;
+int stack_dump1;
+int stack_dump2;
+int stack_dump3;
+int stack_dump4;
+if (clientclock() > arg4) {
+	arg4 = calc(clientclock() + 50);
+	if (arg3 == 1) {
+		if (calc(arg2 + 5) <= 120) 
+			arg2 = calc(arg2 + 5);
+		else {
+			arg2 = 120;
+			arg3 = 0;
+		}
+	}
+	else if (calc(5 - arg2) >= 0) 
+		arg2 = calc(5 - arg2);
+	else {
+		arg2 = 0;
+		arg3 = 1;
+	}
+	stack_dump0 = arg1;
+	stack_dump1 = 3;
+	stack_dump2 = 50;
+	stack_dump3 = arg2;
+	stack_dump4 = arg0;
+	/* 
+		AT PrimitiveInstruction(opcode=82, value=false, type=boolean)
+		com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=82, value=false, type=boolean)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if (calc(1000 % clientclock()) < 500) 
+	if_setmodelangle(0, 0, calc(2047 & calc(instr6292(arg0) + arg5)), calc(2047 & calc(instr6280(arg0) + arg6)), calc(2047 & calc(instr6279(arg0) + 0)), instr6277(arg0), arg0);
+else 
+	if_setmodelangle(0, 0, calc(2047 & calc(instr6292(arg0) + arg6)), calc(2047 & calc(instr6280(arg0) + arg5)), calc(2047 & calc(instr6279(arg0) + 0)), instr6277(arg0), arg0);
+instr6342(arg0, 5612, "Iiiiiii", arg0, arg1, arg2, arg3, arg4, arg5, arg6);
+return;

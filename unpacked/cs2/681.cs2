@@ -1,0 +1,29 @@
+//script681(681)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+cc_deleteall(arg0)
+if_setscrollpos(0, 0, arg0);
+cc_deleteall(arg1)
+cc_deleteall(arg2)
+if_settext(arg4, "Gravestones");
+if_settext(arg5, "Please make your selection from the list.");
+if_settext(arg3, "");
+script682(arg0, 0, 0, arg2, arg3, arg4, arg5);
+ivar6 = 1;
+ivar7 = 0;
+while (ivar7 <= 26) {
+	if (calc(ivar7 & 1 << load_varpbit(4191)) == 1) {
+		script682(arg0, calc(ivar7 + 1), ivar6, arg2, arg3, arg4, arg5);
+		ivar6 = calc(ivar6 + 1);
+	}
+	ivar7 = calc(ivar7 + 1);
+}
+ivar8 = calc(2 / calc(164 - if_getwidth(arg0)));
+ivar9 = calc(ivar8 + calc(ivar6 * calc(146 + ivar8)));
+if (ivar9 > if_getheight(arg0)) {
+	instr6185(0, ivar9, arg0)
+	script31(arg1, arg0, 792, 789, 790, 791, 773, 788);
+}
+return;

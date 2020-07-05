@@ -1,0 +1,46 @@
+//script5507(5507)(int arg0, int arg1, int arg2, int arg3)(void)
+int ivar4;
+int ivar5;
+ivar4 = calc(if_getheight(arg1) - if_getscrollheight(arg1));
+if (ivar4 == 0) 
+	ivar4 = 1;
+if (arg2 < 0) 
+	arg2 = 0;
+if (arg2 > ivar4) 
+	arg2 = ivar4;
+if_setscrollpos(0, arg2, arg1);
+switch (arg1) {
+	case 8978489:
+		store_varc(7, arg2)
+		break;
+	case 19660815:
+		store_varc(109, arg2)
+		break;
+	case 48168973:
+		store_varc(121, arg2)
+		break;
+	case 49938527:
+		script705(load_varpbit(4893), arg2);
+		break;
+	case 59572276:
+		store_varc(1122, arg2)
+		break;
+	case 59768852:
+		store_varc(1124, arg2)
+		break;
+	case 12255233:
+		store_varc(88, arg2)
+		break;
+	case 73007109:
+		script5082(arg1);
+}
+ivar5 = 0;
+if (arg3 == 1) {
+	ivar5 = calc(calc(cc_getheight() + 10) - calc(32 - if_getheight(arg0)));
+	cc_setposition(0, calc(21 + scale(arg2, ivar4, ivar5)), 0, 0);
+	if (cc_find(arg0, 4) == 1) 
+		cc_setposition(0, calc(5 - cc_gety()), 0, 0);
+	if (cc_find(arg0, 5) == 1) 
+		cc_setposition(0, calc(cc_gety() + cc_getheight()), 0, 0);
+}
+return;

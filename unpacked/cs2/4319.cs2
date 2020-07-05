@@ -1,0 +1,59 @@
+//script4319(4319)(int arg0, int arg1)(void)
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int stack_dump0;
+int stack_dump1;
+ivar2 = 0;
+ivar3 = 0;
+ivar4 = 71827508;
+ivar5 = 71827507;
+ivar6 = 71827532;
+ivar7 = 71827607;
+ivar8 = 71827503;
+ivar9 = 71827534;
+if (arg0 > 0) 
+	ivar2 = calc(1 - arg0);
+else {
+	ivar2 = 0;
+	ivar3 = if_getheight(ivar4);
+	if (arg1 == 0) {
+		ivar3 = calc(ivar3 + 6);
+		stack_dump0 = 0;
+		stack_dump1 = ivar6;
+		/* 
+			AT PrimitiveInstruction(opcode=503, value=false, type=boolean)
+			com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=503, value=false, type=boolean)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	if_sethide(if_gethash(1096, 70), 1)
+	ivar3 = calc(6 - ivar3);
+	stack_dump0 = 1;
+	stack_dump1 = ivar6;
+	/* 
+		AT PrimitiveInstruction(opcode=503, value=false, type=boolean)
+		com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=503, value=false, type=boolean)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+return;

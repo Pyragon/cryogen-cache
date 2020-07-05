@@ -1,0 +1,17 @@
+{
+  "id": 23,
+  "name": "Catapult Construction",
+  "members": false,
+  "varbitValues": [
+    [
+      4396,
+      2,
+      60
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

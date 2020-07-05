@@ -1,0 +1,15 @@
+//script1819(1819)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+if_settext(arg0, "Draw!");
+if_setposition(75, 89, 0, 0, arg0)
+if_settext(arg1, "It's a draw.");
+if_setposition(79, 130, 0, 0, arg1)
+if_setposition(79, 180, 0, 0, arg2)
+if_setsize(175, 125, 0, 0, arg2)
+if_setposition(52, 118, 0, 0, arg3)
+if_sethide(arg0, 0)
+if_sethide(arg1, 0)
+if_sethide(arg2, 0)
+if_sethide(arg3, 0)
+if_sethide(arg4, 0)
+if_sethide(arg5, 1)
+return;

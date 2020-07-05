@@ -1,0 +1,31 @@
+//script2517(2517)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int stack_dump0;
+ivar0 = 0;
+ivar1 = 0;
+ivar2 = calc(enum(1, 2454, 105, 105) * load_varc(847));
+ivar3 = calc(enum(2, 2454, 105, 105) * load_varc(848));
+ivar4 = calc(enum(3, 2454, 105, 105) * load_varc(849));
+ivar5 = calc(enum(4, 2454, 105, 105) * load_varc(850));
+ivar6 = calc(enum(5, 2454, 105, 105) * load_varc(851));
+script46(ivar2, ",");
+stack_dump0 = 42860555;
+/* 
+	AT PrimitiveInstruction(opcode=724, value=0, type=int)
+	java.lang.RuntimeException: Stack underflow
+		at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:160)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

@@ -1,0 +1,84 @@
+//script1581(1581)(int arg0)(void)
+int ivar1;
+int ivar2;
+int ivar3;
+string svar0;
+string svar1;
+svar0 = "";
+ivar1 = 494;
+ivar2 = 32243761;
+switch (arg0) {
+	case 32243727:
+	case 31981571:
+	case 32309275:
+		svar0 = load_varc_string(212);
+		break;
+	case 31981576:
+	case 32309276:
+	case 32243728:
+		svar0 = load_varc_string(213);
+		break;
+	case 31981581:
+	case 32309277:
+	case 32243729:
+		svar0 = load_varc_string(214);
+		break;
+	case 32309278:
+	case 31981586:
+	case 32243730:
+		svar0 = load_varc_string(215);
+		break;
+	case 32309279:
+	case 32243731:
+		svar0 = load_varc_string(216);
+}
+switch (arg0) {
+	case 32309277:
+	case 32309276:
+	case 32309279:
+	case 32309278:
+	case 32309275:
+		ivar1 = 495;
+		ivar2 = 32309304;
+		break;
+	case 31981576:
+	case 31981581:
+	case 31981586:
+	case 31981571:
+		ivar1 = 495;
+		ivar2 = 31981595;
+}
+svar1 = svar0;
+ivar3 = if_getwidth(arg0);
+if (paramwidth(2147483647, ivar1, svar1 + " ") > ivar3) {
+	while (paramwidth(2147483647, ivar1, svar1 + "... ") > ivar3) 
+		svar1 = substring(0, calc(1 - string_length(svar1)), svar1);
+	if_setonmouseover(arg0, 38, "IIsii", -2147483645, ivar2, svar0, 25, 5000);
+	/* 
+		AT PrimitiveInstruction(opcode=600, value=0, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:148)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if_setonmouseover(arg0, None, "");
+/* 
+	AT PrimitiveInstruction(opcode=600, value=0, type=int)
+	java.lang.RuntimeException: Stack underflow
+		at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:148)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

@@ -1,0 +1,25 @@
+//script1809(1809)(int arg0, int arg1, int arg2)(void)
+string svar0;
+svar0 = "";
+if (string_length(load_varc_string(38)) > 0) {
+	script1814(load_varc_string(38));
+	/* 
+		AT PrimitiveInstruction(opcode=356, value=0, type=int)
+		java.lang.RuntimeException: Stack underflow
+			at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:468)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if_settext(arg1, "");
+if_setsize(0, 15, 0, 0, arg1)
+store_varc(267, -1)
+store_varc(39, "")
+script1811(arg0, arg1, arg2);
+return;

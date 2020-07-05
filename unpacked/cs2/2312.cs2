@@ -1,0 +1,52 @@
+//script2312(2312)()(void)
+int ivar0;
+ivar0 = 0;
+while (ivar0 < 31) {
+	cc_create(if_gethash(137, 74), 4, ivar0);
+	cc_setsize(46, 20, 0, 0);
+	cc_setposition(4, calc(20 * ivar0), 0, 0);
+	cc_settextfont(496);
+	cc_settextalign(1, 1, 0);
+	cc_settext(to_string(calc(ivar0 + 1)));
+	cc_setcolor(16777215);
+	cc_setop(1, "Select");
+	instr6687(2316, "i");
+	instr6091(1356, "Iii", -2147483645, -2147483643, 65280);
+	instr6092(1356, "Iii", -2147483645, -2147483643, 16777215);
+	ivar0 = calc(ivar0 + 1);
+}
+instr6185(0, calc(20 * ivar0), 8978506)
+script31(8978507, 8978506, 792, 789, 790, 791, 773, 788);
+ivar0 = 0;
+while (ivar0 < 12) {
+	cc_create(if_gethash(137, 77), 4, ivar0);
+	cc_setsize(158, 20, 0, 0);
+	cc_setposition(4, calc(20 * ivar0), 0, 0);
+	cc_settextfont(496);
+	cc_settextalign(1, 1, 0);
+	cc_settext(enum(ivar0, 950, 115, 105));
+	cc_setcolor(16777215);
+	cc_setop(1, "Select");
+	instr6687(2334, "i");
+	instr6091(1356, "Iii", -2147483645, -2147483643, 65280);
+	instr6092(1356, "Iii", -2147483645, -2147483643, 16777215);
+	ivar0 = calc(ivar0 + 1);
+}
+instr6185(0, calc(20 * ivar0), 8978509)
+script31(8978510, 8978509, 792, 789, 790, 791, 773, 788);
+if_sethide(if_gethash(137, 74), 1)
+if_sethide(if_gethash(137, 73), 1)
+if_sethide(if_gethash(137, 75), 1)
+if_sethide(if_gethash(137, 77), 1)
+if_sethide(if_gethash(137, 76), 1)
+if_sethide(if_gethash(137, 78), 1)
+if_sethide(if_gethash(137, 80), 1)
+if_sethide(if_gethash(137, 81), 1)
+if_sethide(if_gethash(137, 79), 1)
+if_sethide(if_gethash(137, 67), 1)
+if_sethide(if_gethash(137, 68), 1)
+if_sethide(if_gethash(137, 69), 1)
+if_sethide(if_gethash(137, 70), 0)
+if_sethide(if_gethash(137, 71), 0)
+if_sethide(if_gethash(137, 72), 0)
+return;

@@ -1,0 +1,27 @@
+//script442(442)(int arg0)(void)
+if_setgraphic(1134, 66584600)
+if_setgraphic(1134, 66584601)
+if_setgraphic(1134, 66584602)
+if_setgraphic(1134, 66584603)
+if_setgraphic(1134, 66584604)
+if_setgraphic(1134, 66584605)
+switch (arg0) {
+	case 66584606:
+		if_setgraphic(1135, 66584600)
+		break;
+	case 66584607:
+		if_setgraphic(1135, 66584601)
+		break;
+	case 66584608:
+		if_setgraphic(1135, 66584602)
+		break;
+	case 66584609:
+		if_setgraphic(1135, 66584603)
+		break;
+	case 66584610:
+		if_setgraphic(1135, 66584604)
+		break;
+	case 66584611:
+		if_setgraphic(1135, 66584605)
+}
+return;

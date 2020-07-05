@@ -1,0 +1,7 @@
+//script839(839)()(void)
+sound_synth(4501, 1, 0);
+if (load_varpbit(4399) == 0) 
+	script841(1);
+else 
+	script841(0);
+return;

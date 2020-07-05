@@ -1,0 +1,18 @@
+{
+  "id": 184,
+  "name": "Partying is Such Sweet Sorrow",
+  "sortName": "Partying is Such Sweet Sorrow",
+  "members": false,
+  "varbitValues": [
+    [
+      8300,
+      1,
+      20
+    ]
+  ],
+  "type": "HOLIDAY",
+  "questpointRequirement": 0,
+  "questpointReward": 0,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

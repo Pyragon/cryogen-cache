@@ -1,0 +1,4 @@
+//script971(971)()(void)
+if (load_varpbit(4757) > 0) 
+	if_setgraphic(enum(load_varpbit(4757), 1478, 100, 105), 48496644)
+return;

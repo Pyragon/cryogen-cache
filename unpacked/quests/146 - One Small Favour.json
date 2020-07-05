@@ -1,0 +1,17 @@
+{
+  "id": 146,
+  "name": "One Small Favour",
+  "members": false,
+  "varValues": [
+    [
+      416,
+      5,
+      285
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

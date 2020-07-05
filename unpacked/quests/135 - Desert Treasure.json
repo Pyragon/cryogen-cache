@@ -1,0 +1,17 @@
+{
+  "id": 135,
+  "name": "Desert Treasure",
+  "members": false,
+  "varbitValues": [
+    [
+      358,
+      1,
+      15
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 3,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

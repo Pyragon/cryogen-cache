@@ -1,0 +1,4 @@
+//script5189(5189)(int arg0, int arg1)(void)
+script5186();
+script5190(arg0, arg1);
+return;

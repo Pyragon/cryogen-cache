@@ -1,0 +1,119 @@
+//script5580(5580)()(void)
+int ivar0;
+string svar0;
+string svar1;
+svar0 = "";
+svar1 = "";
+ivar0 = -1;
+if_sethide(if_gethash(1181, 67), 1)
+if_sethide(if_gethash(1181, 79), 1)
+if_sethide(if_gethash(1181, 91), 1)
+if_sethide(if_gethash(1181, 103), 1)
+if_sethide(if_gethash(1181, 115), 1)
+if_sethide(if_gethash(1181, 127), 1)
+if_sethide(if_gethash(1181, 139), 1)
+if_sethide(if_gethash(1181, 151), 1)
+if_sethide(if_gethash(1181, 222), 1)
+if_sethide(if_gethash(1181, 234), 1)
+if_sethide(if_gethash(1181, 245), 1)
+if_sethide(if_gethash(1181, 256), 1)
+if_sethide(if_gethash(1181, 267), 1)
+if_sethide(if_gethash(1181, 278), 1)
+switch (load_varpbit(10334)) {
+	case 0:
+	case -1:
+		svar0 = "Select an item to buy";
+		svar1 = "Select an item to buy";
+		ivar0 = -1;
+		break;
+	case 1:
+		svar0 = to_string(load_varpbit(10335)) + "x 1,200 Thieving XP";
+		svar1 = "1.2k Thieving XP (x" + to_string(load_varpbit(10335)) + ")";
+		ivar0 = calc(load_varpbit(10335) * 10);
+		if_sethide(if_gethash(1181, 67), 0)
+		break;
+	case 2:
+		svar0 = to_string(load_varpbit(10335)) + "x 12,000 Thieving XP";
+		svar1 = "12k Thieving XP (x" + to_string(load_varpbit(10335)) + ")";
+		ivar0 = calc(load_varpbit(10335) * 100);
+		if_sethide(if_gethash(1181, 79), 0)
+		break;
+	case 3:
+		svar0 = to_string(load_varpbit(10335)) + "x 120,000 Thieving XP";
+		svar1 = "120k Thieving XP (x" + to_string(load_varpbit(10335)) + ")";
+		ivar0 = calc(load_varpbit(10335) * 1000);
+		if_sethide(if_gethash(1181, 91), 0)
+		break;
+	case 4:
+		svar0 = to_string(load_varpbit(10335)) + "x 1.2M Thieving XP";
+		svar1 = "1.2M Thieving XP (x" + to_string(load_varpbit(10335)) + ")";
+		ivar0 = calc(load_varpbit(10335) * 10000);
+		if_sethide(if_gethash(1181, 103), 0)
+		break;
+	case 5:
+		svar0 = to_string(load_varpbit(10335)) + "x 950 Agility XP";
+		svar1 = "950 Agility XP (x" + to_string(load_varpbit(10335)) + ")";
+		ivar0 = calc(load_varpbit(10335) * 10);
+		if_sethide(if_gethash(1181, 115), 0)
+		break;
+	case 6:
+		svar0 = to_string(load_varpbit(10335)) + "x 9,500 Agility XP";
+		svar1 = "9.5k Agility XP (x" + to_string(load_varpbit(10335)) + ")";
+		ivar0 = calc(load_varpbit(10335) * 100);
+		if_sethide(if_gethash(1181, 127), 0)
+		break;
+	case 7:
+		svar0 = to_string(load_varpbit(10335)) + "x 95,000 Agility XP";
+		svar1 = "95k Agility XP (x" + to_string(load_varpbit(10335)) + ")";
+		ivar0 = calc(load_varpbit(10335) * 1000);
+		if_sethide(if_gethash(1181, 139), 0)
+		break;
+	case 8:
+		svar0 = to_string(load_varpbit(10335)) + "x 950,000 Agility XP";
+		svar1 = "950k Agility XP (x" + to_string(load_varpbit(10335)) + ")";
+		ivar0 = calc(load_varpbit(10335) * 10000);
+		if_sethide(if_gethash(1181, 151), 0)
+		break;
+	case 9:
+		svar0 = "Factory mask";
+		svar1 = "Factory mask";
+		ivar0 = 2250;
+		if_sethide(if_gethash(1181, 222), 0)
+		break;
+	case 10:
+		svar0 = "Factory body";
+		svar1 = "Factory body";
+		ivar0 = 3500;
+		if_sethide(if_gethash(1181, 234), 0)
+		break;
+	case 11:
+		svar0 = "Factory legs";
+		svar1 = "Factory legs";
+		ivar0 = 2750;
+		if_sethide(if_gethash(1181, 245), 0)
+		break;
+	case 12:
+		svar0 = "Factory gloves";
+		svar1 = "Factory gloves";
+		ivar0 = 1750;
+		if_sethide(if_gethash(1181, 256), 0)
+		break;
+	case 13:
+		svar0 = "Factory boots";
+		svar1 = "Factory boots";
+		ivar0 = 1750;
+		if_sethide(if_gethash(1181, 267), 0)
+		break;
+	case 14:
+		svar0 = "Rogues' Den multitool";
+		svar1 = "Vintage Rogues' Den multitool kit";
+		ivar0 = 35;
+		if_sethide(if_gethash(1181, 278), 0)
+		break;
+	default:
+		return;
+}
+if_settext(if_gethash(1181, 166), svar0);
+if_settext(if_gethash(1181, 6), "Buy " + svar0 + " for " + to_string(ivar0) + " points?");
+script5578(ivar0);
+return;

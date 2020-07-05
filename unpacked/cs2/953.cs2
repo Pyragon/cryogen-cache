@@ -1,0 +1,12 @@
+//script953(953)()(void)
+switch (load_varc(1400)) {
+	case 0:
+		if_setcolor(16757760, if_gethash(933, 326));
+		break;
+	case 1:
+		if_setcolor(65280, if_gethash(933, 326));
+		break;
+	case 2:
+		if_setcolor(16711680, if_gethash(933, 326));
+}
+return;

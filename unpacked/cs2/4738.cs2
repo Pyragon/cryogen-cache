@@ -1,0 +1,76 @@
+//script4738(4738)(int arg0, int arg1)(void)
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int stack_dump0;
+string stack_dump1;
+string stack_dump2;
+int stack_dump3;
+string stack_dump4;
+string stack_dump5;
+string stack_dump6;
+string stack_dump7;
+ivar2 = calc(4 / 36);
+ivar3 = 0;
+ivar4 = -1;
+ivar5 = 0;
+ivar6 = 0;
+ivar7 = 0;
+ivar8 = enum(load_varpbit(9903), 3879, 118, 105);
+ivar9 = 0;
+while (ivar3 < inv_size(ivar8)) {
+	if (cc_find(arg0, ivar3) == 1) {
+		ivar4 = inv_getitem(ivar8, ivar3);
+		ivar5 = inv_total(ivar8, ivar4);
+		if (ivar4 != -1) {
+			script4733(ivar3);
+			/* 
+				AT JumpInstruction(target=LabelInstruction(labelId=4))
+				java.lang.RuntimeException: Stack underflow
+					at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:182)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		cc_setsize(0, 0, 0, 0);
+		cc_setposition(0, 0, 0, 0);
+		cc_sethide(1);
+		instr6687(None, "");
+	}
+	ivar3 = calc(ivar3 + 1);
+}
+ivar10 = 0;
+if (ivar9 == 1) 
+	ivar10 = 1;
+stack_dump0 = ivar10;
+stack_dump1 = "Found ";
+stack_dump2 = "<col=ffff80>";
+stack_dump3 = to_string(ivar9);
+stack_dump4 = "</col>";
+stack_dump5 = " ";
+stack_dump6 = "item";
+stack_dump7 = "items";
+/* 
+	AT PrimitiveInstruction(opcode=15, value=false, type=boolean)
+	com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=15, value=false, type=boolean)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

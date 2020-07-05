@@ -1,0 +1,17 @@
+{
+  "id": 6,
+  "name": "Cook's Assistant",
+  "members": false,
+  "varValues": [
+    [
+      29,
+      1,
+      2
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 2374
+}

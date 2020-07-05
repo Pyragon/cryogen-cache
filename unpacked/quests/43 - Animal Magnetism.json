@@ -1,0 +1,17 @@
+{
+  "id": 43,
+  "name": "Animal Magnetism",
+  "members": false,
+  "varbitValues": [
+    [
+      3185,
+      10,
+      240
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

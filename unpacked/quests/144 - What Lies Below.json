@@ -1,0 +1,17 @@
+{
+  "id": 144,
+  "name": "What Lies Below",
+  "members": false,
+  "varbitValues": [
+    [
+      3523,
+      5,
+      150
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

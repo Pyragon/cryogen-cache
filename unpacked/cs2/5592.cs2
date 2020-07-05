@@ -1,0 +1,19 @@
+//script5592(5592)()(void)
+if_setcolor(13158600, if_gethash(1188, 3));
+if_setcolor(13158600, if_gethash(1188, 24));
+if_setcolor(13158600, if_gethash(1188, 29));
+if_setcolor(13158600, if_gethash(1188, 34));
+if_setcolor(13158600, if_gethash(1188, 39));
+if_setcolor(13158600, if_gethash(1188, 12));
+if_setcolor(13158600, if_gethash(1188, 25));
+if_setcolor(13158600, if_gethash(1188, 30));
+if_setcolor(13158600, if_gethash(1188, 35));
+if_setcolor(13158600, if_gethash(1188, 40));
+if_setsize(250, 30, 0, 0, 77856773)
+instr6342(if_gethash(1188, 11), 5594, "II", 77856779, 77856771);
+instr6342(if_gethash(1188, 13), 5594, "II", 77856781, 77856792);
+instr6342(if_gethash(1188, 14), 5594, "II", 77856782, 77856797);
+instr6342(if_gethash(1188, 15), 5594, "II", 77856783, 77856802);
+instr6342(if_gethash(1188, 16), 5594, "II", 77856784, 77856807);
+instr6248(if_gethash(1188, 4), 5593, "iz", -2147483640, -2147483639);
+return;

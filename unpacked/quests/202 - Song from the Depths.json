@@ -1,0 +1,17 @@
+{
+  "id": 202,
+  "name": "Song from the Depths",
+  "members": false,
+  "varbitValues": [
+    [
+      11169,
+      5,
+      75
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 10929
+}

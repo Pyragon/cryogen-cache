@@ -1,0 +1,50 @@
+//script674(674)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11)(void)
+int ivar12;
+int ivar13;
+int ivar14;
+int ivar15;
+cc_create(arg5, 3, arg6);
+cc_setposition(arg0, arg1, 0, 0);
+cc_setsize(arg2, arg3, 0, 0);
+cc_setcolor(0);
+cc_setfill(false);
+ivar12 = calc(arg0 + 1);
+ivar13 = calc(arg1 + 1);
+ivar14 = calc(2 - arg2);
+ivar15 = calc(2 - arg3);
+cc_create(arg5, 3, calc(arg6 + 1));
+cc_setposition(ivar12, ivar13, 0, 0);
+cc_setsize(ivar14, ivar15, 0, 0);
+cc_setcolor(3155232);
+cc_settrans(100)
+cc_setfill(true);
+cc_create(arg5, 3, calc(arg6 + 2));
+if (arg8 == 0) {
+	cc_setposition(calc(arg0 + 1), calc(arg1 + 1), 0, 0);
+	cc_settrans(0)
+	cc_setfill(true);
+	if (arg9 == 1) {
+		cc_setsize(ivar14, ivar15, 0, 0);
+		if (arg11 == arg10) 
+			cc_setcolor(4162078);
+		else 
+			cc_setcolor(9043984);
+	}
+	else {
+		cc_setsize(scale(arg11, arg10, ivar14), ivar15, 0, 0);
+		cc_setcolor(13011713);
+	}
+}
+cc_create(arg5, 3, calc(arg6 + 3));
+cc_setposition(ivar12, ivar13, 0, 0);
+cc_setsize(ivar14, 3, 0, 0);
+cc_setfill(true);
+cc_settrans(200)
+cc_setcolor(0);
+cc_create(arg5, 3, calc(arg6 + 4));
+cc_setposition(ivar12, calc(ivar13 + 3), 0, 0);
+cc_setsize(3, calc(3 - ivar15), 0, 0);
+cc_setfill(true);
+cc_settrans(200)
+cc_setcolor(0);
+return;

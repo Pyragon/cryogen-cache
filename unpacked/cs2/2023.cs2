@@ -1,0 +1,8 @@
+//script2023(2023)(int arg0, int arg1)(void)
+if (arg0 != 1) 
+	return;
+store_varc(8095, max(min(calc(load_varpbit(8095) + arg1), load_varpbit(8094)), 0))
+script2047();
+instr6342(if_gethash(905, 28), 2024, "i");
+if_sethide(if_gethash(905, 28), 0)
+return;

@@ -1,0 +1,4 @@
+//script904(904)()(void)
+if_setmodelangle(0, 0, 0, 0, 0, 400, if_gethash(717, 13));
+if_setposition(calc(if_getx(if_gethash(717, 13)) + 2), calc(if_gety(if_gethash(717, 13)) + 2), 0, 0, 46989325)
+return;

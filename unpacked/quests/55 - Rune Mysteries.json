@@ -1,0 +1,17 @@
+{
+  "id": 55,
+  "name": "Rune Mysteries",
+  "members": false,
+  "varValues": [
+    [
+      63,
+      1,
+      6
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 2408
+}

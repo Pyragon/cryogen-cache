@@ -1,0 +1,23 @@
+//script1405(1405)()(void)
+if (load_varpbit(61) == 1) {
+	if_settext(if_gethash(756, 10), "Draughts: Options");
+	script1406(49545219);
+}
+else if (load_varpbit(61) == 2) {
+	if_settext(if_gethash(756, 10), "Runelink: Options");
+	script1406(49545220);
+}
+else if (load_varpbit(61) == 3) {
+	if_settext(if_gethash(756, 10), "Runesquares: Options");
+	script1406(49545224);
+}
+else {
+	if (load_varpbit(61) == 4) {
+		if_settext(if_gethash(756, 10), "Runeversi: Options");
+		script1406(49545222);
+	}
+}
+script1407();
+script1408();
+script1409();
+return;

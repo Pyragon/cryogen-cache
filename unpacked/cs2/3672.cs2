@@ -1,0 +1,39 @@
+//script3672(3672)()(void)
+int ivar0;
+int ivar1;
+string svar0;
+string svar1;
+string svar2;
+string svar3;
+svar0 = enum(load_varc(1327), 3230, 115, 105);
+svar1 = enum(load_varc(1326), 3230, 115, 105);
+svar2 = enum(load_varc(1330), 3231, 115, 105);
+svar3 = to_string(load_varc(1325)) + "%";
+ivar0 = enum(load_varc(1328), 3233, 100, 105);
+ivar1 = enum(load_varc(1329), 3233, 100, 105);
+if_settext(if_gethash(1004, 72), svar0);
+if_setcolor(enum(load_varc(1327), 3234, 105, 105), if_gethash(1004, 72));
+if_settext(if_gethash(1004, 71), svar1);
+if_setcolor(enum(load_varc(1326), 3234, 105, 105), if_gethash(1004, 71));
+if_setgraphic(ivar0, 65798212)
+if_setgraphic(ivar1, 65798213)
+if_settext(if_gethash(1004, 70), svar2);
+if_setcolor(enum(load_varc(1330), 3235, 105, 105), if_gethash(1004, 70));
+if_settext(if_gethash(1004, 73), svar3);
+if (load_varc(1327) != 3) 
+	if_sethide(if_gethash(1004, 66), 0)
+else 
+	if_sethide(if_gethash(1004, 66), 1)
+if (load_varc(1326) != 3) 
+	if_sethide(if_gethash(1004, 63), 0)
+else 
+	if_sethide(if_gethash(1004, 63), 1)
+if (load_varc(1331) == 1) 
+	if_sethide(if_gethash(1004, 65), 0)
+else 
+	if_sethide(if_gethash(1004, 65), 1)
+if (load_varc(1330) > 66) 
+	if_sethide(if_gethash(1004, 64), 0)
+else 
+	if_sethide(if_gethash(1004, 64), 1)
+return;

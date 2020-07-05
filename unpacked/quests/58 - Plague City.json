@@ -1,0 +1,17 @@
+{
+  "id": 58,
+  "name": "Plague City",
+  "members": false,
+  "varValues": [
+    [
+      165,
+      1,
+      29
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

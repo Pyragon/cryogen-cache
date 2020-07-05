@@ -1,0 +1,17 @@
+{
+  "id": 13,
+  "name": "Death to the Dorgeshuun",
+  "members": false,
+  "varbitValues": [
+    [
+      2258,
+      1,
+      13
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

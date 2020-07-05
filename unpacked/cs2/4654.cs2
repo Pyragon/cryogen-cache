@@ -1,0 +1,26 @@
+//script4654(4654)(int arg0, int arg1, int arg2)(void)
+int ivar3;
+int ivar4;
+int ivar5;
+if (arg0 == -1 || arg1 == -1) 
+	return;
+ivar3 = 0;
+ivar4 = 0;
+ivar5 = 11337808;
+if (load_varpbit(9306) == 1) 
+	ivar5 = 11337808;
+if (load_varpbit(9306) == 2) 
+	ivar5 = 11337789;
+if (load_varpbit(9306) == 4) {
+	if (load_varpbit(9367) == 1) 
+		ivar5 = 11337735;
+	if (load_varpbit(9367) == 2) 
+		ivar5 = 11337766;
+	if (load_varpbit(9367) == 3) 
+		ivar5 = 11337769;
+}
+cc_create(ivar5, 5, 0);
+cc_setgraphic(2825)
+cc_setposition(calc(calc(calc(32 * arg0) + 10) + ivar3), calc(calc(calc(32 * arg1) + 10) + ivar4), 0, 2);
+cc_setsize(11, 11, 0, 0);
+return;

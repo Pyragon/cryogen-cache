@@ -1,0 +1,17 @@
+{
+  "id": 127,
+  "name": "Royal Trouble",
+  "members": false,
+  "varbitValues": [
+    [
+      2140,
+      10,
+      30
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

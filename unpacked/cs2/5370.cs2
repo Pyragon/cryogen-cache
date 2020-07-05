@@ -1,0 +1,30 @@
+//script5370(5370)(int arg0, int arg1, string arg2, string arg3)(void)
+int ivar2;
+int ivar3;
+if (arg0 == 1) 
+	if_sethide(if_gethash(951, 14), 1)
+else 
+	if_sethide(if_gethash(951, 14), 0)
+if (arg1 == 1) 
+	if_sethide(if_gethash(951, 2), 1)
+else 
+	if_sethide(if_gethash(951, 2), 0)
+if_settext(if_gethash(951, 48), arg2);
+if_settext(if_gethash(951, 51), arg3);
+ivar2 = stringwidth(arg3, 4040);
+if_setsize(calc(ivar2 + 16), if_getheight(if_gethash(951, 1)), 0, 0, 62324737)
+ivar2 = stringwidth(arg2, 4040);
+if_setsize(calc(ivar2 + 16), if_getheight(if_gethash(951, 3)), 0, 0, 62324739)
+ivar2 = max(if_getwidth(if_gethash(951, 1)), if_getwidth(if_gethash(951, 3)));
+if (arg1 == 0) 
+	ivar2 = max(ivar2, if_getwidth(if_gethash(951, 2)));
+if (arg0 == 0) 
+	ivar2 = max(ivar2, if_getwidth(if_gethash(951, 14)));
+if_setsize(calc(ivar2 + 48), if_getheight(if_gethash(951, 49)), 0, 0, 62324785)
+ivar3 = calc(if_getheight(if_gethash(951, 1)) + if_getheight(if_gethash(951, 3)));
+if (arg1 == 0) 
+	ivar3 = calc(ivar3 + if_getheight(if_gethash(951, 2)));
+if_setsize(if_getwidth(if_gethash(951, 49)), ivar3, 0, 0, 62324785)
+if (arg0 == 0) 
+	if_setposition(0, calc(7 + if_getheight(if_gethash(951, 49))), 1, 0, 62324750)
+return;

@@ -1,0 +1,17 @@
+{
+  "id": 9,
+  "name": "Priest in Peril",
+  "members": false,
+  "varValues": [
+    [
+      302,
+      1,
+      60
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

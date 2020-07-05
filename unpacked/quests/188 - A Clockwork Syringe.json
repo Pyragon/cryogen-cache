@@ -1,0 +1,17 @@
+{
+  "id": 188,
+  "name": "A Clockwork Syringe",
+  "members": false,
+  "varbitValues": [
+    [
+      8961,
+      10,
+      210
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 5572
+}

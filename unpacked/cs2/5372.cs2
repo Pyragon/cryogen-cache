@@ -1,0 +1,12 @@
+//script5372(5372)(int arg0, int arg1)(void)
+int ivar2;
+int ivar3;
+ivar2 = 3;
+ivar3 = calc(calc(2 / if_getwidth(if_gethash(951, 14))) - calc(if_getx(arg0) + calc(2 / if_getwidth(arg0))));
+if (ivar3 >= arg1) {
+	if_setposition(arg1, if_gety(arg0), 1, 0, arg0)
+	instr6342(arg0, None, "");
+}
+else 
+	if_setposition(calc(ivar3 + ivar2), if_gety(arg0), 1, 0, arg0)
+return;

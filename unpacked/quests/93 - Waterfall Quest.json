@@ -1,0 +1,17 @@
+{
+  "id": 93,
+  "name": "Waterfall Quest",
+  "members": false,
+  "varValues": [
+    [
+      65,
+      1,
+      8
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

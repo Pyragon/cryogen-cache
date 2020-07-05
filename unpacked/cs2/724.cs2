@@ -1,0 +1,43 @@
+//script724(724)(int arg0, int arg1, int arg2, string arg3)(void)
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+if (arg0 == 48824321 && load_varc(616) == 0) 
+	return;
+ivar3 = 0;
+ivar4 = 0;
+ivar5 = 0;
+ivar6 = -1;
+ivar7 = -1;
+ivar8 = -1;
+if (load_varc(1) < calc(clientclock() + 25)) {
+	if (load_varc(1) < clientclock()) 
+		store_varc(1, clientclock())
+	store_varc(1, calc(load_varc(1) + 2))
+	return;
+}
+store_varc(1, calc(calc(clientclock() + 25) + 10))
+if (load_varc(2) != 1) {
+	ivar5 = calc(paramwidth(1000, 495, arg3) + 8);
+	if (instr6644() < 2) {
+		ivar6 = 35913769;
+		ivar8 = 35913925;
+		ivar7 = 35913768;
+	}
+	else {
+		ivar6 = 48889873;
+		ivar8 = 48890043;
+		ivar7 = 48889872;
+	}
+	ivar3 = calc(ivar5 - calc(calc(if_getx(ivar7) + if_getx(arg0)) + arg1));
+	ivar4 = calc(calc(if_gety(ivar7) + if_gety(arg0)) + arg2);
+	if_sethide(ivar6, 0)
+	if_setsize(ivar5, 17, 0, 0, ivar6)
+	if_setposition(ivar3, ivar4, 0, 0, ivar6)
+	if_settext(ivar8, arg3);
+	store_varc(2, 1)
+}
+return;

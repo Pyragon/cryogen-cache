@@ -1,0 +1,17 @@
+{
+  "id": 19,
+  "name": "In Search of the Myreque",
+  "members": false,
+  "varValues": [
+    [
+      387,
+      5,
+      105
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

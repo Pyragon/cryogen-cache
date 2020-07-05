@@ -1,0 +1,17 @@
+{
+  "id": 67,
+  "name": "Rat Catchers",
+  "members": false,
+  "varbitValues": [
+    [
+      1404,
+      5,
+      127
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

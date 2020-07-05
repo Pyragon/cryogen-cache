@@ -1,0 +1,15 @@
+//script5771(5771)()(void)
+int ivar0;
+int ivar1;
+string svar0;
+string svar1;
+ivar0 = load_varp(2505);
+svar0 = struct_param(ivar0, 1266);
+send_message(svar0);
+svar1 = struct_param(ivar0, 1273);
+send_message(svar1);
+ivar1 = struct_param(ivar0, 1271);
+if_settext(if_gethash(1241, 12), svar0);
+if_settext(if_gethash(1241, 4), svar1);
+if_setgraphic(ivar1, 81330182)
+return;

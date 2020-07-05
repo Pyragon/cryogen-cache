@@ -1,0 +1,17 @@
+//script4347(4347)()(void)
+int ivar0;
+ivar0 = -1;
+if (load_varp(2136) > 0) {
+	ivar0 = enum(load_varp(2136), 3703, 103, 105);
+	if (ivar0 != -1) {
+		if_sethide(if_gethash(1097, 202), 1)
+		if_setscrollpos(0, 0, if_gethash(1097, 207));
+		script4499(ivar0, 1, enum_getoutputcount(ivar0), 7, 71893188, 71893198, 71893200, 71893199, 71893205, "Select a keyword");
+	}
+}
+else {
+	if_sethide(if_gethash(1097, 202), 0)
+	script4501(71893188, "Select a keyword");
+	script4501(71893174, "Select a category");
+}
+return;

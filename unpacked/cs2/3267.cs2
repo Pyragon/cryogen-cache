@@ -1,0 +1,107 @@
+//script3267(3267)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+int ivar12;
+int ivar13;
+int ivar14;
+int ivar15;
+int ivar16;
+int ivar17;
+int ivar18;
+int ivar19;
+int ivar20;
+int ivar21;
+int ivar22;
+int ivar23;
+int ivar24;
+int ivar25;
+int ivar26;
+int ivar27;
+int ivar28;
+int ivar29;
+int ivar30;
+int ivar31;
+int ivar32;
+int ivar33;
+int ivar34;
+int ivar35;
+int ivar36;
+int ivar37;
+int ivar38;
+int ivar39;
+int ivar40;
+int ivar41;
+ivar0 = 0;
+ivar1 = 0;
+ivar2 = 0;
+ivar3 = 0;
+ivar4 = 0;
+ivar5 = 0;
+ivar6 = 0;
+ivar7 = 0;
+ivar8 = 0;
+ivar9 = 25;
+ivar10 = 25;
+ivar11 = 50;
+ivar12 = 25;
+ivar13 = 25;
+ivar14 = 50;
+ivar15 = 25;
+ivar16 = 25;
+ivar17 = 50;
+ivar18 = 100;
+ivar19 = 50;
+ivar20 = 25;
+ivar21 = 150;
+ivar22 = 25;
+ivar23 = 100;
+ivar24 = 25;
+ivar25 = 100;
+ivar26 = 25;
+ivar27 = 50;
+ivar28 = 25;
+ivar29 = 50;
+ivar30 = 25;
+ivar31 = 25;
+ivar32 = 25;
+ivar33 = 150;
+ivar34 = 100;
+ivar35 = 200;
+ivar36 = 100;
+store_varc(1185, max(calc(2 - load_varc(1185)), 0))
+if_settrans(load_varc(1185), if_gethash(933, 251));
+if_settrans(calc(load_varc(1185) - 255), if_gethash(933, 297));
+if_settrans(calc(load_varc(1185) - 255), if_gethash(933, 298));
+if_settrans(calc(load_varc(1185) - 255), if_gethash(933, 299));
+ivar37 = 0;
+if (load_varc(1188) == 2) 
+	ivar37 = 792;
+else {
+	if (load_varc(1188) == 3) 
+		ivar37 = 1583;
+}
+ivar38 = scale(load_varc(1195), 10000, 1267);
+script3273();
+/* 
+	AT PrimitiveInstruction(opcode=168, value=5, type=int)
+	java.lang.RuntimeException: Stack underflow
+		at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:468)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

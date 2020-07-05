@@ -1,0 +1,17 @@
+{
+  "id": 131,
+  "name": "Unstable Foundations",
+  "members": false,
+  "varValues": [
+    [
+      281,
+      5,
+      1000
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

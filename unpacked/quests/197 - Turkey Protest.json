@@ -1,0 +1,18 @@
+{
+  "id": 197,
+  "name": "Turkey Protest",
+  "sortName": "Turkey Protest",
+  "members": false,
+  "varbitValues": [
+    [
+      10197,
+      1,
+      25
+    ]
+  ],
+  "type": "HOLIDAY",
+  "questpointRequirement": 0,
+  "questpointReward": 0,
+  "difficulty": "NOVICE",
+  "graphicId": 7917
+}

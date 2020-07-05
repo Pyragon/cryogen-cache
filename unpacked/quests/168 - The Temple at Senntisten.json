@@ -1,0 +1,17 @@
+{
+  "id": 168,
+  "name": "The Temple at Senntisten",
+  "members": false,
+  "varbitValues": [
+    [
+      6775,
+      10,
+      90
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

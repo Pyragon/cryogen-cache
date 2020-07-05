@@ -1,0 +1,123 @@
+//script6150(6150)(int arg0, int arg1, int arg2)(void)
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+while (arg0 < 0) 
+	arg0 = calc(arg0 + 8);
+while (arg0 > 7) 
+	arg0 = calc(8 - arg0);
+ivar3 = -1;
+ivar4 = -1;
+ivar5 = -1;
+ivar6 = -1;
+switch (arg0) {
+	case 0:
+		ivar3 = move_coord(arg2, 0, 0, 3);
+		ivar5 = move_coord(arg2, 0, 0, -3);
+		if (arg1 > 0) {
+			ivar4 = move_coord(ivar3, 0, 1, 0);
+			ivar6 = move_coord(ivar5, 0, -1, 0);
+		}
+		else {
+			ivar4 = move_coord(ivar3, 0, -1, 0);
+			ivar6 = move_coord(ivar5, 0, 1, 0);
+		}
+		break;
+	case 1:
+		ivar3 = move_coord(arg2, 0, 2, 2);
+		ivar5 = move_coord(arg2, 0, -2, -2);
+		if (arg1 > 0) {
+			ivar4 = move_coord(ivar3, 0, 1, -1);
+			ivar6 = move_coord(ivar5, 0, -1, 1);
+		}
+		else {
+			ivar4 = move_coord(ivar3, 0, -1, 1);
+			ivar6 = move_coord(ivar5, 0, 1, -1);
+		}
+		break;
+	case 2:
+		ivar3 = move_coord(arg2, 0, 3, 0);
+		ivar5 = move_coord(arg2, 0, -3, 0);
+		if (arg1 > 0) {
+			ivar4 = move_coord(ivar3, 0, 0, -1);
+			ivar6 = move_coord(ivar5, 0, 0, 1);
+		}
+		else {
+			ivar4 = move_coord(ivar3, 0, 0, 1);
+			ivar6 = move_coord(ivar5, 0, 0, -1);
+		}
+		break;
+	case 3:
+		ivar3 = move_coord(arg2, 0, 2, -2);
+		ivar5 = move_coord(arg2, 0, -2, 2);
+		if (arg1 > 0) {
+			ivar4 = move_coord(ivar3, 0, -1, -1);
+			ivar6 = move_coord(ivar5, 0, 1, 1);
+		}
+		else {
+			ivar4 = move_coord(ivar3, 0, 1, 1);
+			ivar6 = move_coord(ivar5, 0, -1, -1);
+		}
+		break;
+	case 4:
+		ivar3 = move_coord(arg2, 0, 0, -3);
+		ivar5 = move_coord(arg2, 0, 0, 3);
+		if (arg1 > 0) {
+			ivar4 = move_coord(ivar3, 0, -1, 0);
+			ivar6 = move_coord(ivar5, 0, 1, 0);
+		}
+		else {
+			ivar4 = move_coord(ivar3, 0, 1, 0);
+			ivar6 = move_coord(ivar5, 0, -1, 0);
+		}
+		break;
+	case 5:
+		ivar3 = move_coord(arg2, 0, -2, -2);
+		ivar5 = move_coord(arg2, 0, 2, 2);
+		if (arg1 > 0) {
+			ivar4 = move_coord(ivar3, 0, -1, 1);
+			ivar6 = move_coord(ivar5, 0, 1, -1);
+		}
+		else {
+			ivar4 = move_coord(ivar3, 0, 1, -1);
+			ivar6 = move_coord(ivar5, 0, -1, 1);
+		}
+		break;
+	case 6:
+		ivar3 = move_coord(arg2, 0, -3, 0);
+		ivar5 = move_coord(arg2, 0, 3, 0);
+		if (arg1 > 0) {
+			ivar4 = move_coord(ivar3, 0, 0, 1);
+			ivar6 = move_coord(ivar5, 0, 0, -1);
+		}
+		else {
+			ivar4 = move_coord(ivar3, 0, 0, -1);
+			ivar6 = move_coord(ivar5, 0, 0, 1);
+		}
+		break;
+	case 7:
+		ivar3 = move_coord(arg2, 0, -2, 2);
+		ivar5 = move_coord(arg2, 0, 2, -2);
+		if (arg1 > 0) {
+			ivar4 = move_coord(ivar3, 0, 1, 1);
+			ivar6 = move_coord(ivar5, 0, -1, -1);
+		}
+		else {
+			ivar4 = move_coord(ivar3, 0, -1, -1);
+			ivar6 = move_coord(ivar5, 0, 1, 1);
+		}
+}
+/* 
+	AT PrimitiveInstruction(opcode=184, value=0, type=int)
+	java.lang.RuntimeException: can't merge: diff stack sizes/types, -4, 0, 0, true
+		at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:446)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

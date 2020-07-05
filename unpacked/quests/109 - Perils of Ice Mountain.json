@@ -1,0 +1,17 @@
+{
+  "id": 109,
+  "name": "Perils of Ice Mountain",
+  "members": false,
+  "varbitValues": [
+    [
+      4684,
+      10,
+      140
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

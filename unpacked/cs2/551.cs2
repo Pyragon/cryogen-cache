@@ -1,0 +1,12 @@
+//script551(551)()(void)
+int ivar0;
+if (load_varpbit(4110) == 15) {
+	sound_synth(4020, 1, 0);
+	return;
+}
+store_varc(4110, calc(load_varpbit(4110) + 1))
+ivar0 = calc(6 * calc(load_varpbit(4110) - 15));
+if_setposition(0, ivar0, 0, 0, 40894481)
+if_settext(if_gethash(624, 71), to_string(load_varpbit(4110)));
+sound_synth(4026, 1, 0);
+return;

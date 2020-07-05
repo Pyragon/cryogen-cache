@@ -1,0 +1,6 @@
+//script1965(1965)(int arg0)(void)
+if (load_varp(261) > 0) 
+	if_settrans(255, arg0);
+else 
+	if_settrans(200, arg0);
+return;

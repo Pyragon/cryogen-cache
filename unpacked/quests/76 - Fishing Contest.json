@@ -1,0 +1,17 @@
+{
+  "id": 76,
+  "name": "Fishing Contest",
+  "members": false,
+  "varValues": [
+    [
+      11,
+      1,
+      5
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

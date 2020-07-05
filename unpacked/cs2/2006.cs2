@@ -1,0 +1,7 @@
+//script2006(2006)(int arg0)(void)
+if (arg0 > 0) 
+	if_setgraphic(4123, 48758892)
+else 
+	if_setgraphic(4124, 48758892)
+instr6342(if_gethash(744, 7), 3961, "iI", 0, 48758791);
+return;

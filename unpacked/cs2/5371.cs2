@@ -1,0 +1,65 @@
+//script5371(5371)(int arg0, int arg1, int arg2)(void)
+int ivar3;
+int ivar4;
+int ivar5;
+if (arg0 < 1) 
+	if_settext(if_gethash(951, 53), "-");
+if (arg0 < 2) 
+	if_settext(if_gethash(951, 55), "-");
+if (arg0 < 3) 
+	if_settext(if_gethash(951, 57), "-");
+if (arg0 < 4) 
+	if_settext(if_gethash(951, 59), "-");
+if (arg0 < 5) 
+	if_settext(if_gethash(951, 61), "-");
+if (arg0 < 6) 
+	if_settext(if_gethash(951, 63), "-");
+switch (arg0) {
+	case 0:
+		if_settext(if_gethash(951, 25), to_string(arg1));
+		break;
+	case 1:
+		if_settext(if_gethash(951, 53), to_string(arg1));
+		break;
+	case 2:
+		if_settext(if_gethash(951, 55), to_string(arg1));
+		break;
+	case 3:
+		if_settext(if_gethash(951, 57), to_string(arg1));
+		break;
+	case 4:
+		if_settext(if_gethash(951, 59), to_string(arg1));
+		break;
+	case 5:
+		if_settext(if_gethash(951, 61), to_string(arg1));
+		break;
+	case 6:
+		if_settext(if_gethash(951, 63), to_string(arg1));
+}
+switch (arg0) {
+	case 0:
+		script5373(62324789, arg2);
+		break;
+	case 1:
+		script5373(62324791, arg2);
+		break;
+	case 2:
+		script5373(62324793, arg2);
+		break;
+	case 3:
+		script5373(62324795, arg2);
+		break;
+	case 4:
+		script5373(62324797, arg2);
+		break;
+	case 5:
+		script5373(62324799, arg2);
+}
+ivar3 = calc(189 - calc(arg0 * 63));
+ivar4 = calc(ivar3 + 63);
+instr6342(if_gethash(951, 36), 5372, "Ii", 62324772, ivar3);
+instr6342(if_gethash(951, 34), 5372, "Ii", 62324770, ivar4);
+ivar5 = calc(calc(2 / if_getwidth(if_gethash(951, 14))) - calc(if_getx(if_gethash(951, 36)) + calc(2 / if_getwidth(if_gethash(951, 36)))));
+if (ivar5 < ivar3) 
+	sound_vorbis_volume(7717, 1, 0, 180)
+return;

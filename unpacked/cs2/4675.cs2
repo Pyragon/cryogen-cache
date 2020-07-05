@@ -1,0 +1,35 @@
+//script4675(4675)()(void)
+int ivar0;
+int ivar1;
+ivar0 = calc(10 * load_varpbit(9298));
+ivar1 = 0;
+if (load_varc(1530) < ivar0) {
+	store_varc(1530, calc(load_varc(1530) + 1))
+	sound_vorbis_volume(5251, 1, 0, 255)
+}
+script4542(load_varc(1530), 6684772, 6684777);
+switch (load_varpbit(9306)) {
+	case 1:
+		ivar1 = calc(10 * load_varpbit(9308));
+		break;
+	case 2:
+		ivar1 = calc(10 * load_varpbit(9309));
+		break;
+	case 3:
+		ivar1 = calc(10 * load_varpbit(9310));
+		break;
+	case 4:
+		ivar1 = calc(10 * load_varpbit(9311));
+		break;
+	case 5:
+		ivar1 = calc(10 * load_varpbit(9312));
+		break;
+	case 6:
+		ivar1 = calc(10 * load_varpbit(9313));
+}
+if (load_varc(1530) >= ivar0 && load_varc(1531) >= ivar1) 
+	script4676(load_varpbit(9306));
+if (load_varc(1531) < ivar1) 
+	store_varc(1531, calc(load_varc(1531) + 1))
+script4542(load_varc(1531), 6684782, 6684787);
+return;

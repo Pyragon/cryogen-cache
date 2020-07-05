@@ -1,0 +1,27 @@
+{
+  "id": 179,
+  "name": "Gunnar's Ground",
+  "sortName": "Gunnar's Ground",
+  "members": false,
+  "_levelRequirements": [
+    [
+      12,
+      5
+    ]
+  ],
+  "varbitValues": [
+    [
+      5730,
+      5,
+      100
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 0,
+  "difficulty": "NOVICE",
+  "graphicId": 3145,
+  "anIntArray2601": [
+    50777438
+  ]
+}

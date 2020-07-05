@@ -1,0 +1,8 @@
+//script4892(4892)()(void)
+if (clan_vars_enabled() == 1) {
+	store_varc(9548, load_clan_varbit(2074))
+	store_varc(9549, load_clan_varbit(2075))
+	script5974();
+	script5975();
+}
+return;

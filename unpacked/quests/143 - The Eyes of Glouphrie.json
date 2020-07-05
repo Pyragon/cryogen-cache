@@ -1,0 +1,17 @@
+{
+  "id": 143,
+  "name": "The Eyes of Glouphrie",
+  "members": false,
+  "varbitValues": [
+    [
+      2497,
+      10,
+      60
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

@@ -1,0 +1,10 @@
+//script2545(2545)()(void)
+if (load_varc(916) == 1) 
+	if_setgraphic(1949, 2555922)
+else if (load_varc(916) == 2) 
+	if_setgraphic(1946, 2555922)
+else {
+	if (load_varc(916) == 3) 
+		if_setgraphic(1947, 2555922)
+}
+return;

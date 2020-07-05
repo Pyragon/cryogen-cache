@@ -1,0 +1,17 @@
+{
+  "id": 113,
+  "name": "The Tourist Trap",
+  "members": false,
+  "varValues": [
+    [
+      197,
+      1,
+      30
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

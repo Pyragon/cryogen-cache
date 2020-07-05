@@ -1,0 +1,17 @@
+{
+  "id": 125,
+  "name": "Hazeel Cult",
+  "members": false,
+  "varValues": [
+    [
+      223,
+      2,
+      9
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

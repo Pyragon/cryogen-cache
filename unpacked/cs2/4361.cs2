@@ -1,0 +1,36 @@
+//script4361(4361)(int arg0)(void)
+int stack_dump0;
+int stack_dump1;
+int stack_dump2;
+int stack_dump3;
+int stack_dump4;
+int stack_dump5;
+int stack_dump6;
+int stack_dump7;
+int stack_dump8;
+int stack_dump9;
+script4332(72024111, 72024121);
+script4334(72024131, 72024132);
+script4336(72024078);
+stack_dump0 = 1;
+stack_dump1 = 72024162;
+stack_dump2 = 72024070;
+stack_dump3 = 72024071;
+stack_dump4 = load_clan_setting_varbit(98);
+stack_dump5 = load_clan_setting_varbit(106);
+stack_dump6 = load_clan_setting_varbit(74);
+stack_dump7 = load_clan_setting_varbit(114);
+stack_dump8 = load_clan_setting_varbit(82);
+stack_dump9 = load_clan_setting_varbit(90);
+/* 
+	AT PrimitiveInstruction(opcode=73, value=65, type=int)
+	com.cryo.utils.cs2.DecompilerException: Unknown opcode: 73 LOAD_CLAN_SETTING_VAR
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:520)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

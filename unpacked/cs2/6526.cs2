@@ -1,0 +1,25 @@
+//script6526(6526)(int arg0)(void)
+int ivar1;
+int ivar2;
+int ivar3;
+ivar1 = 1;
+ivar2 = 1;
+ivar3 = 1;
+switch (arg0) {
+	case 1:
+		ivar1 = 0;
+		if_settext(if_gethash(1317, 71), "Bronze rewards");
+		break;
+	case 2:
+		ivar2 = 0;
+		if_settext(if_gethash(1317, 71), "Silver rewards");
+		break;
+	case 3:
+		ivar3 = 0;
+		if_settext(if_gethash(1317, 71), "Gold rewards");
+}
+if_sethide(if_gethash(1317, 37), ivar1)
+if_sethide(if_gethash(1317, 39), ivar2)
+if_sethide(if_gethash(1317, 41), ivar3)
+sound_vorbis_volume(6185, 1, 0, 200)
+return;

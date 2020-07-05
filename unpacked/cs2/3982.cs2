@@ -1,0 +1,84 @@
+//script3982(3982)(int arg0, string arg1)(void)
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+int stack_dump0;
+int stack_dump1;
+ivar1 = 0;
+ivar2 = 0;
+ivar3 = 0;
+ivar4 = 0;
+ivar5 = 0;
+ivar6 = 0;
+ivar7 = 178;
+ivar8 = 69206174;
+ivar9 = 0;
+ivar10 = 0;
+ivar11 = -1;
+if (instr6004(arg0) == 1) {
+	if (load_varc(1) < calc(clientclock() + 15)) {
+		if (load_varc(1) < clientclock()) 
+			store_varc(1, clientclock())
+		store_varc(1, calc(load_varc(1) + 2))
+		return;
+	}
+	store_varc(1, calc(clientclock() + 55))
+	if (load_varc(2) != 1) {
+		ivar1 = calc(cc_getx() + 5);
+		ivar2 = calc(calc(cc_gety() + cc_getheight()) + 5);
+		ivar11 = 69206110;
+		if (ivar11 != -1 && ivar7 >= if_getwidth(ivar11)) 
+			ivar7 = if_getwidth(ivar11);
+		ivar9 = calc(4 + paramwidth(calc(4 - ivar7), 495, arg1));
+		ivar10 = calc(4 + calc(paramheight(calc(4 - ivar7), 495, arg1) * 16));
+		if (ivar11 != -1) {
+			stack_dump0 = ivar1;
+			stack_dump1 = ivar11;
+			/* 
+				AT PrimitiveInstruction(opcode=932, value=false, type=boolean)
+				com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=932, value=false, type=boolean)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		if (ivar1 < 0) 
+			ivar1 = 0;
+		if (ivar2 < 0) 
+			ivar2 = 0;
+		if_setsize(ivar9, ivar10, 0, 0, ivar8)
+		if_setposition(ivar1, ivar2, 0, 0, ivar8)
+		cc_deleteall(ivar8)
+		cc_create(ivar8, 3, 0);
+		cc_setsize(if_getwidth(ivar8), if_getheight(ivar8), 0, 0);
+		cc_setfill(true);
+		cc_setcolor(0);
+		cc_settrans(80)
+		cc_create(ivar8, 3, 1);
+		cc_setsize(if_getwidth(ivar8), if_getheight(ivar8), 0, 0);
+		cc_setfill(false);
+		cc_setcolor(0);
+		cc_create(ivar8, 4, 2);
+		cc_setsize(calc(4 - ivar7), if_getheight(ivar8), 0, 0);
+		cc_setposition(2, 0, 0, 0);
+		cc_settext(arg1);
+		cc_settextalign(0, 1, 16);
+		cc_settextfont(495);
+		cc_setcolor(15658734);
+		store_varc(2, 1)
+	}
+}
+return;

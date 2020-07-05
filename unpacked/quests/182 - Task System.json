@@ -1,0 +1,10 @@
+{
+  "id": 182,
+  "name": "Task System",
+  "members": false,
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 0,
+  "difficulty": "NOVICE",
+  "graphicId": 836
+}

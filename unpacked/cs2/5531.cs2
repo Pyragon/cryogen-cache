@@ -1,0 +1,24 @@
+//script5531(5531)(int arg0, int arg1, int arg2, int arg3)(void)
+int ivar4;
+int ivar5;
+int stack_dump0;
+ivar4 = 0;
+cc_deleteall(arg3)
+if_setsize(arg1, 76, 0, 0, arg3)
+if_setposition(arg0, 0, 0, 1, arg3)
+ivar5 = calc(2 / calc(64 - 76));
+stack_dump0 = ivar4;
+script333(arg3, 6116682, 3024411, 4, 4);
+/* 
+	AT PrimitiveInstruction(opcode=279, value=0, type=int)
+	java.lang.RuntimeException: Stack underflow
+		at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:160)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

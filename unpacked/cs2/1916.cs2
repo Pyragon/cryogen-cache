@@ -1,0 +1,22 @@
+//script1916(1916)(int arg0)(void)
+if (arg0 == 53280867 && load_varc(583) > 0) {
+	if_setcolor(16777215, arg0);
+	return;
+}
+if (arg0 == 53280869 && load_varc(584) > 0) {
+	if_setcolor(16777215, arg0);
+	return;
+}
+if (arg0 == 53280871 && load_varc(585) > 0) {
+	if_setcolor(16777215, arg0);
+	return;
+}
+if (arg0 == 53280873 && load_varc(586) > 0) {
+	if_setcolor(16777215, arg0);
+	return;
+}
+if (arg0 == 53280875 && load_varc(587) > 0) {
+	if_setcolor(16777215, arg0);
+	return;
+}
+return;

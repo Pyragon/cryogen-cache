@@ -1,0 +1,6 @@
+//script2097(2097)()(void)
+if (load_varc(645) <= 5) 
+	if_setcolor(3368703, if_gethash(834, 28));
+else 
+	if_setcolor(6710886, if_gethash(834, 28));
+return;

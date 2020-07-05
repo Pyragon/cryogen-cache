@@ -1,0 +1,17 @@
+{
+  "id": 170,
+  "name": "Nomad's Requiem",
+  "members": false,
+  "varbitValues": [
+    [
+      6962,
+      1,
+      12
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 3,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

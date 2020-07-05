@@ -1,0 +1,9 @@
+//script671(671)()(void)
+int ivar0;
+script673(0, 0, 0, 0, 0, -1, 0, 1, 0, 0);
+ivar0 = 1;
+while (ivar0 < 6) {
+	script673(ivar0, 0, 0, 0, 0, -1, 0, 1, 0, -1);
+	ivar0 = calc(ivar0 + 1);
+}
+return;

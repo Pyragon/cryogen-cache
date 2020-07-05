@@ -1,0 +1,10 @@
+//script5445(5445)(int arg0, int arg1, int arg2, int arg3, string arg4)(void)
+cc_deleteall(arg1)
+if (arg3 == 2) {
+	cc_create(arg1, 5, arg0);
+	cc_setsize(88, 88, 0, 0);
+	cc_setposition(1, 1, 0, 0);
+	cc_setgraphic(8276)
+}
+if_settext(arg2, arg4);
+return;

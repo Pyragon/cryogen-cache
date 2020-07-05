@@ -1,0 +1,69 @@
+//script2784(2784)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7)(void)
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+int stack_dump0;
+int stack_dump1;
+if (arg0 == 0 || get_player_x(get_player_pos()) >= get_player_x(45094272) && get_player_x(get_player_pos()) <= get_player_x(852481535) && get_player_plane(get_player_pos()) >= get_player_plane(45094272) && get_player_plane(get_player_pos()) <= get_player_plane(852481535)) {
+	if (arg6 != -1) {
+		if (get_player_plane(get_player_pos()) < calc(get_player_plane(45094272) + 8)) {
+			if_sethide(arg6, 0)
+			cc_deleteall(arg6)
+			script1086(arg6, 0, 0, 0);
+		}
+		else 
+			if_sethide(arg6, 1)
+	}
+	if (arg7 == 0 && calc(50 % clientclock()) != 0) 
+		return;
+	if_setcolor(16750623, arg4);
+	if_setcolor(16750623, arg5);
+	if_setgraphic(444, arg2)
+	if_settext(arg5, "ITEMS ARE" + "<br>" + "SAFE");
+}
+else if (arg0 == 1 || get_player_x(get_player_pos()) >= get_player_x(48240000) && get_player_x(get_player_pos()) <= get_player_x(855627263) && get_player_plane(get_player_pos()) >= get_player_plane(48240000) && get_player_plane(get_player_pos()) <= get_player_plane(855627263)) {
+	if (arg6 != -1) {
+		if (get_player_plane(get_player_pos()) < calc(get_player_plane(48240000) + 8)) {
+			if_sethide(arg6, 0)
+			cc_deleteall(arg6)
+			script1086(arg6, 0, 0, 0);
+		}
+		else 
+			if_sethide(arg6, 1)
+	}
+	if (arg7 == 0 && calc(50 % clientclock()) != 0) 
+		return;
+	if_setcolor(16776960, arg4);
+	if_setcolor(16776960, arg5);
+	if_setgraphic(445, arg2)
+	if_settext(arg5, "ITEMS ARE" + "<br>" + "DROPPED");
+}
+else {
+	if_sethide(arg4, 1)
+	if_sethide(arg5, 1)
+	if_sethide(arg2, 1)
+	if_sethide(arg3, 1)
+	if (arg6 != -1) 
+		if_sethide(arg6, 1)
+	cc_deleteall(arg1)
+	return;
+}
+if_sethide(arg4, 0)
+if_sethide(arg5, 0)
+if_sethide(arg2, 0)
+if_sethide(arg3, 0)
+stack_dump0 = 1;
+stack_dump1 = arg2;
+/* 
+	AT PrimitiveInstruction(opcode=460, value=false, type=boolean)
+	com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=460, value=false, type=boolean)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

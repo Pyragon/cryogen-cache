@@ -1,0 +1,53 @@
+//script2667(2667)()(void)
+int ivar0;
+int ivar1;
+ivar0 = enum(load_varpbit(6297), 2566, 73, 105);
+ivar1 = enum(load_varpbit(6297), 2565, 73, 105);
+if (if_getx(ivar0) < 17 || if_getx(ivar0) > 57) 
+	return;
+if (if_gety(ivar0) > 12 && if_gety(ivar0) < 32) {
+	if_setposition(37, 22, 0, 0, ivar0)
+	if_setposition(37, 22, 0, 0, ivar1)
+	return;
+}
+if (if_gety(ivar0) > 38 && if_gety(ivar0) < 58) {
+	if_setposition(37, 48, 0, 0, ivar0)
+	if_setposition(37, 48, 0, 0, ivar1)
+	return;
+}
+if (if_gety(ivar0) > 70 && if_gety(ivar0) < 90) {
+	if_setposition(37, 80, 0, 0, ivar0)
+	if_setposition(37, 80, 0, 0, ivar1)
+	return;
+}
+if (if_gety(ivar0) > 98 && if_gety(ivar0) < 118) {
+	if_setposition(37, 108, 0, 0, ivar0)
+	if_setposition(37, 108, 0, 0, ivar1)
+	return;
+}
+if (if_gety(ivar0) > 128 && if_gety(ivar0) < 148) {
+	if_setposition(37, 138, 0, 0, ivar0)
+	if_setposition(37, 138, 0, 0, ivar1)
+	return;
+}
+if (if_gety(ivar0) > 156 && if_gety(ivar0) < 176) {
+	if_setposition(37, 166, 0, 0, ivar0)
+	if_setposition(37, 166, 0, 0, ivar1)
+	return;
+}
+if (if_gety(ivar0) > 184 && if_gety(ivar0) < 204) {
+	if_setposition(37, 194, 0, 0, ivar0)
+	if_setposition(37, 194, 0, 0, ivar1)
+	return;
+}
+if (if_gety(ivar0) > 214 && if_gety(ivar0) < 234) {
+	if_setposition(37, 224, 0, 0, ivar0)
+	if_setposition(37, 224, 0, 0, ivar1)
+	return;
+}
+if (if_gety(ivar0) > 242 && if_gety(ivar0) < 262) {
+	if_setposition(37, 252, 0, 0, ivar0)
+	if_setposition(37, 252, 0, 0, ivar1)
+	return;
+}
+return;

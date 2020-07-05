@@ -1,0 +1,10 @@
+//script596(596)()(void)
+string svar0;
+svar0 = "null";
+if (load_varc(84) > 0) {
+	store_varc(84, calc(1 - load_varc(84)))
+	svar0 = tostring_localized(load_varc(84), 1);
+	if_settext(if_gethash(105, 148), svar0);
+	script602();
+}
+return;

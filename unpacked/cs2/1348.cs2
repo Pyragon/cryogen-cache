@@ -1,0 +1,49 @@
+//script1348(1348)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, int arg13, int arg14, int arg15, int arg16, int arg17, int arg18)(void)
+int ivar19;
+int ivar20;
+string svar0;
+if (cc_find(arg6, arg12) == 1) 
+	cc_setvflip(1);
+cc_create(arg2, 5, if_getnextsubid(arg2));
+cc_setposition(0, 0, 0, 0);
+cc_setsize(if_getwidth(arg2), if_getheight(arg2), 0, 0);
+cc_setgraphic(arg3)
+cc_settiling(true);
+cc_create(arg2, 3, if_getnextsubid(arg2));
+cc_setposition(0, 0, 0, 0);
+cc_setsize(if_getwidth(arg2), if_getheight(arg2), 0, 0);
+cc_setcolor(0);
+instr6185(if_getwidth(arg4), calc(15 * arg1), arg4)
+ivar19 = 0;
+ivar20 = -1;
+svar0 = "";
+while (ivar19 <= arg1) {
+	ivar20 = if_getnextsubid(arg4);
+	svar0 = enum(ivar19, arg0, 115, 105);
+	cc_create(arg4, 4, ivar20);
+	cc_settext(svar0);
+	cc_settextalign(0, 1, 0);
+	cc_setposition(5, calc(15 * ivar19), 0, 0);
+	cc_setsize(calc(16 - if_getwidth(arg4)), 15, 0, 0);
+	cc_settextshadow(0);
+	cc_settextfont(arg10);
+	if (ivar19 >= arg1) {
+		cc_setcolor(arg8);
+		instr6092(1354, "Iii", arg4, ivar20, arg8);
+		instr6088(1350, "IIIIiisi", arg2, arg4, arg5, arg6, arg11, arg12, svar0, arg8);
+	}
+	else {
+		cc_setcolor(arg7);
+		instr6092(1354, "Iii", arg4, ivar20, arg7);
+		instr6088(1350, "IIIIiisi", arg2, arg4, arg5, arg6, arg11, arg12, svar0, arg7);
+	}
+	instr6091(1353, "Iii", arg4, ivar20, arg9);
+	ivar19 = calc(ivar19 + 1);
+}
+if (arg5 != -1) {
+	script31(arg5, arg4, arg13, arg14, arg15, arg16, arg17, arg18);
+	if_sethide(arg5, 0)
+}
+if_sethide(arg2, 0)
+if_sethide(arg4, 0)
+return;

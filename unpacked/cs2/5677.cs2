@@ -1,0 +1,104 @@
+//script5677(5677)(int arg0)(void)
+int ivar1;
+int ivar2;
+int ivar3;
+string svar0;
+int stack_dump0;
+string stack_dump1;
+string stack_dump2;
+ivar1 = -1;
+switch (arg0) {
+	default:
+		if_sethide(if_gethash(1213, 4), 1)
+		return;
+	case 79495198:
+		ivar1 = 0;
+		break;
+	case 79495199:
+		ivar1 = 2;
+		break;
+	case 79495200:
+		ivar1 = 1;
+		break;
+	case 79495201:
+		ivar1 = 4;
+		break;
+	case 79495202:
+		ivar1 = 5;
+		break;
+	case 79495203:
+		ivar1 = 6;
+		break;
+	case 79495204:
+		ivar1 = 3;
+		break;
+	case 79495205:
+		ivar1 = 16;
+		break;
+	case 79495206:
+		ivar1 = 15;
+		break;
+	case 79495207:
+		ivar1 = 17;
+		break;
+	case 79495208:
+		ivar1 = 12;
+		break;
+	case 79495209:
+		ivar1 = 9;
+		break;
+	case 79495210:
+		ivar1 = 14;
+		break;
+	case 79495211:
+		ivar1 = 13;
+		break;
+	case 79495212:
+		ivar1 = 10;
+		break;
+	case 79495213:
+		ivar1 = 7;
+		break;
+	case 79495214:
+		ivar1 = 11;
+		break;
+	case 79495215:
+		ivar1 = 8;
+		break;
+	case 79495216:
+		ivar1 = 20;
+		break;
+	case 79495217:
+		ivar1 = 18;
+		break;
+	case 79495218:
+		ivar1 = 19;
+		break;
+	case 79495219:
+		ivar1 = 21;
+		break;
+	case 79495220:
+		ivar1 = 22;
+		break;
+	case 79495221:
+		ivar1 = 23;
+		break;
+	case 79495222:
+		ivar1 = 24;
+}
+svar0 = append(enum(ivar1, 680, 115, 83), ": " + to_string(stat(ivar1)) + "/" + to_string(stat_base(ivar1)) + "<br>");
+stack_dump0 = ivar1;
+stack_dump1 = svar0;
+stack_dump2 = "Current Xp: ";
+/* 
+	AT PrimitiveInstruction(opcode=772, value=false, type=boolean)
+	com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=772, value=false, type=boolean)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

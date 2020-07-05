@@ -1,0 +1,18 @@
+{
+  "id": 195,
+  "name": "Deathcon II",
+  "sortName": "Deathcon II",
+  "members": false,
+  "varbitValues": [
+    [
+      9930,
+      1,
+      15
+    ]
+  ],
+  "type": "HOLIDAY",
+  "questpointRequirement": 0,
+  "questpointReward": 0,
+  "difficulty": "NOVICE",
+  "graphicId": 7919
+}

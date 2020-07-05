@@ -1,0 +1,5 @@
+//script1607(1607)()(void)
+int ivar0;
+ivar0 = 12411;
+if_setmodelanim(ivar0, if_gethash(549, 54));
+return;

@@ -1,0 +1,4 @@
+//script5075(5075)(int arg0, int arg1)(void)
+sound_vorbis_volume(6185, 1, 0, 200)
+script5076(arg0, arg1);
+return;

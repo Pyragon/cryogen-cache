@@ -1,0 +1,8 @@
+//script5403(5403)(int arg0, string arg1)(void)
+if_settext(if_gethash(1172, 4), arg1);
+store_varc(1669, 0)
+if_sethide(if_gethash(1172, 2), 1)
+if_sethide(if_gethash(1172, 5), 0)
+if_sethide(if_gethash(1172, 7), 1)
+instr6342(if_gethash(1172, 5), 5405, "iII", 0, 76808197, arg0);
+return;

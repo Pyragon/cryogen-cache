@@ -1,0 +1,17 @@
+{
+  "id": 99,
+  "name": "Doric's Quest",
+  "members": false,
+  "varValues": [
+    [
+      31,
+      10,
+      100
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

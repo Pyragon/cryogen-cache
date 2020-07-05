@@ -1,0 +1,52 @@
+//script126(126)(int arg0, int arg1, string arg2)(void)
+string svar1;
+int stack_dump0;
+if (load_varc(1413) == 0) 
+	return;
+svar1 = removetags(arg2);
+switch (arg0) {
+	flow_3:
+		case 1:
+		store_varc(1650, 1)
+		store_varc(23, svar1)
+		script1558(0);
+		return;
+		case 2:
+		stack_dump0 = arg1;
+		IF (friend_platform() == 0) 
+			GOTO	flow_6
+		stack_dump0 = stack_dump0;
+		GOTO	flow_7
+	flow_6:
+		stack_dump0 = stack_dump0;
+		script1050(1, svar1);
+		stack_dump0 = stack_dump0;
+		GOTO	flow_8
+	flow_7:
+		stack_dump0 = stack_dump0;
+		script1050(3, svar1);
+		stack_dump0 = stack_dump0;
+	flow_8:
+		stack_dump0 = stack_dump0;
+		stack_dump0 = stack_dump0;
+		/* 
+			AT JumpInstruction(target=LabelInstruction(labelId=10))
+			com.cryo.utils.cs2.DecompilerException: Can't merge two stacks (Code is invalid).
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generateFlowBlock(CS2FlowGenerator.java:846)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:202)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+		case 3:
+		case 4:
+		send_message("That player is currently offline.");
+		break;
+		case 5:
+		friend_del(svar1);
+}
+return;

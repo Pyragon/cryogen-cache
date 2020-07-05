@@ -1,0 +1,21 @@
+//script2191(2191)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11)(void)
+int ivar12;
+int ivar13;
+int ivar14;
+int ivar15;
+int ivar16;
+int ivar17;
+ivar12 = paramwidth(512, 494, if_gettext(arg1));
+ivar13 = paramwidth(512, 494, if_gettext(arg2));
+ivar14 = paramwidth(512, 494, if_gettext(arg3));
+ivar15 = paramwidth(512, 494, if_gettext(arg4));
+ivar16 = paramwidth(512, 494, if_gettext(arg5));
+ivar17 = paramwidth(512, 494, if_gettext(arg10));
+script2337(arg0);
+instr6342(arg0, 2336, "Ii", arg0, instr6644());
+script2335(arg0, arg2, arg3, arg4, arg5, ivar12, ivar13, ivar14, ivar15, ivar16, arg6, arg7, arg8, arg9, arg10, arg11, ivar17);
+instr6237(arg0, 2333, "IIIIIiiiiiIIIIIIiY", 3, 1048, 1058, 2040, , arg0, arg2, arg3, arg4, arg5, ivar12, ivar13, ivar14, ivar15, ivar16, arg6, arg7, arg8, arg9, arg10, arg11, ivar17);
+if_setsize(100, 75, 0, 0, 39387136)
+if_settrans(255, if_gethash(601, 1));
+store_varc(1435, 255)
+return;

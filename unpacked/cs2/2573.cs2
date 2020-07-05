@@ -1,0 +1,56 @@
+//script2573(2573)()(void)
+int ivar0;
+int stack_dump0;
+int stack_dump1;
+int stack_dump2;
+ivar0 = -1;
+switch (load_varc(929)) {
+	case 0:
+		ivar0 = inv_getitem(93, load_varc(930));
+		break;
+	case 1:
+		ivar0 = inv_getitem(93, load_varc(931));
+		break;
+	case 2:
+		ivar0 = inv_getitem(93, load_varc(932));
+		break;
+	case 3:
+		ivar0 = inv_getitem(93, load_varc(933));
+		break;
+	case 4:
+		ivar0 = inv_getitem(93, load_varc(934));
+		break;
+	case 5:
+		ivar0 = inv_getitem(93, load_varc(935));
+		break;
+	case 6:
+		ivar0 = inv_getitem(93, load_varc(936));
+		break;
+	case 7:
+		ivar0 = inv_getitem(93, load_varc(937));
+		break;
+	case 8:
+		ivar0 = inv_getitem(93, load_varc(938));
+		break;
+	case 9:
+		ivar0 = inv_getitem(93, load_varc(939));
+}
+if (ivar0 == -1 || item_param(ivar0, 802) != 1 && item_param(ivar0, 803) != 1) 
+	return;
+script2575();
+if_settext(if_gethash(292, 99), item_name(ivar0));
+stack_dump0 = ivar0;
+stack_dump1 = -1;
+stack_dump2 = 19136624;
+/* 
+	AT PrimitiveInstruction(opcode=388, value=false, type=boolean)
+	com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=388, value=false, type=boolean)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

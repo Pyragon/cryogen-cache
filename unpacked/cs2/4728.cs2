@@ -1,0 +1,25 @@
+//script4728(4728)(int arg0)(void)
+if (clan_vars_enabled() == 1) {
+	script4896();
+	switch (load_clan_varbit(2074)) {
+		case 0:
+		case 1:
+		case 2:
+		case 3:
+			script4897(load_clan_varbit(2074));
+			break;
+		default:
+			script4897(load_clan_varbit(2598));
+	}
+	script31(82640951, 82640952, 5666, 5663, 5664, 5665, 5686, 5685);
+	script4991();
+	script4900();
+	script4905();
+	script5012();
+	script4859();
+	script4928();
+	script4989(arg0);
+}
+else 
+	send_message("Clan stronghold information not yet available.");
+return;

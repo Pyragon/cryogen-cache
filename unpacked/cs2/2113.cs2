@@ -1,0 +1,13 @@
+//script2113(2113)(int arg0)(void)
+if_setmodelangle(0, 0, random(2048), random(2048), random(2048), instr6277(arg0), arg0);
+switch (random(3)) {
+	case 0:
+		instr6342(arg0, 66, "iiiI", calc(random(3) + 9), 0, calc(random(3) + 9), arg0);
+		break;
+	case 1:
+		instr6342(arg0, 66, "iiiI", calc(random(3) + 9), calc(random(3) + 9), 0, arg0);
+		break;
+	default:
+		instr6342(arg0, 66, "iiiI", 0, calc(random(3) + 9), calc(random(3) + 9), arg0);
+}
+return;

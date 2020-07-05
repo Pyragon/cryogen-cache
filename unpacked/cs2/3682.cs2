@@ -1,0 +1,8 @@
+//script3682(3682)()(void)
+if (string_length(load_varc_string(196)) == 0 && load_varc(5) != 14) {
+	if_setgraphic(3246, 12255250)
+	script3685();
+}
+else 
+	script3683();
+return;

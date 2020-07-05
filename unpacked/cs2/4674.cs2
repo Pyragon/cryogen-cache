@@ -1,0 +1,127 @@
+//script4674(4674)()(void)
+int ivar0;
+ivar0 = load_varpbit(9306);
+if (load_varc(1526) >= 20 && load_varc(1527) >= 30 && load_varc(1528) >= 40 && load_varc(1529) >= 50) 
+	return;
+if (load_varc(1526) < 20) 
+	store_varc(1526, calc(load_varc(1526) + 1))
+if (load_varc(1527) < 30) 
+	store_varc(1527, calc(load_varc(1527) + 1))
+if (load_varc(1528) < 40) 
+	store_varc(1528, calc(load_varc(1528) + 1))
+if (load_varc(1529) < 50) 
+	store_varc(1529, calc(load_varc(1529) + 1))
+switch (ivar0) {
+	case 1:
+		if (load_varc(1526) >= 20) {
+			if (load_varpbit(9320) == 1) 
+				if_setgraphic(5917, 6684822)
+			else 
+				if_setgraphic(5921, 6684822)
+		}
+		if (load_varc(1527) >= 30) {
+			if (load_varpbit(9321) == 1) 
+				if_setgraphic(5917, 6684823)
+			else 
+				if_setgraphic(5921, 6684823)
+		}
+		if (load_varc(1528) >= 40) {
+			if (load_varpbit(9322) == 1) 
+				if_setgraphic(5917, 6684824)
+			else 
+				if_setgraphic(5921, 6684824)
+		}
+		if (load_varc(1529) >= 50) {
+			if (load_varpbit(9323) == 1) 
+				if_setgraphic(5917, 6684825)
+			else 
+				if_setgraphic(5921, 6684825)
+		}
+		break;
+	case 4:
+		if (load_varc(1526) >= 20) {
+			if (load_varpbit(9324) == 1) 
+				if_setgraphic(5917, 6684822)
+			else 
+				if_setgraphic(5921, 6684822)
+		}
+		if (load_varc(1527) >= 30) {
+			if (load_varpbit(9325) == 1) 
+				if_setgraphic(5917, 6684823)
+			else 
+				if_setgraphic(5921, 6684823)
+		}
+		if (load_varc(1528) >= 40) {
+			if (load_varpbit(9326) == 1) 
+				if_setgraphic(5917, 6684824)
+			else 
+				if_setgraphic(5921, 6684824)
+		}
+		if (load_varc(1529) >= 50) {
+			if (load_varpbit(9327) == 1) 
+				if_setgraphic(5917, 6684825)
+			else 
+				if_setgraphic(5921, 6684825)
+		}
+		break;
+	case 2:
+		if (load_varc(1526) >= 20) {
+			if (load_varpbit(9331) == 1) 
+				if_setgraphic(5917, 6684736)
+			else 
+				if_setgraphic(5921, 6684736)
+		}
+		if (load_varc(1527) >= 30) {
+			if (load_varpbit(9333) == 1) 
+				if_setgraphic(5917, 6684820)
+			else 
+				if_setgraphic(5921, 6684820)
+		}
+		if (load_varc(1528) >= 40) {
+			if (load_varpbit(9332) == 1) 
+				if_setgraphic(5917, 6684821)
+			else 
+				if_setgraphic(5921, 6684821)
+		}
+		break;
+	case 3:
+		if (load_varc(1526) >= 20) {
+			if (load_varpbit(11066) == 1) 
+				if_setgraphic(5917, 6684736)
+			else 
+				if_setgraphic(5921, 6684736)
+		}
+		if (load_varc(1527) >= 30) {
+			if (load_varpbit(11067) == 1) 
+				if_setgraphic(5917, 6684820)
+			else 
+				if_setgraphic(5921, 6684820)
+		}
+		if (load_varc(1528) >= 40) {
+			if (load_varpbit(11085) == 2 && load_varpbit(11086) == 2 && load_varpbit(11087) == 2 && load_varpbit(11088) == 2 && load_varpbit(11089) == 2 && load_varpbit(11090) == 2 && load_varpbit(11091) == 2 && load_varpbit(11092) == 2 && load_varpbit(11093) == 2) 
+				if_setgraphic(5917, 6684821)
+			else 
+				if_setgraphic(5921, 6684821)
+		}
+		break;
+	case 6:
+		if (load_varc(1526) >= 20) {
+			if (load_varpbit(11071) == 1) 
+				if_setgraphic(5917, 6684736)
+			else 
+				if_setgraphic(5921, 6684736)
+		}
+		if (load_varc(1527) >= 30) {
+			if (load_varpbit(11072) == 1) 
+				if_setgraphic(5917, 6684820)
+			else 
+				if_setgraphic(5921, 6684820)
+		}
+		if (load_varc(1528) >= 40) {
+			if (load_varpbit(11073) == 1) 
+				if_setgraphic(5917, 6684821)
+			else 
+				if_setgraphic(5921, 6684821)
+		}
+}
+return;

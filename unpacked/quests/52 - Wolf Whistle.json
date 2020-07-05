@@ -1,0 +1,17 @@
+{
+  "id": 52,
+  "name": "Wolf Whistle",
+  "members": false,
+  "varbitValues": [
+    [
+      10733,
+      5,
+      35
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 9612
+}

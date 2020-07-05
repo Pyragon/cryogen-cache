@@ -1,0 +1,8 @@
+//script1236(1236)()(void)
+store_varc(1063, -1)
+instr6237(if_gethash(271, 8), 1716, "Y", 1, 1584, );
+instr6393(if_gethash(271, 8), 1705, "Y", 5, 0, 2, 1, 4, 6, );
+script1717();
+cc_deleteall(17760262)
+script1704();
+return;

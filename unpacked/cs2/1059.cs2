@@ -1,0 +1,134 @@
+//script1059(1059)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+int ivar12;
+int ivar13;
+int stack_dump0;
+int stack_dump1;
+int stack_dump2;
+if (if_gethide(enum(calc(arg3 + 1), 1550, 73, 105)) == 0) 
+	return;
+ivar7 = enum(arg3, 1551, 73, 105);
+if (arg0 == 104) {
+	if (arg6 == 0) 
+		return;
+	if (cc_find(ivar7, load_varc(128)) == 1) 
+		cc_sethide(1);
+	if (load_varc(128) <= 0) 
+		store_varc(128, calc(1 - arg6))
+	else 
+		store_varc(128, calc(1 - load_varc(128)))
+	if (cc_find(ivar7, load_varc(128)) == 1) 
+		/* 
+			AT PrimitiveInstruction(opcode=747, value=false, type=boolean)
+			com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=747, value=false, type=boolean)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	return;
+}
+if (arg0 == 105) {
+	if (arg6 == 0) 
+		return;
+	if (cc_find(ivar7, load_varc(128)) == 1) 
+		cc_sethide(1);
+	if (load_varc(128) == calc(1 - arg6)) 
+		store_varc(128, 0)
+	else 
+		store_varc(128, calc(load_varc(128) + 1))
+	if (cc_find(ivar7, load_varc(128)) == 1) 
+		/* 
+			AT PrimitiveInstruction(opcode=747, value=false, type=boolean)
+			com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=747, value=false, type=boolean)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	return;
+}
+ivar8 = 0;
+ivar9 = 0;
+if (arg0 == 84) {
+	if (load_varc(128) < 0) {
+		if (arg4 != 32769 && arg3 == 0) 
+			script1900(enum(arg3, 1550, 73, 105), enum(arg3, 1551, 73, 105), load_varc(128), calc(arg3 + 1));
+	}
+	else {
+		if (arg4 != -1) {
+			stack_dump0 = arg4;
+			/* 
+				AT PrimitiveInstruction(opcode=946, value=false, type=boolean)
+				com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=946, value=false, type=boolean)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+		if (arg5 != -1) {
+			ivar8 = 0;
+			ivar9 = instr6584(arg5);
+			stack_dump0 = arg2;
+			stack_dump1 = arg5;
+			stack_dump2 = load_varc(128);
+			/* 
+				AT PrimitiveInstruction(opcode=661, value=false, type=boolean)
+				com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=661, value=false, type=boolean)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		}
+	}
+	return;
+}
+if (arg0 == 102) {
+	script1050(load_varc(126), load_varc_string(27));
+	return;
+}
+if (arg0 == 13) {
+	script1054();
+	return;
+}
+if (arg0 == 85 && arg3 > 0) {
+	script1068(arg2, calc(1 - arg3));
+	return;
+}
+if (char_isalphanumeric(arg1) == 0) 
+	return;
+stack_dump0 = arg1;
+/* 
+	AT PrimitiveInstruction(opcode=153, value=false, type=boolean)
+	com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=153, value=false, type=boolean)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

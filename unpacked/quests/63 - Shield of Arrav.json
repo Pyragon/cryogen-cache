@@ -1,0 +1,22 @@
+{
+  "id": 63,
+  "name": "Shield of Arrav",
+  "members": false,
+  "varValues": [
+    [
+      145,
+      1,
+      7
+    ],
+    [
+      146,
+      99999,
+      4
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

@@ -1,0 +1,52 @@
+//script6306(6306)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+ivar0 = 0;
+if_sethide(if_gethash(1301, 0), 0)
+if_sethide(if_gethash(1301, 1), 0)
+if_sethide(if_gethash(1301, 2), 0)
+if_sethide(if_gethash(1301, 5), 0)
+if_sethide(if_gethash(1301, 3), 0)
+if (instr6644() == 1) 
+	if_setposition(-35, 0, 1, 0, 85262342)
+else 
+	if_setposition(0, 0, 1, 0, 85262342)
+if_settrans(0, if_gethash(1301, 0));
+if_settrans(0, if_gethash(1301, 1));
+if_settrans(0, if_gethash(1301, 2));
+if_settrans(0, if_gethash(1301, 5));
+if_sethide(if_gethash(1301, 8), 1)
+if_sethide(if_gethash(1301, 9), 1)
+if_sethide(if_gethash(1301, 7), 1)
+switch (world_language()) {
+	case 1:
+		if_setgraphic(11410, 85262336)
+		if_setgraphic(11411, 85262337)
+		if_setgraphic(11412, 85262338)
+		if_setgraphic(11413, 85262341)
+		break;
+	case 2:
+		if_setgraphic(11414, 85262336)
+		if_setgraphic(11415, 85262337)
+		if_setgraphic(11416, 85262338)
+		if_setgraphic(11417, 85262341)
+		break;
+	case 3:
+		if_setgraphic(11418, 85262336)
+		if_setgraphic(11419, 85262337)
+		if_setgraphic(11420, 85262338)
+		if_setgraphic(11421, 85262341)
+}
+if_sethide(if_gethash(1301, 8), 0)
+if_setmodel(32143, if_gethash(1301, 7));
+ivar0 = 8;
+instr6342(if_gethash(1301, 6), 6308, "iii", calc(clientclock() + 100), calc(clientclock() + 200), calc(clientclock() + 500));
+if_sethide(if_gethash(1301, 4), 0)
+ivar1 = random(150);
+ivar2 = random(50);
+instr6342(if_gethash(1301, 0), 6307, "ii", ivar0, calc(clientclock() + 25));
+instr6342(if_gethash(1301, 1), 6307, "ii", ivar0, calc(clientclock() + 25));
+instr6342(if_gethash(1301, 2), 6307, "ii", ivar0, calc(clientclock() + 25));
+instr6342(if_gethash(1301, 5), 6307, "ii", ivar0, calc(clientclock() + 25));
+return;

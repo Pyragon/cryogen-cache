@@ -1,0 +1,21 @@
+//script4672(4672)(int arg0)(void)
+int ivar1;
+ivar1 = -1;
+switch (arg0) {
+	case 1:
+		ivar1 = 1823;
+		break;
+	case 2:
+		ivar1 = 55612;
+		if_setmodelanim(9804, if_gethash(102, 55));
+		break;
+	case 4:
+	case 6:
+		ivar1 = 55626;
+		break;
+	case 3:
+		ivar1 = 69006;
+		if_setmodelanim(9804, if_gethash(102, 55));
+}
+if_setmodel(ivar1, if_gethash(102, 55));
+return;

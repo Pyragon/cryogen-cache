@@ -1,0 +1,6 @@
+//script1192(1192)(int arg0, int arg1)(void)
+if_setsize(calc(paramwidth(512, 495, if_gettext(arg1)) + 34), if_getheight(arg0), 0, 0, arg0)
+instr6257(arg0, 1193, "1Y", 1, 1002, );
+instr6342(arg0, 1193, "1");
+script1194();
+return;

@@ -1,0 +1,20 @@
+{
+  "id": 196,
+  "name": "One Piercing Note",
+  "members": false,
+  "varbitValues": [
+    [
+      10138,
+      10,
+      100
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "params": {
+    "952": 7918
+  },
+  "graphicId": 0
+}

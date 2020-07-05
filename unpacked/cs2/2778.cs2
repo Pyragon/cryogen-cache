@@ -1,0 +1,178 @@
+//script2778(2778)(int arg0, int arg1, int arg2, int arg3)(void)
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+string svar0;
+int stack_dump0;
+flow_0:
+	ivar4 = if_gethide(arg1);
+	ivar5 = 0;
+	if (load_varpbit(7949) == 1 && load_varp(281) < 1000) {
+		if (ivar4 == 1) 
+			ivar5 = 1;
+		if_sethide(arg1, 0)
+		if_setsize(0, calc(if_getheight(arg1) + 1), 1, 1, arg0)
+	}
+	else {
+		if (ivar4 == 0) 
+			ivar5 = 1;
+		if_sethide(arg1, 1)
+		if_setsize(0, 0, 1, 1, arg0)
+	}
+	svar0 = load_varc_string(194);
+	if (string_length(load_varc_string(195)) > 0 && load_varp(170) == 1) 
+		svar0 = load_varc_string(195);
+	ivar6 = -1;
+	if (cc_find(arg0, 0) == 1) 
+		/* 
+			AT PrimitiveInstruction(opcode=36, value=false, type=boolean)
+			com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=36, value=false, type=boolean)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	ivar7 = -1;
+	if (cc_find(arg0, 1) == 1) 
+		/* 
+			AT PrimitiveInstruction(opcode=449, value=false, type=boolean)
+			com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=449, value=false, type=boolean)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	if (cc_find(arg2, 0) == 1 && compare(svar0, cc_gettext()) == 0 && ivar6 == load_varc(1003) && ivar7 == load_varc(1004) && ivar5 == 0) 
+		return;
+	cc_deleteall(arg0)
+	cc_deleteall(arg2)
+	cc_deleteall(arg3)
+	ivar8 = if_getwidth(arg0);
+	if (ivar8 <= 0) 
+		return;
+	ivar9 = 0;
+	ivar10 = 0;
+	if (load_varc(1003) != -1) {
+		cc_create(arg0, 6, 0);
+		cc_setsize(load_varc(1005), load_varc(1006), 0, 0);
+		if (load_varc(1005) < 70) 
+			ivar10 = calc(2 / calc(load_varc(1005) - 70));
+		cc_setposition(ivar10, 0, 0, 1);
+		stack_dump0 = cc_setitem_nonum(load_varc(1003), 1);
+		ivar9 = calc(max(load_varc(1005), 70) + 5);
+		stack_dump0 = stack_dump0;
+		ivar8 = calc(ivar9 - ivar8);
+		cc_create(arg0, 3, 1);
+		cc_setsize(0, 0, 0, 0);
+		cc_setposition(0, 0, 0, 1);
+		cc_sethide(1);
+		stack_dump0 = stack_dump0;
+	}
+	else {
+		flow_27:
+			IF (load_varc(1004) != -1) 
+				GOTO	flow_28
+			/* 
+				AT JumpInstruction(target=LabelInstruction(labelId=30))
+				com.cryo.utils.cs2.DecompilerException: Can't merge two stacks (Code is invalid).
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generateFlowBlock(CS2FlowGenerator.java:846)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:202)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		flow_28:
+			cc_create(arg0, 3, 0);
+			cc_setsize(0, 0, 0, 0);
+			cc_setposition(0, 0, 0, 1);
+			cc_sethide(1);
+			cc_create(arg0, 5, 1);
+			cc_setsize(load_varc(1005), load_varc(1006), 0, 0);
+			if (load_varc(1005) < 70) 
+				ivar10 = calc(2 / calc(load_varc(1005) - 70));
+			cc_setposition(ivar10, 0, 0, 1);
+			cc_setgraphic(load_varc(1004))
+			ivar9 = calc(max(load_varc(1005), 70) + 5);
+			ivar8 = calc(ivar9 - ivar8);
+			/* 
+				AT LabelInstruction(labelId=30)
+				com.cryo.utils.cs2.DecompilerException: Can't merge two stacks (Code is invalid).
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generateFlowBlock(CS2FlowGenerator.java:846)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:172)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+	}
+	if_setscrollpos(0, 0, arg2);
+	if_setposition(ivar9, 0, 0, 1, arg2)
+	stack_dump0 = stack_dump0;
+	ivar11 = calc(calc(12 * paramheight(ivar8, 307, svar0)) + 3);
+	stack_dump0 = stack_dump0;
+	IF (ivar11 > if_getheight(arg0)) 
+		GOTO	flow_32
+	stack_dump0 = stack_dump0;
+	GOTO	flow_33
+flow_32:
+	stack_dump0 = stack_dump0;
+	ivar8 = calc(calc(if_getwidth(arg3) + 5) - ivar8);
+	if_setsize(ivar8, 0, 0, 1, arg2)
+	stack_dump0 = stack_dump0;
+	ivar11 = calc(calc(12 * paramheight(ivar8, 307, svar0)) + 3);
+	instr6185(0, ivar11, arg2)
+	if_sethide(arg3, 0)
+	stack_dump0 = stack_dump0;
+	script31(arg3, arg2, 792, 789, 790, 791, 773, 788);
+	stack_dump0 = stack_dump0;
+	GOTO	flow_34
+flow_33:
+	stack_dump0 = stack_dump0;
+	ivar11 = if_getheight(arg0);
+	if_setsize(ivar8, 0, 0, 1, arg2)
+	instr6185(0, 0, arg2)
+	if_sethide(arg3, 1)
+	stack_dump0 = stack_dump0;
+flow_34:
+	cc_create(arg2, 4, 0);
+	cc_setsize(0, ivar11, 1, 0);
+	cc_setposition(0, 0, 1, 0);
+	cc_settextfont(307);
+	cc_settextalign(1, 1, 0);
+	cc_setcolor(0);
+	cc_settextshadow(0);
+	cc_settext(svar0);
+	stack_dump0 = stack_dump0;
+	/* 
+		AT PrimitiveInstruction(opcode=184, value=0, type=int)
+		java.lang.RuntimeException: can't merge: diff stack sizes/types, -1, 0, 0, true
+			at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:433)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */

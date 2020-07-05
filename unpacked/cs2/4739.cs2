@@ -1,0 +1,18 @@
+//script4739(4739)(int arg0, int arg1, int arg2)(void)
+int ivar3;
+int ivar4;
+int ivar5;
+ivar3 = 0;
+ivar4 = -1;
+ivar5 = -1;
+if (load_varpbit(9903) != 0) {
+	ivar5 = enum(load_varpbit(9903), 3879, 118, 105);
+	if (arg2 == 1 && cc_find(if_gethash(1144, 0), arg1) == 1) {
+		ivar4 = inv_getitem(ivar5, arg1);
+		if (ivar4 != -1) {
+			store_varc(9904, arg1)
+			script4741();
+		}
+	}
+}
+return;

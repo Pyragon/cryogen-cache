@@ -1,0 +1,33 @@
+//script6043(6043)(int arg0, int arg1, int arg2)(void)
+int ivar3;
+string stack_dump0;
+cc_deleteall(arg0)
+if (enum(load_varc(1796), 681, 83, 105) == -1) {
+	if_sethide(arg1, 0)
+	script6046(arg2, 50, "Choose a skill...");
+	return;
+}
+if_sethide(arg1, 1)
+ivar3 = 0;
+while (ivar3 < load_varc(1796)) {
+	cc_create(arg0, 3, ivar3);
+	cc_sethide(1);
+	ivar3 = calc(ivar3 + 1);
+}
+cc_create(arg0, 3, ivar3);
+cc_setsize(0, 0, 1, 1);
+cc_setposition(0, 0, 1, 1);
+cc_settrans(255)
+stack_dump0 = "Confirm: " + enum(load_varc(1796), 108, 115, 105);
+/* 
+	AT PrimitiveInstruction(opcode=806, value=false, type=boolean)
+	com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=806, value=false, type=boolean)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

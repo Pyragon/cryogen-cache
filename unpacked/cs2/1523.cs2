@@ -1,0 +1,33 @@
+//script1523(1523)()(void)
+string stack_dump0;
+int stack_dump1;
+if (load_varpbit(4895) == 2) {
+	cc_create(if_gethash(275, 8), 4, 0);
+	cc_setposition(0, -2, 0, 0);
+	cc_setsize(102, 23, 0, 0);
+	cc_settextfont(645);
+	cc_settextalign(0, 1, 0);
+	cc_settext("Back");
+	cc_setcolor(4600330);
+	cc_settextshadow(0);
+	instr6091(1356, "Iii", -2147483645, -2147483643, 16777215);
+	instr6092(1356, "Iii", -2147483645, -2147483643, 4600330);
+	stack_dump0 = "Back to Index";
+	stack_dump1 = instr6213(1, if_gethash(275, 8));
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	/* 
+		AT LabelInstruction(labelId=1)
+		com.cryo.utils.cs2.DecompilerException: Can't merge two stacks (Code is invalid).
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generateFlowBlock(CS2FlowGenerator.java:846)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:172)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+return;

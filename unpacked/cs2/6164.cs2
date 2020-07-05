@@ -1,0 +1,10 @@
+//script6164(6164)(int arg0, int arg1)(void)
+if (arg1 < 1) {
+	arg1 = calc(arg1 + 1);
+	instr6342(if_gethash(1273, 13), 6164, "Ii", 83427341, arg1);
+}
+else {
+	instr6342(arg0, None, "");
+	script6165(0);
+}
+return;

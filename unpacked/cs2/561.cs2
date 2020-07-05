@@ -1,0 +1,10 @@
+//script561(561)()(void)
+if (load_varpbit(4157) == 1) 
+	if_setgraphic(1135, 41943062)
+else 
+	if_setgraphic(1134, 41943062)
+if (load_varpbit(4157) == 2) 
+	if_setgraphic(1135, 41943061)
+else 
+	if_setgraphic(1134, 41943061)
+return;

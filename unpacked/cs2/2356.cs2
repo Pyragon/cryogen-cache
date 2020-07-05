@@ -1,0 +1,28 @@
+//script2356(2356)(int arg0)(void)
+int ivar1;
+int ivar2;
+ivar1 = if_getwidth(if_gethash(905, 5));
+ivar2 = 0;
+if (ivar1 < arg0) {
+	ivar2 = calc(ivar1 + 9);
+	if (ivar2 >= arg0) {
+		if_setsize(calc(arg0 + 5), 0, 0, 1, 60030983)
+		if_setsize(arg0, 0, 0, 1, 59310085)
+		instr6342(if_gethash(916, 26), None, "");
+		return;
+	}
+	if_setsize(calc(ivar2 + 5), 0, 0, 1, 60030983)
+	if_setsize(ivar2, 0, 0, 1, 59310085)
+}
+else {
+	ivar2 = calc(9 - ivar1);
+	if (ivar2 <= arg0) {
+		if_setsize(calc(arg0 + 5), 0, 0, 1, 60030983)
+		if_setsize(arg0, 0, 0, 1, 59310085)
+		instr6342(if_gethash(916, 26), None, "");
+		return;
+	}
+	if_setsize(calc(ivar2 + 5), 0, 0, 1, 60030983)
+	if_setsize(ivar2, 0, 0, 1, 59310085)
+}
+return;

@@ -1,0 +1,8 @@
+//script2178(2178)(int arg0, string arg1)(void)
+if (cc_find(if_gethash(190, 15), arg0) == 1) {
+	if (calc(20 % clientclock()) > 9) 
+		cc_settext("");
+	else 
+		cc_settext(arg1);
+}
+return;

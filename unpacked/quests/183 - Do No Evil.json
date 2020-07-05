@@ -1,0 +1,17 @@
+{
+  "id": 183,
+  "name": "Do No Evil",
+  "members": false,
+  "varbitValues": [
+    [
+      8605,
+      10,
+      315
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 4422
+}

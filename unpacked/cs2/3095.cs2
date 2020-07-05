@@ -1,0 +1,46 @@
+//script3095(3095)(int arg0, int arg1, int arg2)(void)
+string svar0;
+string svar1;
+svar0 = "";
+svar1 = "";
+switch (arg2) {
+	case 4:
+		svar0 = "www";
+		svar1 = "account_settings.ws?mod=messages";
+		instr6239(arg0, 3088, "ss1", svar0, svar1, 1);
+		break;
+	case 11:
+		svar0 = "www";
+		svar1 = "account_settings.ws?mod=security";
+		instr6239(arg0, 3088, "ss1", svar0, svar1, 1);
+		break;
+	case 18:
+		svar0 = "accountappeal";
+		svar1 = "lockchoice.ws";
+		instr6239(arg0, 3089, "ss1", svar0, svar1, 1);
+		break;
+	case 31:
+		svar0 = "www";
+		svar1 = "account_settings.ws?mod=charname";
+		instr6239(arg0, 3088, "ss1", svar0, svar1, 1);
+		break;
+	case 32:
+	case 19:
+	case -3000:
+	case 40:
+	case 12:
+	case 30:
+	case -2000:
+		svar0 = "dob";
+		svar1 = "set_members_dob.ws";
+		instr6239(arg0, 3088, "ss1", svar0, svar1, 1);
+		break;
+	case 21:
+		hook_mouse_press(arg0, 1872, "");
+		hook_mouse_press(arg1, None, "");
+		return;
+	default:
+		instr6239(arg0, None, "");
+}
+instr6239(arg1, 3096, "");
+return;

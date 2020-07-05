@@ -1,0 +1,17 @@
+{
+  "id": 28,
+  "name": "Murder Mystery",
+  "members": false,
+  "varValues": [
+    [
+      192,
+      1,
+      2
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 3,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

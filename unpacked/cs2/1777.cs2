@@ -1,0 +1,11 @@
+//script1777(1777)()(void)
+if (load_varc(256) == 0) {
+	if_setgraphic(699, 51839107)
+	if_settrans(0, if_gethash(791, 130));
+}
+else {
+	if_setgraphic(698, 51839107)
+	if_settrans(225, if_gethash(791, 130));
+}
+script1784();
+return;

@@ -1,0 +1,14 @@
+//script6321(6321)(int arg0)(void)
+cc_create(if_gethash(1304, 5), 5, 0);
+cc_setsize(36, 32, 0, 0);
+cc_setposition(0, 0, 1, 1);
+cc_setoutline(1);
+cc_setgraphicshadow(colour_gethashedhsv(48, 32, 32));
+instr6452(6322, "IiY", 1, 662, , -2147483645, -2147483643);
+script6323();
+instr6257(arg0, 6324, "Y", 2, 1935, 1936, );
+script6325();
+script6326(0, 85458966, 85458967);
+instr6237(arg0, 6330, "Y", 1, 2646, );
+script6331();
+return;

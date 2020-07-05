@@ -1,0 +1,22 @@
+//script5063(5063)(int arg0, int arg1, int arg2)(void)
+int ivar3;
+ivar3 = calc(12 * arg1);
+if (arg2 == 1) {
+	if (cc_find(arg0, calc(ivar3 + 5)) == 1) 
+		cc_setgraphic(7552)
+	if (cc_find(arg0, calc(ivar3 + 6)) == 1) 
+		cc_setgraphic(7551)
+	if (cc_find(arg0, calc(ivar3 + 7)) == 1) 
+		cc_setgraphic(7553)
+}
+else {
+	if (cc_find(arg0, calc(ivar3 + 5)) == 1) 
+		cc_setgraphic(7549)
+	if (cc_find(arg0, calc(ivar3 + 6)) == 1) 
+		cc_setgraphic(7548)
+	if (cc_find(arg0, calc(ivar3 + 7)) == 1) 
+		cc_setgraphic(7550)
+}
+if (cc_find(arg0, calc(ivar3 + 10)) == 1) 
+	cc_setgraphic(7409)
+return;

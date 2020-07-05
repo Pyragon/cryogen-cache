@@ -1,0 +1,6 @@
+//script1332(1332)()(void)
+if (instr6644() >= 2) 
+	script1331(48890056);
+else 
+	script1331(35913885);
+return;

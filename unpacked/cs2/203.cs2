@@ -1,0 +1,7 @@
+//script203(203)(int arg0)(void)
+if (instr6661(if_gethash(1109, 5), -1) == 1) {
+	instr6342(if_gethash(1109, 5), 204, "");
+	return;
+}
+script518();
+return;

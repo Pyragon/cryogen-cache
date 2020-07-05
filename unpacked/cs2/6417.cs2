@@ -1,0 +1,118 @@
+//script6417(6417)(int arg0)(void)
+switch (arg0) {
+	case 85721164:
+	case 85721102:
+	case 85721160:
+	case 85721162:
+	case 85721158:
+		script6406();
+		break;
+	case 85721124:
+		if (load_varpbit(4775) == 1) {
+			script6408();
+			script6414(arg0, 1);
+		}
+		break;
+	case 85721126:
+		if (load_varpbit(4776) == 1) {
+			script6408();
+			script6414(arg0, 1);
+		}
+		break;
+	case 85721128:
+		if (load_varpbit(4777) == 1) {
+			script6408();
+			script6414(arg0, 1);
+		}
+		break;
+	case 85721325:
+		if (load_varpbit(7235) == 1) {
+			script6408();
+			script6414(arg0, 1);
+		}
+		break;
+	case 85721328:
+		if (load_varpbit(7237) == 1) {
+			script6408();
+			script6414(arg0, 1);
+		}
+		break;
+	case 85721330:
+		if (load_varpbit(7236) == 1) {
+			script6408();
+			script6414(arg0, 1);
+		}
+		break;
+	case 85721100:
+		if (load_varpbit(11471) == 1) {
+			script6413();
+			script6414(arg0, 1);
+		}
+		break;
+	case 85721560:
+		if (calc(calc(32 % 33) & 1 << load_varp(2381)) == 1) {
+			script6413();
+			script6414(arg0, 1);
+		}
+		break;
+	case 85721581:
+		if (load_varpbit(11472) == 1) {
+			script6413();
+			script6414(arg0, 1);
+		}
+		break;
+	case 85721583:
+		if (calc(calc(32 % 34) & 1 << load_varp(2381)) == 1) {
+			script6413();
+			script6414(arg0, 1);
+		}
+		break;
+	case 85721107:
+		if (load_varp(394) == 0) {
+			script6410();
+			script6414(arg0, 1);
+		}
+		break;
+	case 85721109:
+		if (load_varp(394) == 0) {
+			script6410();
+			script6414(arg0, 1);
+		}
+		break;
+	case 85721111:
+		if (load_varpbit(4785) == 0) {
+			script6410();
+			script6415(arg0);
+		}
+		break;
+	case 85721113:
+		if (load_varpbit(4783) == 0) {
+			script6410();
+			script6415(arg0);
+		}
+		break;
+	case 85721115:
+		if (load_varpbit(4786) == 0) {
+			script6410();
+			script6415(arg0);
+		}
+		break;
+	case 85721117:
+		if (load_varpbit(4787) == 0) {
+			script6410();
+			script6415(arg0);
+		}
+		break;
+	case 85721119:
+		if (load_varpbit(7234) == 0) {
+			script6410();
+			script6415(arg0);
+		}
+		break;
+	case 85721121:
+		if (load_varpbit(10241) == 0) {
+			script6410();
+			script6415(arg0);
+		}
+}
+return;

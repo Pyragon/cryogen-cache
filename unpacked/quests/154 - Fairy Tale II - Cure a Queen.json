@@ -1,0 +1,17 @@
+{
+  "id": 154,
+  "name": "Fairy Tale II - Cure a Queen",
+  "members": false,
+  "varbitValues": [
+    [
+      2326,
+      10,
+      90
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

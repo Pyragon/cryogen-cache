@@ -1,0 +1,49 @@
+//script1799(1799)(int arg0, int arg1)(void)
+int ivar2;
+int ivar3;
+int ivar4;
+ivar2 = 0;
+ivar3 = 0;
+ivar4 = -1;
+while (ivar2 <= 4) {
+	ivar4 = enum(ivar2, 1604, 74, 105);
+	cc_create(arg0, 5, calc(4 * ivar2));
+	cc_setposition(4, ivar3, 0, 0);
+	cc_setsize(17, 17, 0, 0);
+	if (world_members() == 0 && struct_param(ivar4, 557) == 1) 
+		cc_setgraphic(698)
+	else if (ivar2 == 0) 
+		cc_setgraphic(699)
+	else 
+		cc_setgraphic(697)
+	cc_create(arg0, 4, calc(calc(4 * ivar2) + 1));
+	cc_setposition(25, ivar3, 0, 0);
+	cc_setsize(25, 17, 1, 0);
+	cc_settext(struct_param(ivar4, 555));
+	cc_settextfont(495);
+	cc_settextalign(0, 0, 0);
+	cc_setcolor(13150820);
+	cc_settextshadow(1);
+	cc_create(arg0, 4, calc(calc(4 * ivar2) + 2));
+	cc_setposition(4, calc(ivar3 + 17), 0, 0);
+	cc_setsize(8, calc(calc(10 * paramheight(calc(8 - if_getwidth(arg0)), 494, struct_param(ivar4, 556))) + 3), 1, 0);
+	cc_settext(struct_param(ivar4, 556));
+	cc_settextfont(494);
+	cc_settextalign(0, 0, 0);
+	cc_setcolor(13150820);
+	cc_settextshadow(1);
+	cc_create(arg0, 3, calc(calc(4 * ivar2) + 3));
+	cc_setposition(4, ivar3, 0, 0);
+	cc_setsize(8, calc(17 + cc_getheight()), 1, 0);
+	cc_settrans(255)
+	cc_setop(1, struct_param(ivar4, 555));
+	instr6687(1833, "ii", -2147483644, ivar2);
+	ivar3 = calc(ivar3 + cc_getheight());
+	if (ivar2 < 4) 
+		ivar3 = calc(ivar3 + 3);
+	ivar2 = calc(ivar2 + 1);
+}
+instr6185(0, ivar3, arg0)
+if_setscrollpos(0, 0, arg0);
+script31(arg1, arg0, 792, 789, 790, 791, 773, 788);
+return;

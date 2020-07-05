@@ -1,0 +1,260 @@
+//script1513(1513)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+int ivar12;
+int ivar13;
+int ivar14;
+int ivar15;
+int ivar16;
+int ivar17;
+int ivar18;
+string svar0;
+int stack_dump0;
+int stack_dump1;
+int stack_dump2;
+int stack_dump3;
+int stack_dump4;
+int stack_dump5;
+string stack_dump6;
+string stack_dump7;
+ivar0 = -1;
+ivar1 = -1;
+ivar2 = -1;
+ivar3 = -1;
+ivar4 = -1;
+ivar5 = -1;
+ivar6 = -1;
+ivar7 = -1;
+ivar8 = -1;
+switch (load_varc(778)) {
+	default:
+		store_varc(778, 0)
+		if_setgraphic(1044, 47775750)
+		if_setgraphic(1053, 47775751)
+		if_setgraphic(1057, 47775752)
+		if_setgraphic(1054, 47775753)
+		if (gender() == 1) {
+			stack_dump0 = 1591;
+			ivar2 = 9;
+			ivar0 = stack_dump0;
+			ivar1 = 1590;
+		}
+		else {
+			stack_dump0 = 690;
+			ivar2 = 2;
+			ivar0 = stack_dump0;
+			ivar1 = 689;
+		}
+		ivar3 = load_varc(1010);
+		ivar4 = 3282;
+		ivar5 = 2347;
+		ivar6 = 2348;
+		ivar7 = 1;
+		ivar8 = load_varc(1016);
+		break;
+	case 1:
+		if_setgraphic(1052, 47775750)
+		if_setgraphic(1045, 47775751)
+		if_setgraphic(1057, 47775752)
+		if_setgraphic(1054, 47775753)
+		if (gender() == 1) {
+			stack_dump0 = 693;
+			ivar2 = 10;
+			ivar0 = stack_dump0;
+			ivar1 = 1593;
+		}
+		else {
+			stack_dump0 = 711;
+			ivar2 = 3;
+			ivar0 = stack_dump0;
+			ivar1 = 702;
+		}
+		ivar3 = load_varc(1011);
+		ivar4 = 3282;
+		ivar5 = 2347;
+		ivar6 = 2348;
+		ivar7 = 1;
+		ivar8 = load_varc(1016);
+		break;
+	case 2:
+		if_setgraphic(1052, 47775750)
+		if_setgraphic(1053, 47775751)
+		if_setgraphic(1049, 47775752)
+		if_setgraphic(1054, 47775753)
+		if (gender() == 1) {
+			stack_dump0 = 751;
+			ivar2 = 11;
+			ivar0 = stack_dump0;
+		}
+		else {
+			stack_dump0 = 749;
+			ivar2 = 4;
+			ivar0 = stack_dump0;
+		}
+		ivar1 = 750;
+		ivar3 = load_varc(1012);
+		break;
+	case 3:
+		if_setgraphic(1052, 47775750)
+		if_setgraphic(1053, 47775751)
+		if_setgraphic(1057, 47775752)
+		if_setgraphic(1046, 47775753)
+		if (gender() == 1) {
+			stack_dump0 = 1607;
+			ivar2 = 12;
+			ivar0 = stack_dump0;
+			ivar1 = 1606;
+		}
+		else {
+			stack_dump0 = 1586;
+			ivar2 = 5;
+			ivar0 = stack_dump0;
+			ivar1 = 1585;
+		}
+		ivar3 = load_varc(1013);
+		ivar4 = 3284;
+		ivar5 = 2347;
+		ivar6 = 2348;
+		ivar7 = 2;
+		ivar8 = load_varc(1017);
+}
+cc_deleteall(47775756)
+ivar9 = 0;
+ivar10 = enum_getoutputcount(ivar0);
+ivar11 = -1;
+svar0 = "";
+ivar12 = 0;
+ivar13 = 0;
+while (ivar9 < ivar10) {
+	ivar11 = enum(ivar9, ivar0, 75, 105);
+	svar0 = enum(ivar9, ivar1, 115, 105);
+	cc_create(if_gethash(729, 12), 5, if_getnextsubid(if_gethash(729, 12)));
+	cc_setsize(17, 17, 0, 0);
+	cc_setposition(0, calc(ivar12 + 1), 0, 0);
+	cc_create(if_gethash(729, 12), 4, if_getnextsubid(if_gethash(729, 12)));
+	cc_setsize(20, 19, 1, 0);
+	cc_setposition(0, ivar12, 2, 0);
+	cc_settextalign(0, 1, 0);
+	cc_setcolor(16750623);
+	cc_settextfont(495);
+	cc_settext(svar0);
+	if (ivar11 == ivar3) {
+		cc_setgraphic(699)
+		ivar13 = ivar12;
+	}
+	else {
+		cc_setgraphic(697)
+		instr6091(1356, "Iii", -2147483645, instr6151(), 16777215);
+		instr6092(1356, "Iii", -2147483645, instr6151(), 16750623);
+		instr6091(1356, "Iii", -2147483645, instr6151(), 16777215);
+		instr6092(1356, "Iii", -2147483645, instr6151(), 16750623);
+		cc_setop(1, svar0);
+		cc_setop(1, svar0);
+		instr6687(1514, "iKi", -2147483644, ivar11, ivar2);
+		instr6687(1514, "iKi", -2147483644, ivar11, ivar2);
+	}
+	ivar9 = calc(ivar9 + 1);
+	ivar12 = calc(ivar12 + 19);
+}
+if (ivar12 > if_getheight(if_gethash(729, 12))) {
+	if_setsize(20, 4, 1, 1, 47775756)
+	instr6185(0, ivar12, 47775756)
+	if (ivar13 < if_getscrolly(47775756)) 
+		if_setscrollpos(0, calc(5 - ivar13), if_gethash(729, 12));
+	else {
+		if (calc(ivar13 + 19) >= calc(if_getscrolly(47775756) + if_getheight(if_gethash(729, 12)))) 
+			if_setscrollpos(0, calc(if_getheight(if_gethash(729, 12)) - calc(ivar13 + 25)), if_gethash(729, 12));
+	}
+	if_sethide(if_gethash(729, 13), 0)
+	script31(47775757, 47775756, 792, 789, 790, 791, 773, 788);
+}
+else {
+	if_setsize(4, 4, 1, 1, 47775756)
+	instr6185(0, 0, 47775756)
+	if_setscrollpos(0, 0, if_gethash(729, 12));
+	cc_deleteall(47775757)
+	if_sethide(if_gethash(729, 13), 1)
+}
+cc_deleteall(47775761)
+if (ivar5 == -1) {
+	if_setsize(4, 4, 1, 1, 47775761)
+	instr6185(0, 0, 47775761)
+	if_setscrollpos(0, 0, if_gethash(729, 17));
+	cc_deleteall(47775762)
+	if_sethide(if_gethash(729, 18), 1)
+	return;
+}
+ivar10 = enum_getoutputcount(ivar5);
+ivar14 = 5;
+ivar15 = 0;
+if (calc(21 * calc(calc(ivar14 / calc(1 - ivar10)) + 1)) > if_getheight(if_gethash(729, 17))) {
+	stack_dump0 = 4;
+	ivar15 = 2;
+	ivar14 = stack_dump0;
+}
+ivar9 = 0;
+ivar12 = 0;
+ivar16 = 0;
+ivar17 = -1;
+ivar18 = 0;
+if (ivar9 < ivar10) {
+	ivar18 = enum(ivar9, ivar4, 105, 105);
+	svar0 = enum(ivar9, ivar6, 115, 105);
+	cc_create(if_gethash(729, 17), 3, if_getnextsubid(if_gethash(729, 17)));
+	cc_setsize(21, 21, 0, 0);
+	cc_setfill(true);
+	cc_setposition(calc(calc(cc_getwidth() * ivar16) + ivar15), ivar12, 0, 0);
+	cc_setcolor(enum(ivar9, ivar5, 105, 105));
+	stack_dump0 = 1160;
+	stack_dump1 = -2147483645;
+	stack_dump2 = -2147483643;
+	stack_dump3 = 47775767;
+	stack_dump4 = 0;
+	stack_dump5 = 512;
+	stack_dump6 = svar0;
+	stack_dump7 = "IiIsii";
+	/* 
+		AT PrimitiveInstruction(opcode=207, value=false, type=boolean)
+		com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=207, value=false, type=boolean)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+}
+if (ivar16 != 0) 
+	ivar12 = calc(ivar12 + 21);
+if (ivar12 > if_getheight(if_gethash(729, 17)) || ivar14 < 5) {
+	if_setsize(20, 4, 1, 1, 47775761)
+	instr6185(0, ivar12, 47775761)
+	if (ivar13 < if_getscrolly(47775761)) 
+		if_setscrollpos(0, calc(5 - ivar13), if_gethash(729, 17));
+	else {
+		if (calc(ivar13 + 21) >= calc(if_getscrolly(47775761) + if_getheight(if_gethash(729, 17)))) 
+			if_setscrollpos(0, calc(if_getheight(if_gethash(729, 17)) - calc(ivar13 + 25)), if_gethash(729, 17));
+	}
+	if_sethide(if_gethash(729, 18), 0)
+	script31(47775762, 47775761, 792, 789, 790, 791, 773, 788);
+}
+else {
+	if_setsize(4, 4, 1, 1, 47775761)
+	instr6185(0, 0, 47775761)
+	if_setscrollpos(0, 0, if_gethash(729, 17));
+	cc_deleteall(47775762)
+	if_sethide(if_gethash(729, 18), 1)
+}
+return;

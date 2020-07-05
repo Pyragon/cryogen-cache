@@ -1,0 +1,33 @@
+//script6413(6413)()(void)
+if_settext(if_gethash(1308, 341), "Current co-op points:");
+if_settext(if_gethash(1308, 342), to_string(load_varpbit(11473)));
+if_setposition(120, 0, 0, 0, 85721430)
+if (load_varpbit(4781) == 0) 
+	if_setcolor(11874064, if_gethash(1308, 342));
+else 
+	if_setcolor(16512486, if_gethash(1308, 342));
+if (load_varpbit(11471) == 1) 
+	script6414(85721100, 1);
+else {
+	if (load_varpbit(11473) < 25) 
+		script6414(85721100, 0);
+}
+if (calc(calc(32 % 33) & 1 << load_varp(2381)) == 1) 
+	script6414(85721560, 1);
+else {
+	if (load_varpbit(11473) < 50) 
+		script6414(85721560, 0);
+}
+if (load_varpbit(11472) == 1) 
+	script6414(85721581, 1);
+else {
+	if (load_varpbit(11473) < 75) 
+		script6414(85721581, 0);
+}
+if (calc(calc(42 % 34) & 1 << load_varp(2381)) == 1) 
+	script6414(85721583, 1);
+else {
+	if (load_varpbit(11473) < 100) 
+		script6414(85721583, 0);
+}
+return;

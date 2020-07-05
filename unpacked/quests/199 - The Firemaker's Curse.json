@@ -1,0 +1,17 @@
+{
+  "id": 199,
+  "name": "The Firemaker's Curse",
+  "members": false,
+  "varbitValues": [
+    [
+      10383,
+      5,
+      270
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 9127
+}

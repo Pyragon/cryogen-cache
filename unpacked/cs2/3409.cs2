@@ -1,0 +1,8 @@
+//script3409(3409)(int arg0)(void)
+string svar0;
+svar0 = "Access Forums";
+script3408(arg0, svar0);
+if_setsize(stringwidth(svar0, 495), if_getheight(arg0), 0, 0, arg0)
+if_settext(arg0, "<u=64c8fa>" + svar0 + "</u>");
+instr6239(arg0, 3410, "");
+return;

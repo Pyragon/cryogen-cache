@@ -1,0 +1,49 @@
+//script161(161)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, string arg6, string arg7, string arg8, string arg9, string arg10, string arg11, string arg12, string arg13, string arg14)(void)
+if (cc_find(arg2, arg3) == 1) {
+	if (invother_getitem(arg0, arg1) != -1) {
+		cc_setitem(invother_getitem(arg0, arg1), invother_getnum(arg0, arg1));
+		cc_setopbase(item_name(invother_getitem(arg0, arg1)));
+		cc_setop(1, arg6);
+		cc_setop(2, arg7);
+		cc_setop(3, arg8);
+		cc_setop(4, arg9);
+		cc_setop(5, arg10);
+		cc_setop(6, arg11);
+		cc_setop(7, arg12);
+		cc_setop(8, arg13);
+		cc_setop(9, arg14);
+		cc_setop(10, "Examine" + "<col=ff9040>");
+		if (arg4 > 0) {
+			instr6443(5);
+			instr6075(10);
+		}
+		if (arg4 == 1) 
+			instr6499(155, "viiIiIsssssssss", arg0, -2147483643, -2147483641, -2147483645, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14);
+		else {
+			if (arg4 == 2) 
+				instr6499(156, "viiIiIsssssssss", arg0, -2147483643, -2147483641, -2147483645, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14);
+		}
+		cc_setgraphicshadow(colour_gethashedhsv(51, 51, 51));
+		cc_setoutline(1);
+	}
+	else {
+		cc_setitem(-1, 0);
+		cc_setopbase("");
+		cc_setop(1, "");
+		cc_setop(2, "");
+		cc_setop(3, "");
+		cc_setop(4, "");
+		cc_setop(5, "");
+		cc_setop(6, "");
+		cc_setop(7, "");
+		cc_setop(8, "");
+		cc_setop(9, "");
+		cc_setop(10, "");
+		if (arg4 > 0) {
+			instr6443(0);
+			instr6075(0);
+		}
+		instr6499(None, "");
+	}
+}
+return;

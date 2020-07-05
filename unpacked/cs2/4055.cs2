@@ -1,0 +1,28 @@
+//script4055(4055)(int arg0)(void)
+if (load_varc(1432) == 1 || if_gethide(if_gethash(1058, 9)) == 0) 
+	return;
+if (if_gethide(if_gethash(1058, 10)) == 1 && if_gethide(if_gethash(1058, 9)) == 1) {
+	if_sethide(if_gethash(1058, 9), 0)
+	if_setposition(0, calc(if_getheight(if_gethash(1058, 9)) - 1), 1, 0, 69337097)
+	store_varc(1432, 1)
+	instr6220(if_gethash(1058, 2));
+	instr6220(if_gethash(1058, 3));
+	instr6342(arg0, 4059, "II", 69337097, arg0);
+}
+else {
+	store_varc(1432, 1)
+	instr6220(if_gethash(1058, 2));
+	instr6220(if_gethash(1058, 3));
+	instr6342(arg0, 4058, "III", 69337098, 69337097, arg0);
+}
+if_setgraphic(4464, 69337120)
+if_setgraphic(2659, 69337121)
+if_setgraphic(2659, 69337122)
+if_setgraphic(4465, 69337124)
+if_setgraphic(2657, 69337125)
+if_setgraphic(2657, 69337126)
+if (load_varpbit(8662) < 30 || load_varpbit(8663) < 30 || load_varpbit(8664) < 30 || load_varpbit(8665) < 30 || load_varpbit(8666) < 30) 
+	script4061();
+else 
+	script4062();
+return;

@@ -1,0 +1,17 @@
+//script5247(5247)()(void)
+if_sethide(if_gethash(1128, 99), 1)
+if_setgraphic(6009, 73924612)
+if_sethide(if_gethash(1128, 129), 1)
+if_setgraphic(6009, 73924714)
+if_sethide(if_gethash(1128, 167), 1)
+if_setgraphic(6009, 73924752)
+if_sethide(if_gethash(1128, 204), 1)
+if_setgraphic(6009, 73924789)
+if_sethide(if_gethash(1128, 241), 1)
+if_setgraphic(6009, 73924826)
+if_sethide(if_gethash(1128, 278), 1)
+if_setgraphic(6009, 73924863)
+if_sethide(if_gethash(1128, 315), 1)
+if_setgraphic(6009, 73924900)
+if_settext(if_gethash(1128, 13), to_string(load_varpbit(5505)));
+return;

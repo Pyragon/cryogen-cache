@@ -1,0 +1,15 @@
+//script2487(2487)(int arg0)(void)
+if_sethide(if_gethash(844, 10), 1)
+if_sethide(if_gethash(844, 11), 1)
+if_setgraphic(1421, 55312435)
+if_setgraphic(1421, 55312433)
+switch (arg0) {
+	case 55312435:
+		if_sethide(if_gethash(844, 10), 0)
+		if_setgraphic(1420, 55312435)
+		break;
+	case 55312433:
+		if_sethide(if_gethash(844, 11), 0)
+		if_setgraphic(1420, 55312433)
+}
+return;

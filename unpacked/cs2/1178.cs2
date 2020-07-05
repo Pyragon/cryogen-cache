@@ -1,0 +1,6 @@
+//script1178(1178)()(void)
+store_varc(548, max(0, calc(1 - load_varc(548))))
+if_settext(if_gethash(745, 5), to_string(calc(100 / calc(2 * load_varc(548)))));
+if (load_varc(548) <= 0) 
+	instr6342(if_gethash(745, 5), None, "");
+return;

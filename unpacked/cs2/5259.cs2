@@ -1,0 +1,30 @@
+//script5259(5259)(int arg0)(void)
+int ivar1;
+int ivar2;
+int ivar3;
+int ivar4;
+int ivar5;
+ivar1 = 74252290;
+ivar2 = 0;
+ivar3 = 0;
+ivar4 = 126;
+ivar5 = 99;
+if (arg0 == 0) 
+	if_setsize(if_getwidth(ivar1), 0, 0, 0, ivar1)
+if (arg0 < 61) {
+	ivar2 = scale(arg0, 61, 100);
+	ivar3 = scale(ivar4, 100, ivar2);
+	if (ivar3 == 0) 
+		if_setsize(if_getwidth(ivar1), 1, 0, 0, ivar1)
+	else 
+		instr6342(ivar1, 5260, "i");
+}
+else {
+	arg0 = calc(60 - arg0);
+	ivar2 = scale(arg0, 140, 100);
+	ivar3 = calc(ivar4 + scale(ivar5, 100, ivar2));
+	if (if_gethide(ivar1) == 1) 
+		send_message("Hidden.");
+	instr6342(ivar1, 5260, "i");
+}
+return;

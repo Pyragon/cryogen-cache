@@ -1,0 +1,25 @@
+//script3952(3952)(int arg0)(void)
+store_varc(331, load_varc_string(337))
+store_varc(332, load_varc_string(338))
+store_varc(333, load_varc_string(339))
+store_varc(334, load_varc_string(340))
+store_varc(335, load_varc_string(341))
+store_varc(336, load_varc_string(342))
+if (arg0 == 1) {
+	if_settext(if_gethash(1028, 173), append("<u=ebe0bc>", load_varc_string(331)));
+	if_settext(if_gethash(1028, 174), append("<u=ebe0bc>", load_varc_string(332)));
+	if_settext(if_gethash(1028, 175), append("<u=ebe0bc>", load_varc_string(333)));
+	if_settext(if_gethash(1028, 176), append("<u=ebe0bc>", load_varc_string(334)));
+	if_settext(if_gethash(1028, 177), append("<u=ebe0bc>", load_varc_string(335)));
+	if_settext(if_gethash(1028, 178), append("<u=ebe0bc>", load_varc_string(336)));
+}
+else {
+	if_settext(if_gethash(890, 23), append("<u=ebe0bc>", load_varc_string(331)));
+	if_settext(if_gethash(890, 24), append("<u=ebe0bc>", load_varc_string(332)));
+	if_settext(if_gethash(890, 25), append("<u=ebe0bc>", load_varc_string(333)));
+	if_settext(if_gethash(890, 26), append("<u=ebe0bc>", load_varc_string(334)));
+	if_settext(if_gethash(890, 27), append("<u=ebe0bc>", load_varc_string(335)));
+	if_settext(if_gethash(890, 28), append("<u=ebe0bc>", load_varc_string(336)));
+}
+script3947(arg0, load_varc_string(331), load_varc_string(332), load_varc_string(333), load_varc_string(334), load_varc_string(335), load_varc_string(336));
+return;

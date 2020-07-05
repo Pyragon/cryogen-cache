@@ -1,0 +1,17 @@
+{
+  "id": 122,
+  "name": "Hunt for Red Raktuber",
+  "members": false,
+  "varbitValues": [
+    [
+      6180,
+      10,
+      140
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

@@ -1,0 +1,17 @@
+{
+  "id": 108,
+  "name": "Merlin's Crystal",
+  "members": false,
+  "varValues": [
+    [
+      14,
+      1,
+      7
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 6,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

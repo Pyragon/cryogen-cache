@@ -1,0 +1,291 @@
+//script2851(2851)(int arg0, int arg1, int arg2)(void)
+if (if_gethide(if_gethash(475, 55)) == 0) {
+	if (arg1 == 2) 
+		script835(1);
+	return;
+}
+if (clientclock() > calc(arg2 + 5) || load_varc(1074) == 2) {
+	switch (world_language()) {
+		case 2:
+			switch (arg1) {
+				case 2:
+					script835(0);
+					break;
+				case 6:
+					script3455();
+					break;
+				case 7:
+					script3453();
+					break;
+				case 8:
+					script3456();
+					break;
+				case 34:
+					script2858();
+					break;
+				case 35:
+					script2854();
+					break;
+				case 36:
+					script2859();
+					break;
+				case 50:
+					script2857();
+					break;
+				case 51:
+					script2855();
+					break;
+				case 52:
+					script2856();
+					break;
+				case 98:
+					script2860();
+					break;
+				case 99:
+					script2861();
+					break;
+				case 96:
+					script2863();
+					break;
+				case 97:
+					script2862();
+					break;
+				case 13:
+					script675();
+					break;
+				case 1:
+					script3455();
+					if (load_varc(1074) == 0) {
+						store_varc(1074, 1)
+						if_setgraphic(1233, 31129628)
+						if_settext(if_gethash(475, 29), "You are now in Focus Mode");
+						if (if_gethide(if_gethash(475, 54)) == 0) {
+							if_sethide(if_gethash(475, 54), 1)
+							if_sethide(if_gethash(475, 33), 0)
+							if_sethide(if_gethash(475, 100), 1)
+							if_sethide(if_gethash(475, 58), 0)
+						}
+					}
+					else if (load_varc(1074) == 2) {
+						store_varc(1074, 0)
+						if_setgraphic(1232, 31129628)
+						if_settext(if_gethash(475, 29), "You are now in Aim Mode");
+						if (if_gethide(if_gethash(475, 100)) == 0) {
+							if_sethide(if_gethash(475, 33), 1)
+							if_sethide(if_gethash(475, 54), 0)
+							if_sethide(if_gethash(475, 100), 1)
+							if_sethide(if_gethash(475, 58), 0)
+						}
+					}
+					else {
+						store_varc(1074, 2)
+						if_setgraphic(1231, 31129628)
+						if_settext(if_gethash(475, 29), "You are now in Fine Control Mode");
+						if (if_gethide(if_gethash(475, 33)) == 0) {
+							if_sethide(if_gethash(475, 33), 1)
+							if_sethide(if_gethash(475, 54), 1)
+							if_sethide(if_gethash(475, 100), 0)
+							if_sethide(if_gethash(475, 58), 1)
+						}
+					}
+					instr6342(arg0, 2853, "Ii", arg0, clientclock());
+					break;
+				case 83:
+					if (load_varc(1074) == 0) {
+						if (if_gethide(if_gethash(475, 54)) == 1) {
+							if_sethide(if_gethash(475, 54), 0)
+							if_sethide(if_gethash(475, 33), 1)
+							if_sethide(if_gethash(475, 100), 1)
+							if_sethide(if_gethash(475, 7), 0)
+							if_sethide(if_gethash(475, 58), 0)
+						}
+						else {
+							if_sethide(if_gethash(475, 54), 1)
+							if_sethide(if_gethash(475, 33), 1)
+							if_sethide(if_gethash(475, 100), 1)
+							if_sethide(if_gethash(475, 7), 1)
+							if_sethide(if_gethash(475, 58), 1)
+						}
+					}
+					else if (load_varc(1074) == 1) {
+						if (if_gethide(if_gethash(475, 33)) == 1) {
+							if_sethide(if_gethash(475, 54), 1)
+							if_sethide(if_gethash(475, 33), 0)
+							if_sethide(if_gethash(475, 100), 1)
+							if_sethide(if_gethash(475, 7), 0)
+							if_sethide(if_gethash(475, 58), 0)
+						}
+						else {
+							if_sethide(if_gethash(475, 54), 1)
+							if_sethide(if_gethash(475, 33), 1)
+							if_sethide(if_gethash(475, 100), 1)
+							if_sethide(if_gethash(475, 7), 1)
+							if_sethide(if_gethash(475, 58), 1)
+						}
+					}
+					else {
+						if (load_varc(1074) == 2) {
+							if (if_gethide(if_gethash(475, 100)) == 1) {
+								if_sethide(if_gethash(475, 54), 1)
+								if_sethide(if_gethash(475, 33), 1)
+								if_sethide(if_gethash(475, 100), 0)
+								if_sethide(if_gethash(475, 7), 0)
+								if_sethide(if_gethash(475, 58), 1)
+							}
+							else {
+								if_sethide(if_gethash(475, 54), 1)
+								if_sethide(if_gethash(475, 33), 1)
+								if_sethide(if_gethash(475, 100), 1)
+								if_sethide(if_gethash(475, 7), 1)
+								if_sethide(if_gethash(475, 58), 1)
+							}
+						}
+					}
+					break;
+				default:
+					return;
+			}
+			break;
+		default:
+			switch (arg1) {
+				case 2:
+					script835(0);
+					break;
+				case 6:
+					script3455();
+					break;
+				case 7:
+					script3453();
+					break;
+				case 8:
+					script3456();
+					break;
+				case 32:
+					script2858();
+					break;
+				case 33:
+					script2854();
+					break;
+				case 34:
+					script2859();
+					break;
+				case 48:
+					script2857();
+					break;
+				case 49:
+					script2855();
+					break;
+				case 50:
+					script2856();
+					break;
+				case 98:
+					script2860();
+					break;
+				case 99:
+					script2861();
+					break;
+				case 96:
+					script2863();
+					break;
+				case 97:
+					script2862();
+					break;
+				case 13:
+					script675();
+					break;
+				case 1:
+					script3455();
+					if (load_varc(1074) == 0) {
+						store_varc(1074, 1)
+						if_setgraphic(1233, 31129628)
+						if_settext(if_gethash(475, 29), "You are now in Focus Mode");
+						if (if_gethide(if_gethash(475, 54)) == 0) {
+							if_sethide(if_gethash(475, 54), 1)
+							if_sethide(if_gethash(475, 33), 0)
+							if_sethide(if_gethash(475, 100), 1)
+							if_sethide(if_gethash(475, 58), 0)
+						}
+					}
+					else if (load_varc(1074) == 2) {
+						store_varc(1074, 0)
+						if_setgraphic(1232, 31129628)
+						if_settext(if_gethash(475, 29), "You are now in Aim Mode");
+						if (if_gethide(if_gethash(475, 100)) == 0) {
+							if_sethide(if_gethash(475, 33), 1)
+							if_sethide(if_gethash(475, 54), 0)
+							if_sethide(if_gethash(475, 100), 1)
+							if_sethide(if_gethash(475, 58), 0)
+						}
+					}
+					else {
+						store_varc(1074, 2)
+						if_setgraphic(1231, 31129628)
+						if_settext(if_gethash(475, 29), "You are now in Fine Control Mode");
+						if (if_gethide(if_gethash(475, 33)) == 0) {
+							if_sethide(if_gethash(475, 33), 1)
+							if_sethide(if_gethash(475, 54), 1)
+							if_sethide(if_gethash(475, 100), 0)
+							if_sethide(if_gethash(475, 58), 1)
+						}
+					}
+					instr6342(arg0, 2853, "Ii", arg0, clientclock());
+					break;
+				case 83:
+					if (load_varc(1074) == 0) {
+						if (if_gethide(if_gethash(475, 54)) == 1) {
+							if_sethide(if_gethash(475, 54), 0)
+							if_sethide(if_gethash(475, 33), 1)
+							if_sethide(if_gethash(475, 100), 1)
+							if_sethide(if_gethash(475, 7), 0)
+							if_sethide(if_gethash(475, 58), 0)
+						}
+						else {
+							if_sethide(if_gethash(475, 54), 1)
+							if_sethide(if_gethash(475, 33), 1)
+							if_sethide(if_gethash(475, 100), 1)
+							if_sethide(if_gethash(475, 7), 1)
+							if_sethide(if_gethash(475, 58), 1)
+						}
+					}
+					else if (load_varc(1074) == 1) {
+						if (if_gethide(if_gethash(475, 33)) == 1) {
+							if_sethide(if_gethash(475, 54), 1)
+							if_sethide(if_gethash(475, 33), 0)
+							if_sethide(if_gethash(475, 100), 1)
+							if_sethide(if_gethash(475, 7), 0)
+							if_sethide(if_gethash(475, 58), 0)
+						}
+						else {
+							if_sethide(if_gethash(475, 54), 1)
+							if_sethide(if_gethash(475, 33), 1)
+							if_sethide(if_gethash(475, 100), 1)
+							if_sethide(if_gethash(475, 7), 1)
+							if_sethide(if_gethash(475, 58), 1)
+						}
+					}
+					else {
+						if (load_varc(1074) == 2) {
+							if (if_gethide(if_gethash(475, 100)) == 1) {
+								if_sethide(if_gethash(475, 54), 1)
+								if_sethide(if_gethash(475, 33), 1)
+								if_sethide(if_gethash(475, 100), 0)
+								if_sethide(if_gethash(475, 7), 0)
+								if_sethide(if_gethash(475, 58), 1)
+							}
+							else {
+								if_sethide(if_gethash(475, 54), 1)
+								if_sethide(if_gethash(475, 33), 1)
+								if_sethide(if_gethash(475, 100), 1)
+								if_sethide(if_gethash(475, 7), 1)
+								if_sethide(if_gethash(475, 58), 1)
+							}
+						}
+					}
+					break;
+			}
+			return;
+	}
+	script2864();
+	instr6248(arg0, 2851, "Iii", arg0, -2147483640, clientclock());
+}
+return;

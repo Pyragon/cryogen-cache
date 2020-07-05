@@ -1,0 +1,26 @@
+//script60(60)()(void)
+int ivar0;
+int ivar1;
+int ivar2;
+ivar0 = 3;
+ivar1 = 5;
+ivar2 = 0;
+while (ivar0 < 255) {
+	while (ivar1 < 235) {
+		cc_create(if_gethash(260, 42), 5, ivar2);
+		cc_setsize(36, 32, 0, 0);
+		cc_setposition(ivar1, ivar0, 0, 0);
+		if (inv_getitem(514, ivar2) != -1) {
+			cc_setitem(inv_getitem(514, ivar2), inv_getnum(514, ivar2));
+			cc_setopbase(item_name(inv_getitem(514, ivar2)));
+			cc_setop(1, "Withdraw");
+			cc_setgraphicshadow(colour_gethashedhsv(17, 17, 17));
+			cc_setoutline(1);
+		}
+		ivar1 = calc(ivar1 + 40);
+		ivar2 = calc(ivar2 + 1);
+	}
+	ivar0 = calc(ivar0 + 44);
+	ivar1 = 5;
+}
+return;

@@ -1,0 +1,17 @@
+{
+  "id": 1,
+  "name": "Tower of Life",
+  "members": false,
+  "varbitValues": [
+    [
+      3337,
+      2,
+      18
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

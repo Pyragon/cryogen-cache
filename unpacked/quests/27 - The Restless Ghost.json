@@ -1,0 +1,17 @@
+{
+  "id": 27,
+  "name": "The Restless Ghost",
+  "members": false,
+  "varValues": [
+    [
+      107,
+      1,
+      5
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 1,
+  "difficulty": "NOVICE",
+  "graphicId": 2376
+}

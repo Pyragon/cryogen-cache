@@ -1,0 +1,6 @@
+//script5316(5316)(int arg0, int arg1, int arg2)(void)
+if (arg1 >= 0 && arg1 < 40 && arg2 >= 0 && arg2 < 40 && cc_find(arg0, arg1) == 1 && cc_find(arg0, arg2) == 1) {
+	cc_setposition(0, cc_gety(), 0, 0);
+	cc_setposition(0, cc_gety(), 0, 0);
+}
+return;

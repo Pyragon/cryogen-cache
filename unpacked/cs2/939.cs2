@@ -1,0 +1,13 @@
+//script939(939)()(void)
+int ivar0;
+int ivar1;
+ivar0 = 0;
+ivar1 = -1;
+while (ivar0 < inv_size(90)) {
+	if (cc_find(if_gethash(335, 34), ivar0) == 1) {
+		ivar1 = invother_getitem(90, ivar0);
+		script812(ivar1);
+	}
+	ivar0 = calc(ivar0 + 1);
+}
+return;

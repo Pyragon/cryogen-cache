@@ -1,0 +1,23 @@
+//script6278(6278)(int arg0, int arg1, int arg2)(void)
+if (arg0 == 0) {
+	if_settext(arg1, "- ACTIVE -");
+	if_setcolor(16711680, arg2);
+	if_settrans(200, arg2);
+}
+else if (arg0 == 1) {
+	if_settext(arg1, "Activate");
+	if_setcolor(10309156, arg2);
+	if_settrans(200, arg2);
+}
+else if (arg0 == 2) 
+	if_settext(arg1, "Buy");
+else if (arg0 == 3) {
+	if_settext(arg1, "Bought");
+	if_setcolor(10309156, arg2);
+	if_settrans(200, arg2);
+}
+else {
+	if (arg0 == 4) 
+		if_settext(arg1, "Locked");
+}
+return;

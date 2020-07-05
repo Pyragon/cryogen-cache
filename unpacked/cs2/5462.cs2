@@ -1,0 +1,135 @@
+//script5462(5462)(int arg0, int arg1)(void)
+int ivar2;
+string svar0;
+int stack_dump0;
+int stack_dump1;
+int stack_dump2;
+int stack_dump3;
+int stack_dump4;
+int stack_dump5;
+string stack_dump6;
+string stack_dump7;
+ivar2 = -1;
+svar0 = "";
+switch (arg0) {
+	case 1:
+		ivar2 = 8178;
+		svar0 = "Reduced melee attack";
+		break;
+	case 2:
+		ivar2 = 8184;
+		svar0 = "No shield";
+		break;
+	case 3:
+		ivar2 = 8185;
+		svar0 = "No food";
+		break;
+	case 4:
+		ivar2 = 8181;
+		svar0 = "Reduced melee defence";
+		break;
+	case 5:
+		ivar2 = 8187;
+		svar0 = "Random freeze";
+		break;
+	case 6:
+		ivar2 = 8188;
+		svar0 = "Halved HP";
+		break;
+	case 7:
+		ivar2 = 8186;
+		svar0 = "No body armour";
+		break;
+	case 8:
+		ivar2 = 8179;
+		svar0 = "Reduced ranged attack";
+		break;
+	case 9:
+		ivar2 = 8191;
+		svar0 = "No familiar";
+		break;
+	case 10:
+		ivar2 = 8199;
+		svar0 = "Monster stun";
+		break;
+	case 11:
+		ivar2 = 8193;
+		svar0 = "No prayers";
+		break;
+	case 12:
+		ivar2 = 8190;
+		svar0 = "Slippery fingers";
+		break;
+	case 13:
+		ivar2 = 8180;
+		svar0 = "Reduced magic attack";
+		break;
+	case 14:
+		ivar2 = 8192;
+		svar0 = "Diseased";
+		break;
+	case 15:
+		ivar2 = 8195;
+		svar0 = "No special attacks";
+		break;
+	case 16:
+		ivar2 = 8183;
+		svar0 = "Reduced magic defence";
+		break;
+	case 17:
+		ivar2 = 8196;
+		svar0 = "Random daze";
+		break;
+	case 18:
+		ivar2 = 8189;
+		svar0 = "Poisoned";
+		break;
+	case 19:
+		ivar2 = 8182;
+		svar0 = "Reduced ranged defence";
+		break;
+	case 20:
+		ivar2 = 8197;
+		svar0 = "No powerups";
+		break;
+	case 21:
+		ivar2 = 8194;
+		svar0 = "No potions";
+		break;
+	case 22:
+		ivar2 = 8198;
+		svar0 = "Life saver";
+		break;
+	default:
+		ivar2 = 8178;
+}
+cc_create(if_gethash(1159, 31), 5, arg1);
+cc_setgraphic(ivar2)
+cc_setsize(23, 23, 0, 0);
+cc_setposition(load_varc(1670), load_varc(1671), 2, 2);
+store_varc(1670, calc(load_varc(1670) + 24))
+if (load_varc(1670) > 180) {
+	store_varc(1670, 0)
+	store_varc(1671, calc(load_varc(1671) + 24))
+}
+script5464();
+stack_dump0 = 568;
+stack_dump1 = -2147483645;
+stack_dump2 = arg1;
+stack_dump3 = 75956268;
+stack_dump4 = 10;
+stack_dump5 = 100;
+stack_dump6 = svar0;
+stack_dump7 = "IiIsii";
+/* 
+	AT PrimitiveInstruction(opcode=207, value=false, type=boolean)
+	com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=207, value=false, type=boolean)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+		at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+		at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+		at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+		at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+		at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+	
+ */

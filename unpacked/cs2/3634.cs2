@@ -1,0 +1,7 @@
+//script3634(3634)(int arg0)(void)
+if (instr6004(arg0) == 1) {
+	if_setcolor(13369344, arg0);
+	if_setsize(27, 27, 0, 0, arg0)
+	if_setposition(instr6771(1101), instr6771(1102), 0, 0, arg0)
+}
+return;

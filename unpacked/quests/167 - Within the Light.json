@@ -1,0 +1,17 @@
+{
+  "id": 167,
+  "name": "Within the Light",
+  "members": false,
+  "varbitValues": [
+    [
+      6553,
+      1,
+      46
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 2,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

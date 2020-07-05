@@ -1,0 +1,10 @@
+//script4038(4038)()(void)
+store_varc(174, 17)
+if_sethide(if_gethash(673, 56), 1)
+if_sethide(if_gethash(673, 55), 1)
+if_sethide(if_gethash(673, 57), 0)
+if_setgraphic(4129, 44105745)
+if_setgraphic(4129, 44105742)
+if_setgraphic(4129, 44105744)
+if_setgraphic(4129, 44105743)
+return;

@@ -1,0 +1,301 @@
+//script2190(2190)(int arg0, int arg1, int arg2, string arg3, string arg4, string arg5, string arg6)(void)
+int ivar3;
+int ivar4;
+string stack_dump0;
+int stack_dump1;
+string stack_dump2;
+int stack_dump3;
+flow_0:
+	if (arg1 != -1 && arg1 != 6 && string_length(arg3) <= 0) 
+		return;
+	script3018();
+	if_settext(if_gethash(906, 164), arg3);
+	if (compare(arg4, "") != 0) {
+		if (arg1 != -1 && arg1 != 6) 
+			store_varc(277, arg4)
+		else 
+			store_varc(277, arg4)
+		if (arg0 == 1) 
+			if_settext(if_gethash(906, 166), escape(load_varc_string(277)));
+		else 
+			if_settext(if_gethash(906, 166), load_varc_string(277));
+	}
+	if (arg1 == 6 || arg1 == 10) {
+		if_settext(if_gethash(906, 174), "Yes");
+		if_settext(if_gethash(906, 176), "No");
+		stack_dump0 = "Yes";
+		stack_dump1 = instr6213(1, if_gethash(906, 174));
+		stack_dump2 = "No";
+		stack_dump3 = instr6213(1, if_gethash(906, 176));
+	}
+	else {
+		flow_14:
+			IF (arg1 == 0) 
+				GOTO	flow_15
+			/* 
+				AT JumpInstruction(target=LabelInstruction(labelId=15))
+				com.cryo.utils.cs2.DecompilerException: Can't merge two stacks (Code is invalid).
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generateFlowBlock(CS2FlowGenerator.java:846)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:202)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+		flow_15:
+			if_setsize(386, 136, 0, 0, 59375778)
+			if_setsize(0, 12, 1, 0, 59375782)
+			store_varc(1650, 1)
+			/* 
+				AT LabelInstruction(labelId=15)
+				com.cryo.utils.cs2.DecompilerException: Can't merge two stacks (Code is invalid).
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generateFlowBlock(CS2FlowGenerator.java:846)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:172)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+					at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+					at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+					at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+					at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+					at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+				
+			 */
+	}
+	stack_dump1 = stack_dump1;
+	stack_dump3 = stack_dump3;
+	stack_dump0 = stack_dump0;
+	stack_dump2 = stack_dump2;
+	IF (arg2 == 0) 
+		GOTO	flow_17
+	stack_dump1 = stack_dump1;
+	stack_dump3 = stack_dump3;
+	stack_dump0 = stack_dump0;
+	stack_dump2 = stack_dump2;
+	GOTO	flow_18
+flow_17:
+	if_setsize(0, 0, 1, 1, 59375786)
+	if_setsize(0, 0, 1, 1, 59375790)
+	if_sethide(if_gethash(906, 175), 1)
+	if_sethide(if_gethash(906, 176), 1)
+	stack_dump1 = stack_dump1;
+	stack_dump3 = stack_dump3;
+	stack_dump0 = stack_dump0;
+	stack_dump2 = stack_dump2;
+flow_18:
+	if_sethide(if_gethash(906, 56), 0)
+	stack_dump1 = stack_dump1;
+	stack_dump3 = stack_dump3;
+	stack_dump0 = stack_dump0;
+	stack_dump2 = stack_dump2;
+	ivar3 = 0;
+	stack_dump1 = stack_dump1;
+	stack_dump3 = stack_dump3;
+	stack_dump0 = stack_dump0;
+	stack_dump2 = stack_dump2;
+	switch (arg1) {
+		default:
+			stack_dump1 = stack_dump1;
+			stack_dump3 = stack_dump3;
+			stack_dump0 = stack_dump0;
+			stack_dump2 = stack_dump2;
+			break;
+		case 0:
+			stack_dump1 = stack_dump1;
+			stack_dump3 = stack_dump3;
+			stack_dump0 = stack_dump0;
+			stack_dump2 = stack_dump2;
+			ivar3 = 0;
+			stack_dump1 = stack_dump1;
+			stack_dump3 = stack_dump3;
+			stack_dump0 = stack_dump0;
+			stack_dump2 = stack_dump2;
+			break;
+		case 1:
+		case 2:
+		case 3:
+		case 4:
+		case 5:
+		case 7:
+		case 9:
+			stack_dump1 = stack_dump1;
+			stack_dump3 = stack_dump3;
+			stack_dump0 = stack_dump0;
+			stack_dump2 = stack_dump2;
+			ivar3 = 2;
+			stack_dump1 = stack_dump1;
+			stack_dump3 = stack_dump3;
+			stack_dump0 = stack_dump0;
+			stack_dump2 = stack_dump2;
+	}
+	stack_dump1 = stack_dump1;
+	stack_dump3 = stack_dump3;
+	stack_dump0 = stack_dump0;
+	stack_dump2 = stack_dump2;
+	IF (if_gethide(enum(5, 941, 73, 105)) == 0) 
+		GOTO	flow_23
+	stack_dump1 = stack_dump1;
+	stack_dump3 = stack_dump3;
+	stack_dump0 = stack_dump0;
+	stack_dump2 = stack_dump2;
+	GOTO	flow_24
+flow_23:
+	stack_dump1 = stack_dump1;
+	stack_dump3 = stack_dump3;
+	stack_dump0 = stack_dump0;
+	stack_dump2 = stack_dump2;
+	script3161(0);
+	stack_dump1 = stack_dump1;
+	stack_dump3 = stack_dump3;
+	stack_dump0 = stack_dump0;
+	stack_dump2 = stack_dump2;
+	GOTO	flow_26
+flow_24:
+	stack_dump1 = stack_dump1;
+	stack_dump3 = stack_dump3;
+	stack_dump0 = stack_dump0;
+	stack_dump2 = stack_dump2;
+	IF (if_gethide(enum(3, 941, 73, 105)) == 0) 
+		GOTO	flow_25
+	stack_dump1 = stack_dump1;
+	stack_dump3 = stack_dump3;
+	stack_dump0 = stack_dump0;
+	stack_dump2 = stack_dump2;
+	GOTO	flow_26
+flow_25:
+	stack_dump1 = stack_dump1;
+	stack_dump3 = stack_dump3;
+	stack_dump0 = stack_dump0;
+	stack_dump2 = stack_dump2;
+	script4556(0);
+	stack_dump1 = stack_dump1;
+	stack_dump3 = stack_dump3;
+	stack_dump0 = stack_dump0;
+	stack_dump2 = stack_dump2;
+flow_26:
+	instr6248(if_gethash(906, 166), 3022, "izIiis", -2147483640, -2147483639, -2147483645, ivar3, arg1, arg5);
+	instr6239(if_gethash(906, 170), 3019, "is", arg1, arg5);
+	stack_dump1 = stack_dump1;
+	stack_dump3 = stack_dump3;
+	stack_dump0 = stack_dump0;
+	stack_dump2 = stack_dump2;
+	ivar4 = 0;
+	stack_dump1 = stack_dump1;
+	stack_dump3 = stack_dump3;
+	stack_dump0 = stack_dump0;
+	stack_dump2 = stack_dump2;
+	IF (arg1 != -1) 
+		GOTO	flow_27
+	stack_dump1 = stack_dump1;
+	stack_dump3 = stack_dump3;
+	stack_dump0 = stack_dump0;
+	stack_dump2 = stack_dump2;
+	GOTO	flow_29
+flow_27:
+	stack_dump1 = stack_dump1;
+	stack_dump3 = stack_dump3;
+	stack_dump0 = stack_dump0;
+	stack_dump2 = stack_dump2;
+	IF (arg1 != 6) 
+		GOTO	flow_28
+	stack_dump1 = stack_dump1;
+	stack_dump3 = stack_dump3;
+	stack_dump0 = stack_dump0;
+	stack_dump2 = stack_dump2;
+	GOTO	flow_29
+flow_28:
+	store_varc(1097, string_length(load_varc_string(277)))
+	hook_mouse_press(if_gethash(906, 166), 1874, "iII", -2147483647, 59375782, 59375783);
+	stack_dump1 = stack_dump1;
+	stack_dump3 = stack_dump3;
+	stack_dump0 = stack_dump0;
+	stack_dump2 = stack_dump2;
+	script1875(59375782, 59375783, load_varc_string(277));
+	if_sethide(if_gethash(906, 167), 1)
+	if_setsize(if_getwidth(if_gethash(906, 162)), 136, 0, 0, 59375778)
+	hook_mouse_press(if_gethash(906, 168), None, "");
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	stack_dump2 = stack_dump2;
+	/* 
+		AT PrimitiveInstruction(opcode=968, value=0, type=int)
+		com.cryo.utils.cs2.DecompilerException: Script ID is not an int!
+			at com.cryo.cache.loaders.cs2.nodes.CS2AnonymousClassExpression.<init>(CS2AnonymousClassExpression.java:25)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:151)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+flow_29:
+	store_varc(1097, 0)
+	if_sethide(if_gethash(906, 167), 1)
+	stack_dump1 = stack_dump1;
+	stack_dump3 = stack_dump3;
+	stack_dump0 = stack_dump0;
+	stack_dump2 = stack_dump2;
+	IF (string_length(arg6) > 0) 
+		GOTO	flow_30
+	stack_dump1 = stack_dump1;
+	stack_dump3 = stack_dump3;
+	stack_dump0 = stack_dump0;
+	stack_dump2 = stack_dump2;
+	GOTO	flow_32
+flow_30:
+	stack_dump1 = stack_dump1;
+	stack_dump3 = stack_dump3;
+	stack_dump0 = stack_dump0;
+	stack_dump2 = stack_dump2;
+	IF (string_length(load_varc_string(277)) > 0) 
+		GOTO	flow_31
+	stack_dump1 = stack_dump1;
+	stack_dump3 = stack_dump3;
+	stack_dump0 = stack_dump0;
+	stack_dump2 = stack_dump2;
+	GOTO	flow_32
+flow_31:
+	stack_dump1 = stack_dump1;
+	stack_dump3 = stack_dump3;
+	stack_dump0 = stack_dump0;
+	stack_dump2 = stack_dump2;
+	ivar4 = max(44, calc(13 * paramheight(if_getwidth(if_gethash(906, 165)), 494, load_varc_string(277))));
+	if_setsize(if_getwidth(if_gethash(906, 165)), ivar4, 0, 0, 59375781)
+	if_setsize(if_getwidth(if_gethash(906, 162)), calc(ivar4 + 95), 0, 0, 59375778)
+	if_setposition(if_getx(if_gethash(906, 168)), calc(calc(if_gety(if_gethash(906, 165)) + ivar4) + 5), 0, 0, 59375784)
+	if_setsize(if_getwidth(if_gethash(906, 168)), 13, 0, 0, 59375784)
+	if_settext(if_gethash(906, 168), "<u=2c6ff8>" + arg6 + "</u>");
+	if_setcolor(2912248, if_gethash(906, 168));
+	stack_dump1 = stack_dump1;
+	stack_dump0 = stack_dump0;
+	stack_dump2 = stack_dump2;
+	/* 
+		AT PrimitiveInstruction(opcode=968, value=0, type=int)
+		com.cryo.utils.cs2.DecompilerException: Script ID is not an int!
+			at com.cryo.cache.loaders.cs2.nodes.CS2AnonymousClassExpression.<init>(CS2AnonymousClassExpression.java:25)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:151)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */
+flow_32:
+	/* 
+		AT PrimitiveInstruction(opcode=184, value=0, type=int)
+		java.lang.RuntimeException: can't merge: diff stack sizes/types, -2, -2, 0, true
+			at com.cryo.cache.loaders.cs2.CS2Type.merge(CS2Type.java:526)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:446)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+			at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+			at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+			at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+			at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+			at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+		
+	 */

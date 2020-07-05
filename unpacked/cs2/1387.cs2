@@ -1,0 +1,271 @@
+//script1387(1387)(int arg0)(void)
+if (load_varc(1413) == 0 && arg0 != 99) 
+	return;
+if (instr6644() >= 2) {
+	if (if_isopen(if_gethash(746, 109)) == 1) {
+		if (arg0 != 98 || if_isopen(if_gethash(746, 110)) == 0) {
+			if_sethide(if_gethash(746, 109), 0)
+			if_sethide(if_gethash(746, 110), 1)
+			if_sethide(if_gethash(746, 108), 0)
+			if_sethide(if_gethash(746, 111), 1)
+		}
+		else {
+			if_sethide(if_gethash(746, 109), 1)
+			if_sethide(if_gethash(746, 110), 0)
+			if_sethide(if_gethash(746, 108), 0)
+			if_sethide(if_gethash(746, 111), 1)
+		}
+	}
+	else {
+		if_sethide(if_gethash(746, 109), 1)
+		if_sethide(if_gethash(746, 111), 0)
+		switch (arg0) {
+			case 0:
+				if_setgraphic(8548, 48889931)
+				if_sethide(if_gethash(746, 112), 0)
+				if_setgraphic(8551, 48890008)
+				if_setgraphic(8550, 48890009)
+				if_sethide(if_gethash(746, 108), 0)
+				break;
+			case 1:
+				if_setgraphic(8548, 48889932)
+				if_sethide(if_gethash(746, 113), 0)
+				if_setgraphic(8551, 48890010)
+				if_setgraphic(8550, 48890011)
+				if_sethide(if_gethash(746, 108), 0)
+				break;
+			case 2:
+				if_setgraphic(8548, 48889933)
+				if_setgraphic(8551, 48890012)
+				if_setgraphic(8550, 48890013)
+				if_sethide(if_gethash(746, 114), 0)
+				if_sethide(if_gethash(746, 108), 0)
+				break;
+			case 3:
+				if_setgraphic(8548, 48889934)
+				if_setgraphic(8551, 48890014)
+				if_setgraphic(8550, 48890015)
+				if_sethide(if_gethash(746, 115), 0)
+				if_sethide(if_gethash(746, 108), 0)
+				break;
+			case 4:
+				if_setgraphic(8548, 48889935)
+				if_setgraphic(8551, 48890016)
+				if_setgraphic(8550, 48890017)
+				if_sethide(if_gethash(746, 116), 0)
+				if_sethide(if_gethash(746, 108), 0)
+				break;
+			case 5:
+				if_setgraphic(8548, 48889936)
+				if_setgraphic(8551, 48890018)
+				if_setgraphic(8550, 48890019)
+				if_sethide(if_gethash(746, 117), 0)
+				if_sethide(if_gethash(746, 108), 0)
+				break;
+			case 6:
+				if_setgraphic(8548, 48889937)
+				if_setgraphic(8551, 48890020)
+				if_setgraphic(8550, 48890021)
+				if_sethide(if_gethash(746, 118), 0)
+				if_sethide(if_gethash(746, 108), 0)
+				break;
+			case 7:
+				if_setgraphic(8548, 48889938)
+				if_setgraphic(8551, 48890022)
+				if_setgraphic(8550, 48890023)
+				if_sethide(if_gethash(746, 119), 0)
+				if_sethide(if_gethash(746, 108), 0)
+				break;
+			case 8:
+				if_setgraphic(8548, 48889939)
+				if_setgraphic(8551, 48890024)
+				if_setgraphic(8550, 48890025)
+				if_sethide(if_gethash(746, 120), 0)
+				if_sethide(if_gethash(746, 108), 0)
+				break;
+			case 9:
+				if_setgraphic(8548, 48889940)
+				if_setgraphic(8551, 48890026)
+				if_setgraphic(8550, 48890027)
+				if_sethide(if_gethash(746, 121), 0)
+				if_sethide(if_gethash(746, 108), 0)
+				break;
+			case 10:
+				if_setgraphic(8548, 48889941)
+				if_setgraphic(8551, 48890028)
+				if_setgraphic(8550, 48890029)
+				if_sethide(if_gethash(746, 122), 0)
+				if_sethide(if_gethash(746, 108), 0)
+				break;
+			case 11:
+				if_setgraphic(8548, 48889942)
+				if_setgraphic(8551, 48890030)
+				if_setgraphic(8550, 48890031)
+				if_sethide(if_gethash(746, 123), 0)
+				if_sethide(if_gethash(746, 108), 0)
+				break;
+			case 12:
+				if_setgraphic(8548, 48889943)
+				if_setgraphic(8551, 48890032)
+				if_setgraphic(8550, 48890033)
+				if_sethide(if_gethash(746, 124), 0)
+				if_sethide(if_gethash(746, 108), 0)
+				break;
+			case 13:
+				if_setgraphic(8548, 48889944)
+				if_setgraphic(8551, 48890034)
+				if_setgraphic(8550, 48890035)
+				if_sethide(if_gethash(746, 125), 0)
+				if_sethide(if_gethash(746, 108), 0)
+				break;
+			case 14:
+				if_setgraphic(8548, 48889945)
+				if_setgraphic(8551, 48890036)
+				if_setgraphic(8550, 48890037)
+				if_sethide(if_gethash(746, 126), 0)
+				if_sethide(if_gethash(746, 108), 0)
+				break;
+			case 15:
+				if_setgraphic(8548, 48889946)
+				if_setgraphic(8551, 48890038)
+				if_setgraphic(8550, 48890039)
+				if_sethide(if_gethash(746, 127), 0)
+				if_sethide(if_gethash(746, 108), 0)
+				break;
+			case 98:
+				if_sethide(if_gethash(746, 110), 0)
+				if_sethide(if_gethash(746, 108), 0)
+				break;
+			case 95:
+				if_sethide(if_gethash(746, 129), 0)
+				if_sethide(if_gethash(746, 108), 0)
+				break;
+			case 99:
+				if_sethide(if_gethash(746, 130), 0)
+				if_sethide(if_gethash(746, 108), 0)
+		}
+	}
+}
+else if (if_isopen(if_gethash(548, 172)) == 1) {
+	if (arg0 != 98 || if_isopen(if_gethash(548, 173)) == 0) {
+		if_sethide(if_gethash(548, 172), 0)
+		if_sethide(if_gethash(548, 173), 1)
+		if_sethide(if_gethash(548, 174), 1)
+	}
+	else {
+		if_sethide(if_gethash(548, 172), 1)
+		if_sethide(if_gethash(548, 173), 0)
+		if_sethide(if_gethash(548, 174), 1)
+	}
+}
+else {
+	if_sethide(if_gethash(548, 172), 1)
+	if_sethide(if_gethash(548, 174), 0)
+	switch (arg0) {
+		case 0:
+			if_setgraphic(1836, 35913840)
+			if_setgraphic(1841, 35913857)
+			if_setgraphic(1840, 35913858)
+			if_sethide(if_gethash(548, 176), 0)
+			break;
+		case 1:
+			if_setgraphic(1836, 35913841)
+			if_setgraphic(1841, 35913859)
+			if_setgraphic(1840, 35913860)
+			if_sethide(if_gethash(548, 177), 0)
+			break;
+		case 2:
+			if_setgraphic(1836, 35913842)
+			if_setgraphic(1841, 35913861)
+			if_setgraphic(1840, 35913862)
+			if_sethide(if_gethash(548, 178), 0)
+			break;
+		case 3:
+			if_setgraphic(1836, 35913843)
+			if_setgraphic(1841, 35913863)
+			if_setgraphic(1840, 35913864)
+			if_sethide(if_gethash(548, 179), 0)
+			break;
+		case 4:
+			if_setgraphic(1836, 35913844)
+			if_setgraphic(1841, 35913865)
+			if_setgraphic(1840, 35913866)
+			if_sethide(if_gethash(548, 180), 0)
+			break;
+		case 5:
+			if_setgraphic(1836, 35913845)
+			if_setgraphic(1841, 35913867)
+			if_setgraphic(1840, 35913868)
+			if_sethide(if_gethash(548, 181), 0)
+			break;
+		case 6:
+			if_setgraphic(1836, 35913846)
+			if_setgraphic(1841, 35913869)
+			if_setgraphic(1840, 35913870)
+			if_sethide(if_gethash(548, 182), 0)
+			break;
+		case 7:
+			if_setgraphic(1836, 35913847)
+			if_setgraphic(1841, 35913871)
+			if_setgraphic(1840, 35913872)
+			if_sethide(if_gethash(548, 183), 0)
+			break;
+		case 8:
+			if_setgraphic(1836, 35913811)
+			if_setgraphic(1841, 35913795)
+			if_setgraphic(1840, 35913796)
+			if_sethide(if_gethash(548, 184), 0)
+			break;
+		case 9:
+			if_setgraphic(1836, 35913812)
+			if_setgraphic(1841, 35913797)
+			if_setgraphic(1840, 35913798)
+			if_sethide(if_gethash(548, 185), 0)
+			break;
+		case 10:
+			if_setgraphic(1836, 35913813)
+			if_setgraphic(1841, 35913799)
+			if_setgraphic(1840, 35913800)
+			if_sethide(if_gethash(548, 186), 0)
+			break;
+		case 11:
+			if_setgraphic(1836, 35913814)
+			if_setgraphic(1841, 35913801)
+			if_setgraphic(1840, 35913802)
+			if_sethide(if_gethash(548, 187), 0)
+			break;
+		case 12:
+			if_setgraphic(1836, 35913815)
+			if_setgraphic(1841, 35913803)
+			if_setgraphic(1840, 35913804)
+			if_sethide(if_gethash(548, 188), 0)
+			break;
+		case 13:
+			if_setgraphic(1836, 35913816)
+			if_setgraphic(1841, 35913805)
+			if_setgraphic(1840, 35913806)
+			if_sethide(if_gethash(548, 189), 0)
+			break;
+		case 14:
+			if_setgraphic(1836, 35913817)
+			if_setgraphic(1841, 35913807)
+			if_setgraphic(1840, 35913808)
+			if_sethide(if_gethash(548, 190), 0)
+			break;
+		case 15:
+			if_setgraphic(1836, 35913818)
+			if_setgraphic(1841, 35913809)
+			if_setgraphic(1840, 35913810)
+			if_sethide(if_gethash(548, 191), 0)
+			break;
+		case 98:
+			if_sethide(if_gethash(548, 173), 0)
+			break;
+		case 95:
+			if_sethide(if_gethash(548, 193), 0)
+			break;
+		case 99:
+			if_sethide(if_gethash(548, 194), 0)
+	}
+}
+return;

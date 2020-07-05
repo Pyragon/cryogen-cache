@@ -1,0 +1,10 @@
+//script2702(2702)(int arg0, int arg1, int arg2)(void)
+if (arg0 == 1) {
+	script1166(arg1);
+	if_setcolor(16777215, arg2);
+}
+else {
+	script1151(arg1);
+	if_setcolor(16750623, arg2);
+}
+return;

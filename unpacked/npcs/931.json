@@ -1,0 +1,133 @@
+{
+  "id": 931,
+  "parameters": {
+    "8": 0,
+    "641": 100,
+    "9": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0
+  },
+  "anInt4856": 0,
+  "options": [
+    null,
+    "Attack",
+    null,
+    null,
+    null
+  ],
+  "membersOptions": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "modelIds": [
+    231,
+    246,
+    309,
+    33034,
+    10218,
+    266,
+    33033,
+    540
+  ],
+  "aByte4916": -1,
+  "name": "Jungle savage",
+  "size": 1,
+  "basId": 29,
+  "aByte4871": 0,
+  "anInt4873": -1,
+  "anInt4861": -1,
+  "anInt4875": -1,
+  "anInt4854": -1,
+  "attackOpCursor": 42,
+  "drawMapdot": true,
+  "combatLevel": 90,
+  "resizeX": 128,
+  "resizeY": 128,
+  "aBool4904": false,
+  "aBool4890": false,
+  "aBool4884": false,
+  "ambient": 0,
+  "contrast": 0,
+  "headIcons": -1,
+  "armyIcon": -1,
+  "rotation": 32,
+  "varpBit": -1,
+  "varp": -1,
+  "visible": true,
+  "isClickable": true,
+  "animateIdle": true,
+  "aShort4874": 0,
+  "aShort4897": 0,
+  "aByte4883": -96,
+  "aByte4899": -16,
+  "walkMask": 3,
+  "walkingAnimation": -1,
+  "rotate180Animation": -1,
+  "rotate90RightAnimation": -1,
+  "rotate90LeftAnimation": -1,
+  "specialByte": 0,
+  "anInt4908": 0,
+  "anInt4909": 255,
+  "height": -1,
+  "mapIcon": -1,
+  "anInt4917": -1,
+  "anInt4911": 256,
+  "anInt4919": 256,
+  "anInt4913": 0,
+  "aBool4920": true,
+  "originalColors": [
+    4550,
+    -22464,
+    61,
+    25238,
+    908,
+    4626,
+    4540
+  ],
+  "modifiedColors": [
+    5681,
+    5681,
+    6044,
+    6044,
+    6044,
+    5681,
+    5673
+  ],
+  "originalTextures": [
+    291
+  ],
+  "modifiedTextures": [
+    369
+  ],
+  "headModels": [
+    39778,
+    39251
+  ],
+  "bonuses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "strBonuses": [
+    10,
+    0,
+    0
+  ],
+  "aByte4868": 0,
+  "aByte4869": 0,
+  "aByte4905": 0,
+  "aBool4872": false,
+  "respawnDirection": "SOUTH",
+  "usesCrawlWalkBAS": false
+}

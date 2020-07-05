@@ -1,0 +1,14 @@
+//script607(607)()(void)
+int ivar0;
+if (load_varp(1109) == -1) {
+	store_varc(85, 1)
+	return;
+}
+ivar0 = load_varp(1114);
+if (ivar0 < 0) 
+	store_varc(85, 1)
+else 
+	store_varc(85, load_varp(1114))
+if_settext(if_gethash(105, 153), tostring_localized(load_varc(85), 1) + " gp");
+script609();
+return;

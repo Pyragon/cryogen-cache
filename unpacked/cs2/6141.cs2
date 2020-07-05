@@ -1,0 +1,20 @@
+//script6141(6141)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10)(void)
+int ivar11;
+int ivar12;
+ivar11 = scale(arg1, 18, 45);
+ivar12 = 0;
+arg9 = calc(arg9 + 1);
+if (cc_find(arg0, 0) == 1) {
+	if (arg9 >= arg8) {
+		cc_setposition(calc(arg2 + arg6), calc(arg3 + arg7), 1, 1);
+		if (arg10 == 1) 
+			ivar12 = calc(25 + random(50));
+		else 
+			ivar12 = calc(25 + random(300));
+		instr6342(arg0, 6141, "Iiiiiiiiiii", -2147483645, arg1, arg2, arg3, arg6, arg7, calc(ivar11 - random(calc(ivar11 + ivar11))), calc(ivar11 - random(calc(ivar11 + ivar11))), ivar12, 0, arg10);
+		return;
+	}
+	cc_setposition(calc(calc(arg2 + arg4) + scale(arg9, arg8, calc(arg4 - arg6))), calc(calc(arg3 + arg5) + scale(arg9, arg8, calc(arg5 - arg7))), 1, 1);
+}
+instr6342(arg0, 6141, "Iiiiiiiiiii", -2147483645, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10);
+return;

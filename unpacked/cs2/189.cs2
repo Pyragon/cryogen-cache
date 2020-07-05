@@ -1,0 +1,23 @@
+//script189(189)(int arg0, int arg1)(void)
+int ivar2;
+ivar2 = calc(if_getscrolly(arg1) + 4);
+switch (arg1) {
+	case 38666248:
+		script191(arg1, ivar2, 0);
+		/* 
+			AT PrimitiveInstruction(opcode=168, value=2, type=int)
+			java.lang.RuntimeException: Stack underflow
+				at com.cryo.cache.loaders.cs2.nodes.CS2Stack.pop(CS2Stack.java:44)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:468)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+}
+if (cc_find(arg0, 3) == 1) 
+	script5507(arg0, arg1, ivar2, 1);
+return;

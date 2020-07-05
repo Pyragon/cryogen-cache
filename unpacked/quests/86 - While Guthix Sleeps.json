@@ -1,0 +1,17 @@
+{
+  "id": 86,
+  "name": "While Guthix Sleeps",
+  "members": false,
+  "varbitValues": [
+    [
+      5491,
+      10,
+      910
+    ]
+  ],
+  "type": "NORMAL",
+  "questpointRequirement": 0,
+  "questpointReward": 5,
+  "difficulty": "NOVICE",
+  "graphicId": 0
+}

@@ -1,0 +1,13 @@
+//script4079(4079)(int arg0)(void)
+if (cc_find(if_gethash(1064, 2), 0) == 1) {
+	if (arg0 <= 30) 
+		cc_setsize(calc(8 * arg0), 8, 0, 0);
+}
+else {
+	cc_create(if_gethash(1064, 2), 3, 0);
+	cc_setposition(44, 44, 0, 0);
+	cc_setsize(calc(30 * 8), 8, 0, 0);
+	cc_setcolor(13200446);
+	cc_setfill(true);
+}
+return;

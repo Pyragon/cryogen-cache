@@ -1,0 +1,8 @@
+//script1473(1473)()(void)
+if_setgraphic(1424, 49938450)
+if_setgraphic(1433, 49938449)
+script1463(0);
+script1456();
+script1549();
+store_varc(188, 1)
+return;

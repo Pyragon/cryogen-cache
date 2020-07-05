@@ -1,0 +1,227 @@
+//script759(759)(int arg0, int arg1, int arg2, int arg3, int arg4, string arg5, string arg6, string arg7, string arg8, string arg9, string arg10)(void)
+int ivar5;
+int ivar6;
+int ivar7;
+int ivar8;
+int ivar9;
+int ivar10;
+int ivar11;
+int ivar12;
+int ivar13;
+int ivar14;
+int ivar15;
+int ivar16;
+int ivar17;
+int ivar18;
+int ivar19;
+int ivar20;
+int ivar21;
+int ivar22;
+int ivar23;
+int ivar24;
+int ivar25;
+int ivar26;
+int ivar27;
+int ivar28;
+int ivar29;
+int ivar30;
+int ivar31;
+int ivar32;
+int ivar33;
+int ivar34;
+int ivar35;
+int ivar36;
+int ivar37;
+int ivar38;
+string svar6;
+int stack_dump0;
+int stack_dump1;
+int stack_dump2;
+int stack_dump3;
+string stack_dump4;
+cc_deleteall(arg0)
+instr6185(0, calc(57 * calc(calc(arg1 / calc(arg3 - arg4)) + 1)), arg0)
+ivar5 = 0;
+ivar6 = arg3;
+ivar7 = 0;
+ivar8 = arg4;
+ivar9 = 0;
+ivar10 = -1;
+ivar11 = -1;
+ivar12 = -1;
+ivar13 = -1;
+ivar14 = -1;
+ivar15 = -1;
+ivar16 = -1;
+ivar17 = -1;
+ivar18 = -1;
+ivar19 = -1;
+ivar20 = -1;
+ivar21 = 0;
+ivar22 = 0;
+ivar23 = 0;
+ivar24 = 0;
+ivar25 = 0;
+ivar26 = 0;
+ivar27 = 0;
+ivar28 = 0;
+ivar29 = 0;
+ivar30 = 0;
+svar6 = "hello";
+ivar31 = 0;
+globalarray_0 = new obj[10];
+ivar32 = -1;
+ivar33 = 0;
+ivar34 = 0;
+ivar35 = 0;
+ivar36 = 1;
+ivar37 = 9722;
+ivar38 = 2205;
+while (ivar5 <= calc(arg3 - arg4)) {
+	ivar36 = 1;
+	ivar32 = enum(ivar6, 1182, 111, 105);
+	if (load_varpbit(8701) == 1) {
+		if (item_param(ivar32, 697) != -1) {
+			switch (item_param(ivar32, 697)) {
+				case 6287:
+					if (calc(inv_total(93, 6287) + inv_total(93, 7801)) < item_param(ivar32, 698)) 
+						ivar36 = 0;
+					break;
+				case 6979:
+					if (calc(calc(inv_total(93, 6979) + inv_total(93, 6981)) + inv_total(93, 6983)) < item_param(ivar32, 698)) 
+						ivar36 = 0;
+					break;
+				case 2462:
+					if (calc(calc(calc(calc(calc(calc(inv_total(93, 2462) + inv_total(93, 2460)) + inv_total(93, 2464)) + inv_total(93, 2466)) + inv_total(93, 2468)) + inv_total(93, 2470)) + inv_total(93, 2472)) < item_param(ivar32, 698)) 
+						ivar36 = 0;
+					break;
+				default:
+					if (inv_total(93, item_param(ivar32, 697)) < item_param(ivar32, 698)) 
+						ivar36 = 0;
+			}
+		}
+		if (item_param(ivar32, 699) != -1 && ivar36 == 1) {
+			switch (item_param(ivar32, 699)) {
+				case 6287:
+					if (calc(inv_total(93, 6287) + inv_total(93, 7801)) < item_param(ivar32, 700)) 
+						ivar36 = 0;
+					break;
+				case 6979:
+					if (calc(calc(inv_total(93, 6979) + inv_total(93, 6981)) + inv_total(93, 6983)) < item_param(ivar32, 700)) 
+						ivar36 = 0;
+					break;
+				case 2462:
+					if (calc(calc(calc(calc(calc(calc(inv_total(93, 2462) + inv_total(93, 2460)) + inv_total(93, 2464)) + inv_total(93, 2466)) + inv_total(93, 2468)) + inv_total(93, 2470)) + inv_total(93, 2472)) < item_param(ivar32, 700)) 
+						ivar36 = 0;
+					break;
+				default:
+					if (inv_total(93, item_param(ivar32, 699)) < item_param(ivar32, 700)) 
+						ivar36 = 0;
+			}
+		}
+		if (item_param(ivar32, 701) != -1 && ivar36 == 1) {
+			switch (item_param(ivar32, 701)) {
+				case 6287:
+					if (calc(inv_total(93, 6287) + inv_total(93, 7801)) < item_param(ivar32, 702)) 
+						ivar36 = 0;
+					break;
+				case 6979:
+					if (calc(calc(inv_total(93, 6979) + inv_total(93, 6981)) + inv_total(93, 6983)) < item_param(ivar32, 702)) 
+						ivar36 = 0;
+					break;
+				case 2462:
+					if (calc(calc(calc(calc(calc(calc(inv_total(93, 2462) + inv_total(93, 2460)) + inv_total(93, 2464)) + inv_total(93, 2466)) + inv_total(93, 2468)) + inv_total(93, 2470)) + inv_total(93, 2472)) < item_param(ivar32, 702)) 
+						ivar36 = 0;
+					break;
+				default:
+					if (inv_total(93, item_param(ivar32, 701)) < item_param(ivar32, 702)) 
+						ivar36 = 0;
+			}
+		}
+		if (item_param(ivar32, 703) != -1 && ivar36 == 1) {
+			switch (item_param(ivar32, 703)) {
+				case 6287:
+					if (calc(inv_total(93, 6287) + inv_total(93, 7801)) < item_param(ivar32, 704)) 
+						ivar36 = 0;
+					break;
+				case 6979:
+					if (calc(calc(inv_total(93, 6979) + inv_total(93, 6981)) + inv_total(93, 6983)) < item_param(ivar32, 704)) 
+						ivar36 = 0;
+					break;
+				case 2462:
+					if (calc(calc(calc(calc(calc(calc(inv_total(93, 2462) + inv_total(93, 2460)) + inv_total(93, 2464)) + inv_total(93, 2466)) + inv_total(93, 2468)) + inv_total(93, 2470)) + inv_total(93, 2472)) < item_param(ivar32, 704)) 
+						ivar36 = 0;
+					break;
+				default:
+					if (inv_total(93, item_param(ivar32, 703)) < item_param(ivar32, 704)) 
+						ivar36 = 0;
+			}
+		}
+		if (item_param(ivar32, 705) != -1 && ivar36 == 1) {
+			switch (item_param(ivar32, 705)) {
+				case 6287:
+					if (calc(inv_total(93, 6287) + inv_total(93, 7801)) < item_param(ivar32, 706)) 
+						ivar36 = 0;
+					break;
+				case 6979:
+					if (calc(calc(inv_total(93, 6979) + inv_total(93, 6981)) + inv_total(93, 6983)) < item_param(ivar32, 706)) 
+						ivar36 = 0;
+					break;
+				case 2462:
+					if (calc(calc(calc(calc(calc(calc(inv_total(93, 2462) + inv_total(93, 2460)) + inv_total(93, 2464)) + inv_total(93, 2466)) + inv_total(93, 2468)) + inv_total(93, 2470)) + inv_total(93, 2472)) < item_param(ivar32, 706)) 
+						ivar36 = 0;
+					break;
+				default:
+					if (inv_total(93, item_param(ivar32, 705)) < item_param(ivar32, 706)) 
+						ivar36 = 0;
+			}
+		}
+		if (item_param(ivar32, 707) != -1 && ivar36 == 1) {
+			switch (item_param(ivar32, 707)) {
+				case 6287:
+					if (calc(inv_total(93, 6287) + inv_total(93, 7801)) < item_param(ivar32, 708)) 
+						ivar36 = 0;
+					break;
+				case 6979:
+					if (calc(calc(inv_total(93, 6979) + inv_total(93, 6981)) + inv_total(93, 6983)) < item_param(ivar32, 708)) 
+						ivar36 = 0;
+					break;
+				case 2462:
+					if (calc(calc(calc(calc(calc(calc(inv_total(93, 2462) + inv_total(93, 2460)) + inv_total(93, 2464)) + inv_total(93, 2466)) + inv_total(93, 2468)) + inv_total(93, 2470)) + inv_total(93, 2472)) < item_param(ivar32, 708)) 
+						ivar36 = 0;
+					break;
+				default:
+					if (inv_total(93, item_param(ivar32, 707)) < item_param(ivar32, 708)) 
+						ivar36 = 0;
+			}
+		}
+	}
+	if (ivar36 == 1) {
+		ivar33 = calc(calc(16 + calc(48 * calc(arg1 % ivar7))) + calc(5 * calc(arg1 % ivar7)));
+		ivar34 = calc(calc(52 * calc(arg1 / ivar7)) + calc(5 * calc(arg1 / ivar7)));
+		cc_create(arg0, 5, ivar35);
+		cc_setsize(48, 52, 0, 0);
+		cc_setposition(ivar33, ivar34, 0, 0);
+		cc_setgraphic(2205)
+		stack_dump0 = 5336;
+		stack_dump1 = -2147483645;
+		stack_dump2 = ivar35;
+		stack_dump3 = ivar37;
+		stack_dump4 = "Iid";
+		/* 
+			AT PrimitiveInstruction(opcode=207, value=false, type=boolean)
+			com.cryo.utils.cs2.DecompilerException: No documentation for:PrimitiveInstruction(opcode=207, value=false, type=boolean)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processFlowBlock(CS2FlowGenerator.java:526)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.processGeneration(CS2FlowGenerator.java:99)
+				at com.cryo.cache.loaders.cs2.flow.CS2FlowGenerator.generate(CS2FlowGenerator.java:82)
+				at com.cryo.cache.loaders.cs2.CS2Script.decompile(CS2Script.java:357)
+				at com.cryo.cache.loaders.CS2DefinitionDumper.dumpFiles(CS2DefinitionDumper.java:43)
+				at com.cryo.cache.CacheBuilder.dumpCache(CacheBuilder.java:72)
+				at com.cryo.cache.CacheBuilder.main(CacheBuilder.java:43)
+			
+		 */
+	}
+	ivar5 = calc(ivar5 + 1);
+	ivar6 = calc(ivar6 + 1);
+}
+return;

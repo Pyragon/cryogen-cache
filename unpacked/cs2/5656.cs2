@@ -1,0 +1,18 @@
+//script5656(5656)(int arg0, int arg1, int arg2)(void)
+if (arg0 == 1) 
+	if_settrans(0, arg1);
+if (arg2 < 500) {
+	arg2 = calc(arg2 + 1);
+	instr6342(arg1, 5656, "1Ii", 0, arg1, arg2);
+	return;
+}
+if (if_gettrans(arg1) < 255) 
+	if_settrans(min(calc(if_gettrans(arg1) + 5), 255), arg1);
+if (if_gettrans(arg1) >= 255) {
+	if_sethide(arg1, 1)
+	if_settrans(0, arg1);
+	instr6342(arg1, None, "");
+}
+else 
+	instr6342(arg1, 5656, "1Ii", 0, arg1, arg2);
+return;

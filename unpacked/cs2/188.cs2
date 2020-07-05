@@ -1,0 +1,6 @@
+//script188(188)(int arg0)(void)
+if (instr6644() >= 2) 
+	if_setgraphic(8557, arg0)
+else 
+	if_setgraphic(1025, arg0)
+return;

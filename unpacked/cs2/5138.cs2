@@ -1,0 +1,5 @@
+//script5138(5138)(int arg0, string arg1)(void)
+int ivar1;
+ivar1 = calc(if_getx(arg0) + calc(2 / if_getwidth(arg0)));
+script4539(71827562, arg0, -1, 150, -1, -1, -1, 13, 4, 2, ivar1, if_gety(arg0), arg1);
+return;
