@@ -1,8 +1,0 @@
-//script6046(6046)(int arg0, int arg1, string arg2)(void)
-int ivar2;
-int ivar3;
-ivar2 = stringwidth(arg2, instr6289(arg0));
-ivar3 = if_getlayer(arg0);
-if_setsize(calc(ivar2 + arg1), if_getheight(ivar3), 0, 0, ivar3)
-if_settext(arg0, arg2);
-return;

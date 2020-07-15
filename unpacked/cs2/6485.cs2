@@ -1,5 +1,0 @@
-//script6485(6485)(int arg0, int arg1, int arg2)(void)
-instr6342(arg0, 6486, "I");
-instr6342(arg1, 6486, "I");
-instr6342(arg2, 6486, "I");
-return;

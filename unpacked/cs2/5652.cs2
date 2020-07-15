@@ -1,8 +1,0 @@
-//script5652(5652)()(void)
-int ivar0;
-int ivar1;
-ivar0 = max(max(if_getwidth(if_gethash(1215, 4)), if_getwidth(if_gethash(1215, 6))), if_getwidth(if_gethash(1215, 8)));
-ivar0 = calc(calc(ivar0 + 43) + max(max(stringwidth(if_gettext(if_gethash(1215, 10)), instr6289(if_gethash(1215, 10))), stringwidth(if_gettext(if_gethash(1215, 11)), instr6289(if_gethash(1215, 11)))), stringwidth(if_gettext(if_gethash(1215, 12)), instr6289(if_gethash(1215, 12)))));
-ivar1 = calc(calc(calc(25 * load_varpbit(10444)) + calc(25 * load_varpbit(10445))) + calc(25 * load_varpbit(10446)));
-if_setsize(max(ivar0, 1), max(ivar1, 1), 0, 0, 79626241)
-return;

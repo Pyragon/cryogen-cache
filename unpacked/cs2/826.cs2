@@ -1,6 +1,0 @@
-//script826(826)()(void)
-int ivar0;
-ivar0 = clientclock();
-instr6342(if_gethash(465, 2), 827, "i");
-sound_synth(4437, 1, 58);
-return;

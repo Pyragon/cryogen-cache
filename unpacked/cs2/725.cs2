@@ -1,4 +1,0 @@
-//script725(725)(int arg0, int arg1)(void)
-store_varc(199, -1)
-instr6257(arg0, 726, "IIY", 2, 199, 213, , arg0, arg1);
-return;

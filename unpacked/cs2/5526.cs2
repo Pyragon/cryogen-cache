@@ -1,4 +1,0 @@
-//script5526(5526)()(void)
-sound_vorbis_rate(9180, 1, 0, 255, rsp_val1(20, 20));
-script675();
-return;

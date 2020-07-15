@@ -1,3 +1,0 @@
-//script68(68)(int arg0, string arg1)(void)
-if_settext(arg0, arg1);
-return;

@@ -1,3 +1,0 @@
-//script5618(5618)()(void)
-if_setsize(load_varc(1751), if_getheight(if_gethash(1209, 15)), 0, 0, 79233039)
-return;

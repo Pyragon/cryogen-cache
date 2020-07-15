@@ -1,8 +1,0 @@
-//script707(707)()(void)
-if (instr6644() >= 2) 
-	if_setposition(220, 11, 2, 0, 44564499)
-else 
-	if_setposition(12, 11, 2, 0, 44564499)
-store_varc(215, 255)
-store_varc(216, 0)
-return;

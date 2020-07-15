@@ -1,5 +1,0 @@
-//script6282(6282)()(void)
-store_varc(1930, calc(1 - load_varc(1930)))
-if (load_varc(1930) == 0) 
-	instr6342(if_gethash(1297, 165), None, "");
-return;

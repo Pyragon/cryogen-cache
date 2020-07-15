@@ -1,4 +1,0 @@
-//script612(612)(int arg0)(void)
-if_setgraphic(1153, arg0)
-script41(6881490);
-return;

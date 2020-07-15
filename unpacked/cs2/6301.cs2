@@ -1,8 +1,0 @@
-//script6301(6301)()(void)
-int ivar0;
-ivar0 = 0;
-while (ivar0 < 10) {
-	script6303(ivar0, "");
-	ivar0 = calc(ivar0 + 1);
-}
-return;

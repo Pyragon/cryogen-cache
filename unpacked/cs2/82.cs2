@@ -1,4 +1,0 @@
-//script82(82)()(void)
-if (get_system_update_timer() > 0) 
-	script89();
-return;

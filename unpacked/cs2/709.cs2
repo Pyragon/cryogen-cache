@@ -1,6 +1,0 @@
-//script709(709)(int arg0)(void)
-if (instr6644() >= 2) 
-	if_setsize(if_getwidth(if_gethash(746, 11)), if_getheight(if_gethash(746, 11)), 0, 0, arg0)
-else 
-	if_setsize(if_getwidth(if_gethash(548, 28)), if_getheight(if_gethash(548, 28)), 0, 0, arg0)
-return;

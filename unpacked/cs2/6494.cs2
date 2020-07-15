@@ -1,8 +1,0 @@
-//script6494(6494)(int arg0)(void)
-int ivar1;
-ivar1 = if_gettrans(arg0);
-if (ivar1 > 0) {
-	ivar1 = max(0, calc(10 - ivar1));
-	if_settrans(ivar1, arg0);
-}
-return;

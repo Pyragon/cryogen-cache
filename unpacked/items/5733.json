@@ -25,7 +25,7 @@
   "inventoryOptions": [
     "Eat",
     "Heal",
-    "CM-Tool",
+    "NPC-Options",
     "Commands",
     "drop"
   ],

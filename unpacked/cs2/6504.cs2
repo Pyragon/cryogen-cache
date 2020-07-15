@@ -1,6 +1,0 @@
-//script6504(6504)(int arg0, int arg1, int arg2, int arg3)(void)
-store_varc(10862, arg0)
-store_varc(11026, arg1)
-store_varc(1800, arg2)
-store_varc(11155, arg3)
-return;

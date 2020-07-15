@@ -1,5 +1,0 @@
-//script5501(5501)()(void)
-store_varc(1661, -1)
-script5522();
-if_settext(if_gethash(906, 252), "Please wait. Resending email...");
-return;

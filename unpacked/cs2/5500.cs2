@@ -1,9 +1,0 @@
-//script5500(5500)()(void)
-cc_deleteall(77135872)
-cc_deleteall(48889902)
-cc_deleteall(48889858)
-instr6342(if_gethash(1177, 0), None, "");
-instr6342(if_gethash(746, 46), None, "");
-instr6342(if_gethash(746, 2), None, "");
-store_varc(1696, -1)
-return;

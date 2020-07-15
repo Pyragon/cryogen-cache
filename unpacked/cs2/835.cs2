@@ -1,7 +1,0 @@
-//script835(835)(int arg0)(void)
-if_sethide(if_gethash(475, 55), arg0)
-if_sethide(if_gethash(475, 57), arg0)
-if_sethide(if_gethash(475, 56), arg0)
-script84();
-script89();
-return;

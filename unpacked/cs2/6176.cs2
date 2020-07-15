@@ -1,4 +1,0 @@
-//script6176(6176)(int arg0, int arg1, int arg2)(void)
-if (load_varc(1911) != arg1 && cc_find(arg0, arg1) == 1) 
-	cc_setgraphic(arg2)
-return;

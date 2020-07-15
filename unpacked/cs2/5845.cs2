@@ -1,3 +1,0 @@
-//script5845(5845)(int arg0, int arg1)(void)
-script311(arg0, arg1, struct_param(7260, 596));
-return;

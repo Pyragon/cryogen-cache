@@ -1,8 +1,0 @@
-//script944(944)(int arg0)(void)
-int ivar1;
-ivar1 = 0;
-if (load_varp(2521) > 0) 
-	ivar1 = calc(10 * calc(200 / load_varp(2521)));
-if_settext(arg0, to_string(load_varp(2521)));
-script4542(ivar1, 81133605, 81133610);
-return;

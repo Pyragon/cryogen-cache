@@ -1,8 +1,0 @@
-//script6109(6109)()(void)
-int ivar0;
-ivar0 = 1;
-if (if_gethide(if_gethash(1265, 61)) == 1) 
-	ivar0 = 0;
-if_sethide(if_gethash(1265, 61), ivar0)
-script6111();
-return;

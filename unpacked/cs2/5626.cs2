@@ -1,3 +1,0 @@
-//script5626(5626)(int arg0)(void)
-if_setmodelanim(15701, arg0);
-return;

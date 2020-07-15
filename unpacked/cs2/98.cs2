@@ -1,7 +1,0 @@
-//script98(98)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
-cc_create(arg0, 5, arg1);
-cc_setposition(arg3, arg4, 0, 0);
-cc_setsize(arg5, arg6, 0, 0);
-cc_setgraphic(arg2)
-cc_settiling(true);
-return;

@@ -1,3 +1,0 @@
-//script66(66)(int arg0, int arg1, int arg2, int arg3)(void)
-if_setmodelangle(0, 0, calc(2047 & calc(instr6292(arg3) + arg0)), calc(2047 & calc(instr6280(arg3) + arg1)), calc(2047 & calc(instr6279(arg3) + arg2)), instr6277(arg3), arg3);
-return;

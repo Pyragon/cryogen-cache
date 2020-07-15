@@ -1,3 +1,0 @@
-//script954(954)()(void)
-if_setsize(scale(calc(load_varpbit(4564) - 1000), 1000, 182), 6, 0, 0, 47841309)
-return;

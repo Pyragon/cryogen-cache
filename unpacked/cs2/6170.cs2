@@ -1,5 +1,0 @@
-//script6170(6170)(int arg0, int arg1)(void)
-if (arg1 != load_varc(1911) && cc_find(arg0, arg1) == 1) 
-	cc_setgraphic(10734)
-script5219(83427346);
-return;

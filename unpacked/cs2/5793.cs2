@@ -1,8 +1,0 @@
-//script5793(5793)(int arg0)(void)
-int ivar1;
-script5796(arg0, 1, 80019466, 80019465, 80019464, -1, -1, -1);
-ivar1 = 303;
-ivar1 = calc(141 + calc(paramheight(334, 3793, if_gettext(if_gethash(1221, 8))) * 13));
-if_setsize(if_getwidth(if_gethash(1221, 0)), ivar1, 0, 0, 80019456)
-if_setsize(363, ivar1, 0, 0, 48889866)
-return;

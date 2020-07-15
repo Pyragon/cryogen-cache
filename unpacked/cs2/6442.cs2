@@ -1,8 +1,0 @@
-//script6442(6442)(int arg0, int arg1, int arg2)(void)
-if (arg2 != load_varc(1968)) 
-	script6443(arg0, arg1, 1);
-else {
-	if (cc_find(if_gethash(1311, 54), 0) == 1 && instr6135() > 500 && load_varc(1968) == 0) 
-		script6443(0, 0, 1);
-}
-return;

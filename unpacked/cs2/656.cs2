@@ -1,6 +1,0 @@
-//script656(656)()(void)
-if (cc_find(if_gethash(662, 74), 0) == 1) 
-	cc_delete()
-if (cc_find(if_gethash(747, 18), 0) == 1) 
-	cc_delete()
-return;

@@ -1,7 +1,0 @@
-//script5510(5510)(int arg0, int arg1, int arg2, int arg3)(void)
-if (arg3 == 1) 
-	instr6185(0, calc(arg2 + if_getheight(arg1)), arg1)
-else 
-	instr6185(0, arg2, arg1)
-script5509(arg0, arg1, if_getscrolly(arg1));
-return;

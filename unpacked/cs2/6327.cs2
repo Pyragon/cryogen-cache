@@ -1,4 +1,0 @@
-//script6327(6327)(int arg0)(void)
-if_settrans(max(calc(20 - if_gettrans(arg0)), 0), arg0);
-instr6342(arg0, 6328, "Ii", -2147483645, calc(clientclock() + 2));
-return;

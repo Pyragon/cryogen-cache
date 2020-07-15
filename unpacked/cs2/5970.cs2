@@ -1,8 +1,0 @@
-//script5970(5970)()(void)
-instr6898(if_gethash(1259, 51), 4916, "");
-instr6898(if_gethash(1261, 145), 4916, "");
-instr6898(if_gethash(1258, 139), 4916, "");
-instr6898(if_gethash(1260, 106), 4916, "");
-script4993();
-script4853();
-return;

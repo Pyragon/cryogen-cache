@@ -1,5 +1,0 @@
-//script696(696)()(void)
-script675();
-send_message("Cancelled.");
-sound_synth(1042, 1, 0);
-return;

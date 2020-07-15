@@ -1,8 +1,0 @@
-//script670(670)()(void)
-int ivar0;
-ivar0 = 0;
-while (ivar0 < 6) {
-	script673(ivar0, 0, 0, 0, 0, -1, 0, 1, 0, -1);
-	ivar0 = calc(ivar0 + 1);
-}
-return;

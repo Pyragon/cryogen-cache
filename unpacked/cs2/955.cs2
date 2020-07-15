@@ -1,4 +1,0 @@
-//script955(955)()(void)
-if (load_varpbit(4540) == 3 && inv_total(94, 12845) == 0 && inv_total(93, 12845) == 0 && inv_total(94, 12846) == 0 && inv_total(93, 12846) == 0 && inv_total(94, 12847) == 0 && inv_total(93, 12847) == 0 && inv_total(94, 12848) == 0 && inv_total(93, 12848) == 0 && inv_total(94, 12849) == 0 && inv_total(93, 12849) == 0) 
-	if_sethide(if_gethash(730, 24), 0)
-return;

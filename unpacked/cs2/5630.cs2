@@ -1,4 +1,0 @@
-//script5630(5630)(int arg0, int arg1)(void)
-script5631(arg0, arg1);
-if_sethide(arg0, 0)
-return;
