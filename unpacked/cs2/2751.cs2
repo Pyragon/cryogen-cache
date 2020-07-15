@@ -1,3 +1,0 @@
-//script2751(2751)()(void)
-if_settext(if_gethash(1051, 11), to_string(load_varp(1652)) + " " + enum(load_varp(1653), 950, 115, 105) + " " + to_string(load_varp(1654)));
-return;

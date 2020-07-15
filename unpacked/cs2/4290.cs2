@@ -1,5 +1,0 @@
-//script4290(4290)()(void)
-if (activeclansettings_find_affined() == 1) 
-	script4291();
-script4295();
-return;

@@ -1,6 +1,0 @@
-//script1168(1168)(int arg0, int arg1, string arg2)(void)
-if (calc(50 % clientclock()) != 0) 
-	return;
-if (cc_find(if_gethash(885, 16), arg0) == 1) 
-	cc_settext(arg2);
-return;

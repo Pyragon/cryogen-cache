@@ -1,5 +1,0 @@
-//script3980(3980)()(void)
-store_varc(8576, 4095)
-store_varc(8577, 0)
-script3975();
-return;

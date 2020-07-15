@@ -1,3 +1,0 @@
-//script131(131)(string arg0)(void)
-store_varc(24, arg0)
-return;

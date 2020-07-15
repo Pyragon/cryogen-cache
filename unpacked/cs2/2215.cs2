@@ -1,8 +1,0 @@
-//script2215(2215)()(void)
-if (if_gety(if_gethash(932, 14)) < 180) {
-	instr6342(if_gethash(932, 1), 2215, "");
-	if_setposition(if_getx(if_gethash(932, 14)), calc(2 + if_gety(if_gethash(932, 14))), 0, 0, 61079566)
-}
-else 
-	store_varc(1137, 0)
-return;

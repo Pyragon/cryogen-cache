@@ -1,9 +1,0 @@
-//script162(162)(int arg0, int arg1, int arg2, int arg3)(void)
-if (cc_find(arg1, arg0) == 1) {
-	arg3 = calc(if_getscrolly(arg1) - arg3);
-	if (arg3 < 10) 
-		script157(arg2, arg1, calc(4 - if_getscrolly(arg1)), 1);
-	if (calc(arg3 + cc_getheight()) > calc(10 - if_getheight(arg1))) 
-		script157(arg2, arg1, calc(if_getscrolly(arg1) + 4), 1);
-}
-return;

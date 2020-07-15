@@ -1,5 +1,0 @@
-//script5000(5000)()(void)
-script5001();
-if_sethide(if_gethash(1261, 93), 0)
-if_sethide(if_gethash(1261, 176), 0)
-return;

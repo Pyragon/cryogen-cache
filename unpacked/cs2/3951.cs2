@@ -1,8 +1,0 @@
-//script3951(3951)()(void)
-store_varc(337, load_varc_string(331))
-store_varc(338, load_varc_string(332))
-store_varc(339, load_varc_string(333))
-store_varc(340, load_varc_string(334))
-store_varc(341, load_varc_string(335))
-store_varc(342, load_varc_string(336))
-return;

@@ -1,8 +1,0 @@
-//script1128(1128)(int arg0)(void)
-if (load_varpbit(2668) == 1) 
-	if_setgraphic(1703, arg0)
-else if (load_varc(993) == 1) 
-	if_setgraphic(1702, arg0)
-else 
-	if_setgraphic(1701, arg0)
-return;

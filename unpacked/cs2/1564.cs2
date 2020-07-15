@@ -1,7 +1,0 @@
-//script1564(1564)(string arg0)(void)
-if_settext(if_gethash(752, 5), escape(arg0));
-store_varc(22, arg0)
-store_varc(1029, string_length(arg0))
-hook_mouse_press(if_gethash(752, 5), 1556, "iIi", -2147483647, -2147483645, -2147483643);
-script1557();
-return;

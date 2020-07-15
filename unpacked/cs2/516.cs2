@@ -1,9 +1,0 @@
-//script516(516)()(void)
-if (load_varc(52) < 300) 
-	store_varc(52, calc(load_varc(52) + 1))
-if (load_varc(51) > 0 && calc(3 % load_varc(52)) == 0) {
-	store_varc(51, calc(3 - load_varc(51)))
-	store_varc(50, calc(load_varc(50) + 1))
-	if_setmodelangle(0, load_varc(50), 0, 0, 0, load_varc(51), if_gethash(615, 0));
-}
-return;

@@ -1,3 +1,0 @@
-//script2365(2365)(int arg0)(void)
-if_setparam_int(1224, 0, arg0);
-return;

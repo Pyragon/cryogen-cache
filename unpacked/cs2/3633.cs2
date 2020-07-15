@@ -1,7 +1,0 @@
-//script3633(3633)(int arg0)(void)
-if (instr6004(arg0) == 1) {
-	if_setcolor(8978312, arg0);
-	if_setsize(31, 31, 0, 0, arg0)
-	if_setposition(calc(2 - instr6771(1101)), calc(2 - instr6771(1102)), 0, 0, arg0)
-}
-return;

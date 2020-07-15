@@ -1,8 +1,0 @@
-//script353(353)(int arg0)(void)
-sound_synth(9824, 1, 0);
-if (arg0 == 1 && load_varpbit(8246) == 1) {
-	store_varc(8247, 1)
-	if_sethide(if_gethash(1028, 138), 0)
-}
-script386(arg0);
-return;

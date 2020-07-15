@@ -1,9 +1,0 @@
-//script2575(2575)()(void)
-int ivar0;
-ivar0 = 0;
-while (ivar0 < enum_getoutputcount(2428)) {
-	if_setcolor(6710886, enum(ivar0, 2428, 73, 105));
-	ivar0 = calc(ivar0 + 1);
-}
-if_setcolor(16711731, enum(load_varc(929), 2428, 73, 105));
-return;

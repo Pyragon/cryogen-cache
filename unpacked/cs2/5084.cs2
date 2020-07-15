@@ -1,4 +1,0 @@
-//script5084(5084)(int arg0)(void)
-sound_vorbis_volume(6185, 1, 0, 200)
-script5085(arg0);
-return;

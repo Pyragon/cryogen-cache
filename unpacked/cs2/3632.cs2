@@ -1,6 +1,0 @@
-//script3632(3632)(int arg0)(void)
-if (instr6004(arg0) == 1) {
-	cc_setparam_int(1101, cc_getx());
-	cc_setparam_int(1102, cc_gety());
-}
-return;

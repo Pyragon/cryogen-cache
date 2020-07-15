@@ -1,6 +1,0 @@
-//script4328(4328)(int arg0)(void)
-if (load_clan_setting_varbit(11) == 0) 
-	if_setgraphic(enum(load_clan_setting_varbit(7), 3721, 100, 105), arg0)
-else 
-	if_setgraphic(enum(0, 3721, 100, 105), arg0)
-return;

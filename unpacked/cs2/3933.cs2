@@ -1,9 +1,0 @@
-//script3933(3933)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
-if_setcolor(arg1, arg0);
-if (arg2 == 1) 
-	if_setgraphic(enum(arg3, 3480, 100, 105), arg4)
-else if (arg5 == arg3) 
-	if_setgraphic(enum(arg3, 736, 100, 105), arg4)
-else 
-	if_setgraphic(enum(arg3, 735, 100, 105), arg4)
-return;

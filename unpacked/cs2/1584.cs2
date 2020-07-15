@@ -1,3 +1,0 @@
-//script1584(1584)(int arg0, int arg1)(void)
-script1585(arg0, arg1, load_varc_string(218));
-return;

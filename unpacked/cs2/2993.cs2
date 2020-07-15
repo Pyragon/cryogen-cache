@@ -1,5 +1,0 @@
-//script2993(2993)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
-cc_create(arg1, arg0, arg2);
-cc_setsize(arg3, arg4, 0, 0);
-cc_setposition(arg5, arg6, 0, 0);
-return;

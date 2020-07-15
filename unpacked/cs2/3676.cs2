@@ -1,3 +1,0 @@
-//script3676(3676)(int arg0)(void)
-if_settrans(0, arg0);
-return;

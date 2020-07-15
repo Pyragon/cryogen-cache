@@ -1,8 +1,0 @@
-//script3413(3413)(int arg0)(void)
-if (arg0 == 1) {
-	script2694(arg0, 1, "This setting is not available in your current version of Java.", "", "");
-	script2694(arg0, 1, "Please update to the latest version.", "", "");
-}
-else 
-	script2694(arg0, 1, "This setting is not available in your current version of Java." + "<br>" + "<br>" + "Please update to the latest version, or try our Windows Client available from the link below.", "Download Windows Client", "downloads.ws");
-return;

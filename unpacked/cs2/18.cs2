@@ -1,3 +1,0 @@
-//script18(18)(int arg0)(void)
-if_setborderthickness(0, arg0);
-return;

@@ -1,8 +1,0 @@
-//script4449(4449)(int arg0)(void)
-if (instr6661(if_gethash(1110, 14), -1) == 1) {
-	instr6342(if_gethash(1110, 14), 4450, "");
-	return;
-}
-if (activeclanchannel_find_affined() == 1) 
-	script4451();
-return;

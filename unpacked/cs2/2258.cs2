@@ -1,3 +1,0 @@
-//script2258(2258)(int arg0, int arg1)(void)
-script2010(arg0, arg1, "Level 65 Agility" + "<br>" + "Requires the Priest in Peril quest");
-return;

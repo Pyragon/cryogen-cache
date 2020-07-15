@@ -1,6 +1,0 @@
-//script4090(4090)(int arg0, int arg1)(void)
-if (arg0 == 1) 
-	instr6342(if_gethash(1202, 0), 4091, "i");
-else 
-	instr6342(if_gethash(1202, 0), 4092, "i");
-return;

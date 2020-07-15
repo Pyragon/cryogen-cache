@@ -1,3 +1,0 @@
-//script146(146)(int arg0)(void)
-script147(arg0, clientclock());
-return;

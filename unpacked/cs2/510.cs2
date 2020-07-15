@@ -1,3 +1,0 @@
-//script510(510)()(void)
-store_varc(51, instr6277(if_gethash(605, 0)))
-return;

@@ -1,8 +1,0 @@
-//script1136(1136)(int arg0)(void)
-if (world_members() == 1 && item_param(inv_getitem(94, 3), 687) != 0) {
-	if_sethide(arg0, 0)
-	return;
-}
-if_sethide(arg0, 1)
-script41(57933838);
-return;

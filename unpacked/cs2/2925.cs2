@@ -1,8 +1,0 @@
-//script2925(2925)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
-if (arg0 != -1) 
-	if_setgraphic(arg1, arg0)
-if (arg2 != -1) 
-	if_setgraphic(arg3, arg2)
-if (arg4 != -1) 
-	if_setgraphic(arg5, arg4)
-return;

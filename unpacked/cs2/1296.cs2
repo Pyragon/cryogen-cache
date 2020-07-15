@@ -1,6 +1,0 @@
-//script1296(1296)()(void)
-if (instr6644() >= 2) {
-	if_setmodelangle(0, 0, 89, 67, 0, 300, if_gethash(584, 2));
-	if_setmodelangle(0, 0, 89, 67, 0, 300, if_gethash(584, 1));
-}
-return;

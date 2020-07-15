@@ -1,5 +1,0 @@
-//script405(405)(int arg0)(void)
-if_settrans(255, arg0);
-instr6342(arg0, 406, "I");
-if_settext(arg0, "Conquest Ranking: " + to_string(load_varp(1875)));
-return;

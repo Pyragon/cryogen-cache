@@ -1,6 +1,0 @@
-//script214(214)(int arg0, int arg1)(void)
-int ivar2;
-ivar2 = if_getlayer(arg0);
-instr6237(ivar2, 1660, "IiIY", 2, 281, 1255, , arg0, arg1, ivar2);
-script1661(arg0, arg1, ivar2);
-return;

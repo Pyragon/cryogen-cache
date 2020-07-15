@@ -1,4 +1,0 @@
-//script1196(1196)(int arg0, int arg1)(void)
-if (clientclock() > calc(arg1 + 50)) 
-	script1197(arg0);
-return;

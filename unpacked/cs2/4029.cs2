@@ -1,4 +1,0 @@
-//script4029(4029)()(void)
-if_settrans(254, if_gethash(1050, 17));
-instr6342(if_gethash(1050, 17), 6113, "Ii", -2147483645, 3);
-return;

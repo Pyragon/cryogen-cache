@@ -1,5 +1,0 @@
-//script5420(5420)(int arg0, int arg1, int arg2)(void)
-if_setgraphic(8287, arg0)
-if_setgraphic(8288, arg1)
-if_setgraphic(8287, arg2)
-return;

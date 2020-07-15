@@ -1,3 +1,0 @@
-//script5204(5204)()(void)
-sound_vorbis_rate(6185, 1, 0, 200, 127);
-return;

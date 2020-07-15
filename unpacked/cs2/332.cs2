@@ -1,7 +1,0 @@
-//script332(332)(int arg0)(void)
-int ivar1;
-ivar1 = 2359;
-if (load_varc(783) == 1) 
-	ivar1 = 2360;
-if_setmodel(enum(arg0, ivar1, 109, 105), if_gethash(725, 83));
-return;

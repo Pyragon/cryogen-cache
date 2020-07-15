@@ -1,4 +1,0 @@
-//script2053(2053)(int arg0, int arg1, int arg2)(void)
-if (arg0 == 1) 
-	instr6342(arg1, 2054, "iIc", calc(clientclock() + 3), arg1, arg2);
-return;

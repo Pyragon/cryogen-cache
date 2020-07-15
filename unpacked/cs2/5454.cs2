@@ -1,5 +1,0 @@
-//script5454(5454)(int arg0)(void)
-store_varc(1684, arg0)
-script5456();
-sound_vorbis_volume(8096, 1, 0, 255)
-return;

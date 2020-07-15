@@ -1,4 +1,0 @@
-//script1285(1285)(int arg0)(void)
-script1287();
-if_sethide(arg0, 0)
-return;

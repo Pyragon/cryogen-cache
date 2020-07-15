@@ -1,3 +1,0 @@
-//script3303(3303)()(void)
-if_settext(if_gethash(949, 90), load_varc_string(287));
-return;

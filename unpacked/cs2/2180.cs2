@@ -1,8 +1,0 @@
-//script2180(2180)(int arg0)(void)
-int ivar1;
-ivar1 = enum(arg0, 2252, 74, 105);
-if (cc_find(if_gethash(190, 15), arg0) == 1) {
-	cc_settext(struct_param(ivar1, 845));
-	instr6556(None, "");
-}
-return;

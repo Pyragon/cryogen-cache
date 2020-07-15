@@ -1,8 +1,0 @@
-//script1560(1560)(int arg0)(void)
-if (arg0 == 1 && (if_isopen(if_gethash(752, 10)) == 1 || if_isopen(if_gethash(752, 11)) == 1) && enum(chatline_gettype(0), 370, 49, 105) == 1) 
-	script1561();
-script84();
-script89();
-script192();
-script178();
-return;

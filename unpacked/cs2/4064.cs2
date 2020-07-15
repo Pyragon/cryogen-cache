@@ -1,6 +1,0 @@
-//script4064(4064)(int arg0)(void)
-if (load_varc(1431) == 1) 
-	return;
-script4065(arg0);
-script4069();
-return;

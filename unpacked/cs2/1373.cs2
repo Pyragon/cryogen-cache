@@ -1,6 +1,0 @@
-//script1373(1373)()(void)
-if (if_gethide(if_gethash(755, 46)) == 1) 
-	script1374(1);
-else 
-	script1374(0);
-return;

@@ -1,5 +1,0 @@
-//script2758(2758)(int arg0)(void)
-instr6237(arg0, 2759, "IY", 1, 466, );
-instr6257(arg0, 2759, "IY", 1, 173, );
-script2760(arg0);
-return;

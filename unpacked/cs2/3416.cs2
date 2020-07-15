@@ -1,4 +1,0 @@
-//script3416(3416)(int arg0)(void)
-if_setgraphic(3153, arg0)
-hook_mouse_press(arg0, 1242, "I");
-return;

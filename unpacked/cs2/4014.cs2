@@ -1,5 +1,0 @@
-//script4014(4014)(int arg0, int arg1)(void)
-if (cc_find(if_gethash(917, 67), arg0) == 1) 
-	cc_setgraphic(arg1)
-script41(60096623);
-return;

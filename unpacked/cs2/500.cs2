@@ -1,3 +1,0 @@
-//script500(500)()(void)
-if_sethide(if_gethash(1012, 20), 1)
-return;

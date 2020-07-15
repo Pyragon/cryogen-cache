@@ -1,3 +1,0 @@
-//script130(130)(string arg0)(void)
-ignore_del(removetags(arg0));
-return;

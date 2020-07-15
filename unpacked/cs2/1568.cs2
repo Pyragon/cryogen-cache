@@ -1,6 +1,0 @@
-//script1568(1568)(int arg0)(void)
-if (world_language() == 1) 
-	if_setgraphic(2295, arg0)
-else 
-	if_setgraphic(2281, arg0)
-return;

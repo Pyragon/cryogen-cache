@@ -1,6 +1,0 @@
-//script3285(3285)(int arg0)(void)
-instr6185(0, arg0, 62062628)
-instr6185(0, arg0, 62062630)
-if (if_getscrollheight(62062628) < if_getheight(if_gethash(947, 36))) 
-	if_sethide(if_gethash(947, 47), 1)
-return;

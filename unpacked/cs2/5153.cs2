@@ -1,8 +1,0 @@
-//script5153(5153)(int arg0)(void)
-if (arg0 == 1) 
-	if_setgraphic(7543, 52428808)
-else {
-	if_setgraphic(7542, 52428808)
-	script41(52428801);
-}
-return;

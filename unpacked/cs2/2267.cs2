@@ -1,3 +1,0 @@
-//script2267(2267)(int arg0)(void)
-if_settext(arg0, load_varc_string(131));
-return;

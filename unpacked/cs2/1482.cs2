@@ -1,8 +1,0 @@
-//script1482(1482)(int arg0)(void)
-int ivar1;
-ivar1 = enum(arg0, 1613, 105, 73);
-if (ivar1 != -1 && ivar1 != load_varpbit(4893)) {
-	script1463(ivar1);
-	instr6342(arg0, 1483, "iI", calc(clientclock() + 15), -2147483645);
-}
-return;

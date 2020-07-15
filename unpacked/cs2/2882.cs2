@@ -1,8 +1,0 @@
-//script2882(2882)()(void)
-if (load_varpbit(4393) == 1 || load_varpbit(542) == 1) 
-	return;
-if (load_varpbit(7078) == 0) 
-	script39(12255243, 12255249, 25, 189, "Playlist on");
-else 
-	script39(12255243, 12255249, 25, 189, "Playlist off");
-return;

@@ -1,4 +1,0 @@
-//script2503(2503)()(void)
-if (load_varc(837) > 0 && load_varc(837) <= 9) 
-	if_settext(if_gethash(291, 33), enum(load_varc(837), 2403, 115, 105));
-return;

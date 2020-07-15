@@ -1,3 +1,0 @@
-//script1399(1399)(int arg0, int arg1)(void)
-if_setmodel(arg1, arg0);
-return;

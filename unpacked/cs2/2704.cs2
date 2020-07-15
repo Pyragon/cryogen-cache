@@ -1,3 +1,0 @@
-//script2704(2704)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
-script2705(arg0, arg1, arg2, 0, arg3, arg4);
-return;

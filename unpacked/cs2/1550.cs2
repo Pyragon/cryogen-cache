@@ -1,9 +1,0 @@
-//script1550(1550)(int arg0)(void)
-if (if_getx(arg0) < calc(1 - if_getwidth(if_gethash(306, 1)))) {
-	if (if_getx(arg0) == calc(140 + if_getwidth(arg0))) 
-		instr6342(if_gethash(306, 21), 2321, "I");
-	if_setposition(calc(1 + if_getx(arg0)), if_gety(arg0), 0, 0, arg0)
-}
-else 
-	script2056();
-return;

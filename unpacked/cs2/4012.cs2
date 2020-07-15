@@ -1,4 +1,0 @@
-//script4012(4012)()(void)
-if (load_varp(2522) == 3) 
-	script4015();
-return;

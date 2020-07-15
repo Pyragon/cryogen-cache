@@ -1,3 +1,0 @@
-//script2406(2406)(int arg0, int arg1)(void)
-script2010(arg0, arg1, "Level 60 Agility" + "<br>" + "Only permits west-to-east travel");
-return;

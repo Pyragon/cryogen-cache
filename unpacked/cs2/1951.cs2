@@ -1,9 +1,0 @@
-//script1951(1951)()(void)
-if (load_varc(616) == 1) 
-	if_sethide(if_gethash(745, 1), 0)
-else {
-	store_varc(616, 0)
-	if_sethide(if_gethash(745, 1), 1)
-	script1952();
-}
-return;

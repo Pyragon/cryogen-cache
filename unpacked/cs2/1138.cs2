@@ -1,9 +1,0 @@
-//script1138(1138)(int arg0)(void)
-int ivar1;
-string svar0;
-ivar1 = 14014931;
-if (load_varp(301) > 0) 
-	ivar1 = 16750623;
-svar0 = if_gettext(arg0);
-script4212(arg0, 3793, ivar1, 0, svar0);
-return;

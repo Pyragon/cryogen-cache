@@ -1,7 +1,0 @@
-//script271(271)()(void)
-store_varc(1109, 0)
-store_varc(1110, 0)
-store_varc(1104, 0)
-store_varc(1105, 0)
-store_varc(1106, 0)
-return;

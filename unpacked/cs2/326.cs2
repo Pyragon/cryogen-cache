@@ -1,8 +1,0 @@
-//script326(326)()(void)
-if_sethide(if_gethash(725, 86), 0)
-if_sethide(if_gethash(725, 85), 1)
-if_setgraphic(1057, 47513687)
-if_setgraphic(1049, 47513688)
-store_varc(783, 1)
-script328(47513686);
-return;

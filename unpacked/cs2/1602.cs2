@@ -1,3 +1,0 @@
-//script1602(1602)(string arg0)(void)
-script2332(arg0, substring(0, 1, "<lt>"), ">");
-return;

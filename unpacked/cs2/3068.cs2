@@ -1,4 +1,0 @@
-//script3068(3068)(int arg0)(void)
-if_setgraphic(4662, arg0)
-script3083(arg0, -1, "Click here to login to your favourite world");
-return;

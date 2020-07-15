@@ -1,3 +1,0 @@
-//script5485(5485)(int arg0, int arg1, string arg2)(void)
-script5335(arg0, -1, arg1, 25, 190, 1, arg2);
-return;

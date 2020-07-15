@@ -1,5 +1,0 @@
-//script2363(2363)(int arg0, int arg1)(void)
-instr6185(200, load_varc(773), arg1)
-if_setscrollpos(0, 0, arg1);
-script31(arg0, arg1, 792, 789, 790, 791, 773, 788);
-return;

@@ -1,4 +1,0 @@
-//script402(402)()(void)
-if_settrans(0, if_gethash(1010, 10));
-store_varc(1391, 1)
-return;

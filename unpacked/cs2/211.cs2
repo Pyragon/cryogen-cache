@@ -1,5 +1,0 @@
-//script211(211)()(void)
-if (load_varp(448) == -1) 
-	script656();
-script606();
-return;

@@ -1,3 +1,0 @@
-//script4210(4210)(int arg0, int arg1, int arg2, int arg3)(void)
-script4211(arg0, arg1, arg2, arg3);
-return;

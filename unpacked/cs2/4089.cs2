@@ -1,6 +1,0 @@
-//script4089(4089)()(void)
-int ivar0;
-ivar0 = 35913900;
-if (instr6644() >= 2) 
-	ivar0 = 48889965;
-return;

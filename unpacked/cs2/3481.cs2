@@ -1,4 +1,0 @@
-//script3481(3481)(int arg0)(void)
-if (arg0 == 1) 
-	send_message("Drag the tiles into the grid.");
-return;

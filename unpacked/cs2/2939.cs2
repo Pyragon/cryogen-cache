@@ -1,4 +1,0 @@
-//script2939(2939)()(void)
-if (load_varc(1199) == 1) 
-	if_settext(if_gethash(933, 267), load_varc_string(311));
-return;

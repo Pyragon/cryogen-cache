@@ -1,9 +1,0 @@
-//script2812(2812)(int arg0, int arg1)(void)
-int ivar2;
-int ivar3;
-ivar2 = if_gettrans(arg1);
-ivar3 = min(max(calc(ivar2 + calc(1 * arg0)), 225), 255);
-if (ivar3 == 225 || ivar3 == 255) 
-	instr6342(arg1, 2812, "iI", calc(arg0 - 0), arg1);
-if_settrans(ivar3, arg1);
-return;

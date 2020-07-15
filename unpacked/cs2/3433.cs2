@@ -1,3 +1,0 @@
-//script3433(3433)(int arg0)(void)
-if_settrans(140, arg0);
-return;

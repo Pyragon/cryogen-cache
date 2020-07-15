@@ -1,3 +1,0 @@
-//script1481(1481)()(void)
-send_message("Please drag an item here to create a new tab.");
-return;

@@ -1,5 +1,0 @@
-//script1169(1169)(int arg0, int arg1, string arg2)(void)
-int ivar2;
-ivar2 = enum(arg1, 737, 73, 105);
-instr6342(ivar2, 1168, "isI", arg0, arg2, ivar2);
-return;

@@ -1,4 +1,0 @@
-//script4410(4410)(int arg0, int arg1, int arg2)(void)
-if (cc_find(arg0, arg1) == 1) 
-	instr6556(4411, "Iiii", arg0, arg1, arg2, 0);
-return;

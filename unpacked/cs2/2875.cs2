@@ -1,7 +1,0 @@
-//script2875(2875)()(void)
-if (load_varpbit(7079) == 0) 
-	if_setgraphic(2437, 12255246)
-else 
-	if_setgraphic(2436, 12255246)
-store_varc(2, 0)
-return;

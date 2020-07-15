@@ -1,8 +1,0 @@
-//script4715(4715)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, string arg7)(void)
-if (cc_find(arg3, arg4) == 1) {
-	cc_settext(arg7);
-	cc_setcolor(arg6);
-	instr6092(1354, "Iii", arg3, arg4, arg6);
-}
-script4714(arg3, arg0, arg1, arg2, arg5);
-return;

@@ -1,4 +1,0 @@
-//script2292(2292)(int arg0, int arg1)(void)
-if_setgraphic(939, arg1)
-if_setcolor(16737310, arg0);
-return;

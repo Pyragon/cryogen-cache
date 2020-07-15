@@ -1,7 +1,0 @@
-//script1949(1949)(int arg0, int arg1, int arg2, int arg3)(void)
-if (cc_find(arg0, arg1) == 1) {
-	cc_setcolor(arg2);
-	if (arg3 != -1) 
-		script41(arg3);
-}
-return;

@@ -1,5 +1,0 @@
-//script1945(1945)()(void)
-int ivar0;
-ivar0 = calc(calc(calc(load_varp(1332) + load_varp(1334)) + load_varp(1337)) + calc(calc(load_varp(1335) - load_varp(1333)) * 2));
-if_settext(if_gethash(802, 8), "Score: " + to_string(ivar0));
-return;

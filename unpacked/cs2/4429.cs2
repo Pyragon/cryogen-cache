@@ -1,5 +1,0 @@
-//script4429(4429)(int arg0, int arg1)(void)
-if_sethide(if_gethash(1110, 86), 0)
-if_setgraphic(6244, arg1)
-instr6527(arg0, 4430, "II", arg0, arg1);
-return;

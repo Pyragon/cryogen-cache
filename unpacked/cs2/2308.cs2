@@ -1,6 +1,0 @@
-//script2308(2308)(int arg0, int arg1)(void)
-if (instr6644() >= 2) 
-	if_setgraphic(8624, arg0)
-else 
-	if_setgraphic(784, arg0)
-return;

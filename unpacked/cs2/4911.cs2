@@ -1,7 +1,0 @@
-//script4911(4911)(int arg0)(void)
-store_varc(1794, 1)
-script5977();
-script4905();
-script4907();
-script4853();
-return;

@@ -1,5 +1,0 @@
-//script2774(2774)(int arg0)(void)
-sound_vorbis_volume(10046, 1, 0, 255)
-if_setcolor(16776960, arg0);
-instr6342(arg0, 2775, "iI", calc(clientclock() + 15), -2147483645);
-return;

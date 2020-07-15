@@ -1,4 +1,0 @@
-//script5449(5449)(int arg0, int arg1)(void)
-if (load_varc(1681) != arg1) 
-	if_setgraphic(8431, arg0)
-return;

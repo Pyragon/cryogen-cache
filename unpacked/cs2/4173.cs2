@@ -1,4 +1,0 @@
-//script4173(4173)(int arg0, int arg1, int arg2)(void)
-if (cc_find(arg0, arg1) == 1) 
-	script4174(arg2);
-return;

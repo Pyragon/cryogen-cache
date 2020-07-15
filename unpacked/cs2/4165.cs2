@@ -1,6 +1,0 @@
-//script4165(4165)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7)(void)
-if_setgraphic(arg1, arg0)
-if_setgraphic(arg3, arg2)
-if_setgraphic(arg5, arg4)
-if_setgraphic(arg7, arg6)
-return;

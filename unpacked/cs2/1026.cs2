@@ -1,3 +1,0 @@
-//script1026(1026)()(void)
-if_setcolor(16776960, if_gethash(157, 30));
-return;

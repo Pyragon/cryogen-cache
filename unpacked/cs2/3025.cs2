@@ -1,3 +1,0 @@
-//script3025(3025)(int arg0)(void)
-if_setcolor(16777215, arg0);
-return;

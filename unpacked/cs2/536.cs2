@@ -1,3 +1,0 @@
-//script536(536)()(void)
-instr6342(if_gethash(745, 2), 537, "ii", clientclock(), calc(clientclock() + 25));
-return;

@@ -1,7 +1,0 @@
-//script2318(2318)(int arg0)(void)
-if (arg0 != 1) 
-	return;
-sound_synth(2266, 1, 0);
-store_varc(8348, calc(load_varpbit(8348) - 1))
-script2319();
-return;

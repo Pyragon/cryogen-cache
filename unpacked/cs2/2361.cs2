@@ -1,7 +1,0 @@
-//script2361(2361)(int arg0)(void)
-int ivar1;
-if (load_varpbit(8271) == 0) 
-	return;
-ivar1 = enum(load_varpbit(8271), 2352, 73, 105);
-if_setparam_int(1224, arg0, ivar1);
-return;

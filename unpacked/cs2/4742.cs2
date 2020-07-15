@@ -1,5 +1,0 @@
-//script4742(4742)(int arg0)(void)
-store_varc(9904, 99999)
-if_sethide(if_gethash(1144, 9), 1)
-if_sethide(if_gethash(1144, 39), 1)
-return;

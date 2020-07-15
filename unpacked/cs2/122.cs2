@@ -1,9 +1,0 @@
-//script122(122)(int arg0)(void)
-int ivar1;
-ivar1 = 0;
-ivar1 = calc(100 % clientclock());
-if (ivar1 > 50) 
-	ivar1 = calc(ivar1 - 100);
-ivar1 = calc(ivar1 - 255);
-if_settrans(ivar1, arg0);
-return;

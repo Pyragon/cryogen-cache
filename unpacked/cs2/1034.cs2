@@ -1,9 +1,0 @@
-//script1034(1034)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, string arg6)(void)
-cc_create(if_gethash(157, 25), 4, arg0);
-cc_setposition(arg1, arg2, 0, 0);
-cc_setsize(arg3, arg4, 0, 0);
-cc_setcolor(arg5);
-cc_settextshadow(1);
-cc_settextfont(495);
-cc_settext(arg6);
-return;

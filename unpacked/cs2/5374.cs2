@@ -1,3 +1,0 @@
-//script5374(5374)(int arg0)(void)
-store_varc(1656, calc(calc(8 * 6) / calc(50 * calc(10 * arg0))))
-return;

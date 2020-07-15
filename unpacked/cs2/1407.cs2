@@ -1,6 +1,0 @@
-//script1407(1407)()(void)
-if (load_varpbit(68) == 1) 
-	if_setgraphic(181, 49545266)
-else 
-	if_setgraphic(180, 49545266)
-return;

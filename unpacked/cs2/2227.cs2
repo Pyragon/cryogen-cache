@@ -1,7 +1,0 @@
-//script2227(2227)()(void)
-if (load_varc(1127) > 0) {
-	sound_synth(8729, 1, 0);
-	store_varc(1127, calc(1 - load_varc(1127)))
-	script2220();
-}
-return;

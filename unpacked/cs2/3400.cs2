@@ -1,7 +1,0 @@
-//script3400(3400)()(void)
-if (string_length(load_varc_string(279)) <= 0) 
-	return;
-script3391();
-script3190();
-store_varc(1662, 0)
-return;

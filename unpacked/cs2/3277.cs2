@@ -1,9 +1,0 @@
-//script3277(3277)()(void)
-store_varc(1149, 0)
-store_varc(1150, 0)
-store_varc(1151, 0)
-store_varc(1152, 0)
-cc_deleteall(61734915)
-cc_deleteall(61734917)
-cc_deleteall(61734916)
-return;

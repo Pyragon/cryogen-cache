@@ -1,7 +1,0 @@
-//script2828(2828)()(void)
-if (load_varp(2523) < 1) 
-	return;
-if (compare(substring(0, 1, instr6574()), "#") == 0) 
-	return;
-script5861(load_varp(2523));
-return;

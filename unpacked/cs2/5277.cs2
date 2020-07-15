@@ -1,6 +1,0 @@
-//script5277(5277)(int arg0)(void)
-script5279(arg0);
-instr6237(arg0, 5278, "IY", 1, 1734, );
-script5291();
-instr6237(if_getlayer(arg0), 5290, "Y", 1, 2387, );
-return;

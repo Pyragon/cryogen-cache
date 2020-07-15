@@ -1,6 +1,0 @@
-//script2859(2859)()(void)
-if (load_varc(1069) >= 100) 
-	store_varc(1069, calc(50 - load_varc(1069)))
-if (load_varc(1073) > load_varc(1069)) 
-	store_varc(1073, load_varc(1069))
-return;

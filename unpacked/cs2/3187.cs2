@@ -1,5 +1,0 @@
-//script3187(3187)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
-int ivar7;
-ivar7 = stringwidth(if_gettext(arg1), 2710);
-instr6342(arg0, 3188, "I1iIIII", arg0, arg2, ivar7, arg3, arg4, arg5, arg6);
-return;

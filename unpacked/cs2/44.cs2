@@ -1,3 +1,0 @@
-//script44(44)(int arg0, int arg1)(void)
-if_setgraphic(arg1, arg0)
-return;

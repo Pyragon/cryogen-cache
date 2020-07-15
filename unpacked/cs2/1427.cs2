@@ -1,5 +1,0 @@
-//script1427(1427)()(void)
-if (load_varc(1686) == 1 || load_varc(1686) == 0) 
-	return;
-store_varc(1686, 1)
-return;

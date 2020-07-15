@@ -1,8 +1,0 @@
-//script3081(3081)(int arg0)(void)
-if (cc_find(arg0, 3) == 1) 
-	cc_sethide(1);
-if (cc_find(arg0, 4) == 1) 
-	cc_sethide(1);
-if (cc_find(arg0, 5) == 1) 
-	cc_sethide(1);
-return;

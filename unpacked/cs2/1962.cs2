@@ -1,6 +1,0 @@
-//script1962(1962)(int arg0, int arg1)(void)
-if (inv_total(93, 2996) >= arg1) 
-	if_setcolor(16750623, arg0);
-else 
-	if_setcolor(7828330, arg0);
-return;

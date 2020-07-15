@@ -1,4 +1,0 @@
-//script2248(2248)(int arg0)(void)
-if (cc_find(if_gethash(940, 2), arg0) == 1) 
-	cc_sethide(0);
-return;

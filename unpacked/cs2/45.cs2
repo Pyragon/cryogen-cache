@@ -1,3 +1,0 @@
-//script45(45)(int arg0, int arg1)(void)
-if_setcolor(arg1, arg0);
-return;

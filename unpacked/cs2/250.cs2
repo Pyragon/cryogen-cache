@@ -1,4 +1,0 @@
-//script250(250)(int arg0)(void)
-if (calc(5 % clientclock()) == 0) 
-	script251(arg0);
-return;

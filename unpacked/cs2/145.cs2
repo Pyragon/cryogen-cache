@@ -1,6 +1,0 @@
-//script145(145)(int arg0, int arg1)(void)
-if (clientclock() >= arg1) {
-	instr6342(arg0, None, "");
-	if_sethide(arg0, 1)
-}
-return;

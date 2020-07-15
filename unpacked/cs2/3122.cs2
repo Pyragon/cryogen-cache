@@ -1,8 +1,0 @@
-//script3122(3122)(int arg0)(void)
-if (cc_find(arg0, 1) == 1) 
-	cc_sethide(1);
-if (cc_find(arg0, 2) == 1) 
-	cc_sethide(1);
-if (cc_find(arg0, 4) == 1) 
-	cc_setgraphic(1541)
-return;

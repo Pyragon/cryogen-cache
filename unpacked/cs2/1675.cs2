@@ -1,6 +1,0 @@
-//script1675(1675)(int arg0)(void)
-if (arg0 == 0) 
-	if_setmodel(enum(load_varpbit(6764), 839, 109, 105), if_gethash(84, 19));
-else 
-	if_setmodel(enum(arg0, 838, 109, 105), if_gethash(84, 19));
-return;

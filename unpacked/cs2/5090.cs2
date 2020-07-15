@@ -1,6 +1,0 @@
-//script5090(5090)(int arg0)(void)
-script4534(72876034);
-script5092();
-instr6237(arg0, 5091, "Y", 2, 1736, 1735, );
-instr6257(arg0, 5091, "Y", 3, 786, 788, 787, );
-return;

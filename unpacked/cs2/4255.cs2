@@ -1,3 +1,0 @@
-//script4255(4255)(int arg0, int arg1)(void)
-instr6342(arg0, 4159, "Iii", -2147483645, arg1, 0);
-return;

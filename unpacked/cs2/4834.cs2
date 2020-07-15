@@ -1,9 +1,0 @@
-//script4834(4834)(int arg0)(void)
-int ivar1;
-ivar1 = calc(1 - if_getnextsubid(arg0));
-while (ivar1 >= 0) {
-	if (cc_find(arg0, ivar1) == 1) 
-		cc_setgraphic(6009)
-	ivar1 = calc(1 - ivar1);
-}
-return;

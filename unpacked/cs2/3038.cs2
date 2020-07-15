@@ -1,4 +1,0 @@
-//script3038(3038)(int arg0, string arg1)(void)
-script2995(arg0, 0, 0, 0, 0, 0, 16777215, 494, 1, 1, 0, 1, arg1);
-cc_setsize(0, 0, 1, 1);
-return;

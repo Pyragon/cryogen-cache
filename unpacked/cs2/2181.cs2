@@ -1,8 +1,0 @@
-//script2181(2181)()(void)
-int ivar0;
-ivar0 = 0;
-while (ivar0 <= load_varc(273)) {
-	script2180(ivar0);
-	ivar0 = calc(ivar0 + 1);
-}
-return;

@@ -1,4 +1,0 @@
-//script1501(1501)(int arg0, int arg1)(void)
-script41(arg1);
-if_settrans(0, arg0);
-return;

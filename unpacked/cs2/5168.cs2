@@ -1,3 +1,0 @@
-//script5168(5168)(int arg0)(void)
-if_setposition(0, calc(arg0 + 1), 0, 0, 72482835)
-return;

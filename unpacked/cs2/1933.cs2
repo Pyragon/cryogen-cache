@@ -1,5 +1,0 @@
-//script1933(1933)()(void)
-if_sethide(if_gethash(811, 4), 1)
-if_setcolor(13150820, if_gethash(811, 5));
-script41(53149731);
-return;

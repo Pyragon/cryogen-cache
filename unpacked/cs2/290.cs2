@@ -1,3 +1,0 @@
-//script290(290)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
-script291(arg0, arg1, arg2, arg3, arg4, arg5);
-return;

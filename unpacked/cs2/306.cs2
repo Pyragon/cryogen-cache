@@ -1,6 +1,0 @@
-//script306(306)(int arg0, int arg1)(void)
-if (calc(arg0 - clientclock()) < 15) 
-	return;
-instr6342(arg1, None, "");
-if_setcolor(16777215, arg1);
-return;

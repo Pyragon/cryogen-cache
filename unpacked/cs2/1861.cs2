@@ -1,9 +1,0 @@
-//script1861(1861)()(void)
-if_setmodel(enum(load_varpbit(5470), 1318, 109, 105), if_gethash(799, 10));
-if_setmodel(enum(load_varpbit(5471), 1318, 109, 105), if_gethash(799, 11));
-if_setmodel(enum(load_varpbit(5472), 1318, 109, 105), if_gethash(799, 12));
-if_setmodel(enum(load_varpbit(5473), 1318, 109, 105), if_gethash(799, 13));
-if_setmodel(enum(load_varpbit(5474), 1318, 109, 105), if_gethash(799, 14));
-if_setmodel(enum(load_varpbit(5475), 1318, 109, 105), if_gethash(799, 15));
-if_setmodel(enum(load_varpbit(5476), 1318, 109, 105), if_gethash(799, 16));
-return;

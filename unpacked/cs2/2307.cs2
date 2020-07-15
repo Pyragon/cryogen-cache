@@ -1,3 +1,0 @@
-//script2307(2307)(int arg0)(void)
-script2309(arg0, load_varc(119));
-return;

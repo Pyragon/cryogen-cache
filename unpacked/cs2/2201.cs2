@@ -1,9 +1,0 @@
-//script2201(2201)()(void)
-if (load_varp(1701) == 1) 
-	script2200();
-else 
-	script2199();
-script2209();
-if_sethide(load_varc(1136), 0)
-instr6342(if_gethash(932, 1), 2210, "");
-return;
