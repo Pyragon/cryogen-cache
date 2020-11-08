@@ -23,10 +23,10 @@
     null
   ],
   "inventoryOptions": [
-    "Eat",
-    "Heal",
-    "NPC-Options",
-    "Commands",
+    null,
+    null,
+    null,
+    null,
     "drop"
   ],
   "grandExchange": false,
@@ -66,6 +66,10 @@
   "wearPos2": -1,
   "noted": false,
   "lended": false,
+  "clientScriptData": {
+	"528": "Heal",
+	"529": "NPC Options"
+  },
   "data": [
     1,
     10,
